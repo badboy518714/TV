@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   # 定时触发
   schedule:
-    - cron: 30 4,7 * * *
+    - cron: 30 7 * * *
 jobs:
   deploy:
     runs-on: ubuntu-latest
