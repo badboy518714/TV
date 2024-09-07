@@ -1,27 +1,6 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",9月1日主日证道肖云北牧师：基要神学八堂课-认识教会论
-https://oss.arksaas.cn/live1832/audio1832/rkY1dLxoDdy8.mp3
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",8月18日主日证道刘瑞山牧师《施洗约翰的服侍》
-https://oss.arksaas.cn/live1832/audio1832/gLzfKkIvxiDX.mp3
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",8月11日主日证道肖云北牧师《认识圣灵论》
-https://oss.arksaas.cn/live1832/audio1832/mFIrdNatdvxf.mp3
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",8月4日主日证道肖云北牧师《基要神学八堂课-认识基督论》
-https://oss.arksaas.cn/live1832/audio1832/QcXUwU9P0ot6.mp3
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",7月28日主日证道肖云北牧师《英雄本色》
-https://oss.arksaas.cn/live1832/audio1832/BT9IQOCFzjOJ.mp3
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",7月21日主日证道刘瑞山牧师《迎主降生三种心》
-https://oss.arksaas.cn/live1832/audio1832/xsEjUQ0H88Ph.mp3
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",2024年7月7日主日《静听主声》视频（完整版）下
-https://oss.arksaas.cn/live1832/video1832/LCyI1QIhpTpP.mp4
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",2024年7月7日主日《静听主声》视频（完整版）上
-https://oss.arksaas.cn/live1832/video1832/wyQBq5vqBtlx.mp4
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",7月14日主日证道刘海波牧师《耶稣基督的家谱》
-https://oss.arksaas.cn/live1832/audio1832/El2625MhMPSE.mp3
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",2024年7月7日 《静听主声》泰泽 证道 洗礼 圣餐 花絮
-https://oss.arksaas.cn/live1832/video1832/GKBeCOBMBZPY.mp4
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",6月30日主日证道张信德牧师《神乃烈火》
-https://oss.arksaas.cn/live1832/audio1832/LdPqifouiNzi.mp3
+
 #EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",6月23日主日证道肖云北牧师《认识人论》
 https://oss.arksaas.cn/live1832/audio1832/VLkPYJj6BRPm.mp3
 #EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="丰台主日证道",6月16日主日证道武金贞牧师《做合神心意的父亲》
