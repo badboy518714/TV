@@ -35,4 +35,4 @@ with open('IPTV_TXT/新疆频道.txt', 'w') as f:
     for data in json_data:
         # print(data)
         fullName, playUrl = data["fullName"], data["playUrl"]
-        f.write(f'#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",{fullName}\n{playUrl}\n\n')
+        f.write(f'#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/新疆频道.png" group-title="新疆频道",{fullName}\n{playUrl}\n\n')
