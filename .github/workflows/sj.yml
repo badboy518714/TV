@@ -38,7 +38,7 @@ jobs:
       run: |     
          git pull origin main
          git config --local user.email "474628725@qq.com"
-         git config --local user.name "smile"
+         git config --local user.name "badboy518714"
          git add IPTV_M3U/SJ_HW.m3u
          git add IPTV_M3U/SJ_FT.m3u
          git add SJ_JSON/SJ_HW.json
