@@ -1,6 +1,7 @@
 import requests, re
 import json, time
 from concurrent.futures import ThreadPoolExecutor
+import os
 
 info_list = []
 haiwai_list = {}
@@ -170,6 +171,12 @@ def haiwai_m3u():
     HW_write_m3u(haiwai_list)
 
 def updata_hw():
+    directory = '../SJ_JSON'  # 将此路径替换为您想要获取文件的目录路径
+
+    file_names = os.listdir(directory)
+    for file_name in file_names:
+        print(file_name)
+    
     # 读取历史数据
     with open('../SJ_JSON/SJ_HW.json', 'r', encoding='utf-8') as f:
         old_info = f.read()
