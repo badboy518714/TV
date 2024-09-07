@@ -46,6 +46,4 @@ jobs:
          git add ./SJ_JSON/SJ_HW.json
          git add ./SJ_JSON/SJ_FT.json
          git commit -m "由github actions推送更新圣经m3u文件,日期:`date`"
-    - name: 推送更改
-      run: | 
          git push
