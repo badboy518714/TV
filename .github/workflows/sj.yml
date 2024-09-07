@@ -35,15 +35,17 @@ jobs:
         python ./IPTV_PY/SJ.py
           
     - name: 提交更改
+      env:
+        GITHUB TOKEN: ${{ secrets.TOKEN }}
       run: |     
          git pull origin main
          git config --local user.email "474628725@qq.com"
          git config --local user.name "badboy518714"
          git add ./IPTV_M3U/SJ_HW.m3u
          git add ./IPTV_M3U/SJ_FT.m3u
+         git add ./SJ_JSON/SJ_HW.json
+         git add ./SJ_JSON/SJ_FT.json
          git commit -m "由github actions推送更新圣经m3u文件,日期:`date`"
     - name: 推送更改
-      uses:  ad-m/github-push-action@master
-      with:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        branch: main
+      run: | 
+         git push
