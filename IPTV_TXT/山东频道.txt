@@ -1,0 +1,67 @@
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东齐鲁
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东影视
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东文旅
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东农科
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东新闻
+https://stream1.freetv.fun/shan-dong-xin-wen-2.m3u8
+https://stream1.freetv.fun/76443105643b1c8354e8ce7780c474fe59e1a97bb257d4d60ddd4b9c0dcee203.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东体育休闲
+https://stream1.freetv.fun/shan-dong-ti-yu-3.m3u8
+https://stream1.freetv.fun/shan-dong-ti-yu-5.m3u8
+https://stream1.freetv.fun/7662bf20ec19b22bc26a118f1918354e92b986fc3ad7e2a76884fac7791e0021.m3u8
+http://123.129.70.178:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东少儿
+https://stream1.freetv.fun/shan-dong-ti-yu-8.m3u8
+https://stream1.freetv.fun/shan-dong-shao-er-5.m3u8
+https://stream1.freetv.fun/015dbac308d9da33dad5b4b2991f2fa094de73f086e45f9f3e3356e4e7aa6dc2.m3u8
+https://stream1.freetv.fun/09d8aa7047f0ae54ef7182d600bf26e3ca3e36cdd5089730b0421257d3640c8c.m3u8
+http://123.129.70.178:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东综艺
+http://123.129.70.178:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东生活
+http://123.129.70.178:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东教育卫视
+http://39.134.65.164/PLTV/88888888/224/3221225558/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225655/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",枣庄新闻综合
+http://stream.zztvzd.com/1/sd/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",枣庄经济生活
+http://stream.zztvzd.com/2/sd/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",枣庄公共频道
+http://stream.zztvzd.com/3/sd/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",青州综合
+http://sdqz.chinashadt.com:2036/live/stream:1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",青州文化旅游
+http://sdqz.chinashadt.com:2036/live/stream:3.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",泰安综合
+http://zzbb.1545ts.com:8068/live/tatv0111.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",泰安经济生活
+http://zzbb.1545ts.com:8068/live/tatv222.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",烟台新闻综合
+http://live.yantaitv.cn/live/3e81a8879da44c5dadf3bd9c10468e1c/9b776d420ee4438199b7657c8eb88f07-1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",烟台公共
+http://live.yantaitv.cn/live/e50f104a4ffe4a41b2217cbda534146f/d86092e69df94668b33390278b061700-1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",烟台经济科技
+http://live.yantaitv.cn/live/27f84144e95a4652ae9e5c211b2a6b55/405f3e33ba384aa0a16014d0becd1261-1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",烟台影视
+http://live.yantaitv.cn/live/e9f1d9045d474c31884d13fa4ffbbd16/a4a9b3704d854756907845107cc56129-1.m3u8
