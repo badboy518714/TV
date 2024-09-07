@@ -1,0 +1,1009 @@
+#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV1.png" group-title="央视频道",CCTV-1综合
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226016/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225816/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV2.png" group-title="央视频道",CCTV-2财经
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225588/index.m3u8
+http://liveop.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV3.png" group-title="央视频道",CCTV-3综艺
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226021/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
+http://hlsbkmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv3hd/2000/index.m3u8?&encrypt=
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV4.png" group-title="央视频道",CCTV-4国际
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226428/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226007/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226007/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV5赛事.png" group-title="央视频道",CCTV-5+赛事
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV5.png" group-title="央视频道",CCTV-5体育
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226019/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV6.png" group-title="央视频道",CCTV-6电影
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226010/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8
+http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2013693901/timeshift.m3u8?delay=0&cdn=5202
+http://mobilelive-ds.ysp.cctv.cn/ysp/2013693901.m3u8
+ 
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV7.png" group-title="央视频道",CCTV-7军事
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225733/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225671/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225671/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV8.png" group-title="央视频道",CCTV-8电视
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226008/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8?
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV9.png" group-title="央视频道",CCTV-9纪录
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225734/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8?
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV10.png" group-title="央视频道",CCTV-10科教
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225730/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226473/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226473/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225677/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225677/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV11.png" group-title="央视频道",CCTV-11戏曲
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226565/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225597/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225597/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226123/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221226123/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225517/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225517/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV12.png" group-title="央视频道",CCTV-12社法
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226568/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226568/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225731/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226130/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225669/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225669/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV13.png" group-title="央视频道",CCTV-13新闻
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226571/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226571/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226011/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226537/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226125/1.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV14.png" group-title="央视频道",CCTV-14少儿
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225732/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226132/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225674/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225674/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV15.png" group-title="央视频道",CCTV-15音乐
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226476/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226127/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221226127/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225601/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225513/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225513/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV16.png" group-title="央视频道",CCTV-16奥匹
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226100/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV17.png" group-title="央视频道",CCTV-17农村
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225765/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CETV1.png" group-title="央视频道",CETV1
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225652/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CETV2.png" group-title="央视频道",CETV2
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226425/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CETV4.png" group-title="央视频道",CETV4
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225783/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV电视指南
+http://117.161.133.51:81/gitv_live/G_DIANSHIZN-CQ/G_DIANSHIZN-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV世界地理
+http://117.161.133.51:81/gitv_live/G_SHIJIEDL-CQ/G_SHIJIEDL-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV兵器科技
+http://117.161.133.51:81/gitv_live/G_BINGQIKJ-CQ/G_BINGQIKJ-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV风云足球
+http://117.161.133.51:81/gitv_live/G_FENGSHANGZQ-CQ/G_FENGSHANGZQ-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV央视台球
+http://117.161.133.51:81/gitv_live/G_TAIQIU-CQ/G_TAIQIU-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV文化精品
+http://117.161.133.51:81/gitv_live/G_CCTV-WENHUA-CQ/G_CCTV-WENHUA-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV女性时尚
+http://117.161.133.51:81/gitv_live/G_NVXINGSS-CQ/G_NVXINGSS-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV第一剧场
+http://117.161.133.51:81/gitv_live/G_DIYIJC-CQ/G_DIYIJC-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV风云剧场
+http://117.161.133.51:81/gitv_live/G_FENGYUNJC-CQ/G_FENGYUNJC-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV风云音乐
+http://117.161.133.51:81/gitv_live/G_FENGYUNYY-CQ/G_FENGYUNYY-CQ.m3u8?p=GITV
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CCTV高尔夫网球
+http://117.161.133.51:81/gitv_live/G_CCTV-GOLF-CQ/G_CCTV-GOLF-CQ.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="央视频道",CGTN
+https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CGTN俄语.png" group-title="央视频道",CGTN俄语
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226543/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226543/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CGTN阿语.png" group-title="央视频道",CGTN阿语
+http://39.134.65.164/PLTV/88888888/224/3221226081/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221226081/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CGTN法语.png" group-title="央视频道",CGTN法语
+http://39.134.65.164/PLTV/88888888/224/3221226083/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221226083/1.m3u8
+https://francais-liveali-h5.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8?wsSecret=f4c7e6fa9787d4d962462047a1f84c8c&wsTime=1725361606
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CGTN纪录.png" group-title="央视频道",CGTN纪录
+https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/山东卫视.png" group-title="卫视频道-1",山东卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226456/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/湖南卫视.png" group-title="卫视频道-1",湖南卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225610/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226307/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225506/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225506/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/湖北卫视.png" group-title="卫视频道-1",湖北卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225627/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225627/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226477/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225569/1.m3u8
+
+#1XTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/东方卫视.png" group-title="卫视频道-1",上海卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226345/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225735/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225672/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/江苏卫视.png" group-title="卫视频道-1",江苏卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225613/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225613/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226310/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225503/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/北京卫视.png" group-title="卫视频道-1",北京卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225728/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225728/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226450/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225678/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/安徽卫视.png" group-title="卫视频道-1",安徽卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226391/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/黑龙江卫视.png" group-title="卫视频道-1",黑龙江卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226419/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226467/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226525/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226531/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226532/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226582/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226467/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226525/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226531/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226532/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226582/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226585/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226585/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226099/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221226099/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/河北卫视.png" group-title="卫视频道-1",河北卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226406/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/河南卫视.png" group-title="卫视频道-1",河南卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226480/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/浙江卫视.png" group-title="卫视频道-1",浙江卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225612/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225612/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226339/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225959/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225514/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225514/1.m3u8
+http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/重庆卫视.png" group-title="卫视频道-1",重庆卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226409/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225502/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225502/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/吉林卫视.png" group-title="卫视频道-1",吉林卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226397/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/江西卫视.png" group-title="卫视频道-1",江西卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226344/index.m3u8
+http://mh36812998.ccmjzhao.xyz/cqyx/cqyx0610.php?id=jiangxiHD
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/辽宁卫视.png" group-title="卫视频道-1",辽宁卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225619/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226546/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225499/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225499/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226089/1.m3u8
+http://mh36812998.ccmjzhao.xyz/cqyx/cqyx0610.php?id=liaoningHD
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/天津卫视.png" group-title="卫视频道-1",天津卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225740/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226459/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225740/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/东南卫视.png" group-title="卫视频道-1",福建卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226341/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225620/index.m3u8 
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225620/index.m3u8 
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/山西卫视.png" group-title="卫视频道-1",山西卫视
+http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
+http://80ec27bff7f9ae80b961481da488e302.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d04ce01474da4193c8863ea281ec4759
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/陕西卫视.png" group-title="卫视频道-1",陕西卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226457/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225625/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225567/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225567/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/四川卫视.png" group-title="卫视频道-1",四川卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226338/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/贵州卫视.png" group-title="卫视频道-1",贵州卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226474/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/深圳卫视.png" group-title="卫视频道-1",深圳卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225739/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225739/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226313/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225668/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225668/1.m3u8
+http://mh36812998.ccmjzhao.xyz/cqyx/cqyx0610.php?id=shenzhenHD
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/广东卫视.png" group-title="卫视频道-1",广东卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226248/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/广西卫视.png" group-title="卫视频道-1",广西卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226549/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/甘肃卫视.png" group-title="卫视频道-2",甘肃卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226522/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/青海卫视.png" group-title="卫视频道-2",青海卫视
+http://stream.qhbtv.com/qhws/sd/live.m3u8
+http://stream.qhbtv.com/qhws/playlist.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225573/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225573/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/内蒙古卫视.png" group-title="卫视频道-2",内蒙古卫视
+https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
+http://39.134.65.164/PLTV/88888888/224/3221225577/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225577/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/海南卫视.png" group-title="卫视频道-2",海南卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226465/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆卫视.png" group-title="卫视频道-2",新疆卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226460/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8
+http://36.32.174.67:60080/newlive/live/hls/47/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/兵团卫视.png" group-title="卫视频道-2",新疆兵团卫视
+https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/延边卫视.png" group-title="卫视频道-2",延边卫视
+http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8 
+http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8?
+http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8?zjild
+http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8
+http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/安多卫视.png" group-title="卫视频道-2",安多卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/云南卫视.png" group-title="卫视频道-2",云南卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/宁夏卫视.png" group-title="卫视频道-2",宁夏卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225632/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226454/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225579/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225579/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/西藏卫视.png" group-title="卫视频道-2",西藏卫视
+http://39.134.65.164/PLTV/88888888/224/3221225570/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225570/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/康巴卫视.png" group-title="卫视频道-2",康巴卫视
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225660/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225527/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/内蒙古蒙语卫视.png" group-title="卫视频道-2",内蒙古蒙语卫视
+https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=e2b255285dd119a92c8aa5cdf00f8b84&txTime=771EF880
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东齐鲁
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东影视
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东文旅
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东农科
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东新闻
+https://stream1.freetv.fun/shan-dong-xin-wen-2.m3u8
+https://stream1.freetv.fun/76443105643b1c8354e8ce7780c474fe59e1a97bb257d4d60ddd4b9c0dcee203.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东体育休闲
+https://stream1.freetv.fun/shan-dong-ti-yu-3.m3u8
+https://stream1.freetv.fun/shan-dong-ti-yu-5.m3u8
+https://stream1.freetv.fun/7662bf20ec19b22bc26a118f1918354e92b986fc3ad7e2a76884fac7791e0021.m3u8
+http://123.129.70.178:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东少儿
+https://stream1.freetv.fun/shan-dong-ti-yu-8.m3u8
+https://stream1.freetv.fun/shan-dong-shao-er-5.m3u8
+https://stream1.freetv.fun/015dbac308d9da33dad5b4b2991f2fa094de73f086e45f9f3e3356e4e7aa6dc2.m3u8
+https://stream1.freetv.fun/09d8aa7047f0ae54ef7182d600bf26e3ca3e36cdd5089730b0421257d3640c8c.m3u8
+http://123.129.70.178:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东综艺
+http://123.129.70.178:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东生活
+http://123.129.70.178:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",山东教育卫视
+http://39.134.65.164/PLTV/88888888/224/3221225558/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225655/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",枣庄新闻综合
+http://stream.zztvzd.com/1/sd/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",枣庄经济生活
+http://stream.zztvzd.com/2/sd/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",枣庄公共频道
+http://stream.zztvzd.com/3/sd/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",青州综合
+http://sdqz.chinashadt.com:2036/live/stream:1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",青州文化旅游
+http://sdqz.chinashadt.com:2036/live/stream:3.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",泰安综合
+http://zzbb.1545ts.com:8068/live/tatv0111.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",泰安经济生活
+http://zzbb.1545ts.com:8068/live/tatv222.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",烟台新闻综合
+http://live.yantaitv.cn/live/3e81a8879da44c5dadf3bd9c10468e1c/9b776d420ee4438199b7657c8eb88f07-1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",烟台公共
+http://live.yantaitv.cn/live/e50f104a4ffe4a41b2217cbda534146f/d86092e69df94668b33390278b061700-1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",烟台经济科技
+http://live.yantaitv.cn/live/27f84144e95a4652ae9e5c211b2a6b55/405f3e33ba384aa0a16014d0becd1261-1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="山东频道",烟台影视
+http://live.yantaitv.cn/live/e9f1d9045d474c31884d13fa4ffbbd16/a4a9b3704d854756907845107cc56129-1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",文体
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226239/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226239/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",农业.科教
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226242/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226242/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",影视
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226298/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",都市
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226301/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",少儿
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226304/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",新闻.法制
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226330/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226330/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",新疆卫视
+https://liveplay.xjbs.cn/liveback/xjtvs-01.m3u8?auth_key=1725755696-0-0-db0a56b033c956baeade8ab2c21e1194
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",维吾尔语新闻综合频道
+https://liveplay.xjbs.cn/liveback/xjtvs-02.m3u8?auth_key=1725755696-0-0-74de4a42a292c3f552aba484a6059cc4
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",哈萨克语新闻综合频道
+https://liveplay.xjbs.cn/liveback/xjtvs-03.m3u8?auth_key=1725755696-0-0-45c523ccdbf6fdecd48fe7422211693c
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",汉语综艺频道
+https://liveplay.xjbs.cn/liveback/xjtvs-04.m3u8?auth_key=1725755696-0-0-7dcd0e231056077b1d87a28920b9566f
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",维吾尔语影视频道
+https://liveplay.xjbs.cn/liveback/xjtvs-05.m3u8?auth_key=1725755696-0-0-86a08f7256bcc69f575ca34186561ec2
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",汉语经济生活频道
+https://liveplay.xjbs.cn/liveback/xjtvs-07.m3u8?auth_key=1725755696-0-0-a29bd6d8f36c26277c78bc423bc7193f
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",哈萨克语综艺频道
+https://liveplay.xjbs.cn/liveback/xjtvs-08.m3u8?auth_key=1725755696-0-0-34d0317f49dc36eba5b04d6839573291
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",维吾尔语经济生活频道
+https://liveplay.xjbs.cn/liveback/xjtvs-09.m3u8?auth_key=1725755696-0-0-b46957d009e5cf18b7483ba752011841
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",汉语体育健康频道
+https://liveplay.xjbs.cn/liveback/xjtvs-10.m3u8?auth_key=1725755696-0-0-c49ddd94de96a0d7463a9747a7ca1e10
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",汉语信息服务频道
+https://liveplay.xjbs.cn/liveback/xjtvs-11.m3u8?auth_key=1725755696-0-0-034cf7bc3debd2c9272de06a0dfc7fbd
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="新疆频道",少儿频道
+https://liveplay.xjbs.cn/liveback/xjtvs-12.m3u8?auth_key=1725755696-0-0-824da5693968af021c2b8cb754ff1e49
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV14.png" group-title="少儿频道",CCTV-14少儿
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225732/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226132/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225674/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225674/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/卡酷少儿.png" group-title="少儿频道",卡酷少儿
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225654/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225562/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225562/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/黑莓动画.png" group-title="少儿频道",黑莓动画
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225529/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225529/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/金鹰卡通.png" group-title="少儿频道",金鹰卡通
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
+http://119.164.94.34:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+http://58.48.37.158:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+http://123.189.36.103:9901/tsfile/live/1088_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/哈哈炫动.png" group-title="少儿频道",哈哈炫动
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225657/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225534/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225534/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/优漫卡通.png" group-title="少儿频道",优漫卡通
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225556/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225556/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="少儿频道",山东少儿
+https://stream1.freetv.fun/shan-dong-ti-yu-8.m3u8
+https://stream1.freetv.fun/shan-dong-shao-er-5.m3u8
+https://stream1.freetv.fun/015dbac308d9da33dad5b4b2991f2fa094de73f086e45f9f3e3356e4e7aa6dc2.m3u8
+https://stream1.freetv.fun/09d8aa7047f0ae54ef7182d600bf26e3ca3e36cdd5089730b0421257d3640c8c.m3u8
+http://123.129.70.178:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/浙江少儿.png" group-title="少儿频道",浙江少儿
+https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="少儿频道",黑龙江少儿
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226304/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="少儿频道",新疆少儿
+https://liveplay.xjbs.cn/liveback/xjtvs-12.m3u8?auth_key=1725371654-0-0-7a9bac3aaed2c639e333bc72279469ae
+
+#EXTINF:-1 tvg-name="内蒙古少儿" tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/内蒙古少儿.png" group-title="少儿频道",内蒙古少儿
+https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
+
+#EXTINF:-1 tvg-name="动画王国" tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="少儿频道",动画王国
+http://183.207.248.71/cntv/live1/donghuawg/donghuawg
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",晴彩青少
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226508/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV5赛事.png" group-title="体育频道",CCTV-5+赛事
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV5.png" group-title="体育频道",CCTV-5体育
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226019/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",晴彩竞技
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226124/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226046/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",晴彩篮球
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226147/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226469/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226469/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226027/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225895/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225895/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/NEWTV精品体育.png" group-title="体育频道",NEWTV精品体育
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225635/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",安徽体育
+http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",武搏世界
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8    
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225680/index.m3u8    
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",啵啵赛事
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225675/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225559/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225559/1.m3u8
+
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",炫舞未来
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225719/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225646/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",影视💓
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225664/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225556/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225556/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",影视💓💓
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225671/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",怡伴健康
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225673/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225571/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",超级电视剧
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225637/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",金牌综艺
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225666/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225525/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225525/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",军事评论
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225668/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",精品记录
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225672/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225545/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="其他频道",超级综艺
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225714/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225642/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",军旅剧场
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225560/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225560/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",古装剧场
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225524/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225524/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",精品大剧
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",欢乐剧场
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225742/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",中国功夫
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225604/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225604/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",家庭剧场
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225538/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225538/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",潮妈辣婆
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225685/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225542/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",东北热剧
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225741/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225679/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225679/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/黑莓电影.png" group-title="影视频道",黑莓电影
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225681/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225681/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",爱情喜剧
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225669/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225533/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225533/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC高清电影.png" group-title="影视频道",CHC超级电影
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225717/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225644/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC动作电影.png" group-title="影视频道",CHC动作电影
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
+http://218.76.32.193:9901/tsfile/live/1020_1.m3u8
+https://stream1.freetv.fun/chc-dong-zuo-dian-ying-1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
+https://stream1.freetv.fun/chcjia-ting-ying-yuan-1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
+https://stream1.freetv.fun/chc-jia-ting-ying-yuan--gao-qing-1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
+https://stream1.freetv.fun/chc-jia-ting-ying-yuan-1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC高清电影.png" group-title="影视频道",CHC影迷电影
+http://58.19.38.162:9901/tsfile/live/1038_1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/NewTV动作电影.png" group-title="影视频道",NewTV动作电影
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8$LR•IPV4『线路2』
+http://39.134.65.164/PLTV/88888888/224/3221225555/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225555/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/NewTV惊悚悬疑.png" group-title="影视频道",NewTV惊悚悬疑
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225553/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225553/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",哈尔滨影视
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226552/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226552/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",山西影视
+http://liveflash.sxrtv.com/live/sxfilm.m3u8?sub_m3u8=true&edge_slice=true
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",黑龙江影视
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226298/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",安徽影视
+https://stream1.freetv.fun/an-hui-ying-shi-3.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",邵氏影院㊣版
+http://159.75.85.63:35455/douyu/4246519
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",邵氏影院㊣版
+http://43.138.170.29:35455/douyu/4246519
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",凌儿影院-原
+http://maomao.kandiantv.cn/douyu1.php?id=1377142
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",冰冰经典-原
+http://159.75.85.63:35455/douyu/74374
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",凌儿影院-原
+http://159.75.85.63:35455/douyu/1377142
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",瑶瑶恐怖-原
+http://159.75.85.63:35455/douyu/2935323
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",怡寶影院-原
+http://159.75.85.63:35455/douyu/434971
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",萌小鬼片-原
+http://159.75.85.63:35455/douyu/3928
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",神乐影剧-原
+http://159.75.85.63:35455/douyu/122402
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",可乐影院-原
+http://159.75.85.63:35455/douyu/20415
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小宇60帧-原
+http://159.75.85.63:35455/douyu/323876
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",恐怖惊悚-原
+http://159.75.85.63:35455/douyu/96577
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",電影劇場-原
+http://159.75.85.63:35455/douyu/7575350
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",國語電影-原
+http://159.75.85.63:35455/douyu/2436390
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",豆瓣高分-原
+http://159.75.85.63:35455/douyu/8770422
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",漫威剧情-原
+http://159.75.85.63:35455/douyu/6140589
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",霍格沃茨-原
+http://159.75.85.63:35455/douyu/8814650
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鱼宝恐怖-原
+http://159.75.85.63:35455/douyu/1165374
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鬼片恐怖-原
+http://159.75.85.63:35455/douyu/2935323
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小u*鬼片-原
+http://159.75.85.63:35455/douyu/96577
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",变种人片-原
+http://159.75.85.63:35455/douyu/9651304
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",喜剧电影-原
+http://159.75.85.63:35455/douyu/9292492
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",女神电影-原
+http://159.75.85.63:35455/douyu/747764
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",华语经典-原
+http://159.75.85.63:35455/douyu/434971
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",欧美大片-原
+http://159.75.85.63:35455/douyu/2793084
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",贝爷max-原
+http://159.75.85.63:35455/douyu/4332
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",贝爷影厅-原
+http://159.75.85.63:35455/douyu/252802
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",译制国语-原
+http://159.75.85.63:35455/douyu/2436390
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",绍兴影院㊣版
+http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",乌克兰影㊣版
+http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小宇60帧-原
+http://maomao.kandiantv.cn/douyu1.php?id=323876
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",恐怖惊悚-原
+http://maomao.kandiantv.cn/douyu1.php?id=96577
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",電影劇場-原
+http://maomao.kandiantv.cn/douyu1.php?id=7575350
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",國語電影-原
+http://maomao.kandiantv.cn/douyu1.php?id=2436390
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",豆瓣高分-原
+http://maomao.kandiantv.cn/douyu1.php?id=8770422
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",漫威剧情-原
+http://maomao.kandiantv.cn/douyu1.php?id=6140589
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",霍格沃茨-原
+http://maomao.kandiantv.cn/douyu1.php?id=8814650
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鱼宝恐怖-原
+http://maomao.kandiantv.cn/douyu1.php?id=1165374
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鬼片恐怖-原
+http://maomao.kandiantv.cn/douyu1.php?id=2935323
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小U鬼片-原
+http://maomao.kandiantv.cn/douyu1.php?id=96577
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",吃奶滴虫-原
+http://maomao.kandiantv.cn/douyu1.php?id=263824
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",变种人片-原
+http://maomao.kandiantv.cn/douyu1.php?id=9651304
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",喜剧电影-原
+http://maomao.kandiantv.cn/douyu1.php?id=9292492
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",女神电影-原
+http://maomao.kandiantv.cn/douyu1.php?id=747764
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",华语经典-原
+http://maomao.kandiantv.cn/douyu1.php?id=434971
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",欧美大片-原
+http://maomao.kandiantv.cn/douyu1.php?id=2793084
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",贝爷影厅-原
+http://maomao.kandiantv.cn/douyu1.php?id=252802
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",译制国语-原
+http://maomao.kandiantv.cn/douyu1.php?id=2436390
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",邵氏影院㊣版
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=4246519
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",凌儿影院-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=1377142
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小宇60帧-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=323876
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",吃米滴虫-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=315457
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",恐怖惊悚-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=96577
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",電影劇場-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=7575350
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",國語電影-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=2436390
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",豆瓣高分-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=8770422
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",漫威剧情-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=6140589
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",霍格沃茨-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=8814650
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鱼宝恐怖-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=1165374
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鬼片恐怖-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=2935323
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小U鬼片-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=96577
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",吃奶滴虫-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=263824
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",变种人片-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=9651304
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",喜剧电影-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=9292492
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",女神电影-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=747764
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",华语经典-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=434971
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",欧美大片-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=2793084
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",贝爷影厅-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=252802
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",译制国语-原
+http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=2436390
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/12.png" group-title="春晚频道",1983年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5MTRfNDAzMDAxOTlfNjYyNzMxNjcwMjBfMF8z_b_Beb3bda599f76c60c463c433ca7460153.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/01.png" group-title="春晚频道",1984年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5NTRfNDAzMDAxOTlfNjYyNzMyMzg3MTRfMF8z_b_B192356dadbc90d207ba16964d4c2914c.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/02.png" group-title="春晚频道",1985年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDFfNDAzMDAxOTlfNjYyNzMyNTAwMzJfMF8z_b_Be73c5abcbc0eeb2ec9fce6842e1362a4.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/03.png" group-title="春晚频道",1986年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDRfNDAzMDAxOTlfNjYyNzMyNTU0OTRfMF8z_b_B24f7d19f1132fa5d7f502f8377ad5567.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/04.png" group-title="春晚频道",1987年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDhfNDAzMDAxOTlfNjYyNzMyNjMyMDNfMF8z_b_B570493ed8f7200d4013a66b2d21b2de9.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",1988年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTJfNDAzMDAxOTlfNjYyNzMyNjkxNjBfMF8z_b_B8c835b83a92d25bde81ba22c5cd9521e.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/06.png" group-title="春晚频道",1989年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTVfNDAzMDAxOTlfNjYyNzMyNzQ2OTlfMF8z_b_Be477b27b9ce655d2372df56a5a3d96ef.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/07.png" group-title="春晚频道",1990年中央电视台春节联欢晚会
+https://cdn8.yzzy-online.com/20220704/597_e0d90c37/1000k/hls/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/08.png" group-title="春晚频道",1991年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjI2MTVfNDAzMDAxOTlfNjYyNzYwNjUxNjVfMF8z_b_B8feb7b85888678d71bf37a259c6850f6.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/09.png" group-title="春晚频道",1992年中央电视台春节联欢晚会
+https://txmov2.a.kwimgs.com/bs3/video-hls/5256826755663896297_hlshd15.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/10.png" group-title="春晚频道",1993年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/11.png" group-title="春晚频道",1994年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxMjNfMF8z_b_B3dde97f36273f04403d4dc5eec611a35.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/12.png" group-title="春晚频道",1995年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/01.png" group-title="春晚频道",1996年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxNTJfMF8z_b_Bd841eae10ab1c9955ef55fbedfae6c45.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/02.png" group-title="春晚频道",1997年中央电视台春节联欢晚会
+https://txmov2.a.kwimgs.com/bs3/video-hls/5230649583590411879_hlshd15.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/03.png" group-title="春晚频道",1998年中央电视台春节联欢晚会
+https://txmov2.a.kwimgs.com/bs3/video-hls/5225864507896315430_hlshd15.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/04.png" group-title="春晚频道",1999年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQxNTRfMF8z_b_B0b5e52bc003285ef66ec0cbb2be08556.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2000年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxMTNfMF8z_b_Bdddf4e7ef0ff6cfd477857bb40e78419.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/06.png" group-title="春晚频道",2001年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMDFfMF8z_b_B70592cb7c4054e9cabb675e849bbf4bd.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/07.png" group-title="春晚频道",2002年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxNDdfMF8z_b_Ba6271d10b7e6cfae83759033a091f257.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/08.png" group-title="春晚频道",2003年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTlfOTM2MTU0MTk1NDFfMF8z_b_B182749d2cd2ea9323639254af385f24b.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/09.png" group-title="春晚频道",2004年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxOTVfMF8z_b_B86c4430b82ff5a7f4e8132f6ee558536.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/10.png" group-title="春晚频道",2005年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMzhfMF8z_b_B35ad7cc86aec8fc9e5ddfb31fc7bed63.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/11.png" group-title="春晚频道",2006年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyNzlfMF8z_b_Bbc3703fc331dc994c50859c19aad28ff.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/12.png" group-title="春晚频道",2007年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzMjNfMF8z_b_B00b069c7899976459ceeaa99353dfefe.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/01.png" group-title="春晚频道",2008年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzNTNfMF8z_b_Bd7346962e61bd7b84e11a1fa6e4616f9.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/02.png" group-title="春晚频道",2009年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzOTBfMF8z_b_B29a36a85e0277f6c2a1f033ef7c10708.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/03.png" group-title="春晚频道",2000年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ0MjlfMF8z_b_B8818807a00eed329a69fb494f405bd43.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/04.png" group-title="春晚频道",2011年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/16/11/BMjAyMzAxMTYxMTA3MjFfNDAzMDAxOTlfOTM3MjcyMjA3ODhfMF8z_b_B8214200efc869dc6fcf99dad619fa4c1.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2012年中央电视台春节联欢晚会
+https://cdn8.yzzy-online.com/20220704/591_82b72f82/1000k/hls/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/06.png" group-title="春晚频道",2013年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ1NjNfMF8z_b_B4fea55408dca4471a68a963ae096be59.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/07.png" group-title="春晚频道",2014年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTNfNDAzMDAxOTlfOTI4OTY2ODAzNjlfMF8z_b_Bdee65c77f9e7b2120a185c919dad81d2.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/08.png" group-title="春晚频道",2015年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2MTZfMF8z_b_B4851f43f5a2bc2871a9b0ec87294a6e7.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/09.png" group-title="春晚频道",2016年中央电视台春节联欢晚会
+https://cdn8.yzzy-online.com/20220704/577_cda9c8d1/1000k/hls/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/10.png" group-title="春晚频道",2017年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2NDhfMF8z_b_B6527b0c2ce3dda1d9b3f34edd4fdb9aa.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/11.png" group-title="春晚频道",2018年中央电视台春节联欢晚会
+https://cdn8.yzzy-online.com/20220704/610_ae5255ad/1000k/hls/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/12.png" group-title="春晚频道",2019年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTlfOTI4OTY2ODE2MTBfMF8z_b_B11a778e34390a21de42d407e94f45b91.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/01.png" group-title="春晚频道",2020年中央广播电视总台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzA5NDdfNDAzMDAxOTlfNjYxNzQ2MDAyMTFfMF8z_b_B5d51d9564c5670dc66faeba20aa7af3f.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/02.png" group-title="春晚频道",2021年中央广播电视总台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzE4NTJfNDAzMDAxOTlfNjYxNzUzOTg3NjlfMF8z_b_Be41d9503181d7b0608a839ed401e02c2.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/03.png" group-title="春晚频道",2022年中央广播电视总台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/02/01/11/BMjAyMjAyMDExMTEwMjNfNDAzMDAxOTlfNjYzNzA4MTk4NzNfMF8z_b_B898cc7ddd0025bf54ddb18ec1f723c84.mp4
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/04.png" group-title="春晚频道",2023年中央广播电视总台春节联欢晚会
+https://txmov2.a.kwimgs.com/bs3/video-hls/5251197255879398624_hlshd15.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年中央广播电视总台春节联欢晚会(CCTV1综合频道)
+https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年辽宁卫视春节联欢晚会(上)
+https://v10.dious.cc/20240209/J95B9fT5/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年辽宁卫视春节联欢晚会(下)
+https://v10.dious.cc/20240209/HWVp60d1/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年深圳卫视春节联欢晚会
+https://v10.dious.cc/20240209/DKcsA9sZ/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年安徽卫视春节联欢晚会
+https://v10.dious.cc/20240208/LHLdSBLv/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024吉林春晚
+https://v10.dious.cc/20240208/9ahrnAPw/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年山东卫视春节联欢晚会
+https://v10.dious.cc/20240208/mJvkOFpp/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年河南卫视春节联欢晚会
+https://v10.dious.cc/20240208/AN4hlNqo/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年山西卫视春节联欢晚会
+https://v10.dious.cc/20240208/85CjUOf8/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年北京卫视春节联欢晚会
+https://v10.dious.cc/20240210/Ll7WeunD/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年湖北卫视春节联欢晚会
+https://v10.dious.cc/20240210/pOo0DnPW/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024云南卫视春节联欢晚会
+https://v10.dious.cc/20240210/yOFfQfxj/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年海南卫视春节联欢晚会
+https://v10.dious.cc/20240210/vaplHwkP/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年陕西卫视春节联欢晚会
+https://v10.dious.cc/20240210/yYlVw3Ur/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024安徽卫视农民春节联欢晚会
+https://v10.dious.cc/20240210/UnLrYixW/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年中国杂技大联欢
+https://v10.dious.cc/20240210/672HyyQ9/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",启航2024 CCTV跨年晚会(CCTV综艺频道)
+https://v10.dious.cc/20240101/jb33ogNp/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年珠江春节联欢晚会
+https://v10.dious.cc/20240209/lNN6pUqq/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/05.png" group-title="春晚频道",2024年中央广播电视总台网络春节联欢晚会(CCTV1综合频道)
+https://ikcdn01.ikzybf.com/20240205/QBNgom4j/2000kb/hls/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="其他频道",us open
+http://39.134.65.164/PLTV/88888888/224/3221225910/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225910/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="其他频道",精品萌宠
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226505/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="其他频道",农业致富
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225683/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225552/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="其他频道",咪咕视频-1
+http://39.134.65.164/PLTV/88888888/224/3221226031/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="其他频道",咪咕视频-2
+http://39.134.65.164/PLTV/88888888/224/3221225620/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225620/1.m3u8
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="其他频道",咪咕视频-3
+http://39.134.65.164/PLTV/88888888/224/3221225613/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225613/1.m3u8
