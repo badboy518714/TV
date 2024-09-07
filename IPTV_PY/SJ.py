@@ -139,7 +139,7 @@ def HW_write_m3u(haiwai_list):
         index = 1
         for key, value in list_obj.items():
             f.write(
-                f'#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="海外主日-{int(index / 51) + 1}",{key}\n')
+                f'#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-{int(index / 51) + 1}",{key}\n')
             for url in value:
                 f.write(url + '\n')
             index += 1
@@ -204,7 +204,7 @@ def FT_write_m3u(sj_list):
         for title, _list in zip(cid_list.values(), sj_list):
             for group in _list:
                 f.write(
-                    f'#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="{title}",{group[0]}\n')
+                    f'#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="{title}",{group[0]}\n')
                 f.write(f'{group[1]}\n')
         f.close()
     print('丰台写入完成')
