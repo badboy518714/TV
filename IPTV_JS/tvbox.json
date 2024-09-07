@@ -6,23 +6,23 @@
         {
             "name": "✨️IPV4直播✨️",
             "type": 0,
-            "url": "https://gitee.com/badboy518/happy/raw/master/lives/ipv4.m3u",
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/IPTV4.m3u",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
-            "name": "✨️查经证道-1✨️",
+            "name": "✨️丰台主日证道✨️",
             "type": 0,
-            "url": "https://gitee.com/badboy518/happy/raw/master/lives/sj.m3u",
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/SJ_FT.m3u",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
-            "name": "✨️查经证道-2✨️",
+            "name": "✨️海外主日证道✨️",
             "type": 0,
-            "url": "https://gitee.com/badboy518/happy/raw/master/lives/001.m3u",
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/SJ_HW.m3u",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -30,15 +30,7 @@
         {
             "name": "✨️圣经聆听✨️",
             "type": 0,
-            "url": "https://gitee.com/badboy518/happy/raw/master/lives/scripture.m3u",
-            "playerType": 1,
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
-        },
-        {
-            "name": "✨️电影轮播✨️",
-            "type": 0,
-            "url": "https://gitee.com/badboy518/happy/raw/master/lives/film.m3u",
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/SJ_Audio.m3u",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -46,23 +38,7 @@
         {
             "name": "✨️IPV6直播✨️",
             "type": 0,
-            "url": "https://gitee.com/badboy518/happy/raw/master/lives/ipv6.m3u",
-            "playerType": 1,
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
-        },
-        {
-            "name": "✨️山东直播✨️",
-            "type": 0,
-            "url": "https://gitee.com/badboy518/happy/raw/master/lives/sdpd.m3u",
-            "playerType": 1,
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
-        },
-        {
-            "name": "✨️新疆直播✨️",
-            "type": 0,
-            "url": "https://badboy518714.github.io/happy.github.io/xj_tv.m3u",
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/IPTV6.m3u",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
