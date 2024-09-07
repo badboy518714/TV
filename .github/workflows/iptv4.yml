@@ -4,7 +4,7 @@ on:
   # push的时候触发
   push:
     paths:
-      - 'IPTV_TXT/新疆频道.txt'
+      - IPTV_TXT/新疆频道.txt
   workflow_dispatch:
   # 定时触发
   schedule:
