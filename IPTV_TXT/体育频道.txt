@@ -1,23 +1,23 @@
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV5赛事.png" group-title="体育频道",CCTV-5+赛事
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV5赛事.png" group-title="体育频道",CCTV-5+赛事
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV5.png" group-title="体育频道",CCTV-5体育
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV5.png" group-title="体育频道",CCTV-5体育
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226019/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",晴彩竞技
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",晴彩竞技
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226124/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226046/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",晴彩篮球
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",晴彩篮球
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226147/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226469/index.m3u8
@@ -26,25 +26,25 @@ http://39.134.65.164/PLTV/88888888/224/3221226027/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225895/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225895/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/NEWTV精品体育.png" group-title="体育频道",NEWTV精品体育
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/NEWTV精品体育.png" group-title="体育频道",NEWTV精品体育
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225635/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",安徽体育
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",安徽体育
 http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",武搏世界
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",武搏世界
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8    
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225680/index.m3u8    
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",啵啵赛事
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",啵啵赛事
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225675/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225559/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225559/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",炫舞未来
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",炫舞未来
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225719/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225646/1.m3u8
