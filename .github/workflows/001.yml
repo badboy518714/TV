@@ -20,4 +20,4 @@ jobs:
         python new/001.py 
         git add new/xj_tv.m3u
         git commit -m "Update 0.txt"
-        git pusH
+        git push
