@@ -1,5 +1,23 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="海外主日-1",20240901 主日崇拜（现场直播）｜
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_7c8b6401/20240901114546_184d9777/record.m3u8?token=67540DC9_NDg4NDc2MTU5XzY2RTVCQTI1X01UZzBaRGszTnpjX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_7c8b6401/20240901114546_184d9777/record.m3u8?token=67540DC9_NDg4NDc2MTU5XzY2RTVCQTI1X01UZzBaRGszTnpjX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="海外主日-1",20240825 吉隆坡主日崇拜（现场直播）｜
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/4329a027/20240825223323_4329a027/record.m3u8?token=CE867051_Nzg1NjE0OTE4XzY2RTVCQTI2X05ETXlPV0V3TWpjX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/4329a027/20240825223323_4329a027/record.m3u8?token=CE867051_Nzg1NjE0OTE4XzY2RTVCQTI2X05ETXlPV0V3TWpjX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="海外主日-1",20240825 主日崇拜（现场直播）｜
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_79d2567b/20240825112857_f56935cb/record.m3u8?token=72486068_NzUxMzg3OTY2XzY2RTVCQTI2X1pqVTJPVE0xWTJJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_79d2567b/20240825112857_f56935cb/record.m3u8?token=72486068_NzUxMzg3OTY2XzY2RTVCQTI2X1pqVTJPVE0xWTJJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="海外主日-1",20240818 主日崇拜（现场直播）｜神在哥林多向保罗显出的帮助
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_1f08dc38/20240818113712_7b965593/record.m3u8?token=18639801_MjE5NjMwMDExXzY2RTVCQTI3X04ySTVOalUxT1RNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_1f08dc38/20240818113712_7b965593/record.m3u8?token=18639801_MjE5NjMwMDExXzY2RTVCQTI3X04ySTVOalUxT1RNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="海外主日-1",20240804 主日崇拜（现场直播）｜在哥林多城有许多我的百姓
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ab670e18/20240804115407_277c083b/record.m3u8?token=CBB52B41_NDM0OTc5NDg0XzY2RTVBRjc2X01qYzNZekE0TTJJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ab670e18/20240804115407_277c083b/record.m3u8?token=CBB52B41_NDM0OTc5NDg0XzY2RTVBRjc2X01qYzNZekE0TTJJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="海外主日-1",20240728 吉隆坡主日崇拜（现场直播）｜
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_a46deefb/20240728194221_61c08a46/record.m3u8?token=139EF4A9_MjYwNjA4MTA1XzY2RTVBRjc2X05qRmpNRGhoTkRZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_a46deefb/20240728194221_61c08a46/record.m3u8?token=139EF4A9_MjYwNjA4MTA1XzY2RTVBRjc2X05qRmpNRGhoTkRZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="海外主日-1",20240728 09:20:36直播：「主日直播」- 使徒5讲
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_573a1192/20240728100919_5bd18ff6/record.m3u8?token=4F7772AE_NTQxMTA3OTc3XzY2RTVBRjc2X05XSmtNVGhtWmpZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_573a1192/20240728100919_5bd18ff6/record.m3u8?token=4F7772AE_NTQxMTA3OTc3XzY2RTVBRjc2X05XSmtNVGhtWmpZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
