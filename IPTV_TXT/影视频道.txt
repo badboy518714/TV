@@ -1,114 +1,114 @@
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",影视💓
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",影视💓
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225664/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225556/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225556/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",影视💓💓
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",影视💓💓
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225671/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",怡伴健康
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",怡伴健康
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225673/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225571/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",超级电视剧
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",超级电视剧
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225637/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",金牌综艺
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",金牌综艺
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225666/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225525/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225525/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",军事评论
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",军事评论
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225668/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",精品记录
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",精品记录
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225672/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225545/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="其他频道",超级综艺
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="其他频道",超级综艺
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225714/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225642/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",军旅剧场
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",军旅剧场
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225560/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225560/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",古装剧场
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",古装剧场
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225524/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225524/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",精品大剧
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",精品大剧
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",欢乐剧场
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",欢乐剧场
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225742/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",中国功夫
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",中国功夫
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225604/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225604/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",家庭剧场
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",家庭剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225538/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225538/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",潮妈辣婆
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",潮妈辣婆
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225685/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225542/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",东北热剧
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",东北热剧
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225741/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225679/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225679/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/黑莓电影.png" group-title="影视频道",黑莓电影
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/黑莓电影.png" group-title="影视频道",黑莓电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225681/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225681/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",爱情喜剧
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",爱情喜剧
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225669/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225533/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225533/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC高清电影.png" group-title="影视频道",CHC超级电影
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC高清电影.png" group-title="影视频道",CHC超级电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225717/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225644/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC动作电影.png" group-title="影视频道",CHC动作电影
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
 http://218.76.32.193:9901/tsfile/live/1020_1.m3u8
 https://stream1.freetv.fun/chc-dong-zuo-dian-ying-1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 https://stream1.freetv.fun/chcjia-ting-ying-yuan-1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 https://stream1.freetv.fun/chc-jia-ting-ying-yuan--gao-qing-1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 https://stream1.freetv.fun/chc-jia-ting-ying-yuan-1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CHC高清电影.png" group-title="影视频道",CHC影迷电影
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC高清电影.png" group-title="影视频道",CHC影迷电影
 http://58.19.38.162:9901/tsfile/live/1038_1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/NewTV动作电影.png" group-title="影视频道",NewTV动作电影
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/NewTV动作电影.png" group-title="影视频道",NewTV动作电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8$LR•IPV4『线路2』
 http://39.134.65.164/PLTV/88888888/224/3221225555/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225555/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/NewTV惊悚悬疑.png" group-title="影视频道",NewTV惊悚悬疑
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/NewTV惊悚悬疑.png" group-title="影视频道",NewTV惊悚悬疑
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225553/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225553/1.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",哈尔滨影视
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",哈尔滨影视
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226552/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226552/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",山西影视
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",山西影视
 http://liveflash.sxrtv.com/live/sxfilm.m3u8?sub_m3u8=true&edge_slice=true
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",黑龙江影视
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",黑龙江影视
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226298/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",安徽影视
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",安徽影视
 https://stream1.freetv.fun/an-hui-ying-shi-3.m3u8
