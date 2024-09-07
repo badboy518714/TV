@@ -1,48 +1,23 @@
-name: 001生成新疆m3u文件
-# 触发条件
+name: 更新001
+ 
 on:
-  # push的时候触发
-  # push:
-  #   branches: main
-  workflow_dispatch:
-  # 定时触发
   schedule:
-    - cron: 0 20 * * *
+    - cron: '59 23 * * *'  # 每天凌晨2点执行
+    #- cron: '*/5 * * * *'  # 每分钟执行
+  workflow_dispatch:
+    
 jobs:
-  deploy:
+  update_txt:
     runs-on: ubuntu-latest
     steps:
-    - name: 迁出代码
-      uses: actions/checkout@v2
-    - name: 安装Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'
-    - name: 加载缓存  
-      uses: actions/cache@v2
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-    - name: 设置时区
-      run: sudo timedatectl set-timezone 'Asia/Shanghai'
-    - name: 安装依赖
+    - uses: actions/checkout@v2
+    - name: Setup git
       run: |
-        pip install -r requirements.txt
-    - name: 执行任务
+        git config --global user.email "474628725@qq.com"
+        git config --global user.name "smile"
+    - name: Update txt file
       run: |
-        python new/001.py
-          
-    - name: 提交更改
-      run: |     
-         git pull origin main
-         git config --local user.email "474628725@qq.com"
-         git config --local user.name "badboy518714"
-         git add new/xj_tv.m3u
-         git commit -m "由github actions推送更新新疆频道m3u文件,日期:`date`"
-    - name: 推送更改
-      uses:  ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.TOKEN }}
-        branch: main
+        python new/001.py 
+        git add new/xj_tv.m3u
+        git commit -m "Update 0.txt"
+        git pusH
