@@ -171,7 +171,7 @@ def haiwai_m3u():
     HW_write_m3u(haiwai_list)
 
 def updata_hw():
-    directory = '../SJ_JSON'  # 将此路径替换为您想要获取文件的目录路径
+    directory = '../'  # 将此路径替换为您想要获取文件的目录路径
 
     file_names = os.listdir(directory)
     for file_name in file_names:
