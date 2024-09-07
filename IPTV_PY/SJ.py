@@ -130,11 +130,11 @@ def get_m3u8(info):
 def HW_write_m3u(haiwai_list):
     list_obj = dict(sorted(haiwai_list.items(), key=lambda x: x[0], reverse=True))
     # 写入js文件
-    with open('./SJ_JSON/SJ_HW.json', 'w', encoding='utf-8') as f:
+    with open('SJ_JSON/SJ_HW.json', 'w', encoding='utf-8') as f:
         f.write(f'{list_obj}')
         f.close()
     # 写入m3u文件
-    with open('./IPTV_M3U/SJ_HW.m3u', 'w', encoding='utf-8') as f:
+    with open('IPTV_M3U/SJ_HW.m3u', 'w', encoding='utf-8') as f:
         f.write('#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml\n\n')
         index = 1
         for key, value in list_obj.items():
@@ -171,7 +171,7 @@ def haiwai_m3u():
 
 def updata_hw():
     # 读取历史数据
-    with open('./SJ_JSON/SJ_HW.json', 'r', encoding='utf-8') as f:
+    with open('SJ_JSON/SJ_HW.json', 'r', encoding='utf-8') as f:
         old_info = f.read()
         f.close()
     new_info = json.loads(old_info.replace("'", '"'))
@@ -192,14 +192,14 @@ def updata_hw():
 
 def FT_write_m3u(sj_list):
     # 写入js文件
-    with open('./SJ_JSON/SJ_FT.json', 'w', encoding='utf-8') as f:
+    with open('SJ_JSON/SJ_FT.json', 'w', encoding='utf-8') as f:
         js_ft = {
             "sj_list": sj_list
         }
         f.write(f'{js_ft}')
         f.close()
     # 写入m3u文件
-    with open("./IPTV_M3U/SJ_FT.m3u", 'w', encoding='utf-8') as f:
+    with open("IPTV_M3U/SJ_FT.m3u", 'w', encoding='utf-8') as f:
         f.write('#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml\n\n')
         for title, _list in zip(cid_list.values(), sj_list):
             for group in _list:
@@ -241,7 +241,7 @@ def fengtai_m3u():
 
 def updata_ft():
     # 读取历史数据
-    with open('./SJ_JSON/SJ_FT.json', 'r', encoding='utf-8') as f:
+    with open('SJ_JSON/SJ_FT.json', 'r', encoding='utf-8') as f:
         old_info = f.read()
     new_info = json.loads(old_info.replace("'",'"'))
     sj_list = new_info["sj_list"]
