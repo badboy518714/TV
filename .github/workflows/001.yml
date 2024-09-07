@@ -32,14 +32,14 @@ jobs:
         pip install -r requirements.txt
     - name: 执行任务
       run: |
-        python IPTV_PY/demo.py
+        python new/001.py
           
     - name: 提交更改
       run: |     
          git pull origin main
          git config --local user.email "474628725@qq.com"
          git config --local user.name "badboy518714"
-         git add IPTV_M3U/demo.m3u
+         git add new/xj_tv.m3u
          git commit -m "由github actions推送更新新疆频道m3u文件,日期:`date`"
     - name: 推送更改
       uses:  ad-m/github-push-action@master
