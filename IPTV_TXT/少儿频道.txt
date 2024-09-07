@@ -1,63 +1,63 @@
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/CCTV14.png" group-title="少儿频道",CCTV-14少儿
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV14.png" group-title="少儿频道",CCTV-14少儿
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225732/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226132/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225674/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225674/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/卡酷少儿.png" group-title="少儿频道",卡酷少儿
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/卡酷少儿.png" group-title="少儿频道",卡酷少儿
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225654/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225562/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225562/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/黑莓动画.png" group-title="少儿频道",黑莓动画
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/黑莓动画.png" group-title="少儿频道",黑莓动画
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225529/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225529/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/金鹰卡通.png" group-title="少儿频道",金鹰卡通
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/金鹰卡通.png" group-title="少儿频道",金鹰卡通
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
 http://119.164.94.34:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 http://58.48.37.158:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.189.36.103:9901/tsfile/live/1088_1.m3u8?key=txiptv&playlive=1&authid=0
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/哈哈炫动.png" group-title="少儿频道",哈哈炫动
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/哈哈炫动.png" group-title="少儿频道",哈哈炫动
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225657/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225534/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225534/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/优漫卡通.png" group-title="少儿频道",优漫卡通
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/优漫卡通.png" group-title="少儿频道",优漫卡通
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225556/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225556/1.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="少儿频道",山东少儿
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="少儿频道",山东少儿
 https://stream1.freetv.fun/shan-dong-ti-yu-8.m3u8
 https://stream1.freetv.fun/shan-dong-shao-er-5.m3u8
 https://stream1.freetv.fun/015dbac308d9da33dad5b4b2991f2fa094de73f086e45f9f3e3356e4e7aa6dc2.m3u8
 https://stream1.freetv.fun/09d8aa7047f0ae54ef7182d600bf26e3ca3e36cdd5089730b0421257d3640c8c.m3u8
 http://123.129.70.178:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/浙江少儿.png" group-title="少儿频道",浙江少儿
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/浙江少儿.png" group-title="少儿频道",浙江少儿
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="少儿频道",黑龙江少儿
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="少儿频道",黑龙江少儿
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226304/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/新疆频道.png" group-title="少儿频道",新疆少儿
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/新疆频道.png" group-title="少儿频道",新疆少儿
 https://liveplay.xjbs.cn/liveback/xjtvs-12.m3u8?auth_key=1725371654-0-0-7a9bac3aaed2c639e333bc72279469ae
 
-#EXTINF:-1 tvg-name="内蒙古少儿" tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/内蒙古少儿.png" group-title="少儿频道",内蒙古少儿
+#EXTINF:-1 tvg-name="内蒙古少儿" tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/内蒙古少儿.png" group-title="少儿频道",内蒙古少儿
 https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
 
-#EXTINF:-1 tvg-name="动画王国" tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="少儿频道",动画王国
+#EXTINF:-1 tvg-name="动画王国" tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="少儿频道",动画王国
 http://183.207.248.71/cntv/live1/donghuawg/donghuawg
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="体育频道",晴彩青少
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",晴彩青少
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226508/index.m3u8
