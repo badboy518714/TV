@@ -1,24 +1,24 @@
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",文体
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="黑龙江频道",文体
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226239/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226239/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",农业.科教
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="黑龙江频道",农业.科教
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226242/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226242/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",影视
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="黑龙江频道",影视
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226298/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",都市
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="黑龙江频道",都市
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226301/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",少儿
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="黑龙江频道",少儿
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226304/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="黑龙江频道",新闻.法制
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="黑龙江频道",新闻.法制
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226330/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226330/index.m3u8
 
