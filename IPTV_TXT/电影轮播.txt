@@ -1,138 +1,138 @@
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",邵氏影院㊣版
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",邵氏影院㊣版
 http://159.75.85.63:35455/douyu/4246519
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",邵氏影院㊣版
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",邵氏影院㊣版
 http://43.138.170.29:35455/douyu/4246519
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",凌儿影院-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",凌儿影院-原
 http://maomao.kandiantv.cn/douyu1.php?id=1377142
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",冰冰经典-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",冰冰经典-原
 http://159.75.85.63:35455/douyu/74374
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",凌儿影院-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",凌儿影院-原
 http://159.75.85.63:35455/douyu/1377142
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",瑶瑶恐怖-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",瑶瑶恐怖-原
 http://159.75.85.63:35455/douyu/2935323
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",怡寶影院-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",怡寶影院-原
 http://159.75.85.63:35455/douyu/434971
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",萌小鬼片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",萌小鬼片-原
 http://159.75.85.63:35455/douyu/3928
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",神乐影剧-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",神乐影剧-原
 http://159.75.85.63:35455/douyu/122402
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",可乐影院-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",可乐影院-原
 http://159.75.85.63:35455/douyu/20415
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小宇60帧-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",小宇60帧-原
 http://159.75.85.63:35455/douyu/323876
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",恐怖惊悚-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",恐怖惊悚-原
 http://159.75.85.63:35455/douyu/96577
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",電影劇場-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",電影劇場-原
 http://159.75.85.63:35455/douyu/7575350
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",國語電影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",國語電影-原
 http://159.75.85.63:35455/douyu/2436390
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",豆瓣高分-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",豆瓣高分-原
 http://159.75.85.63:35455/douyu/8770422
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",漫威剧情-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",漫威剧情-原
 http://159.75.85.63:35455/douyu/6140589
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",霍格沃茨-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",霍格沃茨-原
 http://159.75.85.63:35455/douyu/8814650
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鱼宝恐怖-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",鱼宝恐怖-原
 http://159.75.85.63:35455/douyu/1165374
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鬼片恐怖-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",鬼片恐怖-原
 http://159.75.85.63:35455/douyu/2935323
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小u*鬼片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",小u*鬼片-原
 http://159.75.85.63:35455/douyu/96577
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",变种人片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",变种人片-原
 http://159.75.85.63:35455/douyu/9651304
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",喜剧电影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",喜剧电影-原
 http://159.75.85.63:35455/douyu/9292492
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",女神电影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",女神电影-原
 http://159.75.85.63:35455/douyu/747764
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",华语经典-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",华语经典-原
 http://159.75.85.63:35455/douyu/434971
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",欧美大片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",欧美大片-原
 http://159.75.85.63:35455/douyu/2793084
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",贝爷max-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",贝爷max-原
 http://159.75.85.63:35455/douyu/4332
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",贝爷影厅-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",贝爷影厅-原
 http://159.75.85.63:35455/douyu/252802
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",译制国语-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",译制国语-原
 http://159.75.85.63:35455/douyu/2436390
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",绍兴影院㊣版
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",绍兴影院㊣版
 http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",乌克兰影㊣版
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",乌克兰影㊣版
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小宇60帧-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",小宇60帧-原
 http://maomao.kandiantv.cn/douyu1.php?id=323876
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",恐怖惊悚-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",恐怖惊悚-原
 http://maomao.kandiantv.cn/douyu1.php?id=96577
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",電影劇場-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",電影劇場-原
 http://maomao.kandiantv.cn/douyu1.php?id=7575350
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",國語電影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",國語電影-原
 http://maomao.kandiantv.cn/douyu1.php?id=2436390
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",豆瓣高分-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",豆瓣高分-原
 http://maomao.kandiantv.cn/douyu1.php?id=8770422
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",漫威剧情-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",漫威剧情-原
 http://maomao.kandiantv.cn/douyu1.php?id=6140589
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",霍格沃茨-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",霍格沃茨-原
 http://maomao.kandiantv.cn/douyu1.php?id=8814650
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鱼宝恐怖-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",鱼宝恐怖-原
 http://maomao.kandiantv.cn/douyu1.php?id=1165374
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鬼片恐怖-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",鬼片恐怖-原
 http://maomao.kandiantv.cn/douyu1.php?id=2935323
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小U鬼片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",小U鬼片-原
 http://maomao.kandiantv.cn/douyu1.php?id=96577
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",吃奶滴虫-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",吃奶滴虫-原
 http://maomao.kandiantv.cn/douyu1.php?id=263824
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",变种人片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",变种人片-原
 http://maomao.kandiantv.cn/douyu1.php?id=9651304
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",喜剧电影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",喜剧电影-原
 http://maomao.kandiantv.cn/douyu1.php?id=9292492
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",女神电影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",女神电影-原
 http://maomao.kandiantv.cn/douyu1.php?id=747764
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",华语经典-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",华语经典-原
 http://maomao.kandiantv.cn/douyu1.php?id=434971
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",欧美大片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",欧美大片-原
 http://maomao.kandiantv.cn/douyu1.php?id=2793084
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",贝爷影厅-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",贝爷影厅-原
 http://maomao.kandiantv.cn/douyu1.php?id=252802
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",译制国语-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",译制国语-原
 http://maomao.kandiantv.cn/douyu1.php?id=2436390
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",邵氏影院㊣版
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",邵氏影院㊣版
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=4246519
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",凌儿影院-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",凌儿影院-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=1377142
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小宇60帧-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",小宇60帧-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=323876
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",吃米滴虫-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",吃米滴虫-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=315457
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",恐怖惊悚-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",恐怖惊悚-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=96577
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",電影劇場-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",電影劇場-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=7575350
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",國語電影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",國語電影-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=2436390
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",豆瓣高分-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",豆瓣高分-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=8770422
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",漫威剧情-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",漫威剧情-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=6140589
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",霍格沃茨-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",霍格沃茨-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=8814650
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鱼宝恐怖-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",鱼宝恐怖-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=1165374
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",鬼片恐怖-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",鬼片恐怖-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=2935323
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",小U鬼片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",小U鬼片-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=96577
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",吃奶滴虫-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",吃奶滴虫-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=263824
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",变种人片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",变种人片-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=9651304
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",喜剧电影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",喜剧电影-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=9292492
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",女神电影-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",女神电影-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=747764
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",华语经典-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",华语经典-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=434971
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",欧美大片-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",欧美大片-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=2793084
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",贝爷影厅-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",贝爷影厅-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=252802
-#EXTINF:-1 tvg-logo="https://gitee.com/badboy518/happy/raw/master/res/index.png" group-title="影视频道",译制国语-原
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",译制国语-原
 http://103.45.68.47:666/gy/gy_lqkLOp/斗鱼.php?id=2436390
