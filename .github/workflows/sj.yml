@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   # 定时触发
   schedule:
-    - cron: 30 2,14 * * 1,4
+    - cron: 0 20 * * *
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -32,18 +32,20 @@ jobs:
         pip install -r requirements.txt
     - name: 执行任务
       run: |
-        python ./IPTV_PY/SJ.py
+        python IPTV_PY/SJ.py
           
     - name: 提交更改
-      env:
-        GITHUB TOKEN: ${{ secrets.TOKEN }}
       run: |     
          git pull origin main
          git config --local user.email "474628725@qq.com"
-         git config --local user.name "badboy518714"
-         git add SJ_HW.m3u
-         git add SJ_FT.m3u
-         git add SJ_HW.json
-         git add SJ_FT.json
-         git commit -m "由github actions推送更新圣经m3u文件,日期:`date`"
-         git push
+         git config --local user.name "smile"
+         git add IPTV_M3U/SJ_HW.m3u
+         git add IPTV_M3U/SJ_FT.m3u
+         git add SJ_JSON/SJ_HW.json
+         git add SJ_JSON/SJ_FT.json
+         git commit -m "由github actions推送更新,日期:`date`"
+    - name: 推送更改
+      uses:  ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.TOKEN }}
+        branch: main
