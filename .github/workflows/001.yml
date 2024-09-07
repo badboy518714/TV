@@ -32,7 +32,7 @@ jobs:
         pip install -r requirements.txt
     - name: 执行任务
       run: |
-        python IPTV_M3U/demo.py
+        python IPTV_PY/demo.py
           
     - name: 提交更改
       run: |     
