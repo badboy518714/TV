@@ -34,7 +34,7 @@ headers_ft = {
         "sec-ch-ua-platform": "\"Windows\""
     }
 host_ft = "https://site.bjfengtaichurch.cn/portal/portalpc/get-listv2"
-cid_list = {"951": "丰台主日证道", "956": "丰台查经聚会"}
+cid_list = {"951": "丰台主日证道", "956": "丰台查经聚会",  "959": "丰台基要神学"}
 
 
 def get_webinar_id(pos):
