@@ -152,19 +152,27 @@ http://117.161.133.51:81/gitv_live/G_FENGYUNYY-CQ/G_FENGYUNYY-CQ.m3u8?p=GITV
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="央视频道",CCTV高尔夫网球
 http://117.161.133.51:81/gitv_live/G_CCTV-GOLF-CQ/G_CCTV-GOLF-CQ.m3u8?p=GITV
 
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="央视频道",CGTN
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN英语.png" group-title="央视频道",CGTN英语
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+https://0472.org/hls/cgtn.m3u8
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN俄语.png" group-title="央视频道",CGTN俄语
+https://0472.org/hls/cgtne.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226543/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226543/index.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN阿语.png" group-title="央视频道",CGTN阿语
+https://0472.org/hls/cgtna.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226081/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221226081/1.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN法语.png" group-title="央视频道",CGTN法语
+https://0472.org/hls/cgtnf.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226083/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221226083/1.m3u8
 https://francais-liveali-h5.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8?wsSecret=f4c7e6fa9787d4d962462047a1f84c8c&wsTime=1725361606
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN纪录.png" group-title="央视频道",CGTN纪录
+https://0472.org/hls/cgtnd.m3u8
 https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN西语.png" group-title="央视频道",CGTN西语
+https://0472.org/hls/cgtnx.m3u8
+
