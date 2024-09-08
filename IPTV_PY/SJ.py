@@ -173,8 +173,9 @@ def updata_hw():
     # 读取历史数据
     with open('SJ_JSON/SJ_HW.json', 'r', encoding='utf-8') as f:
         old_info = f.read()
+        old_info = old_info.replace('\\xa0','').replace('"','“').replace("'", '"')
         f.close()
-    new_info = json.loads(old_info.replace("'", '"'))
+    new_info = json.loads(old_info)
 
     # 获取最新数据
     get_webinar_id(0)
