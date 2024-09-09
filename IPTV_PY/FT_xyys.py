@@ -76,20 +76,21 @@ def get_m3u8(data):
                     m3u8_urls = []
             if len(m3u8_urls) > 0:
                 list_xyys[title] = m3u8_urls
-            print(f'{title}--over')
+            # print(f'{title}--over')
         except Exception as e:
             print(title, f'ERROR--链接失效')
     except:
         match = re.search(r'src="([^"]*)"> <source type="video/(mp4)?(ogg)?(x-m4a)?"', res)
         # print(title,match.group(1))
         list_xyys[title] = match.group(1)
-        print(f'{title}--over')
+        # print(f'{title}--over')
 
 def write_xyys(list_xyys):
     new_xyys = dict(sorted(list_xyys.items(), key=lambda x: x[0]))
     with open('SJ_JSON/FT_xyys.json', 'w', encoding='utf-8') as f:
         f.write(f'{new_xyys}')
-    print(new_xyys)
+        f.close()
+    # print(new_xyys)
 
 def get_first_url(json_data):
     pool = ThreadPoolExecutor(10)
