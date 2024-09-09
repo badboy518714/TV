@@ -199,6 +199,11 @@ def FT_write_m3u(sj_list):
         }
         f.write(f'{js_ft}')
         f.close()
+     # 读取信仰影视json
+    with open('SJ_JSON/FT_xyys.json', 'r', encoding='utf-8') as f:
+        info = f.read()
+    new_info = json.loads(info.replace("'",'"'))
+    
     # 写入m3u文件
     with open("IPTV_M3U/SJ_FT.m3u", 'w', encoding='utf-8') as f:
         f.write('#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml\n\n')
@@ -207,6 +212,10 @@ def FT_write_m3u(sj_list):
                 f.write(
                     f'#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="{title}",{group[0]}\n')
                 f.write(f'{group[1]}\n')
+        for key, value in new_xyys.items():
+            f.write(f'#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="信仰影视",{key}\n')
+            for url in value:
+                f.write(f'{value}\n')
         f.close()
     print('丰台写入完成')
 
