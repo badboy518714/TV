@@ -24,7 +24,7 @@ _headers = {
     "Connection": "keep-alive",
     "Origin": "https://mp.weixin.qq.com",
     "Pragma": "no-cache",
-    "Range": "bytes=0-150",
+    # "Range": "bytes=0-150",
     "Referer": "https://mp.weixin.qq.com/",
     "Sec-Fetch-Dest": "video",
     "Sec-Fetch-Mode": "cors",
