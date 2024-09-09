@@ -82,7 +82,7 @@ def get_m3u8(data):
     except:
         match = re.search(r'src="([^"]*)"> <source type="video/(mp4)?(ogg)?(x-m4a)?"', res)
         # print(title,match.group(1))
-        list_xyys[title] = match.group(1)
+        list_xyys[title] = [match.group(1)]
         # print(f'{title}--over')
 
 def write_xyys(list_xyys):
