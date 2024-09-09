@@ -87,7 +87,7 @@ def get_m3u8(data):
 
 def write_xyys(list_xyys):
     new_xyys = dict(sorted(list_xyys.items(), key=lambda x: x[0]))
-    with open('FT_xyys.json', 'w', encoding='utf-8') as f:
+    with open('SJ_JSON/FT_xyys.json', 'w', encoding='utf-8') as f:
         f.write(f'{new_xyys}')
     print(new_xyys)
 
