@@ -212,7 +212,7 @@ def FT_write_m3u(sj_list):
                 f.write(
                     f'#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="{title}",{group[0]}\n')
                 f.write(f'{group[1]}\n')
-        for key, value in new_xyys.items():
+        for key, value in new_info.items():
             f.write(f'#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="信仰影视",{key}\n')
             for url in value:
                 f.write(f'{value}\n')
