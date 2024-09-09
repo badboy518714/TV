@@ -104,5 +104,8 @@ def xy_ys():
     json_data = get_all_data()
     get_first_url(json_data)
 
+if __name__ == '__main__':
+    xy_ys()
+
 
 
