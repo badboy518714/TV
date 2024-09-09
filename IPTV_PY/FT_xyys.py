@@ -67,6 +67,7 @@ def get_m3u8(data):
                 _url = match.replace('\\x26amp;', '&').replace('http', 'https')
                 m3u8_url = f'{_url}&vid={video_id}&format_id=10002&support_redirect=0&mmversion=false'
                 res = requests.get(m3u8_url, headers=_headers)
+                print(res)
                 m3u8_urls.append(m3u8_url)
                 if "Chosen" in title and index % 4 == 3:
                     list_xyys[f"{title}-{int(index / 4) + 1}"] = m3u8_urls
