@@ -24,7 +24,7 @@ _headers = {
                         "Connection": "keep-alive",
                         "Origin": "https://mp.weixin.qq.com",
                         "Pragma": "no-cache",
-                        "Range": "bytes=0-50",
+                        "Range": "bytes=0-150",
                         "Referer": "https://mp.weixin.qq.com/",
                         "Sec-Fetch-Dest": "video",
                         "Sec-Fetch-Mode": "cors",
@@ -90,7 +90,7 @@ def write_xyys(list_xyys):
     with open('SJ_JSON/FT_xyys.json', 'w', encoding='utf-8') as f:
         f.write(f'{new_xyys}')
         f.close()
-    # print(new_xyys)
+    print(new_xyys)
 
 def get_first_url(json_data):
     pool = ThreadPoolExecutor(10)
