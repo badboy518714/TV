@@ -1,10 +1,10 @@
 import requests, re , time
 from concurrent.futures import ThreadPoolExecutor
-import sys
-import io
+# import sys
+# import io
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+# sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+# sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 
 headers = {
