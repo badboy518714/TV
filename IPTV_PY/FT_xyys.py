@@ -18,22 +18,22 @@ headers = {
     "sec-ch-ua-platform": "\"Windows\""
 }
 _headers = {
-                        "Accept": "*/*",
-                        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
-                        "Cache-Control": "no-cache",
-                        "Connection": "keep-alive",
-                        "Origin": "https://mp.weixin.qq.com",
-                        "Pragma": "no-cache",
-                        "Range": "bytes=0-150",
-                        "Referer": "https://mp.weixin.qq.com/",
-                        "Sec-Fetch-Dest": "video",
-                        "Sec-Fetch-Mode": "cors",
-                        "Sec-Fetch-Site": "cross-site",
-                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0",
-                        "sec-ch-ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Microsoft Edge\";v=\"128\"",
-                        "sec-ch-ua-mobile": "?0",
-                        "sec-ch-ua-platform": "\"Windows\""
-                    }
+    "Accept": "*/*",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Origin": "https://mp.weixin.qq.com",
+    "Pragma": "no-cache",
+    "Range": "bytes=0-150",
+    "Referer": "https://mp.weixin.qq.com/",
+    "Sec-Fetch-Dest": "video",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "cross-site",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0",
+    "sec-ch-ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Microsoft Edge\";v=\"128\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\""
+}
 list_xyys = {}
 
 def get_all_data():
@@ -67,7 +67,7 @@ def get_m3u8(data):
                 _url = match.replace('\\x26amp;', '&').replace('http', 'https')
                 m3u8_url = f'{_url}&vid={video_id}&format_id=10002&support_redirect=0&mmversion=false'
                 res = requests.get(m3u8_url, headers=_headers)
-                print(res)
+                # print(res)
                 m3u8_urls.append(m3u8_url)
                 if "Chosen" in title and index % 4 == 3:
                     list_xyys[f"{title}-{int(index / 4) + 1}"] = m3u8_urls
