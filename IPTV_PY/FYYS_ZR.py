@@ -97,10 +97,10 @@ def get_church_all_url(church):
     fy_ys[church_name] = church_js
 
 def write_data():
-    with open('../SJ_JSON/福音影视.json', 'w', encoding='utf-8') as f:
+    with open('SJ_JSON/福音影视.json', 'w', encoding='utf-8') as f:
         f.write(f'{fy_ys}')
     for title, value in fy_ys.items():
-        with open(f'../IPTV_M3U/{title}.m3u', 'w', encoding='utf-8') as f:
+        with open(f'IPTV_M3U/{title}.m3u', 'w', encoding='utf-8') as f:
             f.write('#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml\n\n')
             for group, _value in value.items():
                 for name, url in _value.items():
@@ -144,7 +144,7 @@ def check_change(church):
 
 def update():
     global fy_ys
-    with open('../SJ_JSON/福音影视.json', 'r', encoding='utf-8') as f:
+    with open('SJ_JSON/福音影视.json', 'r', encoding='utf-8') as f:
         old_js = f.read().replace("'", '"').replace('"s_', "'s_")
         fy_ys = json.loads(old_js)
         # print(fy_ys)
