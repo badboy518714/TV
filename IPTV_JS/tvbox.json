@@ -831,8 +831,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/tok.txt",
                 "danmu": true
-             },
-             "jar": "https://gitee.com/juanxiao/bh/raw/master/dm.jar"
+             }
         },
         {
             "key": "bdsp",
