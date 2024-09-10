@@ -119,6 +119,7 @@ def fyys_zr():
 
 
 def check_change(church):
+    global fy_ys
     church_id, church_name = church["id"], church["name"]
     movie_info = get_movie(church_id)
     for movie in movie_info:
