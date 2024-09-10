@@ -32,7 +32,16 @@ jobs:
         pip install -r requirements.txt
     - name: 执行任务
       run: |
-        python IPTV_PY/FYYS_ZR.py        
+        python IPTV_PY/FYYS_ZR.py
+    - name: 检测文件是否更新
+      id: check_updates
+      run: |        
+        UPDATED_FILES=$(git status --porcelain | grep -E '^(M|A|D|R|C)' | awk '{print $2}')
+        echo "UPDATED_FILES: $UPDATED_FILES"
+        if [ -z "$UPDATED_FILES" ]; then
+          echo "No updated files. Skipping git add."
+          exit 0
+        fi 
     - name: 提交更改
       run: |   
          git status --porcelain
@@ -41,14 +50,14 @@ jobs:
          git config --local user.name "badboy518714"
          git add .
          git commit -m "由github actions推送更新,日期:`date`"
-    - name: 检测文件是否更新
-      id: check_updates
-      run: |        
-        UPDATED_FILES=$(git status --porcelain | grep -E '^(M|A|D|R|C)' | awk '{print $2}')
-        if [ -z "$UPDATED_FILES" ]; then
-          echo "No updated files. Skipping git add."
-          exit 0
-        fi 
+    # - name: 检测文件是否更新
+    #   id: check_updates
+    #   run: |        
+    #     UPDATED_FILES=$(git status --porcelain | grep -E '^(M|A|D|R|C)' | awk '{print $2}')
+    #     if [ -z "$UPDATED_FILES" ]; then
+    #       echo "No updated files. Skipping git add."
+    #       exit 0
+    #     fi 
     - name: 推送更改
       if: steps.check_updates.outputs.UPDATED_FILES!= ''
       uses:  ad-m/github-push-action@master
