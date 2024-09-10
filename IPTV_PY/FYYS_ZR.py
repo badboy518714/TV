@@ -136,6 +136,7 @@ def check_change(church):
                     urlid = info["urlid"]
                     change_movie[title] = get_m3u8_url(movie_id, urlid)
             if len(change_movie) > 0:
+                print(change_movie)
                 change_movie.update(fy_ys[church_name][movie_title])
                 fy_ys[church_name][movie_title] = change_movie
                 # print(fy_ys[church_name][movie_title])
