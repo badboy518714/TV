@@ -34,7 +34,8 @@ jobs:
       run: |
         python IPTV_PY/FYYS_ZR.py        
     - name: 提交更改
-      run: |     
+      run: |   
+         git status --porcelain
          git pull origin main
          git config --local user.email "474628725@qq.com"
          git config --local user.name "badboy518714"
@@ -42,8 +43,7 @@ jobs:
          git commit -m "由github actions推送更新,日期:`date`"
     - name: 检测文件是否更新
       id: check_updates
-      run: |
-        git status --porcelain
+      run: |        
         UPDATED_FILES=$(git status --porcelain | grep -E '^(M|A|D|R|C)' | awk '{print $2}')
         if [ -z "$UPDATED_FILES" ]; then
           echo "No updated files. Skipping git add."
