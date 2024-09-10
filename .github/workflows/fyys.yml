@@ -43,6 +43,7 @@ jobs:
     - name: 检测文件是否更新
       id: check_updates
       run: |
+        git status --porcelain
         UPDATED_FILES=$(git status --porcelain | grep -E '^(M|A|D|R|C)' | awk '{print $2}')
         if [ -z "$UPDATED_FILES" ]; then
           echo "No updated files. Skipping git add."
