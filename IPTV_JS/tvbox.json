@@ -20,9 +20,81 @@
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
+            "name": "✨️矽谷基督徒聚会✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/矽谷基督徒聚会.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "✨️恩城基督徒证主教会✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/恩城基督徒证主教会.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "✨️基督之五家信息✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/基督之五家信息.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "✨️台北基督之家✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/台北基督之家.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
             "name": "✨️海外主日证道✨️",
             "type": 0,
             "url": "https://badboy518714.github.io/TV/IPTV_M3U/SJ_HW.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "✨️橙县中华福音教会✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/橙县中华福音教会.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "✨️凤凰城基督教会✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/凤凰城基督教会.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "✨️橄榄山基督教会✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/橄榄山基督教会.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "✨️东区教会信息✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/SJ_FT.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "✨️贝郡基督徒证主教会✨️",
+            "type": 0,
+            "url": "https://badboy518714.github.io/TV/IPTV_M3U/贝郡基督徒证主教会.m3u",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
