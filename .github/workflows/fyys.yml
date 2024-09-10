@@ -35,7 +35,8 @@ jobs:
         python IPTV_PY/FYYS_ZR.py
     - name: 检测文件是否更新
       id: check_updates
-      run: |        
+      run: | 
+        git status --porcelain
         UPDATED_FILES=$(git status --porcelain | grep -E '^(M|A|D|R|C)' | awk '{print $2}')
         echo "UPDATED_FILES: $UPDATED_FILES"
         if [ -z "$UPDATED_FILES" ]; then
@@ -44,7 +45,7 @@ jobs:
         fi 
     - name: 提交更改
       run: |   
-         git status --porcelain
+         
          git pull origin main
          git config --local user.email "474628725@qq.com"
          git config --local user.name "badboy518714"
