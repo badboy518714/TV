@@ -35,14 +35,29 @@ jobs:
       run: |
         python  IPTV_PY/IPTV4.py
           
+    - name: 检测文件是否更新
+      id: check_updates
+      run: | 
+        CHANGES=0
+        UPDATED_FILES=$(git status --porcelain)
+        if [ -n "$UPDATED_FILES" ]; then
+          echo "UPDATED_FILES: $UPDATED_FILES"
+          CHANGES=1
+        else
+          echo "No updated files. Skipping git add."          
+        fi
+        echo "CHANGES=$CHANGES" >> $GITHUB_ENV
     - name: 提交更改
-      run: |     
+      if: ${{ env.CHANGES!= 0 }}
+      run: |    
+         echo "CHANGES: ${{ env.CHANGES }}"
          git pull origin main
          git config --local user.email "474628725@qq.com"
          git config --local user.name "badboy518714"
          git add .
          git commit -m "由github actions推送更新,日期:`date`"
     - name: 推送更改
+      if: ${{ env.CHANGES!= 0 }}
       uses:  ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
