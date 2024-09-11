@@ -38,15 +38,18 @@ jobs:
       run: | 
         UPDATED_FILES=$(git status --porcelain)
         echo "UPDATED_FILES: $UPDATED_FILES"
-        if [ -z "$UPDATED_FILES" ]; then
+        if [ -n "$UPDATED_FILES" ]; then
+          echo "UPDATED_FILES: $UPDATED_FILES"
+          CHANGES = 1
+        else
           echo "No updated files. Skipping git add."
-          exit 0
-        fi 
-        echo "UPDATED_FILES=$UPDATED_FILES" >> $GITHUB_ENV
+          CHANGES = 0
+        fi
+        echo "CHANGES=$CHANGES" >> $GITHUB_ENV
     - name: 提交更改
       run: |    
-         # echo ${{ env.UPDATED_FILES }}
-         echo steps.check_updates.outputs.UPDATED_FILES
+         # echo ${{ env.CHANGES }}
+         echo steps.check_updates.outputs.CHANGES
          git pull origin main
          git config --local user.email "474628725@qq.com"
          git config --local user.name "badboy518714"
