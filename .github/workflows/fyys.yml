@@ -48,7 +48,7 @@ jobs:
     - name: 提交更改
       if: ${{ env.CHANGES }}!= 0
       run: |    
-         # echo ${{ env.CHANGES }}
+         echo "CHANGES: ${{ env.CHANGES }}"
          git pull origin main
          git config --local user.email "474628725@qq.com"
          git config --local user.name "badboy518714"
