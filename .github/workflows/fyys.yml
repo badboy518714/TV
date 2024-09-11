@@ -46,7 +46,7 @@ jobs:
         fi
         echo "CHANGES=$CHANGES" >> $GITHUB_ENV
     - name: 提交更改
-      if: ${{ env.CHANGES }} != 0
+      if: ${{ env.CHANGES!= 0 }}
       run: |    
          echo "CHANGES: ${{ env.CHANGES }}"
          git pull origin main
@@ -55,7 +55,7 @@ jobs:
          git add .
          git commit -m "由github actions推送更新,日期:`date`"
     - name: 推送更改
-      if: ${{ env.CHANGES }} != 0
+      if: ${{ env.CHANGES!= 0 }}
       uses:  ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
