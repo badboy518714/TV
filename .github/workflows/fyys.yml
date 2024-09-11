@@ -36,26 +36,7 @@ jobs:
     - name: 检测文件是否更新
       id: check_updates
       run: | 
-        git status --porcelain
-        # 测试 grep
-        git_output="M \"IPTV_M3U/\347\237\275\350\260\267\345\237\272\347\235\243\345\276\222\350\201\232\344\274\232.m3u\"\n M \"SJ_JSON/\347\246\217\351\237\263\345\275\261\350\247\206.json\""
-        # grep_result=$(echo "$git_output" | grep -E '^(M|A|D|R|C)')
-        # echo "Grep result: $grep_result"
-
-        # # 测试 awk
-        # awk_result=$(echo "$grep_result" | awk 'BEGIN {RS="\n"; FS=" "} {if ($1 ~ /^(M|A|D|R|C)/) print $2}')
-        # echo "Awk result: $awk_result"
-
-        
-        # 使用 sed 去除每行开头的状态字符和空格
-        processed_output=$(echo "$git_output" | sed 's/^[A-Z] //')
-
-        # 使用 awk 提取每行的第二个字段
-        updated_files=$(echo "$processed_output" | awk '{print $2}')
-
-        echo "updated_files：$updated_files"
-         
-        UPDATED_FILES=$(git status --porcelain | grep -E '^(M|A|D|R|C)' | awk '{print $2}')
+        UPDATED_FILES=$(git status --porcelain)
         echo "UPDATED_FILES: $UPDATED_FILES"
         if [ -z "$UPDATED_FILES" ]; then
           echo "No updated files. Skipping git add."
