@@ -45,7 +45,7 @@ jobs:
         echo "UPDATED_FILES=$UPDATED_FILES" >> $GITHUB_ENV
     - name: 提交更改
       run: |    
-         echo "flag: ${{ env.UPDATED_FILES }}"
+         echo ${{ env.UPDATED_FILES }}
          git pull origin main
          git config --local user.email "474628725@qq.com"
          git config --local user.name "badboy518714"
