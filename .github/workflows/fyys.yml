@@ -43,7 +43,7 @@ jobs:
         echo "Grep result: $grep_result"
 
         # 测试 awk
-        awk_result=$(echo "$grep_result" | awk '{if (NR>1) {printf("%s ", $2)} else {print $2}}')
+        awk_result=$(echo "$grep_result" | awk 'BEGIN {RS="\n"; FS=" "} {if ($1 ~ /^(M|A|D|R|C)/) print $2}')
         echo "Awk result: $awk_result"
          
         UPDATED_FILES=$(git status --porcelain | grep -E '^(M|A|D|R|C)' | awk '{print $2}')
