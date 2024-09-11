@@ -36,11 +36,11 @@ jobs:
     - name: 检测文件是否更新
       id: check_updates
       run: | 
-        CHANGES = 0
+        CHANGES=0
         UPDATED_FILES=$(git status --porcelain)
         if [ -n "$UPDATED_FILES" ]; then
           echo "UPDATED_FILES: $UPDATED_FILES"
-          CHANGES = 1
+          CHANGES=1
         else
           echo "No updated files. Skipping git add."          
         fi
