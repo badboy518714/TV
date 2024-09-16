@@ -1,5 +1,14 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-1",20240915 主日崇拜（现场直播）｜从初步到成熟的信仰
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_7a9411bd/20240915113552_33992d50/record.m3u8?token=CE619455_NTMxNjQwNjY3XzY2RjBEQTlGX016TTVPVEprTlRBX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_7a9411bd/20240915113552_33992d50/record.m3u8?token=CE619455_NTMxNjQwNjY3XzY2RjBEQTlGX016TTVPVEprTlRBX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-1",20240915 「悉尼基督生命堂」主日崇拜（现场直播）｜
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_d030b992/20240915094318_d5b1db8f/record.m3u8?token=67B6C942_NTMxODI1MTcwXzY2RjBEQUEyX1pEVmlNV1JpT0dZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_d030b992/20240915094318_d5b1db8f/record.m3u8?token=67B6C942_NTMxODI1MTcwXzY2RjBEQUEyX1pEVmlNV1JpT0dZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-1",20240915 「墨尔本基督生命堂」主日崇拜 （现场直播）｜
+https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ea99d12a/20240915174215_b48df4a3/record.m3u8?token=A9A72787_NDYyNzQyNDExXzY2RjBEQUEwX1lqUTRaR1kwWVRNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
+https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ea99d12a/20240915174215_b48df4a3/record.m3u8?token=A9A72787_NDYyNzQyNDExXzY2RjBEQUEwX1lqUTRaR1kwWVRNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-1",20240908 主日崇拜（现场直播）｜以弗所的大复兴
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2a208151/20240908114839_77c0750b/record.m3u8?token=C953DEE1_MTM2NDczMTk3XzY2RTcyQTk3X056ZGpNRGMxTUdJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2a208151/20240908114839_77c0750b/record.m3u8?token=C953DEE1_MTM2NDczMTk3XzY2RTcyQTk3X056ZGpNRGMxTUdJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
@@ -141,13 +150,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ba640e62/20240407200
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-1",20240407 08:34:55直播：「主日直播」- 主耶稣向十一个门徒显现
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_523251cc/20240407102807_2ebc3b81/record.m3u8?token=F06F46F0_MjczNzk5OTgzXzY2RTcyQTk4X01tVmlZek5pT0RFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_523251cc/20240407102807_2ebc3b81/record.m3u8?token=F06F46F0_MjczNzk5OTgzXzY2RTcyQTk4X01tVmlZek5pT0RFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-1",20240331 09:56:18直播回放 20240331 (新加坡) 「复活节主日崇拜」｜不公的判决，完美的救恩
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-2",20240331 09:56:18直播回放 20240331 (新加坡) 「复活节主日崇拜」｜不公的判决，完美的救恩
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_e1b0e03d/20240331121900_34e86335/record.m3u8?token=F2FB551_MjQ3MzgwNDgzXzY2RTcyQTk4X016UmxPRFl6TXpVX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_e1b0e03d/20240331121900_34e86335/record.m3u8?token=F2FB551_MjQ3MzgwNDgzXzY2RTcyQTk4X016UmxPRFl6TXpVX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-1",20240331 08:36:14直播：「主日特别信息」- 若不死就不能复活
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-2",20240331 08:36:14直播：「主日特别信息」- 若不死就不能复活
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_b873917e/20240331101716_997c28fb/record.m3u8?token=9E450F3A_MzE3MDA3NTg1XzY2RTcyQTk4X09UazNZekk0Wm1JX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_b873917e/20240331101716_997c28fb/record.m3u8?token=9E450F3A_MzE3MDA3NTg1XzY2RTcyQTk4X09UazNZekk0Wm1JX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-1",20240324 09:57:51直播回放 20240324 主日崇拜（现场直播）｜不可难为那归服神的人
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-2",20240324 09:57:51直播回放 20240324 主日崇拜（现场直播）｜不可难为那归服神的人
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_df83ed55/20240324114444_5500065a/record.m3u8?token=6685E821_NTczNDM1ODMyXzY2RTcyQTk4X05UVXdNREEyTldFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_df83ed55/20240324114444_5500065a/record.m3u8?token=6685E821_NTczNDM1ODMyXzY2RTcyQTk4X05UVXdNREEyTldFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-2",20240324 08:33:34直播：「主日直播」- 主耶稣先向抹大拉的马利亚显现
@@ -294,13 +303,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_4f7e5e0a/20231112133
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-2",20231112 09:29:32直播回放  20231112 主日崇拜 第一场（现场直播）｜保罗斥责那敌挡真道的巴耶稣
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_e1ed1dec/20231112112055_73a1f605/record.m3u8?token=1480EBEF_ODMxOTk0MTMxXzY2RTcyQTk5X056TmhNV1kyTURVX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_e1ed1dec/20231112112055_73a1f605/record.m3u8?token=1480EBEF_ODMxOTk0MTMxXzY2RTcyQTk5X056TmhNV1kyTURVX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-2",20231105 11:54:12直播回放 20231105 主日崇拜 第二场（现场直播）｜帮助人恢复关系
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-3",20231105 11:54:12直播回放 20231105 主日崇拜 第二场（现场直播）｜帮助人恢复关系
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_0d4caada/20231105135823_d71c00e0/record.m3u8?token=62ABB7B6_MjExMDMxNTEzXzY2RTcyQTk5X1pEY3hZekF3WlRBX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_0d4caada/20231105135823_d71c00e0/record.m3u8?token=62ABB7B6_MjExMDMxNTEzXzY2RTcyQTk5X1pEY3hZekF3WlRBX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-2",20231105 09:29:26直播回放 20231105 主日崇拜 第一场（现场直播）｜神借教会开始伟大的宣教工作
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-3",20231105 09:29:26直播回放 20231105 主日崇拜 第一场（现场直播）｜神借教会开始伟大的宣教工作
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_b0524f49/20231105113521_7fe02459/record.m3u8?token=11773179_MjI1NTE1NDg3XzY2RTcyQTk5X04yWmxNREkwTlRrX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_b0524f49/20231105113521_7fe02459/record.m3u8?token=11773179_MjI1NTE1NDg3XzY2RTcyQTk5X04yWmxNREkwTlRrX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-2",20231105 08:55:39直播「主日信息」- 祂要叫世人为罪、为义、为审判，自己责备自己
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-3",20231105 08:55:39直播「主日信息」- 祂要叫世人为罪、为义、为审判，自己责备自己
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_f8f41758/20231105102543_4284eedb/record.m3u8?token=E1BDE165_NDc5NzM2MzY4XzY2RTcyQTk5X05ESTROR1ZsWkdJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_f8f41758/20231105102543_4284eedb/record.m3u8?token=E1BDE165_NDc5NzM2MzY4XzY2RTcyQTk5X05ESTROR1ZsWkdJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-3",20231029 11:26:50直播回放 20231029 主日崇拜 第二场（现场直播）｜时常寻求恩惠和平安的机会
@@ -447,13 +456,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_e9616f1f/20230730110
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-3",20230730 08:47:48直播「主日信息」- 主叫他们瞎了眼，硬了心
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_aaa5e1bd/20230730101619_c2cc645a/record.m3u8?token=35DCC4E4_MzgwOTg0NDcwXzY2RTcyQTlBX1l6SmpZelkwTldFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_aaa5e1bd/20230730101619_c2cc645a/record.m3u8?token=35DCC4E4_MzgwOTg0NDcwXzY2RTcyQTlBX1l6SmpZelkwTldFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-3",20230723 17:09:37直播回放   20230723  吉隆坡主日崇拜 ｜不凭感觉，只凭道理
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-4",20230723 17:09:37直播回放   20230723  吉隆坡主日崇拜 ｜不凭感觉，只凭道理
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ea49cf82/20230723190035_39df59ad/record.m3u8?token=3F3CD572_OTU4MDQ3MDc3XzY2RTcyQTlCX016bGtaalU1WVdRX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ea49cf82/20230723190035_39df59ad/record.m3u8?token=3F3CD572_OTU4MDQ3MDc3XzY2RTcyQTlCX016bGtaalU1WVdRX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-3",20230723 11:31:07直播回放  20230723 主日崇拜 - 第二场（现场直播）：用和平栽种义果的言语
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-4",20230723 11:31:07直播回放  20230723 主日崇拜 - 第二场（现场直播）：用和平栽种义果的言语
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_31ecfc23/20230723131807_a7f37df0/record.m3u8?token=12060DAB_ODc2MTEyMDM1XzY2RTcyQTlCX1lUZG1NemRrWmpBX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_31ecfc23/20230723131807_a7f37df0/record.m3u8?token=12060DAB_ODc2MTEyMDM1XzY2RTcyQTlCX1lUZG1NemRrWmpBX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-3",20230723 09:30:16直播回放 20230723 主日崇拜 - 第一场（现场直播）：神的使者向哥尼流显现
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-4",20230723 09:30:16直播回放 20230723 主日崇拜 - 第一场（现场直播）：神的使者向哥尼流显现
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_adab8e02/20230723111113_0c376e40/record.m3u8?token=68B2403B_MjcwMTY1Mzc3XzY2RTcyQTlCX01HTXpOelpsTkRBX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_adab8e02/20230723111113_0c376e40/record.m3u8?token=68B2403B_MjcwMTY1Mzc3XzY2RTcyQTlCX01HTXpOelpsTkRBX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-4",20230723 08:35:17直播「主日信息」- 圣子荣耀圣父
@@ -600,13 +609,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_61f9d22a/20230416111
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-4",20230416 08:54:56直播「主日信息」- 我是羊的门，我是好牧人
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ea59fc67/20230416100057_ae92d1f1/record.m3u8?token=9758C06F_MjEzMzYyOTc1XzY2RTcyQTlDX1lXVTVNbVF4WmpFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ea59fc67/20230416100057_ae92d1f1/record.m3u8?token=9758C06F_MjEzMzYyOTc1XzY2RTcyQTlDX1lXVTVNbVF4WmpFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-4",20230409 11:57:22直播回放 2023-复活节主日崇拜️ 第二场 ：神的儿子带给人的盼望
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-5",20230409 11:57:22直播回放 2023-复活节主日崇拜️ 第二场 ：神的儿子带给人的盼望
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_cc3df4ef/20230409141152_8721c103/record.m3u8?token=9040D66A_MTQyNTAxODU5XzY2RTcyQTlDX09EY3lNV014TURNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_cc3df4ef/20230409141152_8721c103/record.m3u8?token=9040D66A_MTQyNTAxODU5XzY2RTcyQTlDX09EY3lNV014TURNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-4",20230409 09:28:26直播回放 2023-复活节主日崇拜️ 第一场 ：人需要盼望
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-5",20230409 09:28:26直播回放 2023-复活节主日崇拜️ 第一场 ：人需要盼望
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_155cc9fb/20230409112219_ad601ba4/record.m3u8?token=DD66D913_NDIxODI3NzU3XzY2RTcyQTlDX1lXUTJNREZpWVRRX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_155cc9fb/20230409112219_ad601ba4/record.m3u8?token=DD66D913_NDIxODI3NzU3XzY2RTcyQTlDX1lXUTJNREZpWVRRX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-4",20230402 11:30:36直播回放 4月2日 主日崇拜第二场：大使命：神动员教会寻找失丧的人
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-5",20230402 11:30:36直播回放 4月2日 主日崇拜第二场：大使命：神动员教会寻找失丧的人
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_a21c6d9c/20230402132451_a0f6a59b/record.m3u8?token=F0F0BC74_MzExOTgwNjk0XzY2RTcyQTlDX1lUQm1ObUUxT1dJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_a21c6d9c/20230402132451_a0f6a59b/record.m3u8?token=F0F0BC74_MzExOTgwNjk0XzY2RTcyQTlDX1lUQm1ObUUxT1dJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-5",20230402 09:28:39直播回放 4月2日 主日崇拜第一场：在旷野中有神的道路
@@ -753,13 +762,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_eebc4ef0/20221204113
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-5",20221127 吉隆坡主日崇拜 (蒙福基督生命堂)｜
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_04faeb44/20221127191905_981989eb/record.m3u8?token=D7805BD_MjMxNTI5NDUzXzY2RTcyQTlFX09UZ3hPVGc1WldJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_04faeb44/20221127191905_981989eb/record.m3u8?token=D7805BD_MjMxNTI5NDUzXzY2RTcyQTlFX09UZ3hPVGc1WldJX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-5",20221127 11:35:37直播回放 11月27日 主日崇拜第二场：认识神的话，取得神的能力
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-6",20221127 11:35:37直播回放 11月27日 主日崇拜第二场：认识神的话，取得神的能力
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ba411817/20221127131523_26e4261a/record.m3u8?token=CC4A1436_NDk2ODg2MzM2XzY2RTcyQTlFX01qWmxOREkyTVdFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ba411817/20221127131523_26e4261a/record.m3u8?token=CC4A1436_NDk2ODg2MzM2XzY2RTcyQTlFX01qWmxOREkyTVdFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-5",20221127 09:32:30直播回放 11月27日 主日崇拜第一场：神将我们从罪中拯救出来
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-6",20221127 09:32:30直播回放 11月27日 主日崇拜第一场：神将我们从罪中拯救出来
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_4b199b9b/20221127111025_450a038d/record.m3u8?token=451EA8D7_NzMxMjc4ODU4XzY2RTcyQTlFX05EVXdZVEF6T0dRX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_4b199b9b/20221127111025_450a038d/record.m3u8?token=451EA8D7_NzMxMjc4ODU4XzY2RTcyQTlFX05EVXdZVEF6T0dRX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-5",20221120 11:38:25直播回放 11月20日 主日崇拜第二场：基督的奥秘就是外邦人得以同为一体
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-6",20221120 11:38:25直播回放 11月20日 主日崇拜第二场：基督的奥秘就是外邦人得以同为一体
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_c3eb01f3/20221120133025_827a6fcd/record.m3u8?token=FBBE2622_MjQ1NjU1OTAyXzY2RTcyQTlFX09ESTNZVFptWTJRX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_c3eb01f3/20221120133025_827a6fcd/record.m3u8?token=FBBE2622_MjQ1NjU1OTAyXzY2RTcyQTlFX09ESTNZVFptWTJRX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-6",20221120 09:29:43直播回放 11月20日 主日崇拜第一场：在撒马利亚城里久行邪术的西门
@@ -906,13 +915,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_e54cfed7/20220605135
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-6",20220605 09:29:45直播回放 6月5日 主日崇拜第一场：在教会分歧中被兴起的服侍者
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_0e84acb8/20220605113143_319e67d9/record.m3u8?token=767E1B86_NzMxNjY2MTcxXzY2RTcyQTlGX016RTVaVFkzWkRrX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_0e84acb8/20220605113143_319e67d9/record.m3u8?token=767E1B86_NzMxNjY2MTcxXzY2RTcyQTlGX016RTVaVFkzWkRrX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-6",20220529 11:37:45直播回放 5月29日 主日崇拜第二场：为何与如何拯救家庭？
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-7",20220529 11:37:45直播回放 5月29日 主日崇拜第二场：为何与如何拯救家庭？
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_310fa317/20220529134225_c0015f38/record.m3u8?token=DE053E82_OTc0NzI1MzM1XzY2RTcyQTlGX1l6QXdNVFZtTXpnX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_310fa317/20220529134225_c0015f38/record.m3u8?token=DE053E82_OTc0NzI1MzM1XzY2RTcyQTlGX1l6QXdNVFZtTXpnX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-6",20220529 09:26:42直播回放 5月29日 主日崇拜第一场：儿女教育的挑战
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-7",20220529 09:26:42直播回放 5月29日 主日崇拜第一场：儿女教育的挑战
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_573cc7b6/20220529112841_7bc1e0e6/record.m3u8?token=32B4B6C_NDQ2MDU4NTQ4XzY2RTcyQTlGX04ySmpNV1V3WlRZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_573cc7b6/20220529112841_7bc1e0e6/record.m3u8?token=32B4B6C_NDQ2MDU4NTQ4XzY2RTcyQTlGX04ySmpNV1V3WlRZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-6",20220522 11:41:56现场直播5月22日 主日崇拜第二场：彼此顺服的夫妇关系
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-7",20220522 11:41:56现场直播5月22日 主日崇拜第二场：彼此顺服的夫妇关系
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_30a656d6/20220522133340_955b2c01/record.m3u8?token=D4A2E4B2_ODg5NTc2ODQ4XzY2RTcyQTlGX09UVTFZakpqTURFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_30a656d6/20220522133340_955b2c01/record.m3u8?token=D4A2E4B2_ODg5NTc2ODQ4XzY2RTcyQTlGX09UVTFZakpqTURFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-7",20220522 09:30:38现场直播5月22日 主日崇拜第一场：神照着自己的形象造男造女
@@ -1059,13 +1068,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ed10cdc2/20220102113
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-7",20220102 08:59:22直播「主日崇拜」- 认识自己
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_4fb437f7/20220102101617_96ddcf71/record.m3u8?token=A17DCA0_NjQ3NDg3NDM5XzY2RTcyQUEwX09UWmtaR05tTnpFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_4fb437f7/20220102101617_96ddcf71/record.m3u8?token=A17DCA0_NjQ3NDg3NDM5XzY2RTcyQUEwX09UWmtaR05tTnpFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-7",20211226 12:01:15现场直播12月26日 主日崇拜第二场：神赐给人唯一的机会
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-8",20211226 12:01:15现场直播12月26日 主日崇拜第二场：神赐给人唯一的机会
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2190a807/20211226140748_47462317/record.m3u8?token=A6D85A1E_NDQ4MjMxMjEwXzY2RTcyQUEwX05EYzBOakl6TVRjX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2190a807/20211226140748_47462317/record.m3u8?token=A6D85A1E_NDQ4MjMxMjEwXzY2RTcyQUEwX05EYzBOakl6TVRjX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-7",20211226 09:32:42现场直播12月26日 主日崇拜第一场：当神赐下机会...
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-8",20211226 09:32:42现场直播12月26日 主日崇拜第一场：当神赐下机会...
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_7e7392a8/20211226112252_64445145/record.m3u8?token=DA9F6C5B_ODczMDkwNjc5XzY2RTcyQUEwX05qUTBORFV4TkRVX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_7e7392a8/20211226112252_64445145/record.m3u8?token=DA9F6C5B_ODczMDkwNjc5XzY2RTcyQUEwX05qUTBORFV4TkRVX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-7",20211219 11:30:40直播回放12月19日 主日崇拜第二场：你要预备主的道路
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-8",20211219 11:30:40直播回放12月19日 主日崇拜第二场：你要预备主的道路
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2131e1a9/20211219133341_5e64e921/record.m3u8?token=310EA944_NjEyMDU1NjU3XzY2RTcyQUEwX05XVTJOR1U1TWpFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2131e1a9/20211219133341_5e64e921/record.m3u8?token=310EA944_NjEyMDU1NjU3XzY2RTcyQUEwX05XVTJOR1U1TWpFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-8",20211219 09:30:21现场直播12月19日 主日崇拜第一场：祷告和传福音如何并行？
@@ -1212,13 +1221,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_9ed048cd/20210919103
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-8",20210912 12:07:50现场直播9月12主日崇拜3⃣️：主耶稣使瞎眼的得看见
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ecf6011e/20210912135416_f2b7c268/record.m3u8?token=326C1140_MzY1ODY2Mjg1XzY2RTcyQUEyX1pqSmlOMk15TmpnX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_ecf6011e/20210912135416_f2b7c268/record.m3u8?token=326C1140_MzY1ODY2Mjg1XzY2RTcyQUEyX1pqSmlOMk15TmpnX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-8",20210912 10:34:28现场直播9月12主日崇拜2⃣️：救恩给与精神挣扎的答案
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-9",20210912 10:34:28现场直播9月12主日崇拜2⃣️：救恩给与精神挣扎的答案
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_eb6f6dc6/20210912115656_745dc11e/record.m3u8?token=483DD882_OTkzNTIwNTkzXzY2RTcyQUEyX056UTFaR014TVdVX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_eb6f6dc6/20210912115656_745dc11e/record.m3u8?token=483DD882_OTkzNTIwNTkzXzY2RTcyQUEyX056UTFaR014TVdVX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-8",20210912 08:58:26现场直播9月12主日崇拜1⃣️：圣灵借着不完全的人将福音传到地极
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-9",20210912 08:58:26现场直播9月12主日崇拜1⃣️：圣灵借着不完全的人将福音传到地极
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_3900cbce/20210912102622_7093440a/record.m3u8?token=E2C3CD1D_Njc5NDU3NDE5XzY2RTcyQUEyX056QTVNelEwTUdFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_3900cbce/20210912102622_7093440a/record.m3u8?token=E2C3CD1D_Njc5NDU3NDE5XzY2RTcyQUEyX056QTVNelEwTUdFX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-8",20210912 08:50:46直播『主日崇拜』- 让主的恩光从我的言语中发出
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-9",20210912 08:50:46直播『主日崇拜』- 让主的恩光从我的言语中发出
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_b33d87d9/20210912100640_84190ffa/record.m3u8?token=24638D23_ODYzMzY2ODA1XzY2RTcyQUEyX09EUXhPVEJtWm1FX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_b33d87d9/20210912100640_84190ffa/record.m3u8?token=24638D23_ODYzMzY2ODA1XzY2RTcyQUEyX09EUXhPVEJtWm1FX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-9",20210905 12:01:34现场直播9月5主日崇拜3⃣️：经过神的试验和信任
@@ -1365,13 +1374,13 @@ https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_1de7447e/20210502140
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-9",20210502 09:31:31新加坡5月2主日崇拜1⃣️：在危难中明白神的旨意
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_fd1cd63a/20210502111723_f2e04406/record.m3u8?token=84B5FC1E_NjU1MTUwMDkzXzY2RTcyQUEzX1pqSmxNRFEwTURZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_fd1cd63a/20210502111723_f2e04406/record.m3u8?token=84B5FC1E_NjU1MTUwMDkzXzY2RTcyQUEzX1pqSmxNRFEwTURZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-9",20210425 11:32:19新加坡4月25主日崇拜2⃣️：当谨慎不落入律法主义
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-10",20210425 11:32:19新加坡4月25主日崇拜2⃣️：当谨慎不落入律法主义
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2f5d39c1/20210425133016_781a19a3/record.m3u8?token=E8D7FD97_ODI0MDIzNzkwXzY2RTcyQUEzX056Z3hZVEU1WVRNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2f5d39c1/20210425133016_781a19a3/record.m3u8?token=E8D7FD97_ODI0MDIzNzkwXzY2RTcyQUEzX056Z3hZVEU1WVRNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-9",20210425 09:30:34新加坡4月25主日崇拜1⃣️：主耶稣为众圣徒祷告：求父使..
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-10",20210425 09:30:34新加坡4月25主日崇拜1⃣️：主耶稣为众圣徒祷告：求父使..
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2a1d314e/20210425111904_74ab7d4c/record.m3u8?token=D77E7027_NTcyOTg0MjM0XzY2RTcyQUEzX056UmhZamRrTkdNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_2a1d314e/20210425111904_74ab7d4c/record.m3u8?token=D77E7027_NTcyOTg0MjM0XzY2RTcyQUEzX056UmhZamRrTkdNX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-9",20210418 11:32:23新加坡4月18主日崇拜2⃣️：不要坐着等死，乃要起来遵行主道
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-10",20210418 11:32:23新加坡4月18主日崇拜2⃣️：不要坐着等死，乃要起来遵行主道
 https://bdhlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_34d9790c/20210418132016_c84a7f46/record.m3u8?token=D4D04C43_NzE1NDY1ODk3XzY2RTcyQUE0X1l6ZzBZVGRtTkRZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 https://tehlsvodhls02.vhallyun.com/vhallyun/vhallrecord/lss_34d9790c/20210418132016_c84a7f46/record.m3u8?token=D4D04C43_NzE1NDY1ODk3XzY2RTcyQUE0X1l6ZzBZVGRtTkRZX01UVmtaalJrTTJaZk1UZ3dOalkyTVRjNV92b2Q
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-10",20210418 09:34:04新加坡4月18主日崇拜1⃣️：主耶稣为门徒祷告（2）：求父成圣他
@@ -1505,11 +1514,11 @@ https://alhlsvodhls01.e.vhall.com//vhallrecord/863920928/20201108134242_2629804/
 https://alhlsvodhls01.e.vhall.com//vhallrecord/955604790/20201108111236_2629456/record.m3u8?token=EF7099F1_NjQyODY0NTc1XzY2RTcyQUE0X09UVTFOakEwTnprd19PRGcwTlRBME16ZzVfdm9k
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-10",20201101 11:30:06新加坡-11月1主日崇拜2⃣️：基督信仰福音与美国大选
 https://alhlsvodhls01.e.vhall.com//vhallrecord/691261976/20201101190728_2615643/record.m3u8?token=948F76CA_NzI2MzI0MTc5XzY2RTcyQUE0X05qa3hNall4T1RjMl9PRGcwTlRBME16azJfdm9k
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-10",20201101 09:30:39新加坡-11月1主日崇拜1⃣️：主爱门徒到底 
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-11",20201101 09:30:39新加坡-11月1主日崇拜1⃣️：主爱门徒到底 
 https://alhlsvodhls01.e.vhall.com//vhallrecord/776419155/20201101111233_2615195/record.m3u8?token=5FC42496_ODU5NzUyMDE5XzY2RTcyQUE0X056YzJOREU1TVRVMV9PRGcwTlRBME16azNfdm9k
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-10",20201025 11:31:13新加坡-10月25主日崇拜2⃣️：从神“借来”的生命当怎么活
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-11",20201025 11:31:13新加坡-10月25主日崇拜2⃣️：从神“借来”的生命当怎么活
 https://alhlsvodhls01.e.vhall.com//vhallrecord/456057843/20201025132715_2599760/record.m3u8?token=442DC90A_Nzg2OTU5ODg1XzY2RTcyQUE0X05EVTJNRFUzT0RRel9PRGcwTlRBME16azBfdm9k
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-10",20201025 09:33:09新加坡-10月25主日崇拜1⃣️：主叫他们瞎了眼，硬了心
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-11",20201025 09:33:09新加坡-10月25主日崇拜1⃣️：主叫他们瞎了眼，硬了心
 https://alhlsvodhls01.e.vhall.com//vhallrecord/714158975/20201025111112_2599591/record.m3u8?token=D9C116D0_NzQyNzQwNTU5XzY2RTcyQUE0X056RTBNVFU0T1RjMV9PRGcwTlRBME16a3pfdm9k
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-11",20201018 13:23:31新加坡-10月18 主日崇拜2⃣️：当与你的过去和好
 https://alhlsvodhls01.e.vhall.com//vhallrecord/661439464/20201019110738_2584354/record.m3u8?token=57D71F60_NjQ2NTcwODY5XzY2RTcyQUE1X05qWXhORE01TkRZMF9PRGcwTlRBME5EQXhfdm9k
@@ -1607,9 +1616,9 @@ https://alhlsvodhls01.e.vhall.com//vhallrecord/248056974/20200329120156_1851742/
 https://alhlsvodhls01.e.vhall.com//vhallrecord/196488873/20200322124405_1802937/record.m3u8?token=5B591CFC_MzI5NjQwMjY4XzY2RTcyQUE1X01UazJORGc0T0Rjel9PRGcwTlRBME5EUXlfdm9k
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-11",20200315 10:51:20【台北基督生命堂主日崇拜會】：萬物的結局近了
 https://alhlsvodhls01.e.vhall.com//vhallrecord/754018196/20200315133358_1751567/record.m3u8?token=3496E1D8_MjUwMzY5NDkwXzY2RTcyQUE1X056VTBNREU0TVRrMl9PRGcwTlRBME5ETTNfdm9k
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-11",20200301 12:14:31【新加坡】主日崇拜：面对人性最好与最糟的一面
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-12",20200301 12:14:31【新加坡】主日崇拜：面对人性最好与最糟的一面
 https://alhlsvodhls01.e.vhall.com//vhallrecord/871882838/20200301125530_1648015/record.m3u8?token=BB7D209F_MTI1NjEyNTAzXzY2RTcyQUE1X09EY3hPRGd5T0RNNF9PRGcwTlRBME5EUTNfdm9k
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-11",20200223 10:43:01【新加坡基督生命堂】主日崇拜：谁看透这世界的坏事与好事？
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-12",20200223 10:43:01【新加坡基督生命堂】主日崇拜：谁看透这世界的坏事与好事？
 https://alhlsvodhls01.e.vhall.com//vhallrecord/909173452/20200223122526_1597054/record.m3u8?token=E9831FEC_NDUwMTcwNDcyXzY2RTcyQUE1X09UQTVNVGN6TkRVeV9PRGcwTlRBME5EUTRfdm9k
-#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-11",20200216 10:39:27【新加坡】2月16主日主题：试炼使我们认清悖论的基督徒人生
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="海外主日-12",20200216 10:39:27【新加坡】2月16主日主题：试炼使我们认清悖论的基督徒人生
 https://alhlsvodhls01.e.vhall.com//vhallrecord/522600705/20200216121323_1548128/record.m3u8?token=8DB04428_ODg0OTY5MTUwXzY2RTcyQUE1X05USXlOakF3TnpBMV9PRGcwTlRBME5ETTVfdm9k
