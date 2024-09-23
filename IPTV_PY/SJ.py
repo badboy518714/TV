@@ -278,8 +278,8 @@ def updata_ft():
                 res = requests.get(content_url).text
                 mp3_url = re.search(r'"(https://oss.arksaas.cn/[^"]*.mp[34])"', res)
                 pic_url = re.search(r'class="n_picture_adm" src="([^"]*.png)" />', res)
-                    if mp3_url and pic_url:
-                        _list.append([title, pic_url.group(1), mp3_url.group(1)])
+                if mp3_url and pic_url:
+                    _list.append([title, pic_url.group(1), mp3_url.group(1)])
         if cid == '959':
             _list.reverse()
         sj_list_1.append(_list)
