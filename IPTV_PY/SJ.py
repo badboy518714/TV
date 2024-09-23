@@ -241,9 +241,12 @@ def fengtai_m3u():
                     content_url = data["content_url"]
                     res = requests.get(content_url).text
                     mp3_url = re.search(r'"(https://oss.arksaas.cn/[^"]*.mp[34])"', res)
-                    if mp3_url:
-                        _list.append([title, mp3_url.group(1)])
+                    pic_url = re.search(r'class="n_picture_adm" src="([^"]*.png)" />', res)
+                    if mp3_url and pic_url:
+                        _list.append([title, pic_url.group(1), mp3_url.group(1)])
             page += 1
+        if cid == '959':
+            _list.reverse()
         sj_list.append(_list)
     FT_write_m3u(sj_list)
 
@@ -274,8 +277,11 @@ def updata_ft():
                 content_url = data["content_url"]
                 res = requests.get(content_url).text
                 mp3_url = re.search(r'"(https://oss.arksaas.cn/[^"]*.mp[34])"', res)
-                if mp3_url:
-                    _list.append([title, mp3_url.group(1)])
+                pic_url = re.search(r'class="n_picture_adm" src="([^"]*.png)" />', res)
+                    if mp3_url and pic_url:
+                        _list.append([title, pic_url.group(1), mp3_url.group(1)])
+        if cid == '959':
+            _list.reverse()
         sj_list_1.append(_list)
     for index, res in enumerate(sj_list_1):
         demo = []
