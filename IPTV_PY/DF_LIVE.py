@@ -72,8 +72,8 @@ def start():
     for value in json_data.values():
         list_info.append(value)
     data = {
-        "live": list_info[8:],
-        "radio": list_info[:8]
+        "1": list_info[8:],
+        "2": list_info[:8]
     }
     with open('IPTV_TXT/山东_地方.txt', 'w', encoding='utf-8') as f:
         json_string = json.dumps(data)
