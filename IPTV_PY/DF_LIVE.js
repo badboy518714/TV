@@ -1,4 +1,4 @@
-const CryptoJS = require('../IPTV_JS/lib/crypto-js')
+const CryptoJS = require('IPTV_JS/lib/crypto-js')
 
 // 解密
 function aesDecrypt(word) {
