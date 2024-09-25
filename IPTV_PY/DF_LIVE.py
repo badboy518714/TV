@@ -29,7 +29,7 @@ def get_m3u8(match):
         _data = ctx.call('get_s', _pdCid)
     except Exception as e:
         print('ERROR:', e)
-    print(_data)
+    # print(_data)
     params = {
         "t": _data["t"],
         "s": _data["s"]
@@ -49,7 +49,7 @@ def get_m3u8(match):
         "vod_name": f"山东{match[1]}",
         "vod_remarks": ""
     }
-    print(json_data[_pdCid])
+    # print(json_data[_pdCid])
 
 
 def start():
@@ -73,7 +73,7 @@ def start():
     }
     with open('IPTV_TXT/山东_地方.txt', 'w', encoding='utf-8') as f:
         json_string = json.dumps(data)
-        # print(json_string)
+        print(json_string)
         f.write('(' + json_string + ');')
         f.close()
         
