@@ -29,7 +29,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces05' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces00' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -67,7 +67,7 @@ async function category(tid, pg, filter, extend) {
         pagecount: 1,
         limit: 20,
         total: 20 * 1,
-        list: video_s
+        list: videos
     })
 }
 
