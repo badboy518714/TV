@@ -22,7 +22,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: '', type_name: '看电视' },{ type_id: '1', type_name: '听广播' },{ type_id: '2', type_name: '🐰02' }];
+    const classes = [{ type_id: '1', type_name: '看电视' },{ type_id: '2', type_name: '听广播' },{ type_id: '3', type_name: '🐰020' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -42,7 +42,7 @@ async function category(tid, pg, filter, extend) {
     const url = 'https://badboy518714.github.io/TV/IPTV_TXT/山东_地方.txt'
     const link = await request(url);
     const html = link.match(/\((.*?)\);/)[1];
-    const data = JSON.parse(html).data;
+    const data = JSON.parse(html)[tid];
     return JSON.stringify({
         page: 1,
         pagecount: 1,
