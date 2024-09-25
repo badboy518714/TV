@@ -4,6 +4,10 @@ let HOST = 'https://www.tuxiaobei.com';
 let siteKey = '';
 let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
+const url_data = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.txt'
+const link = await request(url_data);
+const html_data = link.match(/\((.*?)\);/)[1];
+const _data = JSON.parse(html_data).data;
 
 async function request(reqUrl, agentSp) {
     let res = await req(reqUrl, {
@@ -21,7 +25,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: '', type_name: '🐰全部' },{ type_id: '1', type_name: '🐰01' },{ type_id: '2', type_name: '🐰02' }];
+    const classes = [{ type_id: '', type_name: '🐰全部' },{ type_id: '1', type_name: '🐰01' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -38,38 +42,11 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {
-    const url1 = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.txt'
-    const url = 'https://www.tuxiaobei.com//list/mip-data?typeId=7&page=1&callback='
-    const link = await request(url1);
-    const html = link.match(/\((.*?)\);/)[1];
-    const data = JSON.parse(html).data;
-//     const jsonData = {
-//    "data": [ 
-//        {
-//         "vod_id": "https://3geau1mtagczdnqb3fa5dc.wslivehls.com/clivealone302.iqilu.com/291/caffbd9c4ae445d086cfe94302442d30/playlist.m3u8?auth=b3a290291a48f02ef02657b01926c028&timestamp=1727250416283&wsSession=c6899729c97d72b005fc0ca0-172725041648567&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1",
-//         "vod_pic": "https://img8.iqilu.com/vmsimgs/2024/09/21/1191230_2fa3b241723040de8753a5d84b7e2be0.png",
-//         "vod_name": "山东卫视_1",
-//         "vod_remarks": ""
-//         },
-//        {
-//         "vod_id": "https://3geau1mtagczdnqb3fa5dc.wslivehls.com/clivealone302.iqilu.com/291/caffbd9c4ae445d086cfe94302442d30/playlist.m3u8?auth=b3a290291a48f02ef02657b01926c028&timestamp=1727250416283&wsSession=c6899729c97d72b005fc0ca0-172725041648567&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1",
-//         "vod_pic": "https://badboy518714.github.io/TV/IPTV_LOGO/CCTV1.png",
-//         "vod_name": "山东卫视_2",
-//         "vod_remarks": ""
-//         },
-//        {
-//         "vod_id": "https://3geau1mtagczdnqb3fa5dc.wslivehls.com/clivealone302.iqilu.com/291/caffbd9c4ae445d086cfe94302442d30/playlist.m3u8?auth=b3a290291a48f02ef02657b01926c028&timestamp=1727250416283&wsSession=c6899729c97d72b005fc0ca0-172725041648567&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1",
-//         "vod_pic": "https://badboy518714.github.io/TV/IPTV_LOGO/CCTV2.png",
-//         "vod_name": "山东卫视_3",
-//         "vod_remarks": ""
-//         },
-//    ]
-// }
-    let videos = _.map(data, (it) => {
+    let videos = _.map(_data, (it) => {
         return {
-            vod_id: it.video_id,
-            vod_name: it.vod_name,
-            vod_pic: it.vod_pic,
+            vod_id: it.vod_id,
+            vod_name: it.vod_pic,
+            vod_pic: it.vod_name,
             vod_remarks: it.vod_remarks,
         }
     });
@@ -78,7 +55,7 @@ async function category(tid, pg, filter, extend) {
         pagecount: 1,
         limit: 10,
         total: 10 * 2,
-        list: data,
+        list: videos,
     })
     // return '{}'
 }
@@ -88,7 +65,7 @@ async function detail(id) {
         vod_id: id,
         vod_remarks: '',
     };
-    const playlist = ['点击播放' + '$' + id];
+    const playlist = ['点击播放' + '$' + _data[id]["vod_url"]];
     vod.vod_play_from = "道长在线";
     vod.vod_play_url = playlist.join('#');
     return JSON.stringify({
