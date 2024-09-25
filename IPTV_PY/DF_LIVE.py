@@ -18,7 +18,6 @@ headers = {
 json_data = {}
 
 def get_m3u8(match):
-    print(match)
     global json_data
     # 获取 _pdCid
     content = requests.get(match[0], headers=headers).content
@@ -26,6 +25,7 @@ def get_m3u8(match):
     _pdCid = re.search(r'var _pdCid = "(\d+)";', html).group(1)
     print(match, _pdCid)
     _data = ctx.call('get_s', _pdCid)
+    print(_data)
     params = {
         "t": _data["t"],
         "s": _data["s"]
