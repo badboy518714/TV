@@ -1,5 +1,5 @@
 // 修正：分类改静态 (网站频繁变动分类)
-import { load, _ } from "../YS_JS/lib/cat.js";
+import { load, _ } from "./lib/cat.js";
 const fs = require('fs');
 let key = "地方直播频道";
 let HOST = 'https://v.iqilu.com/';
