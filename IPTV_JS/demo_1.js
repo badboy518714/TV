@@ -39,24 +39,16 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {
-    const url_data = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.txt'
-    const link = await request(url_data);
-    const html_data = link.match(/\((.*?)\);/)[1];
-    const _data = JSON.parse(html_data).data;
-    let videos = _.map(_data, (it) => {
-        return {
-            vod_id: it.vod_url,
-            vod_name: it.vod_pic,
-            vod_pic: it.vod_name,
-            vod_remarks: it.vod_remarks,
-        }
-    });
+    const url = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.txt'
+    const link = await request(url);
+    const html = link.match(/(.*?)/)[1];
+    const data = JSON.parse(html).data;
     return JSON.stringify({
         page: 1,
         pagecount: 1,
         limit: 10,
         total: 10 * 2,
-        list: videos,
+        list: data,
     })
     // return '{}'
 }
