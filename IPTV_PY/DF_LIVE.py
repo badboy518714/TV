@@ -5,7 +5,7 @@ import execjs
 from concurrent.futures import ThreadPoolExecutor
 
 ctx = execjs.compile(open('IPTV_PY/DF_LIVE.js', encoding='utf-8').read())
-print(ctx)
+
 
 host = 'https://v.iqilu.com/'
 url = "https://feiying.litenews.cn/api/v1/auth/exchange"
@@ -37,7 +37,7 @@ def get_m3u8(match):
     data = _data["data"]
     # 获取 url加密信息
     response = requests.post(url, headers=headers, params=params, data=data)
-    print(match, _pdCid, response.text)
+    
     if "errmsg" in response.text:
         _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
     else:
@@ -47,6 +47,7 @@ def get_m3u8(match):
     _response = requests.get(_url, headers=headers)
     m3u8_url = re.sub('#E.*', '', _response.text).strip()
     # print(m3u8_url)
+    print(match, m3u8_url)
     json_data[int(_pdCid)] = {
         "vod_id": m3u8_url,
         "vod_pic": vod_pic,
