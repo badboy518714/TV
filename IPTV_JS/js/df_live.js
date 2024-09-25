@@ -1,19 +1,25 @@
 import { load, _ } from '../lib/cat.js';
+import { get_url, get_s } from './demo.js';
 let key = '🐰山东';
-let HOST = 'https://www.tuxiaobei.com';
-let url_txt = 'https://badboy518714.github.io/TV/IPTV_TXT/山东_地方.txt'
+let HOST = 'https://v.iqilu.com/';
 let siteKey = '';
 let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
+const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
 
-async function request(reqUrl, agentSp) {
+
+async function request(reqUrl, referer, mth, data, hd) {
+    const headers = {
+        "User-Agent": PC_UA || IOS_UA,
+    };
+    if (referer) headers.referer = encodeURIComponent(referer);
     let res = await req(reqUrl, {
-        method: 'get',
-        headers: {
-            'User-Agent': agentSp || IOS_UA,
-        },
+        method: mth || "get",
+        headers: headers,
+        data: data,
+        postType: mth === "post" ? "form" : "",
     });
-    return res.content
+    return res.content;
 }
 
 async function init(cfg) {
@@ -23,7 +29,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "1", type_name: '看电视' },{ type_id: "2", type_name: '听广播' },{ type_id: "3", type_name: 'ces00' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces05' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -40,16 +46,19 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
-    const link = await request(url_txt);
-    const html = link.match(/\((.*?)\);/)[1];
-    const data = JSON.parse(html)[tid];
-    return JSON.stringify({
-        page: 1,
-        pagecount: 1,
-        limit: 10,
-        total: 10 * 2,
-        list: data,
-    })
+    const link = HOST + tid;
+    const html = await request(link);
+    const $ = load(html);
+    const items = $("div.nav > ul > li");
+    var videos = _.map(items, (item) => {
+        var img = ''
+        var a = $(item).find('a:first')[0];
+        return {
+            vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+            vod_name: a.attribs["title"]
+            vod_pic: img
+            vod_remarks: ''
+        };
 }
 
 async function detail(id) {
