@@ -137,6 +137,12 @@
             "ext": "./%20%E8%8D%90%E7%89%87.js"           
         },
         {
+            "key" :"tuxiaobei",
+            "name":"猫|小贝",
+            "type":3,
+            "api":"./tuxiaobei_open.js"
+        },
+        {
             "key": "czys",
             "name": "✨️厂长┃影视✨️",
             "type": 3,
