@@ -41,7 +41,7 @@ async function category(tid, pg, filter, extend) {
     const url1 = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.json'
     const url = 'https://www.tuxiaobei.com//list/mip-data?typeId=7&page=1&callback='
     const link = await request(url);
-    const html = link.match(/(.*?)/)[1];
+    const html = link.match(/\((.*?)\);/)[1];
     const data = JSON.parse(html).data;
 //     const jsonData = {
 //    "data": [ 
