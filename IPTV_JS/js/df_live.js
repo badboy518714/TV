@@ -1,4 +1,4 @@
-import { load, _ } from './lib/cat.js';
+import { load, _ } from '../lib/cat.js';
 let key = '🐰山东';
 let HOST = 'https://www.tuxiaobei.com';
 let siteKey = '';
