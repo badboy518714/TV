@@ -91,7 +91,7 @@ async function detail(id) {
         vod_id: id,
         vod_remarks: '',
     };
-    const playlist = ['点击播放' + '$' + HOST + '/play/' + id];
+    const playlist = ['点击播放' + '$' + id];
     vod.vod_play_from = "道长在线";
     vod.vod_play_url = playlist.join('#');
     return JSON.stringify({
