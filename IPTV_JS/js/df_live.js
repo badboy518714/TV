@@ -46,6 +46,7 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
+    if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
     const link = HOST + tid;
     const referer = HOST
     const html = await request(link, referer);
@@ -60,6 +61,13 @@ async function category(tid, pg, filter, extend) {
             vod_pic: img
             vod_remarks: ''
         };
+    return JSON.stringify({
+        page: 1,
+        pagecount: 1,
+        limit: 20,
+        total: 20 * pgCount,
+        list: videos
+    })
 }
 
 async function detail(id) {
