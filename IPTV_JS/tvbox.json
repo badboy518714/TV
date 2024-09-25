@@ -140,13 +140,7 @@
             "key" :"dfzb",
             "name":"✨️地方┃直播✨️",
             "type":3,
-            "api":"./demo.js"
-        },
-        {
-            "key" :"22222222",
-            "name":"✨️地方┃直播1✨️",
-            "type":3,
-            "api":"./demo_1.js"
+            "api":"./df_live.js"
         },
         {
             "key" :"tuxiaobei",
