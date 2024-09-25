@@ -78,7 +78,7 @@ async function category(tid, pg, filter, extend) {
         pagecount: 1,
         limit: 10,
         total: 10 * 2,
-        list: videos,
+        list: data,
     })
     // return '{}'
 }
