@@ -1,2 +1,3 @@
 requests
 futures
+PyExecJS===1.6.1
