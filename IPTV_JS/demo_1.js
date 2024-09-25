@@ -105,7 +105,7 @@ async function play(flag, id, flags) {
     // const pvideo = $("body mip-search-video[video-src*=http]");
     // const purl = pvideo[0].attribs['video-src'];
     // console.debug('兔小贝 purl =====>' + purl); // js_debug.log
-    const playUrl = "https://3geau1mtagczdnqb3fa5dc.wslivehls.com/clivealone302.iqilu.com/291/caffbd9c4ae445d086cfe94302442d30/playlist.m3u8?auth=38d662c673cca2192c5dd52f6042ff5a&timestamp=1727253195568&wsSession=c6899729c97d72b005fc0ca0-172725319572989&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1"
+    const playUrl = id
     const headers = {
         Referer: "https://v.iqilu.com/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
