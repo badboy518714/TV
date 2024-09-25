@@ -6,10 +6,11 @@ let HOST = 'https://v.iqilu.com/';
 let siteKey = "";
 let siteType = 0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
+const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
 
 async function request(reqUrl, referer, mth, data, hd) {
     const headers = {
-        "User-Agent": PC_UA,
+        "User-Agent": PC_UA || IOS_UA,
     };
     if (referer) headers.referer = encodeURIComponent(referer);
     let res = await req(reqUrl, {
