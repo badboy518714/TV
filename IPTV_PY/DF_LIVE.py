@@ -5,7 +5,7 @@ import execjs
 from concurrent.futures import ThreadPoolExecutor
 
 ctx = execjs.compile(open('IPTV_PY/DF_LIVE.js', encoding='utf-8').read())
-
+print(ctx)
 
 host = 'https://v.iqilu.com/'
 url = "https://feiying.litenews.cn/api/v1/auth/exchange"
