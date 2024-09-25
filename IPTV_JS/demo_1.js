@@ -45,9 +45,10 @@ async function homeVod() {
             vod_remarks: it.root_category_name + ' | ' + it.duration_string || '',
         }
     });
-    return JSON.stringify({
-        list: videos,
-    })
+    // return JSON.stringify({
+    //     list: videos,
+    // })
+    return '{}'
 }
 
 async function category(tid, pg, filter, extend) {
