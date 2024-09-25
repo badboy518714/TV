@@ -22,15 +22,14 @@ def get_m3u8(match):
     # 获取 _pdCid
     content = requests.get(match[0], headers=headers).content
     html = content.decode('utf-8')
-    _pdCid = re.search(r'var _pdCid = "(\d+)";', html).group(1)
-    vod_pic = re.search(r'img src="(http://img8.iqilu.com/vmsimgs/2024.*.(png|jpg))"', html).group(1)
-    # print(match, _pdCid)
-    _data = {}
     try:
-        _data = ctx.call('get_s', _pdCid)
-    except Exception as e:
-        print('ERROR:', e)
-    # print(_data)
+        _pdCid = re.search(r'var _pdCid = "(\d+)";', html).group(1)
+        vod_pic = re.search(r'img src="(http://img8.iqilu.com/vmsimgs/2024.*.(png|jpg))"', html).group(1)
+    except:
+        _pdCid = re.search(r"var channelid  = '(\d)';", html).group(1)
+        vod_pic = 'https://file.iqilu.com/custom/radio/images/shoutu.jpg'
+    # print(match, _pdCid)
+    _data = ctx.call('get_s', _pdCid)
     params = {
         "t": _data["t"],
         "s": _data["s"]
@@ -38,13 +37,16 @@ def get_m3u8(match):
     data = _data["data"]
     # 获取 url加密信息
     response = requests.post(url, headers=headers, params=params, data=data)
-    # 解密 url
-    _url = ctx.call('get_url', response.text)
+    if "errmsg" in response.text:
+        _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
+    else:
+        # 解密 url
+        _url = ctx.call('get_url', response.text)
     # 获取 m3u8地址
     _response = requests.get(_url, headers=headers)
     m3u8_url = re.sub('#E.*', '', _response.text).strip()
     # print(m3u8_url)
-    json_data[_pdCid] = {
+    json_data[int(_pdCid)] = {
         "vod_id": m3u8_url,
         "vod_pic": vod_pic,
         "vod_name": f"山东{match[1]}",
@@ -55,14 +57,13 @@ def get_m3u8(match):
 
 def start():
     global json_data
-    data = {}
     # 获取 channels
     content = requests.get(host, headers=headers).content
     html = content.decode('utf-8')
     matchs = re.findall(r'<a href="(http://v.iqilu.com.*)" title="(.*)" target="_blank">.*</a></li>', html)
     num = int(len(matchs) / 2)
-    pool = ThreadPoolExecutor(9)
-    for match in matchs[:9]:
+    pool = ThreadPoolExecutor(17)
+    for match in matchs[:num]:
         pool.submit(get_m3u8, match)
     pool.shutdown()
     json_data = dict(sorted(json_data.items(), key=lambda x: x[0]))
@@ -70,7 +71,10 @@ def start():
     list_info = []
     for value in json_data.values():
         list_info.append(value)
-    data["live"] = list_info
+    data = {
+        "live": list_info[8:],
+        "radio": list_info[:8]
+    }
     with open('IPTV_TXT/山东_地方.txt', 'w', encoding='utf-8') as f:
         json_string = json.dumps(data)
         print(json_string)
