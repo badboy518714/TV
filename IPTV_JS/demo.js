@@ -57,6 +57,10 @@ async function category(tid, pg, filter, extend) {
    });
     let videos = jsonData['data']
     return JSON.stringify({
+        page: 1,
+        pagecount: 1,
+        limit: 30,
+        total: 1,
         list: videos,
     });
 }
