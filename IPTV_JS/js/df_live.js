@@ -1,5 +1,5 @@
 import { load, _ } from './lib/cat.js';
-let key = '🐰兔小贝';
+let key = '🐰山东';
 let HOST = 'https://www.tuxiaobei.com';
 let siteKey = '';
 let siteType = 0;
@@ -22,7 +22,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: '', type_name: '山东' },{ type_id: '1', type_name: '🐰01' },{ type_id: '2', type_name: '🐰02' }];
+    const classes = [{ type_id: '', type_name: '看电视' },{ type_id: '1', type_name: '听广播' },{ type_id: '2', type_name: '🐰02' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
