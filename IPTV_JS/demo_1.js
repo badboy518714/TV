@@ -65,14 +65,14 @@ async function category(tid, pg, filter, extend) {
         }
     });
     const pgCount = pg * 30 > data.totalCount ? parseInt(pg) : parseInt(pg) + 1;
-    // return JSON.stringify({
-    //     page: parseInt(pg),
-    //     pagecount: pgCount,
-    //     limit: 30,
-    //     total: data.totalCount,
-    //     list: videos,
-    // })
-    return '{}'
+    return JSON.stringify({
+        page: parseInt(pg),
+        pagecount: pgCount,
+        limit: 30,
+        total: data.totalCount,
+        list: videos,
+    })
+    // return '{}'
 }
 
 async function detail(id) {
