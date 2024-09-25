@@ -143,6 +143,12 @@
             "api":"./demo.js"
         },
         {
+            "key" :"22222222",
+            "name":"demo",
+            "type":3,
+            "api":"./tuxiaobei_open.js"
+        },
+        {
             "key" :"tuxiaobei",
             "name":"猫|小贝",
             "type":3,
