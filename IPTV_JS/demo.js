@@ -8,18 +8,15 @@ let siteType = 0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
 
-async function request(reqUrl, referer, mth, data, hd) {
-    const headers = {
-        "User-Agent": IOS_UA,
-    };
-    if (referer) headers.referer = encodeURIComponent(referer);
+async function request(reqUrl, agentSp) {
     let res = await req(reqUrl, {
-        method: mth || "get",
-        headers: headers,
-        data: data,
-        postType: mth === "post" ? "form" : "",
+        method: 'get',
+        headers: {
+            'User-Agent': agentSp || IOS_UA,
+        },
     });
-    return res.content;
+    // return res.content
+    return ''
 }
 
 async function init(cfg) {
@@ -46,18 +43,18 @@ async function homeVod() {
 
 async function category(tid, pg, filter, extend) {
     fs.readFile('LIVE_JSON/sdpd.json', 'utf8', (err, data) => {
-  if (err) {
-    console.error(err);
-    return;
-  }
-  try {
-    console.log(data,typeof data)
-    const jsonData = JSON.parse(data);
-    console.log(jsonData);
-  } catch (err) {
-    console.error('Invalid JSON:', err);
-  }
-});
+      if (err) {
+      console.error(err);
+      return;
+    }
+    try {
+      console.log(data,typeof data)
+      const jsonData = JSON.parse(data);
+      console.log(jsonData);
+    } catch (err) {
+      console.error('Invalid JSON:', err);
+    }
+   });
     let videos = jsonData['data']
     return JSON.stringify({
         list: videos,
