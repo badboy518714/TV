@@ -17,7 +17,7 @@ async function request(reqUrl, referer, mth, data, hd) {
         method: mth || "get",
         headers: headers,
         data: data,
-        postType: mth === "post" ? "form" : "",
+        // postType: mth === "post" ? "form" : "",
     });
     return res.content;
 }
@@ -46,21 +46,21 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
-    if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
-    const link = HOST + tid;
-    const referer = HOST
-    const html = await request(link, referer);
-    const $ = load(html);
-    const items = $("div.nav > ul > li");
-    var videos = _.map(items, (item) => {
-        var img = ''
-        var a = $(item).find('a:first')[0];
-        return {
-            vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
-            vod_name: a.attribs["title"]
-            vod_pic: img
-            vod_remarks: ''
-        };
+    // if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
+    // const link = HOST + tid;
+    // const referer = HOST
+    // const html = await request(link, referer);
+    // const $ = load(html);
+    // const items = $("div.nav > ul > li");
+    // var videos = _.map(items, (item) => {
+    //     var img = ''
+    //     var a = $(item).find('a:first')[0];
+    //     return {
+    //         vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+    //         vod_name: a.attribs["title"]
+    //         vod_pic: img
+    //         vod_remarks: ''
+    //     };
     const video_s = [{"vod_id": "https://1gr3uomttgr31hctwgrzdgco.wslivehls.com/alivealone302.litenews.cn/419/0c23955353f3499ba268bf5c0ecdd0d2/playlist.m3u8?k=66cbda625b5f11daadc9bd03f955126a&t=1727302265&wsSession=13c10561eff4beff97f8d1fa-172730226631115&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u7efc\u5408\u5e7f\u64ad", "vod_remarks": ""}, {"vod_id": "https://1gr3uomttgr31hctwgrzdgco.wslivehls.com/alivealone302.litenews.cn/419/78140199359d40c18dafaf486e57c941/playlist.m3u8?k=e5c2a11e40b1c4399fd9ff2fc1c23ed3&t=1727302265&wsSession=13c10561eff4beff97f8d1fa-172730226632167&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u7ecf\u6d4e", "vod_remarks": ""}, {"vod_id": "https://1gr3uomttgr31hctwgrzdcqy.wslivehls.com/alivealone302.litenews.cn/419/1255f16ee5f24f998e7c26cd68cf1adf/playlist.m3u8?k=74fc4e338ea05e7102fd319bc8a1dbe4&t=1727302265&wsSession=a370e8fe9e9c9cbe30562dd1-172730226631255&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u6587\u827a", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnqbw.wslivehls.com/audiolive302.iqilu.com/sdradioShenghuo/sdradio04/playlist.m3u8?wsSession=9a83f8f2fb31f4b9cda44f42-172730226618817&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u7ecf\u5178\u97f3\u4e50", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnqbi.wslivehls.com/audiolive302.iqilu.com/sdradioJiaotong/sdradio05/playlist.m3u8?wsSession=f3ab78b6a16fe0b19e59ff87-172730226619193&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u4ea4\u901a", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnqba.wslivehls.com/audiolive302.iqilu.com/sdradioXiangcun/sdradio06/playlist.m3u8?wsSession=4653a88dde207a960428535d-172730226619161&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u4e61\u6751", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnp3z.wslivehls.com/audiolive302.iqilu.com/sdradioYinyue/sdradio07/playlist.m3u8?wsSession=f1880498f0661967719b5e28-172730226619226&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u97f3\u4e50", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnqj3.wslivehls.com/audiolive302.iqilu.com/sdradioTiyu/sdradio08/playlist.m3u8?wsSession=704034110337ab64b1d4f9a5-172730226618955&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u4f53\u80b2\u4f11\u95f2", "vod_remarks": ""}]
     return JSON.stringify({
         page: 1,
