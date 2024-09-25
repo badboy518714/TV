@@ -21,7 +21,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: '', type_name: '🐰全部' },{ type_id: '1', type_name: '🐰01' },{ type_id: '2', type_name: '🐰02' }];
+    const classes = [{ type_id: '', type_name: '🐰全部' },{ type_id: '1', type_name: '🐰01' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -65,7 +65,7 @@ async function category(tid, pg, filter, extend) {
 //         },
 //    ]
 // }
-    let videos = _.map(data.items, (it) => {
+    let videos = _.map(data, (it) => {
         return {
             vod_id: it.video_id,
             vod_name: it.name,
