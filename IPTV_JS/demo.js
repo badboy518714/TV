@@ -27,7 +27,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    var classes = [{ "type_id": "1", "type_name": "山东频道" }];
+    var classes = [{ "type_id": "1", "type_name": "华语高清" }, { "type_id": "2", "type_name": "日韩精选" }, { "type_id": "3", "type_name": "欧美MV" }, { "type_id": "4", "type_name": "高清现场" }, { "type_id": "5", "type_name": "影视MV" }, { "type_id": "6", "type_name": "夜店视频" }, { "type_id": "7", "type_name": "车模视频" }, { "type_id": "8", "type_name": "热舞视频" }, { "type_id": "9", "type_name": "美女写真" }, { "type_id": "10", "type_name": "美女打碟" }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
