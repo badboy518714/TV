@@ -23,6 +23,7 @@ def get_m3u8(match):
     content = requests.get(match[0], headers=headers).content
     html = content.decode('utf-8')
     _pdCid = re.search(r'var _pdCid = "(\d+)";', html).group(1)
+    vod_pic = re.search(r'img src="(http://img8.iqilu.com/vmsimgs/2024.*.(png|jpg))"', html).group(1)
     # print(match, _pdCid)
     _data = {}
     try:
@@ -45,7 +46,7 @@ def get_m3u8(match):
     # print(m3u8_url)
     json_data[_pdCid] = {
         "vod_id": m3u8_url,
-        "vod_pic": "https://img8.iqilu.com/vmsimgs/2024/09/21/1191230_2fa3b241723040de8753a5d84b7e2be0.png",
+        "vod_pic": vod_pic,
         "vod_name": f"山东{match[1]}",
         "vod_remarks": ""
     }
