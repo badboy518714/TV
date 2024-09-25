@@ -44,6 +44,7 @@ def get_m3u8(match):
         "vod_name": f"山东{match[1]}",
         "vod_remarks": ""
     }
+    print(json_data[_pdCid])
 
 
 def start():
