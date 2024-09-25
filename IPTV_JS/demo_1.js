@@ -70,9 +70,21 @@ async function category(tid, pg, filter, extend) {
        {
         "vod_id": "https://3geau1mtagczdnqb3fa5dc.wslivehls.com/clivealone302.iqilu.com/291/caffbd9c4ae445d086cfe94302442d30/playlist.m3u8?auth=b3a290291a48f02ef02657b01926c028&timestamp=1727250416283&wsSession=c6899729c97d72b005fc0ca0-172725041648567&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1",
         "vod_pic": "https://img8.iqilu.com/vmsimgs/2024/09/21/1191230_2fa3b241723040de8753a5d84b7e2be0.png",
-        "vod_name": "山东卫视",
+        "vod_name": "山东卫视_1",
         "vod_remarks": ""
-        }
+        },
+       {
+        "vod_id": "https://3geau1mtagczdnqb3fa5dc.wslivehls.com/clivealone302.iqilu.com/291/caffbd9c4ae445d086cfe94302442d30/playlist.m3u8?auth=b3a290291a48f02ef02657b01926c028&timestamp=1727250416283&wsSession=c6899729c97d72b005fc0ca0-172725041648567&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1",
+        "vod_pic": "https://badboy518714.github.io/TV/IPTV_LOGO/CCTV1.png",
+        "vod_name": "山东卫视_2",
+        "vod_remarks": ""
+        },
+       {
+        "vod_id": "https://3geau1mtagczdnqb3fa5dc.wslivehls.com/clivealone302.iqilu.com/291/caffbd9c4ae445d086cfe94302442d30/playlist.m3u8?auth=b3a290291a48f02ef02657b01926c028&timestamp=1727250416283&wsSession=c6899729c97d72b005fc0ca0-172725041648567&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1",
+        "vod_pic": "https://badboy518714.github.io/TV/IPTV_LOGO/CCTV2.png",
+        "vod_name": "山东卫视_3",
+        "vod_remarks": ""
+        },
    ]
 }
     let videos = jsonData['data']
