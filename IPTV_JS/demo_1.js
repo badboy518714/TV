@@ -34,37 +34,12 @@ async function home(filter) {
 }
 
 async function homeVod() {
-    const link = await request(HOST + '/list/mip-data?typeId=9&page=1&callback=');
-    const html = link.match(/\((.*?)\);/)[1];
-    const data = JSON.parse(html).data;
-    let videos = _.map(data.items, (it) => {
-        return {
-            vod_id: it.video_id,
-            vod_name: it.name,
-            vod_pic: it.image,
-            vod_remarks: it.root_category_name + ' | ' + it.duration_string || '',
-        }
-    });
-    // return JSON.stringify({
-    //     list: videos,
-    // })
     return '{}'
 }
 
 async function category(tid, pg, filter, extend) {
-    if (pg <= 0 || typeof pg == 'undefined') pg = 1;
-    const link = await request(HOST + '/list/mip-data?typeId=' + tid + '&page=' + pg + '&callback=');
-    const html = link.match(/\((.*?)\);/)[1];
-    const data = JSON.parse(html).data;
-    // let videos = _.map(data.items, (it) => {
-    //     return {
-    //         vod_id: it.video_id,
-    //         vod_name: it.name,
-    //         vod_pic: it.image,
-    //         vod_remarks: it.root_category_name + ' | ' + it.duration_string || '',
-    //     }
-    // });
-    const pgCount = pg * 30 > data.totalCount ? parseInt(pg) : parseInt(pg) + 1;
+    
+    // const data = JSON.parse(html).data;
     const jsonData = {
    "data": [ 
        {
@@ -92,7 +67,7 @@ async function category(tid, pg, filter, extend) {
         page: 1,
         pagecount: 1,
         limit: 10,
-        total: 10 * pgCount,
+        total: 10 * 2,
         list: videos,
     })
     // return '{}'
@@ -111,46 +86,20 @@ async function detail(id) {
     });
 }
 
-async function play(flag, id, flags) {
-    // const html = await request(id);
-    // const $ = load(html);
-    // const pvideo = $("body mip-search-video[video-src*=http]");
-    // const purl = pvideo[0].attribs['video-src'];
-    // console.debug('兔小贝 purl =====>' + purl); // js_debug.log
-    const playUrl = id
+async function play(id) {
     const headers = {
         Referer: "https://v.iqilu.com/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
     };
     return JSON.stringify({
         parse: 0,
-        url: playUrl,
+        url: id,
         header: headers,
     });
 }
 
-async function search(wd, quick) {
-    const link = HOST + "/search/" + wd;
-    const html = await request(link);
-    const $ = load(html);
-    const list = $("div.list-con > div.items");
-    let videos = _.map(list, (it) => {
-        const a = $(it).find("a:first")[0];
-        const img = $(it).find("mip-img:first")[0];
-        const tt = $(it).find("p:first")[0];
-        const remarks = $(it).find("p")[1];
-        return {
-            vod_id: a.attribs.href.replace(/.*?\/play\/(.*)/g, '$1'),
-            vod_name: tt.children[0].data,
-            vod_pic: img.attribs["src"],
-            vod_remarks: remarks.children[0].data || "",
-        };
-    });
-    return JSON.stringify({
-        list: videos,
-        land: 1,
-        ratio: 1.78,
-    });
+async function search(wd) {
+    return '{}'
 }
 
 export function __jsEvalReturn() {
