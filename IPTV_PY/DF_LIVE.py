@@ -55,6 +55,7 @@ def get_m3u8(match):
 
 def start():
     global json_data
+    data = {}
     # 获取 channels
     content = requests.get(host, headers=headers).content
     html = content.decode('utf-8')
@@ -69,9 +70,7 @@ def start():
     list_info = []
     for value in json_data.values():
         list_info.append(value)
-    data = {
-        "data": list_info
-    }
+    data["live"] = list_info
     with open('IPTV_TXT/山东_地方.txt', 'w', encoding='utf-8') as f:
         json_string = json.dumps(data)
         print(json_string)
