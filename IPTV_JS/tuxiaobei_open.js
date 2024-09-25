@@ -1,4 +1,4 @@
-import { load, _ } from 'IPTV_lib/cat.js';
+import { load, _ } from './cat.js';
 let key = '🐰兔小贝';
 let HOST = 'https://www.tuxiaobei.com';
 let siteKey = '';
