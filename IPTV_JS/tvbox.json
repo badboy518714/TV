@@ -130,23 +130,23 @@
             "key": "dr_荐片",
             "name": "🚀┃荐片🚀",
             "type": 3,
-            "api": "./drpy.js",
+            "api": "./lib/drpy.js",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./%20%E8%8D%90%E7%89%87.js"           
+            "ext": "./js/%20%E8%8D%90%E7%89%87.js"           
         },
         {
             "key" :"dfzb",
             "name":"✨️地方┃直播✨️",
             "type":3,
-            "api":"./df_live.js"
+            "api":"./js/df_live.js"
         },
         {
             "key" :"tuxiaobei",
             "name":"猫|小贝",
             "type":3,
-            "api":"./tuxiaobei_open.js"
+            "api":"./js/tuxiaobei_open.js"
         },
         {
             "key": "czys",
