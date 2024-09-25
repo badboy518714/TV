@@ -4,10 +4,7 @@ let HOST = 'https://www.tuxiaobei.com';
 let siteKey = '';
 let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
-const url_data = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.txt'
-const link = await request(url_data);
-const html_data = link.match(/\((.*?)\);/)[1];
-const _data = JSON.parse(html_data).data;
+
 
 async function request(reqUrl, agentSp) {
     let res = await req(reqUrl, {
@@ -42,6 +39,10 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {
+    const url_data = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.txt'
+    const link = await request(url_data);
+    const html_data = link.match(/\((.*?)\);/)[1];
+    const _data = JSON.parse(html_data).data;
     let videos = _.map(_data, (it) => {
         return {
             vod_id: it.vod_id,
