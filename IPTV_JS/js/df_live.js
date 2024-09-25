@@ -5,7 +5,6 @@ let url_txt = 'https://badboy518714.github.io/TV/IPTV_TXT/山东_地方.txt'
 let siteKey = '';
 let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
-const link = '';
 
 async function request(reqUrl, agentSp) {
     let res = await req(reqUrl, {
@@ -20,7 +19,7 @@ async function request(reqUrl, agentSp) {
 async function init(cfg) {
     siteKey = cfg.skey;
     siteType = cfg.stype
-    link = await request(url_txt);
+    
 }
 
 async function home(filter) {
@@ -40,7 +39,8 @@ async function homeVod() {
     return '{}'
 }
 
-async function category(tid, pg, filter, extend) {   
+async function category(tid, pg, filter, extend) {  
+    const link = await request(url_txt);
     const html = link.match(/\((.*?)\);/)[1];
     const data = JSON.parse(html)['1'];
     return JSON.stringify({
