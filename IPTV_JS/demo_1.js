@@ -87,13 +87,14 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
+    var playUrl = id;
     const headers = {
         Referer: "https://v.iqilu.com/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
     };
     return JSON.stringify({
         parse: 0,
-        url: id,
+        url: playUrl,
         header: headers,
     });
 }
