@@ -21,7 +21,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: '', type_name: '🐰全部' }];
+    const classes = [{ type_id: '', type_name: '🐰全部' },{ type_id: '1', type_name: '🐰01' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -38,10 +38,11 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {
-    const url = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.json'
+    const url1 = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.json'
+    const url = 'https://www.tuxiaobei.com//list/mip-data?typeId=7&page=1&callback='
     const link = await request(url);
     const html = link.match(/(.*?)/)[1];
-    let videos = JSON.parse(html).data;
+    const data = JSON.parse(html).data;
 //     const jsonData = {
 //    "data": [ 
 //        {
@@ -64,7 +65,14 @@ async function category(tid, pg, filter, extend) {
 //         },
 //    ]
 // }
-//     let videos = jsonData['data']
+    let videos = _.map(data.items, (it) => {
+        return {
+            vod_id: it.video_id,
+            vod_name: it.name,
+            vod_pic: it.image,
+            vod_remarks: it.root_category_name + ' | ' + it.duration_string || '',
+        }
+    });
     return JSON.stringify({
         page: 1,
         pagecount: 1,
