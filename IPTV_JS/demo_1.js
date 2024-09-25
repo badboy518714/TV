@@ -40,7 +40,7 @@ async function homeVod() {
 async function category(tid, pg, filter, extend) {
     const url = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.json'
     const link = await request(url);
-    const html = link.match(/\((.*?)\);/)[1];
+    const html = link.match(/(.*?)/)[1];
     let videos = JSON.parse(html).data;
 //     const jsonData = {
 //    "data": [ 
