@@ -1,4 +1,4 @@
-import { load, _ } from '../YS_JS/cat.js';
+import { load, _ } from '../YS_JS/lib/cat.js';
 let key = '🐰兔小贝';
 let HOST = 'https://www.tuxiaobei.com';
 let siteKey = '';
