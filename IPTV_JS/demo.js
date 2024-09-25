@@ -27,7 +27,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    var classes = [{ "type_id": "", "type_name": "山东频道" }];
+    var classes = [{ "type_id": "1", "type_name": "山东频道" }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -57,9 +57,7 @@ async function category(tid, pg, filter, extend) {
     console.error('Invalid JSON:', err);
   }
 });
-    let videos =[]
-    for(i=0; i<jsonData['data'].length;i++)
-        videos.push(jsonData['data'][i])
+    let videos = jsonData['data']
     return JSON.stringify({
         list: videos,
     });
