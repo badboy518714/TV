@@ -39,8 +39,8 @@ def get_m3u8(match):
     response = requests.post(url, headers=headers, params=params, data=data)   
     
     if "errmsg" in response.text:
-        print(_pdCid, response.text)
         _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
+        print(response.text, _url)
     else:
         # 解密 url
         _url = ctx.call('get_url', response.text)
