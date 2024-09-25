@@ -47,7 +47,8 @@ async function homeVod() {
 
 async function category(tid, pg, filter, extend) {  
     const link = HOST + tid;
-    const html = await request(link);
+    const referer = HOST
+    const html = await request(link, referer);
     const $ = load(html);
     const items = $("div.nav > ul > li");
     var videos = _.map(items, (item) => {
