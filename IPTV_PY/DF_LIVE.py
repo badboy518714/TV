@@ -37,8 +37,9 @@ def get_m3u8(match):
     data = _data["data"]
     # 获取 url加密信息
     response = requests.post(url, headers=headers, params=params, data=data)   
-    print(_pdCid, response.text)
+    
     if "errmsg" in response.text:
+        print(_pdCid, response.text)
         _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
     else:
         # 解密 url
