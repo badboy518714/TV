@@ -80,7 +80,7 @@ async function category(tid, pg, filter, extend) {
         page: 1,
         pagecount: 1,
         limit: 10,
-        total: 1,
+        total: 10 * pgCount,
         list: videos,
     })
     // return '{}'
