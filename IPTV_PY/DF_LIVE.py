@@ -65,10 +65,16 @@ def start():
     pool.shutdown()
     json_data = dict(sorted(json_data.items(), key=lambda x: x[0]))
     # print(json_data)
+    list_info = []
+    for value in json_data.values():
+        list_info.append(value)
+    data = {
+        "data": list_info
+    }
     with open('IPTV_TXT/山东_地方.txt', 'w', encoding='utf-8') as f:
-        json_string = json.dumps(json_data)
+        json_string = json.dumps(data)
         # print(json_string)
-        f.write(json_string)
+        f.write('(' + json_string + ');')
         f.close()
         
 if __name__ == '__main__':
