@@ -10,7 +10,7 @@ const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWe
 
 async function request(reqUrl, referer, mth, data, hd) {
     const headers = {
-        "User-Agent": PC_UA || IOS_UA,
+        "User-Agent": IOS_UA,
     };
     if (referer) headers.referer = encodeURIComponent(referer);
     let res = await req(reqUrl, {
