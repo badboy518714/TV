@@ -45,7 +45,7 @@ async function category(tid, pg, filter, extend) {
     const _data = JSON.parse(html_data).data;
     let videos = _.map(_data, (it) => {
         return {
-            vod_id: it.vod_id,
+            vod_id: it.vod_url,
             vod_name: it.vod_pic,
             vod_pic: it.vod_name,
             vod_remarks: it.vod_remarks,
@@ -66,7 +66,7 @@ async function detail(id) {
         vod_id: id,
         vod_remarks: '',
     };
-    const playlist = ['点击播放' + '$' + _data[id]["vod_url"]];
+    const playlist = ['点击播放' + '$' + id];
     vod.vod_play_from = "道长在线";
     vod.vod_play_url = playlist.join('#');
     return JSON.stringify({
