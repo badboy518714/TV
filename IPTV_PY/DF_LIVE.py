@@ -44,7 +44,7 @@ def get_m3u8(match):
     m3u8_url = re.sub('#E.*', '', _response.text).strip()
     # print(m3u8_url)
     json_data[_pdCid] = {
-        "vod_url": m3u8_url,
+        "vod_id": m3u8_url,
         "vod_pic": "https://img8.iqilu.com/vmsimgs/2024/09/21/1191230_2fa3b241723040de8753a5d84b7e2be0.png",
         "vod_name": f"山东{match[1]}",
         "vod_remarks": ""
