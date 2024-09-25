@@ -146,7 +146,7 @@
             "key" :"22222222",
             "name":"demo",
             "type":3,
-            "api":"./tuxiaobei_open.js"
+            "api":"./demo_1.js"
         },
         {
             "key" :"tuxiaobei",
