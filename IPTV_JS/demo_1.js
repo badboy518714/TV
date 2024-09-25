@@ -12,7 +12,8 @@ async function request(reqUrl, agentSp) {
             'User-Agent': agentSp || IOS_UA,
         },
     });
-    return res.content
+    // return res.content
+    return ''
 }
 
 async function init(cfg) {
