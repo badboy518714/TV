@@ -46,13 +46,13 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
-    // if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
-    // const link = HOST + tid;
-    // const referer = HOST;
-    // const html = await request(link, referer);
-    // const $ = load(html);
-    // const items = $("div.nav > ul > li");
-    const items = [1,2,3,4,5];
+    if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
+    const link = HOST + tid;
+    const referer = HOST;
+    const html = await request(link, referer);
+    const $ = load(html);
+    const items = $("div.nav > ul > li");
+    // const items = [1,2,3,4,5];
     var videos = _.map(items, (item) => {
         var img = '';
         // var a = $(item).find('a:first')[0];
