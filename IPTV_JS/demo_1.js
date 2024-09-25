@@ -39,7 +39,7 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {
-    const url = 'https://badboy518714.github.io/TV/LIVE_JSON/sdpd.txt'
+    const url = 'https://badboy518714.github.io/TV/IPTV_TXT/山东_地方.txt'
     const link = await request(url);
     const html = link.match(/\((.*?)\);/)[1];
     const data = JSON.parse(html).data;
