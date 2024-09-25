@@ -86,7 +86,7 @@ async function detail(id) {
     });
 }
 
-async function play(id) {
+async function play(flag, id, flags) {
     const headers = {
         Referer: "https://v.iqilu.com/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
@@ -98,7 +98,7 @@ async function play(id) {
     });
 }
 
-async function search(wd) {
+async function search(wd, quick) {
     return '{}'
 }
 
