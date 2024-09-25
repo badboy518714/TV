@@ -66,7 +66,7 @@ async function category(tid, pg, filter, extend) {
         page: 1,
         pagecount: 1,
         limit: 20,
-        total: 20 * pgCount,
+        total: 20 * 1,
         list: video_s
     })
 }
