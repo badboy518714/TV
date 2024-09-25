@@ -143,6 +143,12 @@
             "api":"./js/df_live.js"
         },
         {
+            "key" :"dfzb_1",
+            "name":"✨️我爱┃山东1✨️",
+            "type":3,
+            "api":"./js/df_live_1.js"
+        },
+        {
             "key" :"tuxiaobei",
             "name":"猫|小贝",
             "type":3,
