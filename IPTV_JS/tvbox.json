@@ -138,6 +138,12 @@
         },
         {
             "key" :"tuxiaobei",
+            "name":"✨️地方┃直播✨️",
+            "type":3,
+            "api":"../YS_JS/demo.js"
+        },
+        {
+            "key" :"tuxiaobei",
             "name":"猫|小贝",
             "type":3,
             "api":"./tuxiaobei_open.js"
