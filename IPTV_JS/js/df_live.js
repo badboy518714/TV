@@ -42,7 +42,7 @@ async function category(tid, pg, filter, extend) {
     const url = 'https://badboy518714.github.io/TV/IPTV_TXT/山东_地方.txt'
     const link = await request(url);
     const html = link.match(/\((.*?)\);/)[1];
-    const data = JSON.parse(html).radio;
+    const data = JSON.parse(html).tid;
     return JSON.stringify({
         page: 1,
         pagecount: 1,
