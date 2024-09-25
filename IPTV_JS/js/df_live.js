@@ -57,8 +57,9 @@ async function category(tid, pg, filter, extend) {
         var a = $(item).find('a:first')[0];
         return {
             // vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+            // vod_name: a.attribs["title"],
             vod_id: "123",
-            vod_name: a.attribs["title"],
+            vod_name: "demo",
             vod_pic: img,
             vod_remarks: ''
         };
