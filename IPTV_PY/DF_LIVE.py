@@ -43,11 +43,12 @@ def get_m3u8(match):
     else:
         # 解密 url
         _url = ctx.call('get_url', response.text)
+    print(match, _url)
     # 获取 m3u8地址
     _response = requests.get(_url, headers=headers)
     m3u8_url = re.sub('#E.*', '', _response.text).strip()
     # print(m3u8_url)
-    print(match, m3u8_url)
+    
     json_data[int(_pdCid)] = {
         "vod_id": m3u8_url,
         "vod_pic": vod_pic,
