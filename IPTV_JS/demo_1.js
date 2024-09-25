@@ -22,7 +22,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: '', type_name: '🐰全部' },{ type_id: '1', type_name: '🐰01' }];
+    const classes = [{ type_id: '', type_name: '🐰全部' },{ type_id: '1', type_name: '🐰01' },{ type_id: '2', type_name: '🐰02' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
