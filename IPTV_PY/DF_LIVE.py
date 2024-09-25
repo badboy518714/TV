@@ -24,7 +24,11 @@ def get_m3u8(match):
     html = content.decode('utf-8')
     _pdCid = re.search(r'var _pdCid = "(\d+)";', html).group(1)
     print(match, _pdCid)
-    _data = ctx.call('get_s', _pdCid)
+    _data = {}
+    try:
+        _data = ctx.call('get_s', _pdCid)
+    except Exception as e:
+        print('ERROR:', e)
     print(_data)
     params = {
         "t": _data["t"],
