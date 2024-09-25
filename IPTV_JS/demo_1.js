@@ -78,8 +78,8 @@ async function category(tid, pg, filter, extend) {
     let videos = jsonData['data']
     return JSON.stringify({
         page: 1,
-        pagecount: 1,
-        limit: 2,
+        pagecount: 2,
+        limit: 4,
         total: data.totalCount,
         list: videos,
     })
