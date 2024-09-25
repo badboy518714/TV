@@ -28,6 +28,7 @@ function get_url(str) {
     return s.data
 }
 function get_s(_pdCid) {
+    console.log("-------------node_js测试-------------")
     var domainF = 'https://feiying.litenews.cn/api/'
     var apiF = 'v1/auth/exchange';
     var t = new Date().valueOf()
