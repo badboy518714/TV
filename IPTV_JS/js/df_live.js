@@ -51,10 +51,11 @@ async function category(tid, pg, filter, extend) {
     const referer = HOST;
     const html = await request(link, referer);
     const $ = load(html);
-    const items = $("div.nav > ul > li");
+    // const items = $("div.nav > ul > li");
+    const items = [1,2,3,4,5];
     var videos = _.map(items, (item) => {
         var img = '';
-        var a = $(item).find('a:first')[0];
+        // var a = $(item).find('a:first')[0];
         return {
             // vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
             // vod_name: a.attribs["title"],
