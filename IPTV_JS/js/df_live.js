@@ -91,7 +91,8 @@ async function play(flag, id, flags) {
     const link = HOST + id;
     const referer = HOST;
     const html = await request(link, referer);
-    let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
+    let _pdCid = html.match(/var _pdCid = "(\d+)"/);
+    console.log(_pdCid)
     // let _data = get_s(_pdCid);
     // let data = _data["data"];
     // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
