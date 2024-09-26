@@ -141,5 +141,6 @@ export function __jsEvalReturn() {
 
 
 
-
-play('sdtv')
+let flag = ''
+let flags = ''
+play(flag, 'sdtv')
