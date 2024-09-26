@@ -15,7 +15,7 @@ async function request(reqUrl, referer, mth, data, hd) {
     const data_ = data;
     if (mth === 'post') { 
         headers["User-Agent"] = PC_UA; 
-        // data_ = data['data'];
+        data_ = data['data'];
     }
     let res = await req(reqUrl, {
         method: mth || "get",
@@ -36,7 +36,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '2' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '256' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
