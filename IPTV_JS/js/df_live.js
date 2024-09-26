@@ -12,11 +12,12 @@ async function request(reqUrl, referer, mth, data, hd) {
         "User-Agent": IOS_UA,
         'Referer': HOST
     };
-    if (mth) headers["User-Agent"] = PC_UA;
+    if (mth) { headers["User-Agent"] = PC_UA; }
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
-        data: data,
+        data: data.parms,
+        body: data.data,
         postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
@@ -57,7 +58,7 @@ async function category(tid, pg, filter, extend) {
         let _data = get_s(_pdCid);
         let data = _data["data"];
         let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-        const res = await request_1(url, '', 'post', data);
+        const res = await request(url, '', 'post', data);
 
 
         
@@ -123,7 +124,7 @@ async function play(flag, id, flags) {
     let _data = get_s(_pdCid);
     // console.log(_data)
     let data = _data["data"];
-    let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
+    let url = "https://feiying.litenews.cn/api/v1/auth/exchange;
     const res = await request(url, '', 'post', data);
     // console.log(res)
     // let _url = get_url(res);
