@@ -8,7 +8,7 @@ const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWe
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
 
 async function request(reqUrl, referer, mth, data, hd) {
-    let headers = {
+    const headers = {
         "User-Agent": IOS_UA,
         'Referer': HOST
     };
@@ -24,6 +24,22 @@ async function request(reqUrl, referer, mth, data, hd) {
     // return res.text()
 }
 
+async function request_1(reqUrl, data) {
+    const headers = {
+        "User-Agent": PC_UA,
+        'Referer': HOST
+    };
+    let res = await fetch(reqUrl, {
+        method: "post",
+        headers: headers,
+        body: data,
+        postType: mth === "post" ? "form" : "",
+    });
+    // console.log(headers)
+    // return res.content;
+    return res.text()
+}
+
 async function init(cfg) {
     siteKey = cfg.skey;
     siteType = cfg.stype
@@ -31,7 +47,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '12000' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '40' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -56,7 +72,11 @@ async function category(tid, pg, filter, extend) {
         let _data = get_s(_pdCid);
         let data = _data["data"];
         let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-        const res = await request(url, HOST, 'post', data);
+        const headers = {
+            "User-Agent": PC_UA,
+            'Referer': HOST
+        };
+        const res = await request_1(url, data);
 
 
 
