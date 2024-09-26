@@ -16,14 +16,11 @@ async function request(reqUrl, referer, mth, data, hd) {
     const body_ = ''
     if (mth) { 
         headers["User-Agent"] = PC_UA; 
-        data_ = data.parms;
-        body_ = data.data     
     }
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
-        data: data_,
-        body: body_,
+        data: data,
         postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
@@ -39,7 +36,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '209' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '21209' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -63,7 +60,7 @@ async function category(tid, pg, filter, extend) {
         let _pdCid = html1.match(/var _pdCid = "(\d+)"/)[1];
         let _data = get_s(_pdCid);
         let data = _data["data"];
-        let url = "https://feiying.litenews.cn/api/v1/auth/exchange";
+        let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
         const res = await request(url, '', 'post', data);
 
 
@@ -131,7 +128,7 @@ async function play(flag, id, flags) {
     // console.log(_data)
     let data = _data["data"];
     let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-    const res = await request(url, '', 'post', data);
+    const res = await request(url, '', 'post', _data);
     // console.log(res)
     // let _url = get_url(res);
     // console.log(_url)
