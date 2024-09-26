@@ -54,7 +54,7 @@ async function category(tid, pg, filter, extend) {
     const html = await request(link, referer);
     const $ = load(html);
     var videos = []
-    if (tid === '')
+    if (tid === ''){
         const items = $("div.dianshi_tv > dl");
         videos = _.map(_.slice(items, 0, 9), (item) => {
             var img = $(item).find("img:first")[0];
@@ -66,6 +66,7 @@ async function category(tid, pg, filter, extend) {
                 vod_remarks: ''
             };
         });
+    }
     // console.log(videos)
     const videos1 = [{
             vod_id: 'sdws',
