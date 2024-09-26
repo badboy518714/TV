@@ -109,7 +109,7 @@ async function play(flag, id, flags) {
     const html = await request(link);
     let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
     // console.log(_pdCid)
-    // let _data = get_s(_pdCid);
+    let _data = get_s(_pdCid);
     // console.log(_data)
     // let data = _data["data"];
     // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
