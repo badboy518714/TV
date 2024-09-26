@@ -12,12 +12,18 @@ async function request(reqUrl, referer, mth, data, hd) {
         "User-Agent": IOS_UA,
         'Referer': HOST
     };
-    if (mth) { headers["User-Agent"] = PC_UA; }
+    const data_ = {}
+    const body_ = ''
+    if (mth) { 
+        headers["User-Agent"] = PC_UA; 
+        data_ = data.parms;
+        body_ = data.data     
+    }
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
-        data: data.parms,
-        body: data.data,
+        data: data_,
+        body: body_,
         postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
@@ -33,7 +39,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '20' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '200' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
