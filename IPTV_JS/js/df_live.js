@@ -16,7 +16,7 @@ async function request(reqUrl, referer, mth, data, hd) {
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
-        data: data,
+        body: data,
         // postType: mth === "post" ? "form" : "",
     });
     return res.content;
