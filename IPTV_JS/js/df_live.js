@@ -54,9 +54,9 @@ async function category(tid, pg, filter, extend) {
         const html1 = await request(link);
         let _pdCid = html1.match(/var _pdCid = "(\d+)"/)[1];
         let _data = get_s(_pdCid);
-         let data = _data["data"];
-        let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-        const res = await request(url, '', 'post', data);
+        // let data = _data["data"];
+        // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
+        // const res = await request(url, '', 'post', data);
 
 
 
