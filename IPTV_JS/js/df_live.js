@@ -61,7 +61,7 @@ async function category(tid, pg, filter, extend) {
         let  abc =  {
             vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
             vod_name: a.attribs["title"],
-            vod_pic: img,
+            vod_pic: img.attribs["src"],
             vod_remarks: ''
         };
         console.log(abc)
