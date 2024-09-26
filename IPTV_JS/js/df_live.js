@@ -19,7 +19,6 @@ async function request(reqUrl, referer, mth, data, hd) {
         body: data,
         // postType: mth === "post" ? "form" : "",
     });
-    console.log(headers)
     // console.log(headers)
     // return res.content;
     return res.text()
@@ -90,7 +89,7 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
-    const link = HOST + id;
+    const link = HOST + 'live/' + id + '/';
     const referer = HOST;
     const html = await request(link, referer);
     let _pdCid = html.match(/var _pdCid = "(\d+)"/);
