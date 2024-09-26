@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '5' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '555' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -106,19 +106,19 @@ async function detail(id) {
 
 async function play(flag, id, flags) {
     const link = HOST + 'live/' + id + '/';
-    const html = await request(link);
-    let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
+    // const html = await request(link);
+    // let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
     // console.log(_pdCid)
-    let _data = get_s(_pdCid);
+    // let _data = get_s(_pdCid);
     // console.log(_data)
-    let data = _data["data"];
-    let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-    const res = await request(url, '', 'post', data);
+    // let data = _data["data"];
+    // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
+    // const res = await request(url, '', 'post', data);
     // console.log(res)
-    let _url = get_url(res);
+    // let _url = get_url(res);
     // console.log(_url)
-    let response =  await request(_url);
-    let playUrl = response.match(/(http.*=1)/)[1]
+    // let response =  await request(_url);
+    // let playUrl = response.match(/(http.*=1)/)[1]
     // console.log(response)
     // console.log(playUrl)
     // let playUrl = ''
