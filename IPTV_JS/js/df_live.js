@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '25' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '5' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -48,45 +48,40 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
-    const link = HOST + tid;
-    const html = await request(link);
-    const $ = load(html);
-    const items = $("div.dianshi_tv > dl");
     let videos;
-    if (tid === ''){
-         videos = _.map(_.slice(items, 0, 9), (item) => {
-            var img = $(item).find("img:first")[0];
-            var a = $(item).find('a:first')[0];
-            return {
-                vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
-                vod_name: a.attribs["title"],
-                vod_pic: img.attribs["src"],
-                vod_remarks: ''
-            };
-        });
-    }
-    else if (tid === 'radio'){ 
-         videos = _.map(_.slice(items, 9, items.length), (item) => {
-            var img = $(item).find("img:first")[0];
-            var a = $(item).find('a:first')[0];
-            return {
-                vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
-                vod_name: a.attribs["title"],
-                vod_pic: img.attribs["src"],
-                vod_remarks: ''
-            };
-        });
+    if (tid === '' || tid === 'radio'){
+        const html = await request(HOST);
+        const $ = load(html);
+        const items = $("div.dianshi_tv > dl");
+        if (tid === ''){
+             videos = _.map(_.slice(items, 0, 9), (item) => {
+                var img = $(item).find("img:first")[0];
+                var a = $(item).find('a:first')[0];
+                return {
+                    vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+                    vod_name: a.attribs["title"],
+                    vod_pic: img.attribs["src"],
+                    vod_remarks: ''
+                };
+            });
+        }
+        else { 
+             videos = _.map(_.slice(items, 9, items.length), (item) => {
+                var img = $(item).find("img:first")[0];
+                var a = $(item).find('a:first')[0];
+                return {
+                    vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+                    vod_name: a.attribs["title"],
+                    vod_pic: img.attribs["src"],
+                    vod_remarks: ''
+                };
+            });
+        }
     }
     else {
         videos = [];
     }
-    // console.log(videos)
-    // const videos1 = [{
-    //         vod_id: 'sdws',
-    //         vod_name: '12587',
-    //         vod_pic: '',
-    //         vod_remarks: '12345'
-    //     }]
+    
     return JSON.stringify({
         page: 1,
         pagecount: 1,
