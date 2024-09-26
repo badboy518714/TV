@@ -24,21 +24,6 @@ async function request(reqUrl, referer, mth, data, hd) {
     // return res.text()
 }
 
-async function request_1(reqUrl, data) {
-    const headers = {
-        "User-Agent": PC_UA,
-        'Referer': HOST
-    };
-    let res = await fetch(reqUrl, {
-        method: "post",
-        headers: headers,
-        body: data,
-        postType: "form"
-    });
-    // console.log(headers)
-    // return res.content;
-    return res.text()
-}
 
 async function init(cfg) {
     siteKey = cfg.skey;
@@ -47,7 +32,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '20' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '230' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -72,18 +57,7 @@ async function category(tid, pg, filter, extend) {
         let _data = get_s(_pdCid);
         let data = _data["data"];
         let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-        // const res = await request_1(url, data);
-        const headers = {
-        "User-Agent": PC_UA,
-        'Referer': HOST
-        };
-        let ress = await req(url, {
-            method: "post",
-            headers: headers,
-            body: data,
-            postType: "form"
-        });
-        let res = ress.content
+        const res = await request_1(url, '', 'post', data);
 
 
         
