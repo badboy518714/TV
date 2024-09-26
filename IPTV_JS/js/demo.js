@@ -41,8 +41,10 @@ export function get_s(_pdCid) {
     var key = 'k5x99e1mswelc4vt'
     var data = aesEncrypt(JSON.stringify({ "channelMark": _pdCid }), key);
     return {
-        't': t,
-        's': s,
-        'data': data
+        'data': data,
+        'parms': {
+            't': t,
+            's': s
+         }
     }
 }
