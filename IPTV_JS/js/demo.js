@@ -42,9 +42,7 @@ export function get_s(_pdCid) {
     var data = aesEncrypt(JSON.stringify({ "channelMark": _pdCid }), key);
     return {
         'data': data,
-        'parms': {
-            't': t,
-            's': s
-         }
+        't': t,
+        's': s
     }
 }
