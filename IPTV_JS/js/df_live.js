@@ -94,25 +94,29 @@ async function play(flag, id, flags) {
     const html = await request(link, referer);
     let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
     console.log(_pdCid)
-    // let _data = get_s(_pdCid);
-    // let data = _data["data"];
-    // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-    // const res = await request(url, referer, 'post', data);
-    // let _url = get_url(res);
-    // let response =  await request(_url, referer);
-    // let playUrl = response.match(/(http.*)/)[1]
+    let _data = get_s(_pdCid);
+    console.log(_data)
+    let data = _data["data"];
+    let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
+    const res = await request(url, referer, 'post', data);
+    console.log(res)
+    let _url = get_url(res);
+    console.log(_url)
+    let response =  await request(_url, referer);
+    let playUrl = response.match(/(http.*)/)[1]
+    console.log(playUrl)
 
 
 
     
-    var playUrl0 = 'https://3geau1mtagczdnqb3fa3dq.wslivehls.com/clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=09801fd5eb1ccd62201c212411afe0a0&timestamp=1727312506271&wsSession=5d5f7fb7473de3cce4316177-172731250654874&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1';
+    // var playUrl0 = 'https://3geau1mtagczdnqb3fa3dq.wslivehls.com/clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=09801fd5eb1ccd62201c212411afe0a0&timestamp=1727312506271&wsSession=5d5f7fb7473de3cce4316177-172731250654874&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1';
     const headers = {
         Referer: "https://v.iqilu.com/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
     };
     return JSON.stringify({
         parse: 0,
-        url: playUrl0,
+        url: playUrl,
         header: headers,
     });
 }
