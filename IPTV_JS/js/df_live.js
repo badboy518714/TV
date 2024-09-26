@@ -67,7 +67,7 @@ async function category(tid, pg, filter, extend) {
         };
     });
     // console.log(videos)
-    const videos = [{
+    const videos1 = [{
             vod_id: 'sdws',
             vod_name: sss.attribs["title"],
             vod_pic: '',
@@ -78,7 +78,7 @@ async function category(tid, pg, filter, extend) {
         pagecount: 1,
         limit: 20,
         total: 20 * 1,
-        list: videos
+        list: videos1
     })
 }
 
