@@ -1,5 +1,7 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="恩城教会2024年主日信息",2024-09-22 教会的纪律 帖撒罗尼迦后书 3:6-15 廖主行 弟兄
+https://app-vod-hls.yisa.live/09new2025/06福音证道/主日讲道/恩城教会主日信息/2024/2024-09-22ECMessage.mp4/index.m3u8?sign=cc09e9f11afbe86ab763760ded14e432&t=1727331989
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="恩城教会2024年主日信息",2024-09-15 祷告的生活 帖撒罗尼迦后书  3:1-5 王斐弟兄
 https://app-vod-hls.yisa.live/09new2025/06福音证道/主日讲道/恩城教会主日信息/2024/2024-09-15ECMessage.mp4/index.m3u8?sign=05209fe54d4197b476b3ad1a2f3d717e&t=1726727043
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="恩城教会2024年主日信息",2024-09-01 不可思议的怒气 约拿书 4:1-4 喻马可弟兄
