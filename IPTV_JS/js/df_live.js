@@ -53,21 +53,23 @@ async function category(tid, pg, filter, extend) {
     const referer = HOST;
     const html = await request(link, referer);
     const $ = load(html);
-    const items = $("div.nav > ul > li");
+    const items = $("div.dianshi_tv > dl");
     console.log(html)
-    const aa = ''
-    const ss =load(aa);
-    const iii = $("div.dianshi_tv > dl");
-    console.log('iii', iii.length)
-    // console.log(ss('li').text());
-    var videos = _.map(_.slice(items, 1, 10), (item) => {
-        var img = '';
+    var videos = _.map(_.slice(items, 0, 9), (item) => {
+        var img = $(item).find("img:first")[0];
         var a = $(item).find('a:first')[0];
+        let  abc =  {
+            vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+            vod_name: a.attribs["title"],
+            vod_pic: img,
+            vod_remarks: ''
+        };
+        console.log(abc)
         return {
             vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
             vod_name: a.attribs["title"],
             vod_pic: img,
-            vod_remarks: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1')
+            vod_remarks: ''
         };
     });
     console.log(videos)
