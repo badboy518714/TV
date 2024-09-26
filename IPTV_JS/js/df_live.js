@@ -53,8 +53,7 @@ async function category(tid, pg, filter, extend) {
         const link = HOST + 'live/' + 'sdtv' + '/';
         const html = await request(link);
         let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
-        // console.log(_pdCid)
-        let _data = get_s(_pdCid);
+        // let _data = get_s(_pdCid);
 
 
 
