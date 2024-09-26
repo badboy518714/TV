@@ -20,8 +20,8 @@ async function request(reqUrl, referer, mth, data, hd) {
         // postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
-    return res.content;
-    // return res.text()
+    // return res.content;
+    return res.text()
 }
 
 async function init(cfg) {
@@ -93,7 +93,6 @@ async function play(flag, id, flags) {
     const referer = HOST;
     const html = await request(link, referer);
     let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
-    console.log(html)
     console.log(_pdCid)
     // let _data = get_s(_pdCid);
     // let data = _data["data"];
