@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces185' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces188' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -55,6 +55,19 @@ async function category(tid, pg, filter, extend) {
     if (tid === ''){
         const items = $("div.dianshi_tv > dl");
         videos = _.map(_.slice(items, 0, 9), (item) => {
+            var img = $(item).find("img:first")[0];
+            var a = $(item).find('a:first')[0];
+            return {
+                vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+                vod_name: a.attribs["title"],
+                vod_pic: img.attribs["src"],
+                vod_remarks: ''
+            };
+        });
+    }
+    else{
+        const items = $("div.dianshi_tv > dl");
+        videos = _.map(_.slice(items, 9, 17), (item) => {
             var img = $(item).find("img:first")[0];
             var a = $(item).find('a:first')[0];
             return {
