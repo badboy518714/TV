@@ -12,8 +12,7 @@ async function request(reqUrl, referer, mth, data, hd) {
         "User-Agent": IOS_UA,
         'Referer': HOST
     };
-    const data_ = data
-    const body_ = ''
+    const data_ = data;
     if (mth === 'post') { 
         headers["User-Agent"] = PC_UA; 
         data_ = data['data'];
@@ -37,7 +36,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '091202' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '0902' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -61,7 +60,7 @@ async function category(tid, pg, filter, extend) {
         let _pdCid = html1.match(/var _pdCid = "(\d+)"/)[1];
         let _data = get_s(_pdCid);
         let data = _data["data"];
-        let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
+        let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" + _data["t"] + "&s=" + _data["s"];
         const res = await request(url, '', 'post', _data);
 
 
