@@ -1,5 +1,5 @@
 import { load, _ } from '../lib/cat.js';
-// import { get_url, get_s } from './demo.js';
+import { get_url, get_s } from './demo.js';
 let key = '🐰山东';
 let HOST = 'https://v.iqilu.com/';
 let siteKey = '';
@@ -87,7 +87,7 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
-    var playUrl = id;
+    var playUrl = 'https://3geau1mtagczdnqb3fa3dq.wslivehls.com/clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=30f6effe6074cdc7cc3b399e1a88b982&timestamp=1727293753208&wsSession=5d5f7fb7473de3cce4316177-172729375344892&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1';
     const headers = {
         Referer: "https://v.iqilu.com/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
