@@ -90,7 +90,7 @@ async function play(flag, id, flags) {
     const link = HOST + id;
     const referer = HOST;
     const html = await request(link, referer);
-    let regex = /var _pdCid = "(\d+)"/;
+    let regex = /var _pdCid = "(\\d+)"/;
     let _pdCid = html.match(regex)[1];
     // let _data = get_s(_pdCid);
     // let data = _data["data"];
