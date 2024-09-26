@@ -29,7 +29,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces11' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces12' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -91,8 +91,8 @@ async function play(flag, id, flags) {
     const referer = HOST;
     const html = await request(link, referer);
     let regex = /var _pdCid = "(\d+)"/;
-    let _pdCid = html.match(regex)[1];
-    let _data = get_s(_pdCid);
+    // let _pdCid = html.match(regex)[1];
+    // let _data = get_s(_pdCid);
     // let data = _data["data"];
     // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
     // const res = await request(url, referer, 'post', data);
