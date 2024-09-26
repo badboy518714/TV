@@ -54,7 +54,6 @@ async function category(tid, pg, filter, extend) {
     const html = await request(link, referer);
     const $ = load(html);
     const items = $("div.nav > ul > li");
-    // const items = [1,2,3,4,5];
     var videos = _.map(_.slice(items, 1, 10), (item) => {
         var img = '';
         var a = $(item).find('a:first')[0];
@@ -89,24 +88,24 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
-    const link = HOST + 'live/' + id + '/';
-    const referer = HOST;
-    const html = await request(link, referer);
-    let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
-    console.log(_pdCid)
-    let _data = get_s(_pdCid);
-    console.log(_data)
-    let data = _data["data"];
-    let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-    const res = await request(url, referer, 'post', data);
-    console.log(res)
-    let _url = get_url(res);
-    console.log(_url)
-    let response =  await request(_url, referer);
+    // const link = HOST + 'live/' + id + '/';
+    // const referer = HOST;
+    // const html = await request(link, referer);
+    // let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
+    // console.log(_pdCid)
+    // let _data = get_s(_pdCid);
+    // console.log(_data)
+    // let data = _data["data"];
+    // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
+    // const res = await request(url, referer, 'post', data);
+    // console.log(res)
+    // let _url = get_url(res);
+    // console.log(_url)
+    // let response =  await request(_url, referer);
     // let playUrl = response.match(/(http.*)/)[1]
     // console.log(response)
     // console.log(playUrl)
-    let playUrl = _url
+    let playUrl = _url || ''
 
 
 
