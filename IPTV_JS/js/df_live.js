@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces0122' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces0' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -48,25 +48,25 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
-    if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
-    const link = HOST + tid;
-    const referer = HOST;
-    const html = await request(link, referer);
-    const $ = load(html);
-    var videos = []
-    if (tid === ''){
-        const items = $("div.dianshi_tv > dl");
-        videos = _.map(_.slice(items, 0, 9), (item) => {
-            var img = $(item).find("img:first")[0];
-            var a = $(item).find('a:first')[0];
-            return {
-                vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
-                vod_name: a.attribs["title"],
-                vod_pic: img.attribs["src"],
-                vod_remarks: ''
-            };
-        });
-    }
+    // if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
+    // const link = HOST + tid;
+    // const referer = HOST;
+    // const html = await request(link, referer);
+    // const $ = load(html);
+    // var videos = []
+    // if (tid === ''){
+    //     const items = $("div.dianshi_tv > dl");
+    //     videos = _.map(_.slice(items, 0, 9), (item) => {
+    //         var img = $(item).find("img:first")[0];
+    //         var a = $(item).find('a:first')[0];
+    //         return {
+    //             vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+    //             vod_name: a.attribs["title"],
+    //             vod_pic: img.attribs["src"],
+    //             vod_remarks: ''
+    //         };
+    //     });
+    // }
     // console.log(videos)
     const videos1 = [{
             vod_id: 'sdws',
