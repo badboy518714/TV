@@ -32,12 +32,12 @@ export function get_url(str) {
     return s.data
 }
 export function get_s(_pdCid) {
-    console.log("-------------node_js测试-------------")
-    var domainF = 'https://feiying.litenews.cn/api/'
-    var apiF = 'v1/auth/exchange';
+    // console.log("-------------node_js测试-------------")
+    // var domainF = 'https://feiying.litenews.cn/api/'
+    // var apiF = 'v1/auth/exchange';
     var t = new Date().valueOf()
     var s = CryptoJS.MD5(_pdCid + t + "1qkhcc7og9zeftsu").toString()
-    var url = domainF + apiF + '?t=' + t + '&s=' + s
+    // var url = domainF + apiF + '?t=' + t + '&s=' + s
     var key = 'k5x99e1mswelc4vt'
     var data = aesEncrypt(JSON.stringify({ "channelMark": _pdCid }), key);
     return {
