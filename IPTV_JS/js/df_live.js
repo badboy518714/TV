@@ -13,15 +13,15 @@ async function request(reqUrl, referer, mth, data, hd) {
         "User-Agent": IOS_UA,
     };
     if (referer) headers.referer = encodeURIComponent(referer);
-    let res = await fetch(reqUrl, {
+    let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
         body: data,
         // postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
-    // return res.content;
-    return res.text()
+    return res.content;
+    // return res.text()
 }
 
 async function init(cfg) {
@@ -51,7 +51,7 @@ async function category(tid, pg, filter, extend) {
     // if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
     const link = HOST + tid;
     const referer = HOST;
-    // const html = await request(link, referer);
+    const html = await request(link, referer);
     // const $ = load(html);
     // var videos = []
     // if (tid === ''){
