@@ -53,7 +53,6 @@ async function category(tid, pg, filter, extend) {
     const $ = load(html);
     const items = $("div.dianshi_tv > dl");
     if (tid === ''){
-        const items = $("div.dianshi_tv > dl");
         const videos = _.map(_.slice(items, 0, 9), (item) => {
                 var img = $(item).find("img:first")[0];
                 var a = $(item).find('a:first')[0];
@@ -66,7 +65,6 @@ async function category(tid, pg, filter, extend) {
             });
     }
     else if (tid === 'radio'){ 
-        const items = $("div.dianshi_tv > dl");
         const videos = _.map(_.slice(items, 9, 17), (item) => {
                 var img = $(item).find("img:first")[0];
                 var a = $(item).find('a:first')[0];
