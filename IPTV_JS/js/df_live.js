@@ -103,9 +103,10 @@ async function play(flag, id, flags) {
     let _url = get_url(res);
     console.log(_url)
     let response =  await request(_url, referer);
-    let playUrl = response.match(/(http.*)/)[1]
+    // let playUrl = response.match(/(http.*)/)[1]
     console.log(response)
     console.log(playUrl)
+    let playUrl = _url
 
 
 
