@@ -13,4 +13,4 @@ jobs:
       with:
         node-version: '20.15.0'
     - name: Run JavaScript file
-      run: node IPTV_JS/js/df_live.js
+      run: node --experimental-modules IPTV_JS/js/df_live.js
