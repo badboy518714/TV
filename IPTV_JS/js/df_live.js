@@ -29,7 +29,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces00' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces10' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -60,7 +60,7 @@ async function category(tid, pg, filter, extend) {
             vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
             vod_name: a.attribs["title"],
             vod_pic: img,
-            vod_remarks: ''
+            vod_remarks: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1')
         };
     });
     const video_s = [{"vod_id": "https://1gr3uomttgr31hctwgrzdgco.wslivehls.com/alivealone302.litenews.cn/419/0c23955353f3499ba268bf5c0ecdd0d2/playlist.m3u8?k=66cbda625b5f11daadc9bd03f955126a&t=1727302265&wsSession=13c10561eff4beff97f8d1fa-172730226631115&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u7efc\u5408\u5e7f\u64ad", "vod_remarks": ""}, {"vod_id": "https://1gr3uomttgr31hctwgrzdgco.wslivehls.com/alivealone302.litenews.cn/419/78140199359d40c18dafaf486e57c941/playlist.m3u8?k=e5c2a11e40b1c4399fd9ff2fc1c23ed3&t=1727302265&wsSession=13c10561eff4beff97f8d1fa-172730226632167&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u7ecf\u6d4e", "vod_remarks": ""}, {"vod_id": "https://1gr3uomttgr31hctwgrzdcqy.wslivehls.com/alivealone302.litenews.cn/419/1255f16ee5f24f998e7c26cd68cf1adf/playlist.m3u8?k=74fc4e338ea05e7102fd319bc8a1dbe4&t=1727302265&wsSession=a370e8fe9e9c9cbe30562dd1-172730226631255&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u6587\u827a", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnqbw.wslivehls.com/audiolive302.iqilu.com/sdradioShenghuo/sdradio04/playlist.m3u8?wsSession=9a83f8f2fb31f4b9cda44f42-172730226618817&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u7ecf\u5178\u97f3\u4e50", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnqbi.wslivehls.com/audiolive302.iqilu.com/sdradioJiaotong/sdradio05/playlist.m3u8?wsSession=f3ab78b6a16fe0b19e59ff87-172730226619193&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u4ea4\u901a", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnqba.wslivehls.com/audiolive302.iqilu.com/sdradioXiangcun/sdradio06/playlist.m3u8?wsSession=4653a88dde207a960428535d-172730226619161&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u4e61\u6751", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnp3z.wslivehls.com/audiolive302.iqilu.com/sdradioYinyue/sdradio07/playlist.m3u8?wsSession=f1880498f0661967719b5e28-172730226619226&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u97f3\u4e50", "vod_remarks": ""}, {"vod_id": "https://0gr4uqmtt8y41hcjzgyzdnqj3.wslivehls.com/audiolive302.iqilu.com/sdradioTiyu/sdradio08/playlist.m3u8?wsSession=704034110337ab64b1d4f9a5-172730226618955&wsIPSercert=acf7f5f3045db9c364e984d612ac493a&wsiphost=local&wsBindIP=1", "vod_pic": "https://file.iqilu.com/custom/radio/images/shoutu.jpg", "vod_name": "\u5c71\u4e1c\u4f53\u80b2\u4f11\u95f2", "vod_remarks": ""}]
@@ -87,6 +87,11 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
+    const link = HOST + id;
+    const referer = HOST;
+
+
+    
     var playUrl = 'https://3geau1mtagczdnqb3fa3dq.wslivehls.com/clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=30f6effe6074cdc7cc3b399e1a88b982&timestamp=1727293753208&wsSession=5d5f7fb7473de3cce4316177-172729375344892&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1';
     const headers = {
         Referer: "https://v.iqilu.com/",
