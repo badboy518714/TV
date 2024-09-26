@@ -105,7 +105,7 @@ async function play(flag, id, flags) {
     // let playUrl = response.match(/(http.*)/)[1]
     // console.log(response)
     // console.log(playUrl)
-    let playUrl = _url || ''
+    let playUrl = ''
 
 
 
