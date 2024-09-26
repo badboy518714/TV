@@ -19,7 +19,8 @@ async function request(reqUrl, referer, mth, data, hd) {
         body: data,
         // postType: mth === "post" ? "form" : "",
     });
-    return res.content;
+    // return res.content;
+    return res.text()
 }
 
 async function init(cfg) {
@@ -29,7 +30,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces329' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces9' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
