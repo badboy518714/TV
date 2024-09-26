@@ -1,0 +1,16 @@
+name: js调试
+
+on: [push]
+
+jobs:
+  run-js:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20.15.0'
+    - name: Run JavaScript file
+      run: node IPTV_JS/js/df_live.js
