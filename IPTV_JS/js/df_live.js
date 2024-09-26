@@ -10,7 +10,7 @@ const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 
 async function request(reqUrl, referer, mth, data, hd) {
     const headers = {
-        "User-Agent": PC_UA,
+        "User-Agent": IOS_UA,
     };
     if (referer) headers.referer = encodeURIComponent(referer);
     let res = await fetch(reqUrl, {
