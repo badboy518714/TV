@@ -7,12 +7,12 @@ let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
 
-async function request(reqUrl, referer, mth, data, User) {
+async function request(reqUrl, referer, mth, data, User_Agent) {
     const headers = {
         "User-Agent": IOS_UA,
         Referer: HOST
     };
-    if (User) headers["User-Agent"] = User;
+    if (User_Agent) headers["User-Agent"] = User_Agent;
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '50' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '520' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
