@@ -92,6 +92,8 @@ async function play(flag, id, flags) {
     const referer = HOST;
     const html = await request(link, referer);
     let _pdCid = html.match(/var _pdCid = "(\d+)"/);
+    console.log(link)
+    console.log(referer)
     console.log(html)
     console.log(_pdCid)
     // let _data = get_s(_pdCid);
