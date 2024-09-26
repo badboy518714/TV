@@ -19,6 +19,8 @@ async function request(reqUrl, referer, mth, data, hd) {
         body: data,
         // postType: mth === "post" ? "form" : "",
     });
+    console.log(headers)
+    // console.log(headers)
     // return res.content;
     return res.text()
 }
