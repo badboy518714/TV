@@ -2,9 +2,9 @@ name: js调试
 
 on:
   # push的时候触发
-  # push:
-  #   paths:
-  #     - 'IPTV_TXT/新疆频道.txt'
+  push:
+    paths:
+      - 'IPTV_JS/js/df_live.js'
   workflow_dispatch:
   # 定时触发
   # schedule:
