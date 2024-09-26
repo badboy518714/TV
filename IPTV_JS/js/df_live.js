@@ -47,7 +47,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '50' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '350' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -72,10 +72,6 @@ async function category(tid, pg, filter, extend) {
         let _data = get_s(_pdCid);
         let data = _data["data"];
         let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-        const headers = {
-            "User-Agent": PC_UA,
-            'Referer': HOST
-        };
         const res = await request_1(url, data);
 
 
@@ -92,7 +88,7 @@ async function category(tid, pg, filter, extend) {
                     vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
                     vod_name: a.attribs["title"],
                     vod_pic: img.attribs["src"],
-                    vod_remarks: res
+                    vod_remarks: res || "125"
                 };
             });
         }
