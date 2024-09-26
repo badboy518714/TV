@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces38' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces98' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -119,11 +119,11 @@ async function play(flag, id, flags) {
     let _url = get_url(res);
     // console.log(_url)
     let response =  await request(_url);
-    // let playUrl = response.match(/(http.*)/)[1]
+    let playUrl = response.match(/(http.*=1)/)[1]
     // console.log(response)
     // console.log(playUrl)
     // let playUrl = ''
-    let playUrl = _url
+    // let playUrl = _url
 
 
     
