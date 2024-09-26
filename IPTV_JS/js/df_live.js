@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces160' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces16' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -68,18 +68,18 @@ async function category(tid, pg, filter, extend) {
         });
     }
     // console.log(videos)
-    const videos1 = [{
-            vod_id: 'sdws',
-            vod_name: '12587',
-            vod_pic: '',
-            vod_remarks: '12345'
-        }]
+    // const videos1 = [{
+    //         vod_id: 'sdws',
+    //         vod_name: '12587',
+    //         vod_pic: '',
+    //         vod_remarks: '12345'
+    //     }]
     return JSON.stringify({
         page: 1,
         pagecount: 1,
         limit: 20,
         total: 20 * 1,
-        list: videos1
+        list: videos
     })
 }
 
