@@ -1,6 +1,6 @@
 // const CryptoJS = require('crypto-js')
-// import "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/crypto-js.js";
-import CryptoJS from 'crypto-js'
+import "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/crypto-js.js";
+// import CryptoJS from 'crypto-js'
 // 解密
 export function aesDecrypt(word) {
     const bytes = CryptoJS.AES.decrypt(word, CryptoJS.enc.Utf8.parse('k5x99e1mswelc4vt'), {
