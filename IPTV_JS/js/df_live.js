@@ -16,7 +16,8 @@ async function request(reqUrl, referer, mth, data, hd) {
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
-        data: data,
+        data: '',
+        body: data,
         postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
@@ -31,7 +32,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '4220' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '4290' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
