@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces0019' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces001' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -52,6 +52,7 @@ async function category(tid, pg, filter, extend) {
     const link = HOST + tid;
     const referer = HOST;
     const html = await request(link, referer);
+    console.log(html)
     const $ = load(html);
     const items = $("div.nav > ul > li");
     var videos = _.map(_.slice(items, 1, 10), (item) => {
