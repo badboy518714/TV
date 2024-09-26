@@ -13,7 +13,7 @@ async function request(reqUrl, referer, mth, data, hd) {
         "User-Agent": PC_UA,
     };
     if (referer) headers.referer = encodeURIComponent(referer);
-    let res = await req(reqUrl, {
+    let res = await fetch(reqUrl, {
         method: mth || "get",
         headers: headers,
         body: data,
