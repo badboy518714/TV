@@ -95,7 +95,7 @@ async function play(flag, id, flags) {
     let _data = get_s(_pdCid);
     let data = _data["data"];
     let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-    const res = await request(url, referer, 'get', data);
+    const res = await request(url, referer, 'post', data);
     let _url = get_url(res);
     let response =  await request(_url, referer);
     let playUrl = response.match(/(http.*)/)[1]
