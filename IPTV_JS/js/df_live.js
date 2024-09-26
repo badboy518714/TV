@@ -1,5 +1,5 @@
 import { load, _ } from '../lib/cat.js';
-// import { get_url, get_s } from './demo.js';
+import { get_url, get_s } from './demo.js';
 let key = '🐰山东';
 let HOST = 'https://v.iqilu.com/';
 let siteKey = '';
