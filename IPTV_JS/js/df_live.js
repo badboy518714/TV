@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces0' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces10' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -48,10 +48,10 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
-    // if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
-    // const link = HOST + tid;
-    // const referer = HOST;
-    // const html = await request(link, referer);
+    if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
+    const link = HOST + tid;
+    const referer = HOST;
+    const html = await request(link, referer);
     // const $ = load(html);
     // var videos = []
     // if (tid === ''){
