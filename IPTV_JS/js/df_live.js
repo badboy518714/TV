@@ -54,7 +54,7 @@ async function category(tid, pg, filter, extend) {
     const html = await request(link, referer);
     const $ = load(html);
     const items = $("div.nav > ul > li");
-    console.log(typeof html)
+    console.log(html)
     // console.log(items)
     const ss =load('<h1>Hello, world!</h1>');
     console.log(ss('h1').text());
