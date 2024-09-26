@@ -16,7 +16,7 @@ async function request(reqUrl, referer, mth, data, hd) {
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
-        data: data,
+        body: data,
         // postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '02' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '03' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -50,6 +50,16 @@ async function homeVod() {
 async function category(tid, pg, filter, extend) {  
     let videos;
     if (tid === '' || tid === 'radio'){
+        const link = HOST + 'live/' + 'sdtv' + '/';
+        const html = await request(link);
+        let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
+        // console.log(_pdCid)
+        let _data = get_s(_pdCid);
+
+
+
+
+        
         const html = await request(HOST);
         const $ = load(html);
         const items = $("div.dianshi_tv > dl");
@@ -61,7 +71,7 @@ async function category(tid, pg, filter, extend) {
                     vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
                     vod_name: a.attribs["title"],
                     vod_pic: img.attribs["src"],
-                    vod_remarks: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1')
+                    vod_remarks: _pdCid
                 };
             });
         }
