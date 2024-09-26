@@ -47,7 +47,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '80' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '2080' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -73,7 +73,16 @@ async function category(tid, pg, filter, extend) {
         let data = _data["data"];
         let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
         // const res = await request_1(url, data);
-
+        const headers = {
+        "User-Agent": PC_UA,
+        'Referer': HOST
+        };
+        let ress = await fetch(url, {
+            method: "post",
+            headers: headers,
+            body: data,
+            postType: "form"
+        });
 
 
         
