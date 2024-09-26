@@ -52,9 +52,10 @@ async function category(tid, pg, filter, extend) {
     const link = HOST + tid;
     const referer = HOST;
     const html = await request(link, referer);
-    console.log(html)
     const $ = load(html);
+    console.log($)
     const items = $("div.nav > ul > li");
+    console.log(items)
     var videos = _.map(_.slice(items, 1, 10), (item) => {
         var img = '';
         var a = $(item).find('a:first')[0];
