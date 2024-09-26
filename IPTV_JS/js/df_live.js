@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '555' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '666' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -106,7 +106,7 @@ async function detail(id) {
 
 async function play(flag, id, flags) {
     const link = HOST + 'live/' + id + '/';
-    // const html = await request(link);
+    const html = await request(link);
     // let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
     // console.log(_pdCid)
     // let _data = get_s(_pdCid);
