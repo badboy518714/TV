@@ -55,9 +55,11 @@ async function category(tid, pg, filter, extend) {
     const $ = load(html);
     const items = $("div.nav > ul > li");
     console.log(html)
-    // console.log(items)
-    const ss =load('<h1>Hello, world!</h1>');
-    console.log(ss('h1').text());
+    const aa = ''
+    const ss =load(aa);
+    const iii = $("div.dianshi_tv > dl");
+    console.log('iii', iii.length)
+    // console.log(ss('li').text());
     var videos = _.map(_.slice(items, 1, 10), (item) => {
         var img = '';
         var a = $(item).find('a:first')[0];
