@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces98' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces18' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -53,6 +53,7 @@ async function category(tid, pg, filter, extend) {
     const $ = load(html);
     const items = $("div.dianshi_tv > dl");
     if (tid === ''){
+        const items = $("div.dianshi_tv > dl");
         const videos = _.map(_.slice(items, 0, 9), (item) => {
                 var img = $(item).find("img:first")[0];
                 var a = $(item).find('a:first')[0];
@@ -64,7 +65,8 @@ async function category(tid, pg, filter, extend) {
                 };
             });
     }
-    else if (tid === 'radio'){        
+    else if (tid === 'radio'){ 
+        const items = $("div.dianshi_tv > dl");
         const videos = _.map(_.slice(items, 9, 17), (item) => {
                 var img = $(item).find("img:first")[0];
                 var a = $(item).find('a:first')[0];
@@ -75,6 +77,9 @@ async function category(tid, pg, filter, extend) {
                     vod_remarks: ''
                 };
             });
+    }
+    else {
+        const videos = []
     }
     // console.log(videos)
     // const videos1 = [{
