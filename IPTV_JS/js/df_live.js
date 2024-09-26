@@ -47,7 +47,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '380' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '1380' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -88,7 +88,7 @@ async function category(tid, pg, filter, extend) {
                     vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
                     vod_name: a.attribs["title"],
                     vod_pic: img.attribs["src"],
-                    vod_remarks: res || "125"
+                    vod_remarks: "125"
                 };
             });
         }
