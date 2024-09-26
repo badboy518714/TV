@@ -7,12 +7,12 @@ let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
 
-
 async function request(reqUrl, referer, mth, data, hd) {
     const headers = {
         "User-Agent": IOS_UA,
+        Referer: HOST
     };
-    if (referer) headers.referer = encodeURIComponent(referer);
+    // if (referer) headers.referer = encodeURIComponent(referer);
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces16' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: 'ces18' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -48,10 +48,8 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
-    // if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
     const link = HOST + tid;
-    const referer = HOST;
-    const html = await request(link, referer);
+    const html = await request(link);
     const $ = load(html);
     var videos = []
     if (tid === ''){
@@ -97,31 +95,30 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
-    // const link = HOST + 'live/' + id + '/';
-    // const referer = HOST;
-    // const html = await request(link, referer);
-    // let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
+    const link = HOST + 'live/' + id + '/';
+    const html = await request(link);
+    let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
     // console.log(_pdCid)
-    // let _data = get_s(_pdCid);
+    let _data = get_s(_pdCid);
     // console.log(_data)
-    // let data = _data["data"];
-    // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-    // const res = await request(url, referer, 'post', data);
+    let data = _data["data"];
+    let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
+    const res = await request(url, '', 'post', data);
     // console.log(res)
-    // let _url = get_url(res);
+    let _url = get_url(res);
     // console.log(_url)
-    // let response =  await request(_url, referer);
-    // let playUrl = response.match(/(http.*)/)[1]
+    let response =  await request(_url);
+    let playUrl = response.match(/(http.*)/)[1]
     // console.log(response)
     // console.log(playUrl)
-    let playUrl = ''
+    // let playUrl = ''
 
 
 
     
     // var playUrl0 = 'https://3geau1mtagczdnqb3fa3dq.wslivehls.com/clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=09801fd5eb1ccd62201c212411afe0a0&timestamp=1727312506271&wsSession=5d5f7fb7473de3cce4316177-172731250654874&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1';
     const headers = {
-        Referer: "https://v.iqilu.com/",
+        Referer: HOST,
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
     };
     return JSON.stringify({
