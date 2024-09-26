@@ -10,7 +10,7 @@ const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 async function request(reqUrl, referer, mth, data, hd) {
     let headers = {
         "User-Agent": IOS_UA,
-        Referer: HOST
+        'Referer': HOST
     };
     if (mth) headers["User-Agent"] = PC_UA;
     let res = await req(reqUrl, {
@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '220' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '4220' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
