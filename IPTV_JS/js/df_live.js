@@ -51,7 +51,7 @@ async function category(tid, pg, filter, extend) {
     // if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
     const link = HOST + tid;
     const referer = HOST;
-    const html = await request(link, referer);
+    // const html = await request(link, referer);
     // const $ = load(html);
     // var videos = []
     // if (tid === ''){
