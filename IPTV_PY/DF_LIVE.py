@@ -85,7 +85,7 @@ def get_qingdao():
         "User-Agent": PC_UA
     }
     url_live = "http://www.qtv.com.cn/live/tv/index.shtml"
-    response = requests.get(url_live, headers=headers_, verify=False)
+    response = requests.get(url_live, headers=headers_)
     for i in range(6):
         channel = f'QTV-{i+1}'
         json_data[channel] = f'http://video10.qtv.com.cn/drm/qtv{i+1}at/manifest.m3u8'
