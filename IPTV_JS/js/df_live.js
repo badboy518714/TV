@@ -33,7 +33,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '105' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '15555' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -136,18 +136,18 @@ async function play(flag, id, flags) {
     // console.log(response)
     // console.log(playUrl)
     // let playUrl = ''
-    // let playUrl = _url
+    let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'
 
 
     
-    var playUrl0 = 'https://3geau1mtagczdnqb3fa3dq.wslivehls.com/clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=09801fd5eb1ccd62201c212411afe0a0&timestamp=1727312506271&wsSession=5d5f7fb7473de3cce4316177-172731250654874&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1';
+    // var playUrl0 = 'https://3geau1mtagczdnqb3fa3dq.wslivehls.com/clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=09801fd5eb1ccd62201c212411afe0a0&timestamp=1727312506271&wsSession=5d5f7fb7473de3cce4316177-172731250654874&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1';
     const headers = {
         Referer: HOST,
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
     };
     return JSON.stringify({
         parse: 0,
-        url: playUrl0,
+        url: playUrl,
         header: headers,
     });
 }
