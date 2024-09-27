@@ -59,7 +59,7 @@ async function get_info(tid){
             var a = $(item).find('a:first')[0];
             let b = a.attribs["title"];
             let name;
-            if (b.includes("山东") !== -1) { name = b;  }
+            if (b.includes("山东")) { name = b;  }
             else { name = "山东" + b; }
             return {
                 vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
@@ -74,7 +74,7 @@ async function get_info(tid){
             var a = $(item).find('a:first')[0];
             let b = a.attribs["title"];
             let name;
-            if (b.includes("广播") !== -1) { name = b;  }
+            if (b.includes("广播")) { name = b;  }
             else { name = b + "广播"; }
             return {
                 vod_id: a.attribs.href.replace(/.*?\/radio_live\/(.*)\//g, '$1'),
