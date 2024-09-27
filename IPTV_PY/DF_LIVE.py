@@ -100,7 +100,6 @@ def get_qingdao():
         channelName = re.search(r"channelName: '([^']*)',", res.text).group(1)
         # print(channelName)
         json_data[channel] = f'http://hlspull.qtv.com.cn/gwepn2sr/channel/{channelName}/1.m3u8'
-        name.append(channel)
 
     # print(json_data)
 
