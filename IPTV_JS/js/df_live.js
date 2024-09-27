@@ -15,14 +15,14 @@ async function request(reqUrl, referer, mth, data, hd) {
     };
     // if (mth === 'post') headers["User-Agent"] = PC_UA; 
     const ss = 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='
-    let res = await req(reqUrl, {
+    let res = await fetch(reqUrl, {
         method: mth || "get",
         headers: headers,
         data: data,
         postType: mth === "post" ? "form" : "",
     });
-    return res.content;
-    // return res.text()
+    // return res.content;
+    return res.text()
 }
 async function init(cfg) {
     siteKey = cfg.skey;
@@ -68,6 +68,7 @@ async function get_info(tid){
                 vod_remarks: ''
             };
         });
+        console.log(vedio_1)
         vedio_2 = _.map(_.slice(items, 9, items.length), (item) => {
             var img = $(item).find("img:first")[0];
             var a = $(item).find('a:first')[0];
@@ -82,6 +83,7 @@ async function get_info(tid){
                 vod_remarks: ''
             };
         }); 
+        console.log(vedio_2)
         return vedio_1.concat(vedio_2) 
     }
     else if (tid === ""jinan){
@@ -100,6 +102,7 @@ async function category(tid, pg, filter, extend) {
     console.log(json_data)
 
     let videos = await get_info(tid)    
+    console.log(videos)
     return JSON.stringify({
         page: 1,
         pagecount: 1,
@@ -162,4 +165,4 @@ export function __jsEvalReturn() {
 // let flag = ''
 // let flags = ''
 // play(flag, 'sdtv')
-// category("")
+category("qilu")
