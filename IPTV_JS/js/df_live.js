@@ -95,7 +95,7 @@ async function category(tid, pg, filter, extend) {
                     vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
                     vod_name: a.attribs["title"],
                     vod_pic: img.attribs["src"],
-                    vod_remarks: ss
+                    vod_remarks: typeof res
                 };
             });
         }
