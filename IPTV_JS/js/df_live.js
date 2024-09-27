@@ -115,9 +115,10 @@ async function category(tid, pg, filter, extend) {
 
     for (var i=0; i<ID_JN.length; i++){
         let _id = ID_JN[i];
-        if (i<9) { let _pic = PIC_JN[i] }
-        else { let _pic = PIC_JN[9] }
-        jn_infos[_id] = _pic
+        let _pic;
+        if (i<9) { _pic = PIC_JN[i]; }
+        else { _pic = PIC_JN[9]; }
+        jn_infos[_id] = _pic;
     }
 
     let videos = await get_info(tid)    
