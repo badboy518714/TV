@@ -28,7 +28,7 @@ def get_m3u8(match):
     except:
         _pdCid = re.search(r"var channelid  = (\d);", html).group(1)
     _data = ctx.call('get_s', _pdCid)
-    # print(_data)
+    print(_data)
 
     params = {
         "t": _data["t"],
