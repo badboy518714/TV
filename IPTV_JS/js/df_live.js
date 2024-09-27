@@ -50,7 +50,7 @@ async function homeVod() {
 async function category(tid, pg, filter, extend) {  
     const url = 'https://badboy518714.github.io/TV/SD_JSON/山东齐鲁.json'
     const link = await request(url);
-    json_data = JSON.parse(html);
+    json_data = JSON.parse(link);
     console.log(json_data)
 
     let videos;
