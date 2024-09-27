@@ -5,26 +5,24 @@ let HOST = 'https://v.iqilu.com/';
 let siteKey = '';
 let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
-const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
-
+// const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
+let json_data;
 
 async function request(reqUrl, referer, mth, data, hd) {
     const headers = {
         "User-Agent": IOS_UA,
         'Referer': HOST
     };
-    if (mth === 'post') headers["User-Agent"] = PC_UA; 
+    // if (mth === 'post') headers["User-Agent"] = PC_UA; 
     const ss = 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='
-    let res = await req(reqUrl, {
+    let res = await fetch(reqUrl, {
         method: mth || "get",
         headers: headers,
         data: data,
-        // postType: ""
         postType: mth === "post" ? "form" : "",
     });
-    // console.log(headers)
-    return res.content;
-    // return res.text()
+    // return res.content;
+    return res.text()
 }
 async function init(cfg) {
     siteKey = cfg.skey;
@@ -33,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '15555' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '1858' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -50,21 +48,15 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {  
+    const url = 'https://badboy518714.github.io/TV/SD_JSON/山东齐鲁.json'
+    const link = await request(url);
+    json_data = JSON.parse(html);
+    console.log(json_data)
+
     let videos;
-    if (tid === '' || tid === 'radio'){
-        // const link = HOST + 'live/' + 'sdtv' + '/';
-        // const html1 = await request(link);
-        // let _pdCid = html1.match(/var _pdCid = "(\d+)"/)[1];
-        // let _data = get_s(_pdCid);
-        // let data = _data["data"];
-        // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" + _data["t"] + "&s=" + _data["s"];
-        // let obj = {};
-        // let key = decodeURIComponent(data.substring(0, data.length-1));
-        // obj[key] = '';
-        // const res = await request(url, '', 'post', obj );
-        
+    if (tid === '' || tid === 'radio'){        
         const html = await request(HOST);
-        console.log(html)
+        // console.log(html)
         const $ = load(html);
         const items = $("div.dianshi_tv > dl");
         if (tid === ''){
@@ -100,7 +92,7 @@ async function category(tid, pg, filter, extend) {
         page: 1,
         pagecount: 1,
         limit: 20,
-        total: 20 * 1,
+        total: 20,
         list: videos
     })
 }
@@ -119,28 +111,17 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
-    // const link = HOST + 'live/' + id + '/';
-    // const html = await request(link);
-    // let _pdCid = html.match(/var _pdCid = "(\d+)"/)[1];
-    // console.log(_pdCid)
-    // let _data = get_s(_pdCid);
-    // console.log(_data)
-    // let data = _data["data"];
-    // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" +  _data["t"] + "&s=" + _data["s"];
-    // const res = await request(url, '', 'post', data);
-    // console.log(res)
-    // let _url = get_url(res);
-    // console.log(_url)
-    // let response =  await request(_url);
-    // let playUrl = response.match(/(http.*=1)/)[1]
-    // console.log(response)
-    // console.log(playUrl)
-    // let playUrl = ''
-    let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'
+
+
+
+
+
+
 
 
     
-    // var playUrl0 = 'https://3geau1mtagczdnqb3fa3dq.wslivehls.com/clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=09801fd5eb1ccd62201c212411afe0a0&timestamp=1727312506271&wsSession=5d5f7fb7473de3cce4316177-172731250654874&wsIPSercert=3aa22d18ba1a130b780b3966a839dc3b&wsiphost=local&wsBindIP=1';
+
+    let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
     const headers = {
         Referer: HOST,
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
@@ -177,4 +158,4 @@ export function __jsEvalReturn() {
 // let flag = ''
 // let flags = ''
 // play(flag, 'sdtv')
-// category("")
+category("")
