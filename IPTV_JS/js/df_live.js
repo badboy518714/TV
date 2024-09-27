@@ -12,20 +12,12 @@ async function request(reqUrl, referer, mth, data, hd) {
         "User-Agent": IOS_UA,
         'Referer': HOST
     };
-    let data_;
-    if (mth === 'post') { 
-        headers["User-Agent"] = PC_UA; 
-        data_ = 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0=';
-        // return data['data'];
-    }
-    else {
-        data_ = data;
-    }
+    if (mth === 'post') headers["User-Agent"] = PC_UA; 
     let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
-        body: data_,
-        postType: mth === "post" ? "form" : "",
+        body: data,
+        // postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
     return res.content;
@@ -40,7 +32,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '9' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '009' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -66,7 +58,7 @@ async function category(tid, pg, filter, extend) {
         let _data = {'t': 1727406632331, 's': '01023c05067b65a46e918d51f7613a3d', 'data': 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='}
         let data = _data["data"];
         let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" + _data["t"] + "&s=" + _data["s"];
-        const res = await request(url, '', 'post', _data);
+        const res = await request(url, '', 'post', data);
 
 
         
