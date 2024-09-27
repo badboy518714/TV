@@ -37,7 +37,7 @@ def get_m3u8(match):
     data = _data["data"]
     # 获取 url加密信息
     response = requests.post(url, headers=headers, params=params, data=data)
-    # print(response.text)
+    print(response.text)
 
     if "errmsg" in response.text:
         PRINT(int(_pdCid))
