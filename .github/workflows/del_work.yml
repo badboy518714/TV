@@ -30,4 +30,3 @@ jobs:
           repository: ${{ github.repository }}
           retain_days: 1
           keep_minimum_runs: 1
-              requests.delete(f'https://api.github.com/repos/badboy518714/TV/actions/workflows/{workflow_id}', headers=headers)
