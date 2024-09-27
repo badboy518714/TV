@@ -86,7 +86,7 @@ async function get_info(tid){
         console.log(vedio_2)
         return vedio_1.concat(vedio_2) 
     }
-    else if (tid === ""jinan){
+    else if (tid === "jinan"){
          return []
     }
     else {
