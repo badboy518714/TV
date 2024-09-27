@@ -11,21 +11,8 @@ PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, li
 
 host = 'https://v.iqilu.com/'
 url = "https://feiying.litenews.cn/api/v1/auth/exchange"
-radio = {
-    1: 'sdradioXinwen',
-    2: 'sdradioJingji',
-    3: 'sdradioWenyi',
-    4: 'sdradioShenghuo',
-    5: 'sdradioJiaotong',
-    6: 'sdradioXiangcun',
-    7: 'sdradioYinyue',
-    8: 'sdradioTiyu',
-    9: 'sdradioJingjifm96'
-}
-headers = {
-    "Referer": host,
-    "User-Agent": IOS_UA
-}
+radio = { 1: 'sdradioXinwen',2: 'sdradioJingji',3: 'sdradioWenyi',4: 'sdradioShenghuo',5: 'sdradioJiaotong',6: 'sdradioXiangcun',7: 'sdradioYinyue',8: 'sdradioTiyu',9: 'sdradioJingjifm96'}
+headers = { "Referer": host, "User-Agent": IOS_UA }
 
 json_data = {}
 
