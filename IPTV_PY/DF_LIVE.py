@@ -8,7 +8,17 @@ ctx = execjs.compile(open('IPTV_PY/DF_LIVE.js', encoding='utf-8').read())
 
 host = 'https://v.iqilu.com/'
 url = "https://feiying.litenews.cn/api/v1/auth/exchange"
-
+radio = {
+    1: 'sdradioXinwen',
+    2: 'sdradioJingji',
+    3: 'sdradioWenyi',
+    4: 'sdradioShenghuo',
+    5: 'sdradioJiaotong',
+    6: 'sdradioXiangcun',
+    7: 'sdradioYinyue',
+    8: 'sdradioTiyu',
+    9: 'sdradioJingjifm96'
+}
 headers = {
     "Referer": host,
     "User-Agent": 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
@@ -40,8 +50,7 @@ def get_m3u8(match):
     print(response.text)
 
     if "errmsg" in response.text:
-        print(int(_pdCid))
-        _url = f'https://audiolive302.iqilu.com/radio{_pdCid}/sdradio0{_pdCid}/playlist.m3u8'
+        _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
     else:
         # 解密 url
         _url = ctx.call('get_url', response.text)
