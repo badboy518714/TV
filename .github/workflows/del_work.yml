@@ -1,0 +1,26 @@
+name: 删除 Old Workflows
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜运行
+  workflow_dispatch:
+ 
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: main
+ 
+    - name: Delete Workflows
+      run: |
+        repo_owner=${{ github.repository_owner }}
+        repo_name=$GITHUB_REPOSITORY
+        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+        for workflow in $(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/$repo_owner/$repo_name/actions/workflows" | jq -r '.workflows[] | select(.name != "Delete Old Workflows") | .name'); do
+          echo "Deleting workflow: $workflow"
+          curl -s -X DELETE -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/$repo_owner/$repo_name/actions/workflows/$workflow/runs"
+        done
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
