@@ -15,14 +15,14 @@ async function request(reqUrl, referer, mth, data, hd) {
     };
     // if (mth === 'post') headers["User-Agent"] = PC_UA; 
     const ss = 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='
-    let res = await fetch(reqUrl, {
+    let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
         data: data,
         postType: mth === "post" ? "form" : "",
     });
-    // return res.content;
-    return res.text()
+    return res.content;
+    // return res.text()
 }
 async function init(cfg) {
     siteKey = cfg.skey;
@@ -31,7 +31,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '1858' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '7895' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -112,19 +112,11 @@ async function detail(id) {
 
 async function play(flag, id, flags) {
 
-
-
-
-
-
-
-
-    
-
-    let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
+    let playUrl = json_data[id]
+    // let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
     const headers = {
         Referer: HOST,
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
+        "User-Agent": IOS_UA
     };
     return JSON.stringify({
         parse: 0,
