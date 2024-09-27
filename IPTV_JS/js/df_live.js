@@ -20,6 +20,13 @@ async function request(reqUrl, referer, mth, data, hd) {
         postType: ""
         // postType: mth === "post" ? "form" : "",
     });
+    let res_s = await fetch(reqUrl, {
+        method: mth || "get",
+        headers: headers,
+        body: data,
+        // postType: ""
+        // postType: mth === "post" ? "form" : "",
+    });
     // console.log(headers)
     return res.content;
     // return res.text()
@@ -33,7 +40,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '001' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '002' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
