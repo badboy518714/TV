@@ -26,7 +26,7 @@ async function request(reqUrl, referer, mth, data, hd) {
 }
 async function request_s(reqUrl, referer, mth, data){
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://example.com/api');
+    xhr.open('POST', reqUrl);
 
     xhr.setRequestHeader("User-Agent", IOS_UA);
     xhr.setRequestHeader('Referer', HOST);
@@ -49,7 +49,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '92002' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '925' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
