@@ -174,7 +174,9 @@ async function play(flag, id, flags) {
     const headers = {
         Referer: referer_s[index_1],
         "User-Agent": Agent[index_1],
-        "Connection": "keep-alive"
+        "Connection": "keep-alive",
+        "range": "",
+        "Range": ""
     };
     return JSON.stringify({
         parse: 0,
