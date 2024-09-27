@@ -15,7 +15,7 @@ async function request(reqUrl, referer, mth, data, hd) {
     let data_;
     if (mth === 'post') { 
         headers["User-Agent"] = PC_UA; 
-        data_ = data['data'];
+        data_ = 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0=';
         // return data['data'];
     }
     else {
@@ -40,7 +40,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '18' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '19' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
