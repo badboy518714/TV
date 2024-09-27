@@ -1,39 +1,33 @@
 name: 删除 Old Workflows
 on:
   schedule:
-    - cron: '0 1 * * *'  # 每天午夜运行
+    - cron: '0 0 * * *'
   workflow_dispatch:
- 
+    inputs:
+      root_sol:
+        description: "Workflow Title"
+        required: true
+        default: "Delete old workflow runs"
+
 jobs:
-  delete:
+  del_runs:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Install Python
-        uses: actions/setup-python@v2
+      - name: Delete Nightly Build
+        uses: Mattraks/delete-workflow-runs@v2
         with:
-          python-version: '3.9'
-
-      - name: Install Requests Library
-        run: python -m pip install requests
-
-      - name: Delete Workflows
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          import requests
-          import json
-
-          headers = {
-              "Authorization": f"Bearer {env['GITHUB_TOKEN']}",
-              "Accept": "application/vnd.github.v3+json"
-          }
-
-          response = requests.get('https://api.github.com/repos/badboy518714/TV/actions/workflows', headers=headers)
-          workflows = json.loads(response.text)['workflows']
-
-          for workflow in Workflows:
-              workflow_id = workflow['id']
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 7
+          keep_minimum_runs: 6
+          retain_days: 1
+          keep_minimum_runs: 1
+          delete_workflow_pattern: 'Nightly Build'
+      - name: Delete Self
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+          keep_minimum_runs: 1
               requests.delete(f'https://api.github.com/repos/badboy518714/TV/actions/workflows/{workflow_id}', headers=headers)
