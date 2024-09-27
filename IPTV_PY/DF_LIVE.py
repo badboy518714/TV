@@ -76,7 +76,7 @@ def get_jinan():
     urls = re.findall(r'(http[^"]*.m3u8)', html)
     # print(urls)
     data = ctx.call('get_tk')
-    for channel, url_ in  zip(channels[-5:], urls[-5:]):
+    for channel, url_ in zip(channels, urls):
         json_data[channel] = url_ + data
         # print(url_ + data)
         # res = requests.get(url_ + data, headers=headers)
