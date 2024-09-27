@@ -18,14 +18,14 @@ async function request(reqUrl, referer, mth, data, hd) {
     };
     // if (mth === 'post') headers["User-Agent"] = PC_UA; 
     const ss = 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='
-    let res = await req(reqUrl, {
+    let res = await fetch(reqUrl, {
         method: mth || "get",
         headers: headers,
         data: data,
         postType: mth === "post" ? "form" : "",
     });
-    return res.content;
-    // return res.text()
+    // return res.content;
+    return res.text()
 }
 async function init(cfg) {
     siteKey = cfg.skey;
@@ -90,12 +90,12 @@ async function get_info(tid){
         return vedio_1.concat(vedio_2) 
     }
     else if (tid === "jinan"){
-        const vedios = _.map(jn_infos, (value, key) => {
-            console.log("Key:", key, "Value:", value);
+        const vedios = _.map(jn_infos, (_value, _key) => {
+            console.log("Key:", _key, "Value:", _value);
             return {
-                vod_id: key,
-                vod_name: key,
-                vod_pic: value,
+                vod_id: _key,
+                vod_name: _key,
+                vod_pic: _value,
                 vod_remarks: ''
                 };     
             });
@@ -184,4 +184,4 @@ export function __jsEvalReturn() {
 // let flag = ''
 // let flags = ''
 // play(flag, 'sdtv')
-// category("qilu")
+category("jinan")
