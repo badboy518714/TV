@@ -14,7 +14,7 @@ url = "https://feiying.litenews.cn/api/v1/auth/exchange"
 radio = { 1: 'sdradioXinwen',2: 'sdradioJingji',3: 'sdradioWenyi',4: 'sdradioShenghuo',5: 'sdradioJiaotong',6: 'sdradioXiangcun',7: 'sdradioYinyue',8: 'sdradioTiyu',9: 'sdradioJingjifm96'}
 headers = { "Referer": host, "User-Agent": IOS_UA }
 
-json_data = {}
+json_data = {"sdtv": "", "qlpd": "", "typd": "", "shpd": "", "zypd": "", "yspd": "", "ggpd": "", "nkpd": "", "sepd": "", "xinwen": "", "jingji": "", "nvzhubo": "", "shenghuo": "", "jiaotong": "", "xiangcun": "", "yinyue": "", "tiyu": ""}
 
 
 def get_m3u8(match):
@@ -79,7 +79,7 @@ def start():
     # print(html)
     matchs = re.findall(r'<dd><a href="(http://[v|m].iqilu.com/.*?live/.*/)" title', html)
     # print(matchs)
-    pool = ThreadPoolExecutor(2)
+    pool = ThreadPoolExecutor(17)
     # 获取山东齐鲁频道info
     for match in matchs:
         pool.submit(get_m3u8, match)
