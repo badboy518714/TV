@@ -51,7 +51,8 @@ async function homeVod() {
 
 async function category(tid, pg, filter, extend) {  
     let videos;
-    if (tid === '' || tid === 'radio'){
+    let flag = 1;
+    if (tid === '' || tid === 'radio' || flag === 1){
         // const link = HOST + 'live/' + 'sdtv' + '/';
         // const html1 = await request(link);
         // let _pdCid = html1.match(/var _pdCid = "(\d+)"/)[1];
