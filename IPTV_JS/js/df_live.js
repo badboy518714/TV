@@ -113,7 +113,7 @@ async function category(tid, pg, filter, extend) {
     json_data = JSON.parse(link);
     console.log(json_data);
 
-    for (i=0;i<ID_JN.length;i++){
+    for (var i=0; i<ID_JN.length; i++){
         let _id = ID_JN[i];
         if (i<9) { let _pic = PIC_JN[i] }
         else { let _pic = PIC_JN[9] }
