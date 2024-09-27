@@ -52,7 +52,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '155' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '1' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -77,11 +77,14 @@ async function category(tid, pg, filter, extend) {
         // let _data = get_s(_pdCid);
         let _data = {'t': 1727406632331, 's': '01023c05067b65a46e918d51f7613a3d', 'data': 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='}
         let data = _data["data"];
-        let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" + _data["t"] + "&s=" + _data["s"];
+        // let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" + _data["t"] + "&s=" + _data["s"];
         let obj = {};
         let key = decodeURIComponent(data.substring(0, data.length-1));
         obj[key] = '';
-        const res = await request(url, '', 'post', obj );
+        // const res = await request(url, '', 'post', obj );
+
+        let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" + _data["t"] + "&s=" + _data["s"] +  "&" + data;
+        const res = await request(url, '', 'post');
 
 
         
