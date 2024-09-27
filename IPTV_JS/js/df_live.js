@@ -2,15 +2,18 @@ import { load, _ } from '../lib/cat.js';
 // import { get_url, get_s } from './demo.js';
 let key = '🐰山东';
 let HOST = 'https://v.iqilu.com/';
-let referer_s = ['https://v.iqilu.com/','https://www.ijntv.cn/']
+let referer_s = ['https://v.iqilu.com/','https://www.ijntv.cn/','http://www.qtv.com.cn/live/radio/']
 let siteKey = '';
 let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36";
 const ID_JN = ["新闻频道", "都市频道", "文旅体育频道", "生活频道", "少儿频道", "鲁中频道", "城市电视频道", "地铁电视频道", "移动电视频道", "新闻频率", "经济频率", "交通频率", "音乐频率", "936私家车频率", "都市频率", "生活频率"]
 const PIC_JN = ["https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/388B9096297F45A399F2AA6B9690C30F/B8CB223825D84DBAAC4A20FF87D3AC55.jpg","https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/388B9096297F45A399F2AA6B9690C30F/8D3DDDD03A764180A80BC06EC5F359D0.jpg","https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/0683FD92CC394CB0A45EFC96E3573714/8C4F3D94819445969F7AEA4183046B94.png","https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/1AB422BDF3F14167B3FFBBD3FCE7B83F/308CB37FA01E4ACF91F46DCA51C3C01F.jpg","https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/1AB422BDF3F14167B3FFBBD3FCE7B83F/92374E7275A94CB28CC9D847AAA9E953.jpg","https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/0683FD92CC394CB0A45EFC96E3573714/C7A16701895348BD90C932DC35EE6445.jpg","https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/0683FD92CC394CB0A45EFC96E3573714/F62353C7A24E4A928E36375FDF0199AD.png","https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/0683FD92CC394CB0A45EFC96E3573714/FEBCA467466B45FA854714AF823C2546.png","https://quehuaobs.ijntv.cn/58CE1F28EF5E42F6/FABU_YUNSHI/1AB422BDF3F14167B3FFBBD3FCE7B83F/A1E137EFDE7C4147A8D5D783BBD36432.jpg","https://mp-b77cdf68-e470-49bf-98e7-01d12ec29f28.cdn.bspapp.com/staic-img/tv-redio-back.jpg"]; 
+const ID_QD = ['QTV-1', 'QTV-2', 'QTV-3', 'QTV-4', 'QTV-5', 'QTV-6', '新闻综合广播', '经济广播', '文艺广播', '交通广播', '音体广播', '故事广播']
+const PIC_QD = [ "https://pic.rmb.bdstatic.com/bjh/240725/news/518b9f4f30e5ab4d84ee825c087d475d657.jpeg","https://photo.tuchong.com/17981284/f/744227682.jpg","https://qiniu-cdn0.jinxidao.com/group1/M00/09/9B/ooYBAFmyS4OAdU-MAALMB5guu1E493.jpg","https://travel.qingdaonews.com/gb/images/2020-02/13/ad403c27-097c-47bf-a1f4-de166fe3f083.jpg","https://p3.itc.cn/q_70/images03/20230304/5952c1795c4944e492ac67b413f4b97c.jpeg","https://bkimg.cdn.bcebos.com/pic/8b82b9014a90f603738df077aa5da41bb051f81947f9","https://mp-b77cdf68-e470-49bf-98e7-01d12ec29f28.cdn.bspapp.com/staic-img/tv-redio-back.jpg"]
 let json_data;
 let jn_infos = {};
+let qd_infos = {};
 
 async function request(reqUrl, referer, mth, data, hd) {
     const headers = {
@@ -35,7 +38,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "3", type_name: '529' }];
+    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "qingdao", type_name: '青岛' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -102,8 +105,17 @@ async function get_info(tid){
             });
         return vedios
     }
-    else {
-        return []
+    else if (tid === "qingdao"){
+        const vedios = _.map(qd_infos, (_value, _key) => {
+            console.log("Key:", _key, "Value:", _value);
+            return {
+                vod_id: _key + '2',
+                vod_name: _key,
+                vod_pic: _value,
+                vod_remarks: ''
+                };     
+            });
+        return vedios
     }
 }
 
@@ -120,6 +132,13 @@ async function category(tid, pg, filter, extend) {
         if (i<9) { _pic = PIC_JN[i]; }
         else { _pic = PIC_JN[9]; }
         jn_infos[_id] = _pic;
+    }
+    for (var i=0; i<ID_QD.length; i++){
+        let _id = ID_QD[i];
+        let _pic;
+        if (i<6) { _pic = PIC_JN[i]; }
+        else { _pic = PIC_JN[6]; }
+        qd_infos[_id] = _pic;
     }
 
     let videos = await get_info(tid)    
