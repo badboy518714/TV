@@ -2,7 +2,7 @@ import { load, _ } from '../lib/cat.js';
 // import { get_url, get_s } from './demo.js';
 let key = '🐰山东';
 let HOST = 'https://v.iqilu.com/';
-let referer_s = ['https://v.iqilu.com/','https://www.ijntv.cn/','http://www.qtv.com.cn/live/radio/']
+let referer_s = ['https://v.iqilu.com/','https://www.ijntv.cn/','http://www.qtv.com.cn/']
 let siteKey = '';
 let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
@@ -38,7 +38,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "qingdao", type_name: '青岛' }];
+    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "qingdao", type_name: '青岛' },{ type_id: "12", type_name: '526' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
