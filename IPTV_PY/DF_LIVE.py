@@ -95,7 +95,7 @@ def get_qingdao():
 
     cc = 'http://hlspull.qtv.com.cn/gwepn2sr/channel/4979ca520e89c36e8d6aa0d0a043e185/1.m3u8'
     for channel, radio_url in channel_radios.items():
-        print(radio_url)
+        print(channel, radio_url)
         print(headers_)
         res = requests.get(radio_url, headers=headers_)
         print(res.text)
