@@ -97,7 +97,7 @@ def get_qingdao():
     for channel, radio_url in channel_radios.items():
         print(channel, radio_url)
         print(headers_)
-        res = requests.get(radio_url, headers=headers_)
+        res = requests.get(radio_url)
         print(res.text)
         channelName = re.search(r"channelName: '([^']*)',", res.text).group(1)
         # print(channelName)
