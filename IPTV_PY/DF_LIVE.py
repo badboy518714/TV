@@ -37,7 +37,7 @@ def get_m3u8(match):
     data = _data["data"]
     # 获取 url加密信息
     response = requests.post(url, headers=headers, params=params, data=data)
-    print(response.text)
+    # print(response.text)
 
     if "errmsg" in response.text:
         _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
@@ -62,7 +62,7 @@ def start():
         pool.submit(get_m3u8, match)
     pool.shutdown()
     # json_data = dict(sorted(json_data.items(), key=lambda x: x[0]))
-    print(json_data)
+    # print(json_data)
     with open('SD_JSON/山东齐鲁.json', 'w', encoding='utf-8') as f:
         json_string = json.dumps(json_data)
         f.write(json_string)
