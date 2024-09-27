@@ -79,7 +79,7 @@ def start():
     # print(html)
     matchs = re.findall(r'<dd><a href="(http://[v|m].iqilu.com/.*?live/.*/)" title', html)
     # print(matchs)
-    pool = ThreadPoolExecutor(1)
+    pool = ThreadPoolExecutor(17)
     # 获取山东齐鲁频道info
     for match in matchs:
         pool.submit(get_m3u8, match)
