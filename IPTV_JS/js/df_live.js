@@ -136,8 +136,8 @@ async function category(tid, pg, filter, extend) {
     for (var i=0; i<ID_QD.length; i++){
         let _id = ID_QD[i];
         let _pic;
-        if (i<6) { _pic = PIC_JN[i]; }
-        else { _pic = PIC_JN[6]; }
+        if (i<6) { _pic = PIC_QD[i]; }
+        else { _pic = PIC_QD[6]; }
         qd_infos[_id] = _pic;
     }
 
