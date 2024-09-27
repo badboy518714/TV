@@ -1,5 +1,6 @@
 import { load, _ } from '../lib/cat.js';
 import { get_url, get_s } from './demo.js';
+import Stream from 'stream';
 // import fetch from './node-fetch';
 let key = '🐰山东';
 let HOST = 'https://v.iqilu.com/';
@@ -41,7 +42,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '920' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '92000' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
