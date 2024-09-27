@@ -93,9 +93,9 @@ async function get_info(tid){
         const vedios = _.map(jn_infos, (value, key) => {
             console.log("Key:", key, "Value:", value);
             return {
-                vod_id: ${key},
-                vod_name: ${key},
-                vod_pic: ${value},
+                vod_id: key,
+                vod_name: key,
+                vod_pic: value,
                 vod_remarks: ''
                 };     
             });
