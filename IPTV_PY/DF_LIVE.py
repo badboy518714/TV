@@ -70,6 +70,40 @@ def get_jinan():
         # print(res, res.text)
     # print(json_data)
 
+def get_qingdao():
+    channel_radios = {
+        "新闻综合广播": "http://www.qtv.com.cn/live/radio/",
+        "经济广播": "http://www.qtv.com.cn/live/radio/rd_economy.shtml",
+        "文艺广播": "http://www.qtv.com.cn/live/radio/rd_car.shtml",
+        "交通广播": "http://www.qtv.com.cn/live/radio/rd_traffic.shtml",
+        "音体广播": "http://www.qtv.com.cn/live/radio/rd_music.shtml",
+        "故事广播": "http://www.qtv.com.cn/live/radio/rd_story.shtml"
+    }
+    global json_data
+    headers_ = {
+        "Referer": "http://www.qtv.com.cn/live/radio/",
+        "User-Agent": PC_UA
+    }
+    url_live = "http://www.qtv.com.cn/live/tv/index.shtml"
+    response = requests.get(url_live, headers=headers_, verify=False)
+    for i in range(6):
+        channel = f'QTV-{i+1}'
+        json_data[channel] = f'http://video10.qtv.com.cn/drm/qtv{i+1}at/manifest.m3u8'
+        headers_["Referer"] = 'http://www.qtv.com.cn/'
+        # res = requests.get(f'http://video10.qtv.com.cn/drm/qtv{i+1}at/manifest.m3u8', headers=headers_)
+        # print(res.text)
+
+    cc = 'http://hlspull.qtv.com.cn/gwepn2sr/channel/4979ca520e89c36e8d6aa0d0a043e185/1.m3u8'
+    for channel, radio_url in channel_radios.items():
+        res = requests.get(radio_url)
+        channelName = re.search(r"channelName: '([^']*)',", res.text).group(1)
+        # print(channelName)
+        json_data[channel] = f'http://hlspull.qtv.com.cn/gwepn2sr/channel/{channelName}/1.m3u8'
+        name.append(channel)
+
+    # print(json_data)
+
+
 
 def start():
     global json_data
@@ -88,6 +122,8 @@ def start():
     # print(json_data)
     # 获取山东济南频道
     get_jinan()
+    # 获取山东青岛频道
+    get_qingdao()
     with open('SD_JSON/山东齐鲁.json', 'w', encoding='utf-8') as f:
         json_string = json.dumps(json_data)
         f.write(json_string)
