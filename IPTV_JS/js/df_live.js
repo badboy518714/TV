@@ -1,7 +1,5 @@
 import { load, _ } from '../lib/cat.js';
 import { get_url, get_s } from './demo.js';
-import Stream from 'stream';
-// import fetch from './node-fetch';
 let key = '🐰山东';
 let HOST = 'https://v.iqilu.com/';
 let siteKey = '';
@@ -22,13 +20,6 @@ async function request(reqUrl, referer, mth, data, hd) {
         postType: ""
         // postType: mth === "post" ? "form" : "",
     });
-    // let res_s = await fetch(reqUrl, {
-    //     method: mth || "get",
-    //     headers: headers,
-    //     body: data,
-    //     // postType: ""
-    //     // postType: mth === "post" ? "form" : "",
-    // });
     // console.log(headers)
     return res.content;
     // return res.text()
@@ -42,7 +33,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '92000' }];
+    const classes = [{ type_id: "", type_name: '看电视' },{ type_id: "radio", type_name: '听广播' },{ type_id: "3", type_name: '920' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -68,7 +59,7 @@ async function category(tid, pg, filter, extend) {
         let _data = {'t': 1727406632331, 's': '01023c05067b65a46e918d51f7613a3d', 'data': 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='}
         let data = _data["data"];
         let url = "https://feiying.litenews.cn/api/v1/auth/exchange?t=" + _data["t"] + "&s=" + _data["s"];
-        const res = await request(url, '', 'post', data);
+        const res = await request(url, '', 'post', {'body':data});
 
 
         
