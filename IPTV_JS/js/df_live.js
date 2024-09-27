@@ -18,14 +18,14 @@ async function request(reqUrl, referer, mth, data, hd) {
     };
     // if (mth === 'post') headers["User-Agent"] = PC_UA; 
     const ss = 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='
-    let res = await fetch(reqUrl, {
+    let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
         data: data,
         postType: mth === "post" ? "form" : "",
     });
-    // return res.content;
-    return res.text()
+    return res.content;
+    // return res.text()
 }
 async function init(cfg) {
     siteKey = cfg.skey;
@@ -34,7 +34,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "3", type_name: '525' }];
+    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "3", type_name: '529' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -184,4 +184,4 @@ export function __jsEvalReturn() {
 // let flag = ''
 // let flags = ''
 // play(flag, 'sdtv')
-category("jinan")
+// category("jinan")
