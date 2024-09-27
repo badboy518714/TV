@@ -36,9 +36,7 @@ def get_m3u8(match):
     }
     data = _data["data"]
     # 获取 url加密信息
-    headers_ = headers
-    headers_["User-Agent"] = IOS_UA
-    response = requests.post(url, headers=headers_, params=params, data=data)
+    response = requests.post(url, headers=headers, params=params, data=data)
     print(response.text)
 
     if "errmsg" in response.text:
