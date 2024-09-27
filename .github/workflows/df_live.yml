@@ -2,8 +2,10 @@ name: 地方直播--更新
 # 触发条件
 on:
   # push的时候触发
-  # push:
+  push:
   #   branches: main
+    paths:
+      - 'IPTV_PY/DF_LIVE.py'
   workflow_dispatch:
   # 定时触发
   schedule:
