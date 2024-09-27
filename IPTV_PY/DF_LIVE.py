@@ -28,7 +28,7 @@ def get_m3u8(match):
     except:
         _pdCid = re.search(r"var channelid  = (\d);", html).group(1)
     _data = ctx.call('get_s', _pdCid)
-    print(_data)
+    # print(_data)
 
     params = {
         "t": _data["t"],
@@ -39,7 +39,7 @@ def get_m3u8(match):
     headers_ = headers
     headers_["User-Agent"] = IOS_UA
     response = requests.post(url, headers=headers_, params=params, data=data)
-    # print(response.text)
+    print(response.text)
 
     if "errmsg" in response.text:
         _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
