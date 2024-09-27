@@ -41,7 +41,7 @@ def get_m3u8(match):
 
     if "errmsg" in response.text:
         print(int(_pdCid))
-        _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
+        _url = f'https://audiolive302.iqilu.com/radio{_pdCid}/sdradio0{_pdCid}/playlist.m3u8'
     else:
         # 解密 url
         _url = ctx.call('get_url', response.text)
