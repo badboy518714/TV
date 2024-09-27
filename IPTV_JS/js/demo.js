@@ -46,3 +46,13 @@ export function get_s(_pdCid) {
         's': s
     }
 }
+
+export function get_tk(){
+    var t = Math.round(new Date().getTime() / 1e3)
+    var r = '24cf03ec5ba91ad4954b6b69d8cba3f5'
+    var tk = CryptoJS.MD5(r+t).toString()
+    data = "?tk=" + tk + "&t=" + t
+    console.log(data)
+    return data
+}
+
