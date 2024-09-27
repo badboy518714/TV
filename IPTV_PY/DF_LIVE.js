@@ -28,7 +28,7 @@ function get_url(str) {
     return s.data
 }
 function get_s(_pdCid) {
-    console.log("-------------node_js测试-------------")
+    // console.log("-------------node_js测试-------------")
     var domainF = 'https://feiying.litenews.cn/api/'
     var apiF = 'v1/auth/exchange';
     var t = new Date().valueOf()
@@ -41,4 +41,13 @@ function get_s(_pdCid) {
         's': s,
         'data': data
     }
+}
+
+function get_tk(){
+    var t = Math.round(new Date().getTime() / 1e3)
+    var r = '24cf03ec5ba91ad4954b6b69d8cba3f5'
+    var tk = CryptoJS.MD5(r+t).toString()
+    data = "?tk=" + tk + "&t=" + t
+    console.log(data)
+    return data
 }
