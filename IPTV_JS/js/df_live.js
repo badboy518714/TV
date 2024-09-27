@@ -2,6 +2,7 @@ import { load, _ } from '../lib/cat.js';
 // import { get_url, get_s } from './demo.js';
 let key = '🐰山东';
 let HOST = 'https://v.iqilu.com/';
+let referer_s = ['https://v.iqilu.com/','https://www.ijntv.cn/']
 let siteKey = '';
 let siteType = 0;
 const IOS_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
@@ -14,7 +15,7 @@ let jn_infos = {};
 async function request(reqUrl, referer, mth, data, hd) {
     const headers = {
         "User-Agent": IOS_UA,
-        'Referer': HOST
+        'Referer': referer
     };
     // if (mth === 'post') headers["User-Agent"] = PC_UA; 
     const ss = 'r92+auLPIZZLbYQxhFq52A3bKeqbzL6b4aREFW4l7G0='
@@ -54,7 +55,7 @@ async function get_info(tid){
     let vedio_1;
     let vedio_2;
     if (tid === "qilu"){
-        const html = await request(HOST);
+        const html = await request(HOST, HOST);
         const $ = load(html);
         const items = $("div.dianshi_tv > dl");
         vedio_1 = _.map(_.slice(items, 0, 9), (item) => {
@@ -65,7 +66,7 @@ async function get_info(tid){
             if (b.includes("山东")) { name = b;  }
             else { name = "山东" + b; }
             return {
-                vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+                vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1') + '0',
                 vod_name: name,
                 vod_pic: img.attribs["src"],
                 vod_remarks: ''
@@ -80,7 +81,7 @@ async function get_info(tid){
             if (b.includes("广播")) { name = b;  }
             else { name = b + "广播"; }
             return {
-                vod_id: a.attribs.href.replace(/.*?\/radio_live\/(.*)\//g, '$1'),
+                vod_id: a.attribs.href.replace(/.*?\/radio_live\/(.*)\//g, '$1') + '0',
                 vod_name: name,
                 vod_pic: img.attribs["src"],
                 vod_remarks: ''
@@ -93,7 +94,7 @@ async function get_info(tid){
         const vedios = _.map(jn_infos, (_value, _key) => {
             console.log("Key:", _key, "Value:", _value);
             return {
-                vod_id: _key,
+                vod_id: _key + '1',
                 vod_name: _key,
                 vod_pic: _value,
                 vod_remarks: ''
@@ -146,11 +147,12 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
-
-    let playUrl = json_data[id]
+    let index_0 = id.substr(0, id.length-1);
+    let index_1 = id[id.length-1];
+    let playUrl = json_data[index_0]
     // let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
     const headers = {
-        Referer: HOST,
+        Referer: referer_s[index_1],
         "User-Agent": IOS_UA
     };
     return JSON.stringify({
