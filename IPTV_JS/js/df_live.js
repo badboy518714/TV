@@ -39,7 +39,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "qingdao", type_name: '青岛' },{ type_id: "12", type_name: '5' }];
+    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "qingdao", type_name: '青岛' },{ type_id: "12", type_name: '52' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -168,16 +168,15 @@ async function detail(id) {
 
 async function play(flag, id, flags) {
     let index_0 = id.substr(0, id.length-1);
-    let index_1 = id[id.length-1];
-    let playUrl = json_data[index_0]
+    let index_1 = parseInt(id[id.length-1]);
+    let playUrl = json_data[index_0];
     // let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
     const headers = {
         Referer: referer_s[index_1],
         "User-Agent": Agent[index_1],
-        "Connection": "keep-alive",
-        "range": "",
-        "Range": ""
+        "Connection": "keep-alive"
     };
+    if (index_1 === 2) headers[ "Range"] = "bytes=0-190";
     return JSON.stringify({
         parse: 0,
         url: playUrl,
