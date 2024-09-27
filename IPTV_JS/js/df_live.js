@@ -1,5 +1,5 @@
 import { load, _ } from '../lib/cat.js';
-import { get_url, get_s } from './demo.js';
+// import { get_url, get_s } from './demo.js';
 let key = '🐰山东';
 let HOST = 'https://v.iqilu.com/';
 let siteKey = '';
@@ -26,25 +26,6 @@ async function request(reqUrl, referer, mth, data, hd) {
     return res.content;
     // return res.text()
 }
-async function request_s(reqUrl, referer, mth, data){
-    const xhr = new XMLHttpRequest();
-    xhr.open('POST', reqUrl);
-
-    xhr.setRequestHeader("User-Agent", IOS_UA);
-    xhr.setRequestHeader('Referer', HOST);
-
-    xhr.send(data);
-
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            const response = xhr.responseText;
-            console.log(response);
-            return response;
-        }
-    };  
-    return xhr.onreadystatechange
-}
-
 async function init(cfg) {
     siteKey = cfg.skey;
     siteType = cfg.stype
