@@ -84,10 +84,10 @@ async function category(tid, pg, filter, extend) {
                 var img = $(item).find("img:first")[0];
                 var a = $(item).find('a:first')[0];
                 return {
-                    vod_id: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1'),
+                    vod_id: a.attribs.href.replace(/.*?\/radio_live\/(.*)\//g, '$1'),
                     vod_name: a.attribs["title"],
                     vod_pic: img.attribs["src"],
-                    vod_remarks: a.attribs.href.replace(/.*?\/live\/(.*)\//g, '$1')
+                    vod_remarks: a.attribs.href.replace(/.*?\/radio_live\/(.*)\//g, '$1')
                 };
             });
         }
