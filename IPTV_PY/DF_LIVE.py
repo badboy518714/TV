@@ -40,6 +40,7 @@ def get_m3u8(match):
     # print(response.text)
 
     if "errmsg" in response.text:
+        PRINT(int(_pdCid))
         _url = f'https://audiolive302.iqilu.com/{radio[int(_pdCid)]}/sdradio0{int(_pdCid)}/playlist.m3u8'
     else:
         # 解密 url
