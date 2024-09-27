@@ -19,7 +19,7 @@ async function request(reqUrl, referer, mth, data, hd) {
         method: mth || "get",
         headers: headers,
         body: ss,
-        postType: ""
+        // postType: ""
         postType: mth === "post" ? "form" : "",
     });
     // console.log(headers)
