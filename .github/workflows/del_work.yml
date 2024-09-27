@@ -1,26 +1,39 @@
 name: 删除 Old Workflows
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天午夜运行
+    - cron: '0 1 * * *'  # 每天午夜运行
   workflow_dispatch:
  
 jobs:
   delete:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        ref: main
- 
-    - name: Delete Workflows
-      run: |
-        repo_owner=${{ github.repository_owner }}
-        repo_name=$GITHUB_REPOSITORY
-        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
-        for workflow in $(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/$repo_owner/$repo_name/actions/workflows" | jq -r '.workflows[] | select(.name != "Delete Old Workflows") | .name'); do
-          echo "Deleting workflow: $workflow"
-          curl -s -X DELETE -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/$repo_owner/$repo_name/actions/workflows/$workflow/runs"
-        done
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install Requests Library
+        run: python -m pip install requests
+
+      - name: Delete Workflows
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          import requests
+          import json
+
+          headers = {
+              "Authorization": f"Bearer {env['GITHUB_TOKEN']}",
+              "Accept": "application/vnd.github.v3+json"
+          }
+
+          response = requests.get('https://api.github.com/repos/badboy518714/TV/actions/workflows', headers=headers)
+          workflows = json.loads(response.text)['workflows']
+
+          for workflow in Workflows:
+              workflow_id = workflow['id']
+              requests.delete(f'https://api.github.com/repos/badboy518714/TV/actions/workflows/{workflow_id}', headers=headers)
