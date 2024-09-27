@@ -45,7 +45,7 @@ def get_m3u8(match):
         # 解密 url
         _url = ctx.call('get_url', response.text)
     name = re.search(r'.*live/(.*)/', match).group(1)
-    # print(name, _url)
+    print(name, _url)
     json_data[name] = _url
 
 
