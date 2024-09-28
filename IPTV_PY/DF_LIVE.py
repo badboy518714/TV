@@ -72,12 +72,12 @@ def get_jinan():
 
 def get_qingdao():
     channel_radios = {
-        "新闻综合广播": "http://www.qtv.com.cn/live/radio/",
-        "经济广播": "http://www.qtv.com.cn/live/radio/rd_economy.shtml",
-        "文艺广播": "http://www.qtv.com.cn/live/radio/rd_car.shtml",
-        "交通广播": "http://www.qtv.com.cn/live/radio/rd_traffic.shtml",
-        "音体广播": "http://www.qtv.com.cn/live/radio/rd_music.shtml",
-        "故事广播": "http://www.qtv.com.cn/live/radio/rd_story.shtml"
+        "新闻综合广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/7db3153ab20aad73e3bab1e46bf79926/1.m3u8",
+        "经济广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/68ab5bd0460e095fe21a3df165b0ea00/1.m3u8",
+        "文艺广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/4979ca520e89c36e8d6aa0d0a043e185/1.m3u8",
+        "交通广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/d06210a9a067aba9de0add8c51e13aad/1.m3u8",
+        "音体广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/2b2d8edc7696d389074c963d0171f34c/1.m3u8",
+        "故事广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/b6a6a8083138c43e71b068cf2eb2bb84/1.m3u8"
     }
     global json_data
     headers_ = {
@@ -93,20 +93,9 @@ def get_qingdao():
         # res = requests.get(f'http://video10.qtv.com.cn/drm/qtv{i+1}at/manifest.m3u8', headers=headers_)
         # print(res.text)
 
-    cc = 'http://hlspull.qtv.com.cn/gwepn2sr/channel/4979ca520e89c36e8d6aa0d0a043e185/1.m3u8'
-    channel = "故事广播"
-    radio_url = "http://www.qtv.com.cn/live/radio/rd_story.shtml"
-    res = requests.get(radio_url, headers=headers_, verify=False)
-    print(channel, radio_url)
-    print(res.text)
-    # for channel, radio_url in channel_radios.items():
-    #     headers_["Referer"] = 'http://www.qtv.com.cn/live/radio/'
-    #     res = requests.get(radio_url, headers=headers_, verify=False)
-    #     print(res.text)
-    #     channelName = re.search(r"channelName: '([^']*)',", res.text).group(1)
-    #     # print(channelName)
-    #     json_data[channel] = f'http://hlspull.qtv.com.cn/gwepn2sr/channel/{channelName}/1.m3u8'
 
+    for channel, radio_url in channel_radios.items():
+        json_data[channel] = radio_url
     # print(json_data)
 
 
