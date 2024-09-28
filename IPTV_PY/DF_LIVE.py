@@ -94,13 +94,13 @@ def get_qingdao():
         # print(res.text)
 
     cc = 'http://hlspull.qtv.com.cn/gwepn2sr/channel/4979ca520e89c36e8d6aa0d0a043e185/1.m3u8'
-    # for channel, radio_url in channel_radios.items():
-    #     headers_["Referer"] = 'http://www.qtv.com.cn/live/radio/'
-    #     res = requests.get(radio_url, headers=headers_, verify=False)
-    #     print(res.text)
-    #     channelName = re.search(r"channelName: '([^']*)',", res.text).group(1)
-    #     # print(channelName)
-    #     json_data[channel] = f'http://hlspull.qtv.com.cn/gwepn2sr/channel/{channelName}/1.m3u8'
+    for channel, radio_url in channel_radios.items():
+        headers_["Referer"] = 'http://www.qtv.com.cn/live/radio/'
+        res = requests.get(radio_url, headers=headers_, verify=False)
+        print(res.text)
+        channelName = re.search(r"channelName: '([^']*)',", res.text).group(1)
+        # print(channelName)
+        json_data[channel] = f'http://hlspull.qtv.com.cn/gwepn2sr/channel/{channelName}/1.m3u8'
 
     # print(json_data)
 
