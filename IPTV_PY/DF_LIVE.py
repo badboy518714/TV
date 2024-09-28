@@ -71,6 +71,7 @@ def get_jinan():
     # print(json_data)
 
 def get_qingdao():
+    global json_data
     channel_radios = {
         "新闻综合广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/7db3153ab20aad73e3bab1e46bf79926/1.m3u8",
         "经济广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/68ab5bd0460e095fe21a3df165b0ea00/1.m3u8",
@@ -79,7 +80,7 @@ def get_qingdao():
         "音体广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/2b2d8edc7696d389074c963d0171f34c/1.m3u8",
         "故事广播": "http://hlspull.qtv.com.cn/gwepn2sr/channel/b6a6a8083138c43e71b068cf2eb2bb84/1.m3u8"
     }
-    global json_data
+    
     headers_ = {
         "Referer": "http://www.qtv.com.cn/live/radio/",
         "User-Agent": PC_UA
@@ -89,15 +90,26 @@ def get_qingdao():
     for i in range(6):
         channel = f'QTV-{i+1}'
         json_data[channel] = f'http://video10.qtv.com.cn/drm/qtv{i+1}at/manifest.m3u8'
-        headers_["Referer"] = 'http://www.qtv.com.cn/'
+        # headers_["Referer"] = 'http://www.qtv.com.cn/'
         # res = requests.get(f'http://video10.qtv.com.cn/drm/qtv{i+1}at/manifest.m3u8', headers=headers_)
         # print(res.text)
-
 
     for channel, radio_url in channel_radios.items():
         json_data[channel] = radio_url
     # print(json_data)
 
+def get_weihai():
+    global json_data
+    channel_radios = {
+        "新闻综合": "http://l1.weihai.tv:8081/hls/969O76hb22.m3u8",
+        "都市生活": "http://l2.weihai.tv:8081/hls/g16E3482eM.m3u8",
+        "海洋频道": "http://l2.weihai.tv:8081/hls/x8b19NoyEG.m3u8",
+        "新闻广播": "http://l1.weihai.tv:8081/hls/ZwH3fCNJl8.m3u8",
+        "交通广播": "http://l1.weihai.tv:8081/hls/9K2x53UM9Y.m3u8",
+        "音乐广播": "http://l1.weihai.tv:8081/hls/kV2209AB37.m3u8"
+    }
+    for channel, radio_url in channel_radios.items():
+        json_data[channel] = radio_url
 
 
 def start():
@@ -119,6 +131,8 @@ def start():
     get_jinan()
     # 获取山东青岛频道
     get_qingdao()
+     # 获取山东威海频道
+    get_weihai()
     with open('SD_JSON/山东齐鲁.json', 'w', encoding='utf-8') as f:
         json_string = json.dumps(json_data)
         f.write(json_string)
