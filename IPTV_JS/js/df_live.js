@@ -39,7 +39,7 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "qingdao", type_name: '青岛' },{ type_id: "12", type_name: '5092' }];
+    const classes = [{ type_id: "qilu", type_name: '齐鲁' },{ type_id: "jinan", type_name: '济南' },{ type_id: "qingdao", type_name: '青岛' },{ type_id: "12", type_name: '92' }];
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -176,7 +176,7 @@ async function play(flag, id, flags) {
         "User-Agent": Agent[index_1],
         "Connection": "keep-alive"
     };
-    if (index_1 === 2) { headers[ "range"] = "bytes=0-190"; headers[ "Range"] = "bytes=0-137";}
+    // if (index_1 === 2) { headers[ "range"] = "bytes=0-190"; headers[ "Range"] = "bytes=0-137";}
     return JSON.stringify({
         parse: 0,
         url: playUrl,
