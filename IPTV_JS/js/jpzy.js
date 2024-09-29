@@ -60,7 +60,7 @@ async function category(tid, pg, filter, extend) {
     if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
     let link = HOST + '/index.php/vod/type/id/' + tid + '/page/' + pg + '.html'
     let html = await request(link);
-    console.log(html)
+    // console.log(html)
     let $ = load(html);
     let items = $('ul.videoContent > li');
     console.log(items.length) 
