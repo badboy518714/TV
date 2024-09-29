@@ -62,6 +62,7 @@ async function category(tid, pg, filter, extend) {
     var html = await request(link);
     var $ = load(html);
     var items = $('div.content > ul > li');
+    console.log(items.length) 
     var videos = _.map(items, (item) => {
         var a = $(item).find('a:first')[0];
         var href = a.attribs.href;
@@ -84,7 +85,7 @@ async function category(tid, pg, filter, extend) {
     var text = $('.pages').text();
     var match = text.match(/(\d+)页/);
     var pgCount;
-    if (match) { pgCount =  text.match(/(\d+)页/); }
+    if (match) { pgCount =  match[1]; }
     else { pgCount =  pg; }
     console.log('pgCount--------------', pgCount)
     return JSON.stringify({
