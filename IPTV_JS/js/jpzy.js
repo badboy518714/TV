@@ -66,15 +66,15 @@ async function category(tid, pg, filter, extend) {
     console.log(items.length) 
     let videos = _.map(items, (item) => {
         let a = $(item).find('a:first')[0];
-        let href = a.attribs.href;
-        // console.log(HOST + href) 
-        let html_ =  get_info(HOST + href, link);
+        let url = HOST +  a.attribs.href;
+        console.log(url) 
+        let html_ =  get_info(url, link);
+        console.log(html_)
         let $_ = load(html_);
         // let img = $_('.img').attr('src')   //div class="left
         let left = $_('div.people > div.left');  // 筛选出 class 为 left 的 div
         // console.log(left.first().find('.img').attr('src'))
         // console.log(left.length)
-        console.log(html_)
         return {
             vod_id: href.replace(/.*?id\/(\d+).html/g, '$1'),
             vod_name: $(item).find('.videoName').text().trim(),
