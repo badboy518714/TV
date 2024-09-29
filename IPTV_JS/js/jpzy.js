@@ -13,14 +13,14 @@ async function request(reqUrl, referer, mth, data, hd) {
         "User-Agent": PC_UA,
         'Referer': referer
     };
-    let res = await fetch(reqUrl, {
+    let res = await req(reqUrl, {
         method: mth || "get",
         headers: headers,
         data: data,
         postType: mth === "post" ? "form" : "",
     });
-    // return res.content;
-    return res.text()
+    return res.content;
+    // return res.text()
 }
 async function init(cfg) {
     siteKey = cfg.skey;
@@ -112,9 +112,9 @@ async function play(flag, id, flags) {
     let $ = load(html);
     let item = $('div.wbox > ul > li > a.copy_text');
     let text = item.text().trim();
-    console.log(text);
+    // console.log(text);
     let playUrl = text.replace(/.*?(http.*)/g, '$1');
-    console.log(playUrl);
+    // console.log(playUrl);
     // let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
     const headers = {
         Referer: '',
@@ -150,7 +150,7 @@ export function __jsEvalReturn() {
 
 
 
-let flag = ''
+// let flag = ''
 // let flags = ''
-play(flag, '38081')
+// play(flag, '38081')
 // category("8", "2")
