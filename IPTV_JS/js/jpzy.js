@@ -50,8 +50,8 @@ async function homeVod() {
     return '{}'
 }
 
-async function get_info(url){
-    let html_ = await request(url);
+async function get_info(url, referer){
+    let html_ = await request(url, referer);
     return html_
 }
 
@@ -68,7 +68,7 @@ async function category(tid, pg, filter, extend) {
         let a = $(item).find('a:first')[0];
         let href = a.attribs.href;
         // console.log(HOST + href) 
-        let html_ =  get_info(HOST + href);
+        let html_ =  get_info(HOST + href, link);
         let $_ = load(html_);
         // let img = $_('.img').attr('src')   //div class="left
         let left = $_('div.people > div.left');  // 筛选出 class 为 left 的 div
