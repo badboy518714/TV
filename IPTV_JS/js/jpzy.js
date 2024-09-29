@@ -51,7 +51,7 @@ async function homeVod() {
 }
 
 async function get_info(url){
-    var html_ = await request(url);
+    let html_ = await request(url);
     return html_
 }
 
@@ -59,17 +59,19 @@ async function get_info(url){
 async function category(tid, pg, filter, extend) {  
     if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
     let link = HOST + '/index.php/vod/type/id/' + tid + '/page/' + pg + '.html'
-    var html = await request(link);
-    var $ = load(html);
-    var items = $('ul.videoContent > li');
+    let html = await request(link);
+    let $ = load(html);
+    let items = $('ul.videoContent > li');
     console.log(items.length) 
-    var videos = _.map(items, (item) => {
-        var a = $(item).find('a:first')[0];
-        var href = a.attribs.href;
+    let videos = _.map(items, (item) => {
+        let a = $(item).find('a:first')[0];
+        let href = a.attribs.href;
         console.log(HOST + href) 
-        var html_ =  get_info(HOST + href);
-        var $_ = load(html_);
-        var img = $_('.img').attr('src')
+        let html_ =  get_info(HOST + href);
+        let $_ = load(html_);
+        // let img = $_('.img').attr('src')   //div class="left
+        let left = $_.filter('.left');  // 筛选出 class 为 left 的 div
+        let img =left('.img').attr('src') 
 
         return {
             vod_id: href.replace(/.*?id\/(\d+).html/g, '$1'),
@@ -83,9 +85,9 @@ async function category(tid, pg, filter, extend) {
     
     // let videos = await get_info(tid)    
     console.log(videos)
-    var text = $('.pages').text();
-    var match = text.match(/(\d+)页/);
-    var pgCount;
+    let text = $('.pages').text();
+    let match = text.match(/(\d+)页/);
+    let pgCount;
     if (match) { pgCount =  match[1]; }
     else { pgCount =  pg; }
     console.log('pgCount--------------', pgCount)
