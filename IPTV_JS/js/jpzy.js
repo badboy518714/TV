@@ -82,7 +82,7 @@ async function category(tid, pg, filter, extend) {
     let pgCount;
     if (match) { pgCount =  match[1]; }
     else { pgCount =  pg; }
-    console.log('pgCount--------------', pgCount)
+    // console.log('pgCount--------------', pgCount)
     return JSON.stringify({
         page: parseInt(pg),
         pagecount: 1,
@@ -106,6 +106,15 @@ async function detail(id) {
 }
 
 async function play(flag, id, flags) {
+    let link = 'https://www.jingpinx.com/index.php/vod/detail/id/' + id + '.html'
+    let html = await request(link);
+    let $ = load(html);
+    let item = $('div.(playlist wbox) > ul > li > a.copy_text');
+    let text = item.text()
+    console.log(text)
+    
+
+    
 
     // let playUrl = '';
     let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
@@ -143,7 +152,7 @@ export function __jsEvalReturn() {
 
 
 
-// let flag = ''
+let flag = ''
 // let flags = ''
-// play(flag, 'sdtv')
-category("8", "2")
+play(flag, '38081')
+// category("8", "2")
