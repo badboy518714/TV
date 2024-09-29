@@ -74,7 +74,7 @@ async function category(tid, pg, filter, extend) {
         // console.log(html_)
         let $_ = load(html_);
         // let img = $_('.img').attr('src')   //div class="left
-        let img = $_('div.people > div.left' > img);  // 筛选出 class 为 left 的 div
+        let img = $_('div.people > div.left > img');  // 筛选出 class 为 left 的 div
         // console.log(left.first().find('.img').attr('src'))
         // console.log(left.length)
         videos.push({
