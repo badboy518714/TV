@@ -68,7 +68,8 @@ async function category(tid, pg, filter, extend) {
         let a = $(item).find('a:first')[0];
         let url = HOST +  a.attribs.href;
         console.log(url) 
-        let html_ =  get_info(url, link);
+        // let html_ =  get_info(url, link);
+        let html_ = await  request(url)
         console.log(html_)
         let $_ = load(html_);
         // let img = $_('.img').attr('src')   //div class="left
@@ -76,7 +77,7 @@ async function category(tid, pg, filter, extend) {
         // console.log(left.first().find('.img').attr('src'))
         // console.log(left.length)
         return {
-            vod_id: href.replace(/.*?id\/(\d+).html/g, '$1'),
+            vod_id: a.attribs.href.replace(/.*?id\/(\d+).html/g, '$1'),
             vod_name: $(item).find('.videoName').text().trim(),
             vod_pic: left.first().find('.img').attr('src') || '',
             vod_remarks: $(item).find('.time').text().trim() || ''
