@@ -110,7 +110,7 @@ async function play(flag, id, flags) {
     console.log(link)
     let html = await request(link);
     let $ = load(html);
-    let item = $('div.(playlist wbox) > ul > li > a.copy_text');
+    let item = $('div.wbox > ul > li > a.copy_text');
     let text = item.text()
     console.log(text)
     
