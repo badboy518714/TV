@@ -29,12 +29,12 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-    // const classes =[ { type_id: "8", type_name:"偷拍自拍" }, { type_id: "9", type_name:"国产大制作" }, { type_id: "10", type_name:"乱伦毁三观" }, { type_id: "11", type_name:"嫖妓全过程" }, { type_id: "12", type_name:"淫乱学生妹" },
-    //   { type_id: "13", type_name:"黑料不打烊" },  { type_id: "14", type_name:"监控摄像头" }, { type_id: "15", type_name:"主播网红" }, { type_id: "16", type_name:"高清无码" }, { type_id: "17", type_name:"中文字幕" },
-    //   { type_id: "18", type_name:"东南亚" }, { type_id: "19", type_name:"成人综艺" }, { type_id: "20", type_name:"媚黑母狗" }, { type_id: "21", type_name:"为国争光" }, { type_id: "22", type_name:"人兽典藏" },
-    //   { type_id: "23", type_name:"中文剧情" }, { type_id: "24", type_name:"燃烧荷尔蒙" }, { type_id: "25", type_name:"女同口交" }, { type_id: "26", type_name:"重口味" }, { type_id: "27", type_name:"3D动漫" },
-    //   { type_id: "28", type_name:"剧情故事" }, { type_id: "29", type_name:"同人动漫" }, { type_id: "30", type_name:"激情中字" } ];
-    const classes =[ { type_id: "8", type_name:"偷拍自拍" } ]
+    const classes =[ { type_id: "8", type_name:"偷拍自拍" }, { type_id: "9", type_name:"国产大制作" }, { type_id: "10", type_name:"乱伦毁三观" }, { type_id: "11", type_name:"嫖妓全过程" }, { type_id: "12", type_name:"淫乱学生妹" },
+      { type_id: "13", type_name:"黑料不打烊" },  { type_id: "14", type_name:"监控摄像头" }, { type_id: "15", type_name:"主播网红" }, { type_id: "16", type_name:"高清无码" }, { type_id: "17", type_name:"中文字幕" },
+      { type_id: "18", type_name:"东南亚" }, { type_id: "19", type_name:"成人综艺" }, { type_id: "20", type_name:"媚黑母狗" }, { type_id: "21", type_name:"为国争光" }, { type_id: "22", type_name:"人兽典藏" },
+      { type_id: "23", type_name:"中文剧情" }, { type_id: "24", type_name:"燃烧荷尔蒙" }, { type_id: "25", type_name:"女同口交" }, { type_id: "26", type_name:"重口味" }, { type_id: "27", type_name:"3D动漫" },
+      { type_id: "28", type_name:"剧情故事" }, { type_id: "29", type_name:"同人动漫" }, { type_id: "30", type_name:"激情中字" } ];
+    // const classes =[ { type_id: "8", type_name:"偷拍自拍" } ]
     const filterObj = {};
     return JSON.stringify({
         class: _.map(classes, (cls) => {
@@ -76,7 +76,7 @@ async function category(tid, pg, filter, extend) {
         });
     }
      
-    console.log(videos)
+    // console.log(videos)
     let text = $('.pages').text();
     let match = text.match(/(\d+)页/);
     let pgCount;
@@ -85,7 +85,7 @@ async function category(tid, pg, filter, extend) {
     // console.log('pgCount--------------', pgCount)
     return JSON.stringify({
         page: parseInt(pg),
-        pagecount: 1,
+        pagecount: pgCount,
         limit: 20,
         total: 20 * pgCount,
         list: videos
