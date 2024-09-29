@@ -113,12 +113,9 @@ async function play(flag, id, flags) {
     let item = $('div.wbox > ul > li > a.copy_text');
     let text = item.text()
     console.log(text)
-    
-
-    
-
-    // let playUrl = '';
-    let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
+    let playUrl = text.march(/.*?$(.*)/g)[1]
+    console.log(playUrl)
+    // let playUrl ='https://clivealone302.iqilu.com/291/cf348386147f4f5da17e4b3bc937bb63/playlist.m3u8?auth=06c0006852a7672f311c7535980a5194&timestamp=1727438974992'   
     const headers = {
         Referer: '',
         "User-Agent": PC_UA,
