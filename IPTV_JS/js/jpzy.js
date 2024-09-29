@@ -66,7 +66,8 @@ async function category(tid, pg, filter, extend) {
     let videos = _.map(items, (item) => {
         let a = $(item).find('a:first')[0];
         let href = a.attribs.href;
-        console.log(HOST + href) 
+        // console.log(HOST + href) 
+         console.log(item)
         let html_ =  get_info(HOST + href);
         let $_ = load(html_);
         // let img = $_('.img').attr('src')   //div class="left
