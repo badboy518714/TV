@@ -60,7 +60,7 @@ async function get_info(url, referer){
 async function category(tid, pg, filter, extend) {  
     if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
     let link = HOST + '/index.php/vod/type/id/' + tid + '/page/' + pg + '.html'
-    let html =  request(link);
+    let html = await request(link);
     // console.log(html)
     let $ = load(html);
     let items = $('ul.videoContent > li');
@@ -69,7 +69,12 @@ async function category(tid, pg, filter, extend) {
         let a = $(item).find('a:first')[0];
         let url = HOST +  a.attribs.href;
         console.log(url) 
-        let html_ =  get_info(url, link);
+        let get_info_ = async function(url, referer){
+            let html_ = await request(url, referer);
+            console.log(html_)
+            return html_           
+        }
+        let html_ =  await get_info_(url, link);
         // let html_ = await  request(url)
         // console.log(html_)
         let $_ = load(html_);
