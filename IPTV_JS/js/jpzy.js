@@ -61,7 +61,7 @@ async function category(tid, pg, filter, extend) {
     let link = HOST + '/index.php/vod/type/id/' + tid + '/page/' + pg + '.html'
     var html = await request(link);
     var $ = load(html);
-    var items = $('div.content > ul > li');
+    var items = $('ul.videoContent > li');
     console.log(items.length) 
     var videos = _.map(items, (item) => {
         var a = $(item).find('a:first')[0];
