@@ -50,12 +50,6 @@ async function homeVod() {
     return '{}'
 }
 
-async function get_info(url, referer){
-    let html_ = await request(url, referer);
-    console.log(html_)
-    return html_
-}
-
 
 async function category(tid, pg, filter, extend) {  
     if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
@@ -64,28 +58,24 @@ async function category(tid, pg, filter, extend) {
     // console.log(html)
     let $ = load(html);
     let items = $('ul.videoContent > li');
-    console.log(items.length) 
+    // console.log(items.length) 
     let videos = [];
     for (let item of items) {
         let a = $(item).find('a:first')[0];
         let href = a.attribs.href;
-        console.log( HOST + href) 
+        // console.log( HOST + href) 
         let html_ = await request( HOST + href, link );
         // console.log(html_)
         let $_ = load(html_);
-        // let img = $_('.img').attr('src')   //div class="left
         let img = $_('div.people > div.left > img');  // 筛选出 class 为 left 的 div
-        // console.log(left.first().find('.img').attr('src'))
-        // console.log(left.length)
         videos.push({
             vod_id: href.replace(/.*?id\/(\d+).html/g, '$1'),
             vod_name: $(item).find('.videoName').text().trim(),
-            vod_pic: img.attr('src') || '',
+            vod_pic: HOST + img.attr('src') || '',
             vod_remarks: $(item).find('.time').text().trim() || ''
         });
     }
-    
-    // let videos = await get_info(tid)    
+     
     console.log(videos)
     let text = $('.pages').text();
     let match = text.match(/(\d+)页/);
