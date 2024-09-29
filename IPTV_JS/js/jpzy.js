@@ -72,7 +72,7 @@ async function category(tid, pg, filter, extend) {
         // let img = $_('.img').attr('src')   //div class="left
         let left = $_('div.people > div.left');  // 筛选出 class 为 left 的 div
         console.log(left.first().find('.img').attr('src'))
-        console.log(html_)
+        console.log(left.length)
         return {
             vod_id: href.replace(/.*?id\/(\d+).html/g, '$1'),
             vod_name: $(item).find('.videoName').text().trim(),
