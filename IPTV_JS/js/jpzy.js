@@ -154,5 +154,5 @@ export function __jsEvalReturn() {
 
 let flag = ''
 // let flags = ''
-play(flag, '38081')
-// category("8", "2")
+// play(flag, '38081')
+category("8", "2")
