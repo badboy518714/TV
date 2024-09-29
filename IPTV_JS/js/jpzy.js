@@ -69,18 +69,18 @@ async function category(tid, pg, filter, extend) {
     for (let item of items) {
         let a = $(item).find('a:first')[0];
         let href = a.attribs.href;
-        console.log(url) 
-        let html_ = await request( HOST + href, link);
+        console.log( HOST + href) 
+        let html_ = await request( HOST + href, link );
         // console.log(html_)
         let $_ = load(html_);
         // let img = $_('.img').attr('src')   //div class="left
-        let left = $_('div.people > div.left');  // 筛选出 class 为 left 的 div
+        let img = $_('div.people > div.left' > img);  // 筛选出 class 为 left 的 div
         // console.log(left.first().find('.img').attr('src'))
         // console.log(left.length)
         videos.push({
             vod_id: href.replace(/.*?id\/(\d+).html/g, '$1'),
             vod_name: $(item).find('.videoName').text().trim(),
-            vod_pic: left.first().find('.img').attr('src') || '',
+            vod_pic: img.attr('src') || '',
             vod_remarks: $(item).find('.time').text().trim() || ''
         });
     }
