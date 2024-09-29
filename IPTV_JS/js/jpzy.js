@@ -71,10 +71,10 @@ async function category(tid, pg, filter, extend) {
         var img = $_('.img').attr('src')
 
         return {
-            vod_id: href.replace(/.*?\(\d+\).html/g, '$1'),
-            vod_name: $(item).find('videoName').text().trim(),
+            vod_id: href.replace(/.*?id\/(\d+).html/g, '$1'),
+            vod_name: $(item).find('.videoName').text().trim(),
             vod_pic: img,
-            vod_remarks: $(item).find('time').text().trim() || ''
+            vod_remarks: $(item).find('.time').text().trim() || ''
         };
     });
 
