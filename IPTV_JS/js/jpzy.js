@@ -50,9 +50,9 @@ async function homeVod() {
     return '{}'
 }
 
-async function get_info(tid){
-    let vedios = []
-    return vedios
+async function get_info(url){
+    var html_ = await request(HOST + href);
+    return html_
 }
 
 
@@ -65,7 +65,7 @@ async function category(tid, pg, filter, extend) {
     var videos = _.map(items, (item) => {
         var a = $(item).find('a:first')[0];
         var href = a.attribs.href;
-        var html_ = await request(HOST + href);
+        var html_ =  get_info(url)(HOST + href);
         var $_ = load(html_);
         var img = $_('.img').attr('src')
 
