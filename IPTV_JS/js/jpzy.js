@@ -107,6 +107,7 @@ async function detail(id) {
 
 async function play(flag, id, flags) {
     let link = 'https://www.jingpinx.com/index.php/vod/detail/id/' + id + '.html'
+    console.log(link)
     let html = await request(link);
     let $ = load(html);
     let item = $('div.(playlist wbox) > ul > li > a.copy_text');
@@ -154,5 +155,5 @@ export function __jsEvalReturn() {
 
 let flag = ''
 // let flags = ''
-// play(flag, '38081')
-category("8", "2")
+play(flag, '38081')
+// category("8", "2")
