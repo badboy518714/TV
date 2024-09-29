@@ -69,12 +69,12 @@ async function category(tid, pg, filter, extend) {
         let a = $(item).find('a:first')[0];
         let url = HOST +  a.attribs.href;
         console.log(url) 
-        let get_info_ = async function(url, referer){
+        let html_ = async function(url, link){
             let html_ = await request(url, referer);
             console.log(html_)
             return html_           
         }
-        let html_ =  await get_info_(url, link);
+        // let html_ =  await get_info_(url, link);
         // let html_ = await  request(url)
         // console.log(html_)
         let $_ = load(html_);
