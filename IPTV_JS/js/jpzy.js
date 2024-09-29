@@ -65,32 +65,25 @@ async function category(tid, pg, filter, extend) {
     let $ = load(html);
     let items = $('ul.videoContent > li');
     console.log(items.length) 
-    let videos = _.map(items, (item) => {
+    let videos = [];
+    for (let item of items) {
         let a = $(item).find('a:first')[0];
         let url = HOST +  a.attribs.href;
         console.log(url) 
-        let html_ = async function(url, link){
-            let html_ = await request(url, referer);
-            console.log(html_)
-            return html_           
-        }
-        // let html_ =  await get_info_(url, link);
-        // let html_ = await  request(url)
+        let html_ = await get_info(url, link);
         // console.log(html_)
         let $_ = load(html_);
         // let img = $_('.img').attr('src')   //div class="left
         let left = $_('div.people > div.left');  // 筛选出 class 为 left 的 div
         // console.log(left.first().find('.img').attr('src'))
         // console.log(left.length)
-        return {
+        videos.push({
             vod_id: a.attribs.href.replace(/.*?id\/(\d+).html/g, '$1'),
             vod_name: $(item).find('.videoName').text().trim(),
             vod_pic: left.first().find('.img').attr('src') || '',
             vod_remarks: $(item).find('.time').text().trim() || ''
-        };
-    });
-
-
+        });
+    }
     
     // let videos = await get_info(tid)    
     console.log(videos)
