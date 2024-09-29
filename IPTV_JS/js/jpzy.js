@@ -67,12 +67,13 @@ async function category(tid, pg, filter, extend) {
         let a = $(item).find('a:first')[0];
         let href = a.attribs.href;
         // console.log(HOST + href) 
-         console.log(item)
         let html_ =  get_info(HOST + href);
         let $_ = load(html_);
         // let img = $_('.img').attr('src')   //div class="left
-        let left = $_.filter('.left');  // 筛选出 class 为 left 的 div
-        let img =left('.img').attr('src') 
+        let left = $_('div.people > div.left');  // 筛选出 class 为 left 的 div
+        let img = '';
+        console.log(left.first().find('.img').attr('src'))
+        if (left.length > 0 ) img = HOST + left.first().find('.img').attr('src');
 
         return {
             vod_id: href.replace(/.*?id\/(\d+).html/g, '$1'),
