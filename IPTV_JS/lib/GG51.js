@@ -14,7 +14,7 @@ var rule = {
     class_name:'大厂原创&重磅泄密&偷拍自拍&绿帽偷情&中文字幕&强奸迷奸&高清无码&熟女人妻&剧情大片&黑白配&美颜巨乳&欧美少妇&动漫3D&网红主播&AI换脸&女同男同',
     //class_name:'#page-viewport&&ul&&li;.text&&Text;a&&href;/(.*)',
     cate_exclude:'',
-    推荐:'.videolist;.one;.title&&Text;img&&src;.duration&&Text;one&&href',
+    推荐:'.videolist;.one;.title&&Text;img&&src;.duration&&Text;a&&href',
     double:true,
     limit:5,
     play_parse:true,
