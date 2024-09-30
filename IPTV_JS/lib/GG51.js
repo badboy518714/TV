@@ -1,4 +1,4 @@
-&&var rule = {
+var rule = {
     title:'成人',
     host:'https://lkvod.me/',
     homeUrl:'',
