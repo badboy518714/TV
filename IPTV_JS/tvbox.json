@@ -124,9 +124,13 @@
             "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
             "ext": ".lib/兔小贝.js",
             "style": {
-            "type": "rect",
-            "ratio": 1.597
-      },
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
         {
             "key": "dbtj",
             "name": "✨️豆瓣┃推荐✨️",
