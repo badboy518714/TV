@@ -85,9 +85,9 @@ async function category(tid, pg, filter, extend) {
     // console.log('pgCount--------------', pgCount)
     return JSON.stringify({
         page: parseInt(pg),
-        pagecount: 1,
+        pagecount: 2,
         limit: 20,
-        total: 20 * 1,
+        total: 20 * 2,
         list: videos
     })
 }
