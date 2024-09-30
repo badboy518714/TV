@@ -12,7 +12,7 @@
     timeout:5000,
     // class_url:'7&8&5&6&11&14&12&13&15&16&18&48&19&21&22&20',
     // class_name:'大厂原创&重磅泄密&偷拍自拍&绿帽偷情&中文字幕&强奸迷奸&高清无码&熟女人妻&剧情大片&黑白配&美颜巨乳&欧美少妇&动漫3D&网红主播&AI换脸&女同男同',
-    class_name:'.page-viewport&&ul&&li;a&&Text;a&&href;/(.*)',
+    class_parse:'.page-viewport&&ul&&li;a&&Text;a&&href;/(.*)',
     cate_exclude:'更多',
     推荐:'body&&.diy-center;div;a&&title;img&&data-src;.ft2&&Text;a&&href',
     double:true,
