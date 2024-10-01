@@ -136,7 +136,7 @@
             "name": "✨️成人┃启蒙",
             "type": 3,
             "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-            "ext": "./lib/来电看播.js",
+            "ext": "./lib/来点看播.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
