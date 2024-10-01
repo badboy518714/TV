@@ -16,7 +16,28 @@ var rule = {
             //class_parse: '.wap-show0&&ul&&li0;a&&Text;a&&href;.*/(\\d+)-----------.html',//a&&href  a&&Text .wap-show0&&ul&&li0
             cate_exclude: '',
             play_parse: true,
-            lazy: '',
+            lazy: `js:
+        			var html = JSON.parse(request(input).match(/player_.*?=(.*?)</)[1]);
+        			var url = html.url;
+        			if (html.encrypt == '1') {
+            			url = unescape(url)
+        			} else if (html.encrypt == '2') {
+            			url = unescape(base64Decode(url))
+        			}
+						 else if (html.encrypt == '3') {
+            			url =url.replace(/\\/g, '')
+					  }
+
+        			if (/\\.m3u8|\\.mp4/.test(url)) {
+            			input = {
+                			jx: 0,
+                			url: url,
+                			parse: 0
+            			}
+        			} else {
+            			input
+        			}
+    			`,
             limit: 6,
             推荐: 'body&&.fadeInUp;.diy-center&&.public-list-box;a&&title;img&&data-src;.ft2&&Text;a&&href',
             double: true, // 推荐内容是否双层定位
