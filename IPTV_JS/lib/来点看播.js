@@ -11,14 +11,16 @@ var rule = {
                 'User-Agent': 'MOBILE_UA',
                 // "Cookie": "searchneed=ok"
             },
-            class_parse: '.wap-show0&&ul&&li;a&&Text;a&&href;/.*/(.*?).html',
-            //cate_exclude: '解析|动态',
+            class_name:'电影&剧集&综艺&动漫',
+            class_url:'1&2&3&4',
+            //class_parse: '.wap-show0&&ul&&li0;a&&Text;a&&href;.*/(\\d+)-----------.html',//a&&href  a&&Text .wap-show0&&ul&&li0
+            cate_exclude: '',
             play_parse: true,
             lazy: '',
             limit: 6,
             推荐: 'body&&.fadeInUp;.diy-center&&.public-list-box;a&&title;img&&data-src;.ft2&&Text;a&&href',
             double: true, // 推荐内容是否双层定位
-            一级: 'body&&.fadeInUp&&.diy-center&&.public-list-box;a&&title;img&&data-src;.ft2&&Text;a&&href',
+            一级: 'body&&.fadeInUp .diy-center&&.public-list-box;a&&title;img&&data-src;.ft2&&Text;a&&href',
             二级: {
                 "title": "h3&&Text;.slide-info:eq(0)&&Text",
                 "img": ".detail-pic&&img&&data-src",
