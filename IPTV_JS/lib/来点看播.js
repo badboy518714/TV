@@ -17,7 +17,7 @@ var rule = {
             cate_exclude: '',
             play_parse: true,
             lazy: `js:
-        			var html = JSON.parse(request(input).match(/player_.*?=(.*?)</)[1]);
+        			var html = JSON.parse(request(input).match(/var player_.*?=(.*?)</)[1]);
         			var url = html.url;
         			if (html.encrypt == '1') {
             			url = unescape(url)
