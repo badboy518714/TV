@@ -17,16 +17,30 @@ var rule = {
             cate_exclude: '',
             play_parse: true,
             lazy: `js:
+                var uic = function(value) {
+            			var key = CryptoJS['enc']['Utf8']['parse']('2890vxKIvHtB959C')
+              			, iv = CryptoJS['enc']['Utf8']['parse']('GZ4JgN2BdSqVWJ1z')
+              			, data = CryptoJS['AES']["decrypt"](value, key, {
+                			'iv': iv,
+                			'mode': CryptoJS['mode']['CBC'],
+                			'padding': CryptoJS['pad']['Pkcs7']
+            			});
+            			return CryptoJS['enc']["Utf8"]["stringify"](data);
+        			 }
         			var html = JSON.parse(request(input).match(/var player_.*?=(.*?)</)[1]);
         			var url = html.url;
         			if (html.encrypt == '1') {
-            			url = unescape(url)
+            				url = unescape(url)
         			} else if (html.encrypt == '2') {
-            			url = unescape(base64Decode(url))
+            				url = unescape(base64Decode(url))
         			}
-						 else if (html.encrypt == '3') {
-            			url =url.replace(/\\/g, '')
-					  }
+				else if (html.encrypt == '3') {
+					if (/\\.m3u8|\\.mp4/.test(url)){ 
+     						url =url.replace(/\\/g, '') 
+	   				} else{								
+						url = uic(url)
+					}
+				}
 
         			if (/\\.m3u8|\\.mp4/.test(url)) {
             			input = {
