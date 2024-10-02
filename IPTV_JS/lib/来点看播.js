@@ -34,7 +34,7 @@ var rule = {
 		if (/m3u8|mp4/1.test(url)) {
 		m3u8_url = url;
 		} else {
-			      var url_1 = 'https://op.xn--it-if7c19g5s4bps5c.com/player/ez.php?code=nkdyw&if=1&url=' + url_0;
+			      var url_1 = 'https://op.xn--it-if7c19g5s4bps5c.com/player/ez.php?code=nkdyw&if=1&url=' + url;
 			      var html = request(url_1);
 			      if (/ConFig/.test(html)){
 						ConFig = JSON.parse(html.match(/let ConFig = ({.*?}),box/)[1]);								
