@@ -18,38 +18,38 @@ var rule = {
             play_parse: true,
             lazy: `js:
                 var uic = function(uid,value) {
-            			var key = CryptoJS['enc']['Utf8']['parse']('2890' + uid + 'tB959C')
-              			, iv = CryptoJS['enc']['Utf8']['parse']('GZ4JgN2BdSqVWJ1z')
-              			, data = CryptoJS['AES']["decrypt"](value, key, {
-                			'iv': iv,
-                			'mode': CryptoJS['mode']['CBC'],
-                			'padding': CryptoJS['pad']['Pkcs7']
-            			});
-            			return CryptoJS['enc']["Utf8"]["stringify"](data);
-        			 }
-        			var player_aaaa = JSON.parse(request(input).match(/var player_aaaa=(.*?)</)[1]);
-        			var url = player_aaaa.url;
-					  var m3u8_url;
-					  var ConFig;
-        			if (/m3u8|mp4/.test(url)) {
-            			m3u8_url = url;
-        			} else {
-					      var url_1 = 'https://op.xn--it-if7c19g5s4bps5c.com/player/ez.php?code=nkdyw&if=1&url=' + url;
-					      var html = request(url_1);
-					      if (/ConFig/.test(html)){
-								ConFig = JSON.parse(html.match(/let ConFig = ({.*?}),box/)[1]);								
-					      } else {
-								var href = 'https://op.xn--it-if7c19g5s4bps5c.com/player/' + html.match(/href = '(.*?)';/)[1];
-								ConFig = JSON.parse(request(href).match(/let ConFig = ({.*?}),box/)[1]);		
-					      } 
-            			
-        			} 
-						
-				m3u8_url = uic(ConFig["config"]["uid"], ConFig["url"]);
-				input = {
-                			jx: 0,
-                			url: 'https://123450.070207.xyz/static/cache/2024-10-02/c84a06713497997c750c8f559bb9f76417e20cbab54b5f05973e23c9827d3ca3.m3u8',
-                			parse: 0
+			var key = CryptoJS['enc']['Utf8']['parse']('2890' + uid + 'tB959C')
+			, iv = CryptoJS['enc']['Utf8']['parse']('GZ4JgN2BdSqVWJ1z')
+			, data = CryptoJS['AES']["decrypt"](value, key, {
+				'iv': iv,
+				'mode': CryptoJS['mode']['CBC'],
+				'padding': CryptoJS['pad']['Pkcs7']
+			});
+			return CryptoJS['enc']["Utf8"]["stringify"](data);
+		 	}
+		var player_aaaa = JSON.parse(request(input).match(/var player_.*?=(.*?)</)[1]);
+		var url = player_aaaa.url;
+			  var m3u8_url;
+			  var ConFig;
+		if (/m3u8|mp4/.test(url)) {
+			m3u8_url = url;
+		} else {
+			      var url_1 = 'https://op.xn--it-if7c19g5s4bps5c.com/player/ez.php?code=nkdyw&if=1&url=' + url;
+			      var html = request(url_1);
+			      if (/ConFig/.test(html)){
+						ConFig = JSON.parse(html.match(/let ConFig = ({.*?}),box/)[1]);								
+			      } else {
+						var href = 'https://op.xn--it-if7c19g5s4bps5c.com/player/' + html.match(/href = '(.*?)';/)[1];
+						ConFig = JSON.parse(request(href).match(/let ConFig = ({.*?}),box/)[1]);		
+			      } 
+		
+		} 
+				
+		m3u8_url = uic(ConFig["config"]["uid"], ConFig["url"]);
+		input = {
+			jx: 0,
+			url: 'https://123450.070207.xyz/static/cache/2024-10-02/c84a06713497997c750c8f559bb9f76417e20cbab54b5f05973e23c9827d3ca3.m3u8',
+			parse: 0
             			}
     			 	`,
             limit: 6,
