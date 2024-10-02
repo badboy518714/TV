@@ -45,8 +45,8 @@ var rule = {
             			
         			} 
 						
-					  m3u8_url = uic(ConFig["config"]["uid"], ConFig["url"]);
-					  input = {
+				m3u8_url = uic(ConFig["config"]["uid"], ConFig["url"]);
+				input = {
                 			jx: 0,
                 			url: 'https://123450.070207.xyz/static/cache/2024-10-02/c84a06713497997c750c8f559bb9f76417e20cbab54b5f05973e23c9827d3ca3.m3u8',
                 			parse: 0
