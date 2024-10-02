@@ -29,8 +29,8 @@ var rule = {
 		 }
 		var player_aaaa = JSON.parse(request(input).match(/var player_aaaa=(.*?)</)[1]);
 		var url = player_aaaa.url;
-			  var m3u8_url;
-			  var ConFig;
+		var m3u8_url;
+		var ConFig;
 		if (/m3u8|mp4/.test(url)) {
 			m3u8_url = url;
 		} else {
@@ -42,9 +42,9 @@ var rule = {
 				var href = 'https://op.xn--it-if7c19g5s4bps5c.com/player/' + html.match(/href = '(.*?)';/)[1];
 				ConFig = JSON.parse(request(href).match(/let ConFig = ({.*?}),box/)[1]);		
 		      } 
+		      m3u8_url = uic(ConFig["config"]["uid"], ConFig["url"]);
 		} 
 				
-		m3u8_url = uic(ConFig["config"]["uid"], ConFig["url"]);
 		input = {
 			jx: 0,
 			url: m3u8_url,
