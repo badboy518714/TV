@@ -163,10 +163,16 @@
             "ext": "./js/%20%E8%8D%90%E7%89%87.js"           
         },
         {
-            "key" :"jpzy",
-            "name":"✨️精品┃资源✨️",
+            "key" :"GG51",
+            "name":"✨️GG┃51✨️",
             "type":3,
-            "api":"./js/jpzy.js"
+            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "ext": "./lib/GG51.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1
         },
         {
             "key" :"dfzb",
