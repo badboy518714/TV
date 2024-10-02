@@ -17,41 +17,40 @@ var rule = {
             cate_exclude: '',
             play_parse: true,
             lazy: `js:
-                var uic = function(value) {
-            			var key = CryptoJS['enc']['Utf8']['parse']('2890vxKIvHtB959C')
-              			, iv = CryptoJS['enc']['Utf8']['parse']('GZ4JgN2BdSqVWJ1z')
-              			, data = CryptoJS['AES']["decrypt"](value, key, {
-                			'iv': iv,
-                			'mode': CryptoJS['mode']['CBC'],
-                			'padding': CryptoJS['pad']['Pkcs7']
-            			});
-            			return CryptoJS['enc']["Utf8"]["stringify"](data);
-        			 }
-        			var html = JSON.parse(request(input).match(/var player_.*?=(.*?)</)[1]);
-        			var url = html.url;
-        			if (html.encrypt == '1') {
-            				url = unescape(url)
-        			} else if (html.encrypt == '2') {
-            				url = unescape(base64Decode(url))
-        			}
-				else if (html.encrypt == '3') {
-					if (/\\.m3u8|\\.mp4/.test(url)){ 
-     						url =url.replace(/\\/g, '') 
-	   				} else{								
-						url = uic(url)
-					}
-				}
-
-        			if (/\\.m3u8|\\.mp4/.test(url)) {
-            			input = {
-                			jx: 0,
-                			url: url,
-                			parse: 0
-            			}
-        			} else {
-            			input
-        			}
-    			`,
+                var uic = function(uid,value) {
+			var key = CryptoJS['enc']['Utf8']['parse']('2890' + uid + 'tB959C')
+			, iv = CryptoJS['enc']['Utf8']['parse']('GZ4JgN2BdSqVWJ1z')
+			, data = CryptoJS['AES']["decrypt"](value, key, {
+				'iv': iv,
+				'mode': CryptoJS['mode']['CBC'],
+				'padding': CryptoJS['pad']['Pkcs7']
+			});
+			return CryptoJS['enc']["Utf8"]["stringify"](data);
+		 }
+		var player_aaaa = JSON.parse(request(input).match(/var player_aaaa=(.*?)</)[1]);
+		var url = player_aaaa.url;
+			  var m3u8_url;
+			  var ConFig;
+		if (/m3u8|mp4/1.test(url)) {
+		m3u8_url = url;
+		} else {
+			      var url_1 = 'https://op.xn--it-if7c19g5s4bps5c.com/player/ez.php?code=nkdyw&if=1&url=' + url_0;
+			      var html = request(url_1);
+			      if (/ConFig/.test(html)){
+						ConFig = JSON.parse(html.match(/let ConFig = ({.*?}),box/)[1]);								
+			      } else {
+						var href = 'https://op.xn--it-if7c19g5s4bps5c.com/player/' + html.match(/href = '(.*?)';/)[1];
+						ConFig = JSON.parse(request(href).match(/let ConFig = ({.*?}),box/)[1]);		
+			      } 
+		
+		} 
+		m3u8_url = uic(ConFig["config"]["uid"], ConFig["url"]);
+		input = {
+			jx: 0,
+			url: m3u8_url,
+			parse: 0
+		}
+		`,
             limit: 6,
             推荐: 'body&&.fadeInUp;.diy-center&&.public-list-box;a&&title;img&&data-src;.ft2&&Text;a&&href',
             double: true, // 推荐内容是否双层定位
