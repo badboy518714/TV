@@ -63,5 +63,5 @@ var rule = {
                 "tabs": ".br&&.swiper-slide",
                 "lists": ".anthology-list-play.size:eq(#id) a"
             },
-            搜索: '*',
+            搜索:'.row-right&&.public-list-box;.thumb-txt&&a&&Text;img&&data-src;.humb-blurb&&Text;.thumb-txt&&a&&href'
         }
