@@ -131,6 +131,25 @@ var rule = {
 			VOD['vod_play_from'] = "福音影视";
 			VOD['vod_play_url'] = playUrl;
     `,
-    搜索:''
+    搜索:`js:	
+				print("1111111111112222222222222223333333333333333")
+				print(input)
+				let d = []
+				let html = request(input);
+				let __ssr_init_state__  = (html.replace(/\\n/gi, "").replace(/ /gi, "")).match(/__ssr_init_state__=(.*?)<\\/script><\\/div>/)[1];
+				let json_data = JSON.parse(__ssr_init_state__);
+				//print(json_data["movie-search"]["albums"]);
+				let items = json_data["movie-search"]["albums"];
+				items.forEach(function(it){
+            d.push({
+                title: it["title"],
+                desc: it["speaker"] + it["language"] + it["source"],
+                pic_url: it["thumb"],
+                url: "/content/view/movid/" + it["movid"] + "/index.html"
+            })
+        	});
+        //print(d)
+        setResult(d)
+    `,
 
 }
