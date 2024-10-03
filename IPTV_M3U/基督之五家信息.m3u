@@ -1,5 +1,7 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="基督五家2024年主日讲道",2024-09-29 复兴的生命 一粒麦子的生命 杨宁亚牧师
+https://app-vod-hls.yisa.live/09new2025/06福音证道/主日讲道/基督之五家/2024/20240929hoc5-sermon.mp4/index.m3u8?sign=8e37352286a3361c74b72ece1e824e12&t=1727936785
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="基督五家2024年主日讲道",2024-09-22 耶稣如何复兴门徒 叶伟明长老
 https://app-vod-hls.yisa.live/09new2025/06福音证道/主日讲道/基督之五家/2024/20240922hoc5-sermon.mp4/index.m3u8?sign=3548d316b07d50d4df4832b4807d38ab&t=1727331986
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="基督五家2024年主日讲道",2024-09-15新生命新生活3-靠圣灵彼此坚立 赵武夷长老
