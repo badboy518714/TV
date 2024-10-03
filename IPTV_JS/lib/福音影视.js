@@ -2,7 +2,7 @@ var rule = {
     title:'福音影视',
     host:'https://www.ifuyin.net',
     homeUrl:'',
-    searchUrl:'movies/search/**/1',
+    searchUrl:'movies/search/**/1/fypage',
     searchable:1,
     quickSearch:1,
     filterable:1,
@@ -53,7 +53,7 @@ var rule = {
 			let items_1; 
 			if(/category/.test(input)){
 				let page = input.match(/page\\/(\\d+)/)[1];
-				page = (parseInt(page) - 1).toString();;
+				page = (parseInt(page) - 1).toString();
 				input = input.replace(/page\\/(\\d+)/, "page/" + page);
 				html = request(input);
 				items = pdfa(html, ".albums&&a");
@@ -69,13 +69,7 @@ var rule = {
 				var move_id = input.match(/content\\/(.*?)\\/page\\/\\d+\\/index/)[1];
 				input = input.replace(/page\\/\\d+\\//, '').replace(/\\/all/, "").replace(/latest/, "update");	
 				//print(input);
-
-				//input = 'https://www.ifuyin.net/content/category/id/205/index.html'				
-
-
 				html = request(input);
-
-				//items = pdfa(html, ".albums&&a");
 
 				let __ssr_init_state__  = (html.replace(/\\n/gi, "").replace(/ /gi, "")).match(/__ssr_init_state__=(.*?)<\\/script><\\/div>/)[1];
 				let json_data = JSON.parse(__ssr_init_state__);
@@ -133,6 +127,8 @@ var rule = {
     `,
     搜索:`js:	
 				print("1111111111112222222222222223333333333333333")
+				let page = (parseInt(input.match(/\\/1\\/(\\d+)/)[1]) - 1).toString();
+				input = input.replace(/1\\/\\d+/, '1/') + page;
 				print(input)
 				let d = []
 				let html = request(input);
