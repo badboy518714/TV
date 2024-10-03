@@ -3,21 +3,21 @@ var rule = {
     host:'https://www.ifuyin.net',
     homeUrl:'',
     searchUrl:'movies/search/**/1',
-    searchable:2,
+    searchable:1,
     quickSearch:0,
-    filterable:1,
+    //filterable:1,
     multi:1,
     // 分类链接fypage参数支持1个()表达式
     url:'/content/fyclass/page/fypage/index.html',//fyfilter
     //filter_url:'{{fl.style}page/fypage',
-    headers:{'User-Agent':'PC_UA'},
+    //headers:{'User-Agent':'PC_UA'},
     timeout:5000,
     class_name:'热播排行&最新发布&最近更新&主日讲道&全部视频&福音慕道&福音证道&婚姻家庭&赞美诗歌&福音见证&福音视频&圣乐崇拜&初信造就&福音动漫&神学课程',
     class_url:'hot&publish&latest&category/id/205&all&category/id/133&category/id/22&category/id/34&category/id/24&category/id/42&category/id/21&category/id/26&category/id/25&category/id/23&category/id/290',//
 	
     //filter:{},
     limit:20,
-    play_parse:false,
+    play_parse:true,
     //play_json:1,
     // 手动调用解析请求json的url,此lazy不方便
     lazy:'',
@@ -63,7 +63,7 @@ var rule = {
             })
         	});
 			}
-        
+        print(d)
         setResult(d)
     `,
     二级: `js:
@@ -78,7 +78,7 @@ var rule = {
 			//print(json_data)
 			let info = json_data["movie-album"]["detail"];
 			let items = json_data["movie-album"]["detail"]["url_list"];
-			VOD = {
+			let vod = {
 				vod_id: info["movid"],
 				vod_name: info["title"], 
 				vod_pic: info["image"],
@@ -95,14 +95,16 @@ var rule = {
 			let playList = [];
 			items.forEach(function(it){
 				let url = 'https://www.ifuyin.net/html/' + it["movid"] + '/' + it["urlid"] + '.html'
-           playFrom.push(it["title"]);
-				playList.push(url);
+           playFrom.push(it["title"] + "$" + it["movid"] + '_' + it["urlid"]);
+				playList.push(it["title"] + "$" + url);
         });
 			//print(items)
 			print(playFrom)
 			print(playList)
-			VOD.vod_play_from = playFrom.join('$$$');
-			VOD.vod_play_url = playList.join('$$$');
+			let playUrl = playFrom.join("#") + "$$$" + playList.join("#");
+			vod['vod_play_from'] = "FYYS$$$福音影视";
+			vod['vod_play_url'] = playUrl;
+			VOD = vod;
         
     `,
     搜索:''
