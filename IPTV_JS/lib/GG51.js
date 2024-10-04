@@ -7,7 +7,7 @@ var rule = {
             url: '/category/fyclass/fypage/',
             searchUrl: '/search/**',
             searchable: 2,//是否启用全局搜索,
-            quickSearch: 0,//是否启用快速搜索,
+            quickSearch: 1,//是否启用快速搜索,
             filterable: 0,//是否启用分类筛选,
             headers: { 'User-Agent': 'MOBILE_UA',},//网站的请求头,完整支持所有的,常带ua和cookies
             class_url:'7&8&5&6&11&14&12&13&15&16&18&48&19&21&22&20',
