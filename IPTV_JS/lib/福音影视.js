@@ -45,9 +45,9 @@ var rule = {
     一级:`js:
 			print(input);
         var d = [];
-        pdfh = jsp.pdfh;
-        pdfa = jsp.pdfa;
-        pd = jsp.pd;
+        let pdfh = jsp.pdfh;
+        let pdfa = jsp.pdfa;
+        let pd = jsp.pd;
 			let html;
 			let items;
 			let items_1; 
