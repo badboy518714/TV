@@ -107,8 +107,8 @@ var rule = {
 						items.forEach(function(it){
             			d.push({
                 			title: pdfh(it, ".mayi&&Text"),
-                			desc: '',//pdfh(it, ".eng_S&&Text"),
-                			pic_url: '',//pd(it, "img:eq(1)&&src"),
+                			desc: pdfh(it, ".eng_S&&Text"),
+                			pic_url: pd(it, "img:eq(1)&&src"),
                 			url: pd(it, ".mayi&&href"),
             			})
         			});
