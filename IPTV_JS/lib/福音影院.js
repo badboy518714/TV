@@ -8,8 +8,8 @@ var rule = {
             quickSearch: 1,//是否启用快速搜索,
             filterable: 0,//是否启用分类筛选,
             headers: { 'User-Agent': 'MOBILE_UA'},//网站的请求头,完整支持所有的,常带ua和cookies	
-            编码:'GB2312',
-			    搜索编码:'GB2312',
+            编码:'gb2312',
+			    搜索编码:'gb2312',
             class_url:'16&17&18&19&21&22&23&24&26&28&29&31&32&33',
     			 class_name:'初信&福音证道&福音电影&赞美&家庭&儿童&纪录片&福音见证&主日学&神学&诗歌&特会&精读圣经&程蒙恩',
             //class_parse: '.wrap&&ul&&li;a&&Text;a&&href;/(.*?)',//'.l_top_5&&ul&&li;a&&Text;a&&href;.*/mlist/(.*?).html',//a&&href  a&&Text .wap-show0&&ul&&li0
@@ -96,6 +96,11 @@ var rule = {
     				  `,
             搜索:`js:
 						print(input);
+
+						let key = input.match(/keyword=(.*?)&typeid/)[1]
+						print(key)
+						//input = input.replace(/keyword=(.*?)&typeid/, 'keyword=%D6%F7&typeid')
+						
         			 let d = [];
         			 let pdfh = jsp.pdfh;
         			 let pdfa = jsp.pdfa;
@@ -103,7 +108,7 @@ var rule = {
 						let html = request(input);
 						//print(html);
 						let items = pdfa(html, ".l_film_2&&.y");
-						//print(items.length)
+						//print(items)
 						items.forEach(function(it){
             			d.push({
                 			title: pdfh(it, ".mayi&&Text"),
