@@ -1,6 +1,6 @@
 var rule = {
             title: '精品资源',
-            host: 'https://jgtq.000104gg.xyz',
+            host: 'https://jgtq.gg51-lsmz398.vip',
 				  //HOST="https://jgtq.000104gg.xyz"
             hostJs: 'print(HOST);while(1){let flag = 0;let html; for(let i=0;i<10;i++){ html = request(HOST,{headers:{"User-Agent":PC_UA}}); if(!html)continue;else{flag = 1;break;}}if(flag){break;} let host_ = "https://gg51-001.xyz"; for(let i=0;i<20;i++){ html = decodeURIComponent(request(host_,{headers:{"User-Agent":PC_UA}})); if(html) {flag = 1;break;}  } if(!flag){break;} else{flag=0;} let match_s = html.match(/onclick=(.*)>最/gi); let host_list = []; for(let i in match_s){var url = match_s[i].split(/\'/)[1];host_list.push("https://jgtq." + url); host_list.push("https://d90." + url); } print(host_list);for(let i in host_list){for( let j=0;j<10;j++){ html =request(host_list[i]); if(html){ print("成功");flag = 1; HOST = host_list[i]; break; }}if(flag) { break;}} if(flag) { break;} }print(HOST);',
             timeout:1000,
