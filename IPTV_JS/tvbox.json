@@ -142,6 +142,18 @@
             "searchable": 1
         },
         {
+            "key": "fyyy",
+            "name": "✨️福音┃影院",
+            "type": 3,
+            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "ext": "./lib/福音影院.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1
+        },
+        {
             "key": "hwjh",
             "name": "✨️海外┃教会",
             "type": 3,
