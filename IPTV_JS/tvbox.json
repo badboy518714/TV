@@ -127,7 +127,8 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "searchable": 1
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "fzjh",
@@ -139,7 +140,8 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "searchable": 1
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "fyyy",
@@ -151,7 +153,8 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "searchable": 1
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "hwjh",
@@ -163,7 +166,8 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "searchable": 1
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "dr_兔小贝",
@@ -189,7 +193,8 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "searchable": 1
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "dbtj",
