@@ -10,8 +10,8 @@ var rule = {
             headers: { 'User-Agent': 'MOBILE_UA'},//网站的请求头,完整支持所有的,常带ua和cookies	
             编码:'gb2312',
 			    搜索编码:'gb2312',
-            class_url:'16&17&18&19&21&22&23&24&26&28&29&31&32&33',
-    			 class_name:'初信&福音证道&福音电影&赞美&家庭&儿童&纪录片&福音见证&主日学&神学&诗歌&特会&精读圣经&程蒙恩',
+            class_url:'update&16&17&18&19&21&22&23&24&26&28&29&31&32&33',
+    			 class_name:'最新&初信&福音证道&福音电影&赞美&家庭&儿童&纪录片&福音见证&主日学&神学&诗歌&特会&精读圣经&程蒙恩',
             //class_parse: '.wrap&&ul&&li;a&&Text;a&&href;/(.*?)',//'.l_top_5&&ul&&li;a&&Text;a&&href;.*/mlist/(.*?).html',//a&&href  a&&Text .wap-show0&&ul&&li0
             cate_exclude: '',
             play_parse: true,
@@ -30,22 +30,38 @@ var rule = {
             推荐: '',
             double: true, // 推荐内容是否双层定位   
             一级: `js:
-						print(input);
         			 var d = [];
         			 let pdfh = jsp.pdfh;
         			 let pdfa = jsp.pdfa;
         			 let pd = jsp.pd;
-						let html = request(input);
-						//print(html);
-						let items = pdfa(html, ".d_5&&.d_1_2&&div:gt(0)");
-						items.forEach(function(it){
-            			d.push({
-                			title: pdfh(it, ".l_film_3&&.l_film_4:eq(0)&&Text"),
-                			desc: pdfh(it, ".l_film_3&&.l_film_4:eq(2)&&Text") + pdfh(it, ".l_film_3&&.l_film_4:eq(1)&&Text"),
-                			pic_url: pd(it, ".l_film_2&&img&&src"),
-                			url: pd(it, ".l_film_2&&a&&href"),
-            			})
-        			});
+						print(input);
+						if(/update/.test(input)){
+							input = 'http://31737.org/index/update.asp'; 
+							let html = request(input);
+							let items = html.match(/<tr><Td width="210">[^-]*<a href="[^"]*" class="mName">[^<]*<\\/a><\\/Td><td width="103">[^<]*<\\/td><\\/tr>/gi)
+							//print(html)
+							//print(items);
+							items.forEach(function(it){
+            			  d.push({
+                			title: pdfh(it, "a&&Text"),
+                			desc: it.match(/(\\d+-\\d+-\\d+)/)[1],
+                			pic_url: 'http://111.2.87.200:9277/nopic.gif',
+                			url: pd(it, "a&&href"),
+            				})
+        				 });
+						}else{
+							let html = request(input);
+							//print(html);
+							let items = pdfa(html, ".d_5&&.d_1_2&&div:gt(0)");
+							items.forEach(function(it){
+            				d.push({
+                				title: pdfh(it, ".l_film_3&&.l_film_4:eq(0)&&Text"),
+                				desc: pdfh(it, ".l_film_3&&.l_film_4:eq(2)&&Text").split('：')[1] + ' ' + pdfh(it, ".l_film_3&&.l_film_4:eq(1)&&Text").split('：')[1],
+                				pic_url: pd(it, ".l_film_2&&img&&src"),
+                				url: pd(it, ".l_film_2&&a&&href"),
+            				})
+        				 });
+						}
         			//print(d)
         			setResult(d)
     				 `,
