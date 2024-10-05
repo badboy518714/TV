@@ -25,7 +25,7 @@ var rule = {
     host:'https://live.vhall.com',
     homeUrl:'',
     searchUrl:'v3/webinars/webinar/get-list?pos=fypage&limit=12&title=**&order_type=1&is_private=0&need_flash=1&home_user_id=18789693',
-    searchable:1,
+    searchable:2,
     quickSearch:1,
     filterable:0,
     //multi:1,
