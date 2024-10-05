@@ -4,7 +4,7 @@ var rule = {
             timeout:5000,
             url: '/mlist/fyclass_fypage.html',
             searchUrl: '/index/search.asp?keyword=**&typeid=%C6%AC%C3%FB&page=fypage',
-            searchable: 1,//是否启用全局搜索,
+            searchable: 2,//是否启用全局搜索,
             quickSearch: 1,//是否启用快速搜索,
             filterable: 0,//是否启用分类筛选,
             headers: { 'User-Agent': 'MOBILE_UA'},//网站的请求头,完整支持所有的,常带ua和cookies	
