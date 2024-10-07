@@ -1,5 +1,9 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
+#EXTINF:-1 tvg-logo="https://picture.arksaas.cn/ms/post1832/msg-img1691408280749789.png" group-title="丰台主日证道",10月6日主日证道肖云北牧师《基要神学八堂课—认识罪论》
+https://oss.arksaas.cn/live1832/audio1832/vlVZtyyswmSX.mp3
+#EXTINF:-1 tvg-logo="https://picture.arksaas.cn/ms/post1832/msg-img1691408280749789.png" group-title="丰台主日证道",9月29日主日证道张燕琴牧师《耶稣的应许-八福》
+https://oss.arksaas.cn/live1832/audio1832/fw0QWPvtCCTy.mp3
 #EXTINF:-1 tvg-logo="https://picture.arksaas.cn/ms/post1832/msg-img1691408280749789.png" group-title="丰台主日证道",9月15日主日证道张信德牧师《德胜试探》
 https://oss.arksaas.cn/live1832/audio1832/jwHoew194B3Q.mp3
 #EXTINF:-1 tvg-logo="https://picture.arksaas.cn/ms/post1832/msg-img1691408280749789.png" group-title="丰台主日证道",9月1日主日证道肖云北牧师：基要神学八堂课-认识教会论
