@@ -5,6 +5,10 @@
             "name": "✨️血魔的线路✨️"
         },
         {
+            "url": "http://localhost:5705/config/0?ver=2&mode=1",
+            "name": "✨️本地测试✨️"
+        },
+        {
             "url": "https://raw.github.tax/wwb521/live/main/video.json",
             "name": "✨️小黄线路✨️"
         },
