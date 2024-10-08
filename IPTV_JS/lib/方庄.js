@@ -54,7 +54,7 @@ var rule = {
 						let url_vedio = pd(html,'source:eq(0)&&src');
 						print("bbbbbbbbbbbbbbbbbbbbbbbbbbb++++++++++++++++++++++++++");
 						print(url_vedio)
-						if(/mp3|mp4|m3u8/i.test(url_vedio)){ VOD.vod_play_url = '阿门$' +  url_vedio;}
+						if(/mp3|mp4|m4a|m3u8/i.test(url_vedio)){ VOD.vod_play_url = '阿门$' +  url_vedio;}
 						else {
 							let aaa = "https://oss.arksaas.cn/live1832/audio1832/jwHoew194B3Q.mp3";
 							print("11111111111111222222222222222222333333333333333++++++++++++++++++++++++++");
