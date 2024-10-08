@@ -37,7 +37,14 @@ var rule = {
         			 let pdfa = jsp.pdfa;
         			 let pd = jsp.pd;
 						let html = request(input);
+						let flag = 0;
+						let playFrom = ['线路1','线路2','线路3','线路4'];
+						let playUrl_1 = [];
+						let playUrl_2 = [];
+						let playUrl_3 = [];
+						let playUrl_4 = [];
 						print(input);
+
 						VOD = {
 							vod_id: '1832',
 							vod_name: pdfh(html,'.title&&Text'),
@@ -50,11 +57,10 @@ var rule = {
 							vod_director: '',
 							vod_content: ''
 						};
-						VOD.vod_play_from = '北京方庄';
+						print(VOD)
 						let url_vedio = pd(html,'source:eq(0)&&src');
-						print("bbbbbbbbbbbbbbbbbbbbbbbbbbb++++++++++++++++++++++++++");
 						print(url_vedio)
-						if(/mp3|mp4|m4a|m3u8/i.test(url_vedio)){ VOD.vod_play_url = '阿门$' +  url_vedio;}
+						if(/mp3|mp4|m4a|m3u8/i.test(url_vedio)){ flag = 1; playUrl_1.push('阿门$' +  url_vedio);}
 						else {
 							let aaa = "https://oss.arksaas.cn/live1832/audio1832/jwHoew194B3Q.mp3";
 							print("11111111111111222222222222222222333333333333333++++++++++++++++++++++++++");
@@ -74,20 +80,35 @@ var rule = {
 								video_id = html.match(/(wxv_\\d+)/)[1];
 								items = html.match(/url:\\(([^)]*)\\)\\.replace/g);
 							}
-							print(items);
-							let playUrl = [];
-							for(let i=1;i< items.length + 1; i++ ){
-								let url = items[i-1].split(/'/)[1].replace(/\\\\x26amp;/g, '&');
-								if(/live/.test(url)){ playUrl.push("福音影视$" + url); break; }
+							print(items);	
+							
+							for(let i= 0;i< items.length ; i++ ){
+								let url = items[i].split(/'/)[1].replace(/\\\\x26amp;/g, '&');
+								if(/live/.test(url)){ playUrl_1.push("福音影视$" + url); flag = 1; break; }
 								let format_id = url.match(/\\.f(\\d+)\\./)[1];
-								url =  url.replace(/http/, "https") + '&vid=' + video_id + '&format_id=' + format_id + '&support_redirect=0&mmversion=false'
-								playUrl.push("线路" + i.toString() + '$' +url );
+								url =  url.replace(/http/, "https") + '&vid=' + video_id + '&format_id=' + format_id + '&support_redirect=0&mmversion=false';
+								let line = i % 4;
+								switch(line){
+									case 1: playUrl_1.push("第" + Math.floor(i/4 + 1).toString() + "集$" + url ); break;
+									case 2: playUrl_2.push("第" + Math.floor(i/4 + 1).toString() + "集$" + url ); break;
+									case 3: playUrl_3.push("第" + Math.floor(i/4 + 1).toString() + "集$" + url ); break;
+									case 0: playUrl_4.push("第" + Math.floor(i/4 + 1).toString() + "集$" + url ); break;
+								}
+								
 								html = request(url,{headers:{"User-Agent":PC_UA,"referer":"https://mp.weixin.qq.com/","Range":"bytes=0-50"}});
-								print(html);	
+								//print(html);	
 							}
-							VOD.vod_play_url = playUrl.join("#");
-						}					
+
+						}
+						
+						if(flag){
+							VOD.vod_play_from = '北京方庄$$$';
+							VOD.vod_play_url = playUrl_1.join("#");
+						}else{
+							VOD.vod_play_from = playFrom.join("$$$");	
+							VOD.vod_play_url = playUrl_1.join("#") + '$$$' +playUrl_2.join("#") + '$$$' + playUrl_3.join("#") + '$$$' +playUrl_4.join("#");	
+						}
 						print(VOD);
 						`,
-            搜索:''
+            搜索:'*'
         }
