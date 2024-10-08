@@ -1,9 +1,9 @@
 var rule = {
             title: '精品资源',
-            host: 'https://jgtq.gg51-lsmz398.vip',
-				  //HOST="https://jgtq.000104gg.xyz"
-            hostJs: 'print(HOST);while(1){let flag = 0;let html; for(let i=0;i<10;i++){ html = request(HOST,{headers:{"User-Agent":PC_UA}}); if(!html)continue;else{flag = 1;break;}}if(flag){break;} let host_ = "https://gg51-001.xyz"; for(let i=0;i<20;i++){ html = decodeURIComponent(request(host_,{headers:{"User-Agent":PC_UA}})); if(html) {flag = 1;break;}  } if(!flag){break;} else{flag=0;} let match_s = html.match(/onclick=(.*)>最/gi); let host_list = []; for(let i in match_s){var url = match_s[i].split(/\'/)[1];host_list.push("https://jgtq." + url); host_list.push("https://d90." + url); } print(host_list);for(let i in host_list){for( let j=0;j<10;j++){ html =request(host_list[i]); if(html){ print("成功");flag = 1; HOST = host_list[i]; break; }}if(flag) { break;}} if(flag) { break;} }print(HOST);',
-            timeout:1000,
+            //host: 'https://gg51-001.xyz',
+            host: "https://jgtq.gg51-lieb401.vip",
+            //hostJs: 'print(HOST); let html;  for(let i=0;i<20;i++){ html = decodeURIComponent(request(HOST,{headers:{"User-Agent":PC_UA}})); if(html) break; }  let match_s = html.match(/(gg51-[^.]*.vip)/gi);print(match_s); let host_list = []; for(let i in match_s){ print(i); print(match_s[i]);host_list.push("https://jgtq." + match_s[i]); host_list.push("https://d90." + match_s[i]); } print(host_list);let flag = 0; for(let i in host_list){ for( let j=0;j<5;j++){ html = request(host_list[i]); if(html){ print("获取--HOST--成功"); flag = 1 ;HOST = host_list[i]; break; }else{  print("获取--HOST--失败"); }}if(flag) break;} print(HOST);',
+            timeout:3000, 
             url: '/category/fyclass/fypage/',
             searchUrl: '/search/**/fypage/',
             searchable: 2,//是否启用全局搜索,
@@ -24,21 +24,18 @@ var rule = {
   							let minutes = Math.floor((seconds % 3600) / 60);
 							//print(hours, minutes, minutes)
   							seconds = seconds % 60;
-
   							return hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
 						}
 						for(let i=0;i<10;i++){
-							try{
-								html = request(input).match(/decodeURIComponent\\("(.*)"\\)\\)</)[1];
-								break;
-							}catch(error){}
+							html = request(input);
+							if(html) break;
 						}
 						html = decodeURIComponent(html).replace(/\\n/gi, "").replace(/ /gi, "");
 						
-						var href = html.match(/initPlayer\\("(.*?.m3u8)"\\)var/)[1]
+						var href = html.match(/initPlayer\\("(.*?.m3u8)"\\)var/)[1];
 						input = {
 							jx: 0,
-							url: 'https://vdo.sinw.net/m3u8/2024-09-27/001/5160b21427059617/index.m3u8',     
+							url: 'https://vdo.sinw.net/m3u8/' + href,     
 							parse: 0
 						 }
 						`,
@@ -46,7 +43,7 @@ var rule = {
 		
             limit: 6,
             推荐: `js:
-						var html;
+						let html;
 						let d = [];
 						function secondsToHMS(seconds) {
 							seconds = parseInt(seconds)
@@ -58,80 +55,67 @@ var rule = {
   							return hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
 						}
 						for(let i=0;i<5;i++){
-							try{
-								html = request(input).match(/decodeURIComponent\\("(.*)"\\)\\)</)[1];
-								break;
-							}catch(error){}
+							let html = request(input);
+							if(html) break;
 						}
 						html = decodeURIComponent(html).replace(/\\n/gi, "").replace(/ /gi, "");
+						print(html);
 						var items = html.match(/(<aclass="one".*?<\\/span><\\/a>)/g);
+						
 						items.forEach(function(it){
-							try{
-								var r = it.match(/secondsToHMS\\((\\d+)\\)/)[1];
-								print(r)
+							let r = it.match(/secondsToHMS\\((\\d+)\\)/);
+							if(r){
 								d.push({
-									title: it.match(/"title\">(.*?)<\\/span>/)[1],
-									desc: secondsToHMS(r),
-									pic_url: it.match(/data-original="(.*?)"><spanclass/)[1].replace(/\\.js/g, ".webp"),
-									url: it.match(/href="(.*?)"><div/)[1]
+									title: it.match(/"title\">(.*)<\\/span>/)[1],
+									desc: secondsToHMS(r[1]),
+									pic_url: it.match(/data-original="(.*)"><spanclass/)[1].replace(/\\.js/g, ".webp"),
+									url: it.match(/href="(.*)"><div/)[1]
 								})
-							}catch(error){ }
-							
-							
+							}	
 						})
 					
 						setResult(d)
 						`,
             double: true, // 推荐内容是否双层定位
             一级: `js:
-						var html;
+						let html;
 						//print(input)
 						let d = [];
-						var prints = function(str){
-							console.log(str)
-						}
 						function secondsToHMS(seconds) {
 							seconds = parseInt(seconds)
   							let hours = Math.floor(seconds / 3600);
   							let minutes = Math.floor((seconds % 3600) / 60);
 							//print(hours, minutes, minutes)
   							seconds = seconds % 60;
-
   							return hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
 						}
-						for(let i=0;i<5;i++){
-							try{
-								html = request(input).match(/decodeURIComponent\\("(.*)"\\)\\)</)[1];
-								break;
-							}catch(error){}
+						for(let i=0;i<5;i++){		
+							html = request(input);
+							if(html) break;
 						}
 						html = decodeURIComponent(html).replace(/\\n/gi, "").replace(/ /gi, "");
-						var items = html.match(/(<aclass="one".*?<\\/span><\\/a>)/g);
-						//prints(html);
+
+						var items = html.match(/(<aclass="one".*?<\\/span><\\/a>)/gi);
+						//print(html);
+						print(items);
 						items.forEach(function(it){
-							try{
-								var r = it.match(/secondsToHMS\\((\\d+)\\)/)[1];
-								prints(r)
+							let r = it.match(/secondsToHMS\\((\\d+)\\)/);
+							if(r){
 								d.push({
-									title: it.match(/"title\">(.*?)<\\/span>/)[1],
-									desc: secondsToHMS(r),
-									pic_url: it.match(/data-original="(.*?)"><spanclass/)[1].replace(/\\.js/g, ".webp"),
-									url: it.match(/href="(.*?)"><div/)[1]
+									title: it.match(/"title\">(.*)<\\/span>/)[1],
+									desc: secondsToHMS(r[1]),
+									pic_url: it.match(/data-original="(.*)"><spanclass/)[1].replace(/\\.js/g, ".webp"),
+									url: it.match(/href="(.*)"><div/)[1]
 								})
-							}catch(error){ }
-							
-							
+							}							
 						})
-					
+						print(d)
 						setResult(d)
 						`,
             二级: '*',
             搜索:`js:
 						var html;
 						let d = [];
-						var prints = function(str){
-							console.log(str)
-						}
 						function secondsToHMS(seconds) {
 							seconds = parseInt(seconds)
   							let hours = Math.floor(seconds / 3600);
@@ -141,30 +125,25 @@ var rule = {
 
   							return hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
 						}
-						while(1){
-							try{
-								html = request(input).match(/decodeURIComponent\\("(.*)"\\)\\)</)[1];
-								break;
-							}catch(error){
-								continue;
-							}
+						print(input)
+						for(let i=0;i<5;i++){		
+							html = request(input);
+							if(html) break;
 						}
 						html = decodeURIComponent(html).replace(/\\n/gi, "").replace(/ /gi, "");
 						var items = html.match(/(<aclass="one".*?<\\/span><\\/a>)/g);
-						//prints(html);
+						//print(html);
+						//print(items);
 						items.forEach(function(it){
-							try{
-								var r = it.match(/secondsToHMS\\((\\d+)\\)/)[1];
-								prints(r)
+							let r = it.match(/secondsToHMS\\((\\d+)\\)/);
+							if(r){
 								d.push({
-									title: it.match(/"title\">(.*?)<\\/span>/)[1],
-									desc: secondsToHMS(r),
-									pic_url: it.match(/data-original="(.*?)"><spanclass/)[1].replace(/\\.js/g, ".webp"),
-									url: it.match(/href="(.*?)"><div/)[1]
+									title: it.match(/"title\">(.*)<\\/span>/)[1],
+									desc: secondsToHMS(r[1]),
+									pic_url: it.match(/data-original="(.*)"><spanclass/)[1].replace(/\\.js/g, ".webp"),
+									url: it.match(/href="(.*)"><div/)[1]
 								})
-							}catch(error){ }
-							
-							
+							}															
 						})
 					
 						setResult(d)
