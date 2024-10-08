@@ -1,3 +1,13 @@
+globalThis.secondsToHMS = function(seconds) {
+	seconds = parseInt(seconds);
+	let hours = Math.floor(seconds / 3600);
+	let minutes = Math.floor((seconds % 3600) / 60);
+	print(hours, minutes, minutes)
+	seconds = seconds % 60;
+
+	return hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
+}
+
 var rule = {
             title: '精品资源',
             host: 'https://gg51-001.xyz',
@@ -45,15 +55,7 @@ var rule = {
             推荐: `js:
 						let html;
 						let d = [];
-						function secondsToHMS(seconds) {
-							seconds = parseInt(seconds);
-  							let hours = Math.floor(seconds / 3600);
-  							let minutes = Math.floor((seconds % 3600) / 60);
-							print(hours, minutes, minutes)
-  							seconds = seconds % 60;
-
-  							return hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
-						}
+						
 						for(let i=0;i<5;i++){
 							html = request(input);
 							if(html) break;
@@ -81,14 +83,7 @@ var rule = {
 						let html;
 						//print(input)
 						let d = [];
-						function secondsToHMS(seconds) {
-							seconds = parseInt(seconds)
-  							let hours = Math.floor(seconds / 3600);
-  							let minutes = Math.floor((seconds % 3600) / 60);
-							//print(hours, minutes, minutes)
-  							seconds = seconds % 60;
-  							return hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
-						}
+						
 						for(let i=0;i<5;i++){		
 							html = request(input);
 							if(html) break;
@@ -116,15 +111,7 @@ var rule = {
             搜索:`js:
 						var html;
 						let d = [];
-						function secondsToHMS(seconds) {
-							seconds = parseInt(seconds)
-  							let hours = Math.floor(seconds / 3600);
-  							let minutes = Math.floor((seconds % 3600) / 60);
-							print(hours, minutes, minutes)
-  							seconds = seconds % 60;
-
-  							return hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
-						}
+						
 						print(input)
 						for(let i=0;i<5;i++){		
 							html = request(input);
