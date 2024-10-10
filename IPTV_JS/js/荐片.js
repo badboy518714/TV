@@ -56,7 +56,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: it.path,
+                pic_url: it.path,
                 desc: it.playlist.title + ' ⭐' + it.score,
                 url: it.id
             })
@@ -75,7 +75,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: it.thumbnail||it.path,
+                pic_url: it.thumbnail||it.path,
                 desc: (it.mask || it.playlist.title) + ' ⭐' + it.score,
                 url: it.id
             })
@@ -139,7 +139,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: it.thumbnail,
+                pic_url: it.thumbnail,
                 desc: it.mask + ' ⭐' + it.score,
                 url: it.id
             })
