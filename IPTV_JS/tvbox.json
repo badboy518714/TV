@@ -134,7 +134,7 @@
             "key": "fzjh",
             "name": "✨️方庄┃聚会",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
             "ext": "./lib/方庄.js",
             "style": {
                 "type": "rect",
@@ -147,7 +147,7 @@
             "key": "fyyy",
             "name": "✨️福音┃影院",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
             "ext": "./lib/福音影院.js",
             "style": {
                 "type": "rect",
@@ -160,7 +160,7 @@
             "key": "hwjh",
             "name": "✨️海外┃教会",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
             "ext": "./lib/海外教会.js",
             "style": {
                 "type": "rect",
@@ -173,7 +173,7 @@
             "key": "fyfm",
             "name": "✨️福音┃FM",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
             "ext": "./lib/福音-FM.js",
             "style": {
                 "type": "rect",
@@ -186,7 +186,7 @@
             "key": "dr_兔小贝",
             "name": "📚儿童┃启蒙",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
             "ext": "./lib/兔小贝.js",
             "style": {
                 "type": "rect",
