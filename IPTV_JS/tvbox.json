@@ -34,7 +34,7 @@
             "name": "✨️福音┃影视",
             "type": 3,
             "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-            "ext": "./lib/福音影视.js",
+            "ext": "./js/福音影视.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -47,7 +47,7 @@
             "name": "✨️方庄┃聚会",
             "type": 3,
             "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
-            "ext": "./lib/方庄.js",
+            "ext": "./js/方庄.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -60,7 +60,7 @@
             "name": "✨️福音┃影院",
             "type": 3,
             "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
-            "ext": "./lib/福音影院.js",
+            "ext": "./js/福音影院.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -73,7 +73,7 @@
             "name": "✨️海外┃教会",
             "type": 3,
             "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
-            "ext": "./lib/海外教会.js",
+            "ext": "./js/海外教会.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -86,7 +86,7 @@
             "name": "✨️福音┃FM",
             "type": 3,
             "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
-            "ext": "./lib/福音-FM.js",
+            "ext": "./js/福音-FM.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -95,18 +95,10 @@
             "quickSearch": 1
         },
         {
-            "key": "dr_兔小贝",
-            "name": "📚儿童┃启蒙",
-            "type": 3,
-            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
-            "ext": "./lib/兔小贝.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
+            "key" :"dfzb",
+            "name":"✨️我爱┃山东✨️",
+            "type":3,
+            "api":"./js/山东电视台.js"
         },
         {
             "key": "ldkb",
@@ -122,15 +114,6 @@
             "quickSearch": 1
         },
         {
-            "key": "dbtj",
-            "name": "✨️豆瓣┃推荐✨️",
-            "type": 3,
-            "api": "csp_DouDou",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
             "key": "dr_荐片",
             "name": "🚀┃荐片🚀",
             "type": 3,
@@ -138,7 +121,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./js/%20%E8%8D%90%E7%89%87.js"           
+            "ext": "./js/荐片.js"           
         },
         {
             "key" :"GG51",
@@ -151,18 +134,6 @@
                 "ratio": 1.597
             },
             "searchable": 1
-        },
-        {
-            "key" :"dfzb",
-            "name":"✨️我爱┃山东✨️",
-            "type":3,
-            "api":"./js/df_live.js"
-        },
-        {
-            "key" :"dfzb_1",
-            "name":"✨️我爱┃山东1✨️",
-            "type":3,
-            "api":"./js/df_live_1.js"
         },
         {
             "key" :"tuxiaobei",
