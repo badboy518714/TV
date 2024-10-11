@@ -105,7 +105,7 @@
             "name": "✨️来点┃看播✨️",
             "type": 3,
             "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-            "ext": "./lib/来点看播.js",
+            "ext": "./js/来点看播.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -118,7 +118,7 @@
             "name":"✨️GG┃51✨️",
             "type":3,
             "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-            "ext": "./lib/GG51.js",
+            "ext": "./js/GG51.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -3033,6 +3033,19 @@
       "filterable": 1,
       "order_num": 0,
       "ext": "https://cdn.gitmirror.com/gl/duomv/dzhipy/main/drpy_js/KTV歌厅[听].js"
+    },
+    {
+      "key": "andj",
+      "name": "爱你短剧",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "./js/爱你短剧.js",
+      "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
       "key": "hipy_js_LIBVIO[优]",
