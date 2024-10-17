@@ -1,5 +1,7 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="基督五家2024年主日讲道",2024-10-13 不一样的生命 王慕亮牧师
+https://app-vod-hls.yisa.live/09new2025/06福音证道/主日讲道/基督之五家/2024/20241013hoc5-sermon.mp4/index.m3u8?sign=b95fe80143cc30337e6aad40c0085f05&t=1729146390
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="基督五家2024年主日讲道",2024-10-06 只夸十字架 赵武夷长老
 https://app-vod-hls.yisa.live/09new2025/06福音证道/主日讲道/基督之五家/2024/20241006hoc5-sermon.mp4/index.m3u8?sign=05e4c6b0ab083cc753f6cacbf8afeaba&t=1728541573
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="基督五家2024年主日讲道",2024-09-29 复兴的生命 一粒麦子的生命 杨宁亚牧师
