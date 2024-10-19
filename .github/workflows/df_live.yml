@@ -8,8 +8,8 @@ on:
       - 'IPTV_PY/DF_LIVE.py'
   workflow_dispatch:
   # 定时触发
-  schedule:
-    - cron: 30 4,10,16 * * *
+  # schedule:
+  #   - cron: 30 4,10,16 * * *
 jobs:
   deploy:
     runs-on: ubuntu-latest
