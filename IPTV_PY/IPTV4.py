@@ -1,6 +1,6 @@
 
 
-txt_list = ["央视频道.txt", "卫视频道.txt", "山东频道.txt", "黑龙江频道.txt", "新疆频道.txt", "少儿频道.txt", "体育频道.txt",
+txt_list = ["央视频道.txt", "卫视频道.txt", "山东频道.txt", "少儿频道.txt", "体育频道.txt",
             "影视频道.txt", "电影轮播.txt", "春晚频道.txt", "其他频道.txt"]
 
 def add_txt():
