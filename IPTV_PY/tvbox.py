@@ -48,7 +48,7 @@ def update_json():
     fan_json["lives"] = my_json["lives"] + fan_json["lives"]
     fan_json["sites"] = my_json["sites"] + fan_json["sites"]
     fan_json = json.dumps(fan_json, indent=4)
-    print(fan_json)
+    # print(fan_json)
     with open('IPTV_JS/my_tvbox.json', 'w', encoding='utf-8') as f:
         f.write(fan_json)
         f.close()
