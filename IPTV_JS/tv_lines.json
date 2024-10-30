@@ -1,8 +1,8 @@
 {
     "urls": [
         {
-            "url": "https://badboy518714.github.io/TV/IPTV_JS/tvbox.json",
-            "name": "✨️血魔的线路✨️"
+            "url": "https://badboy518714.github.io/TV/IPTV_JS/my_tvbox.json",
+            "name": "✨️平安是福✨️"
         },
         {
             "url": "http://localhost:5705/config/0?ver=2&mode=1",
