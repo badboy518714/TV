@@ -1,5 +1,5 @@
 {
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729928513059/fan.txt;md5;8851819289f80deae32319080028db3b",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730296886991/fan.txt;md5;928787071b399acc863d001929973803",
     "wallpaper": "https://\u6df1\u8272\u58c1\u7eb8.xxooo.cf/",
     "sites": [
         {
@@ -442,19 +442,6 @@
             "changeable": 0
         },
         {
-            "key": "\u4f01\u9e45xp",
-            "name": "\ud83d\udc27\u9e45\u9e45\u2503\u4f53\u80b2",
-            "type": 3,
-            "api": "csp_XPath",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/\u4f01\u9e45\u76f4\u64ad.json"
-        },
-        {
             "key": "\u9177\u5947",
             "name": "\ud83c\udfa4\u9177\u5947\u2503MV",
             "type": 3,
@@ -480,7 +467,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/MTV.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/MTV.json"
+            }
         },
         {
             "key": "\u864e\u7259\u76f4\u64adjs",
@@ -613,7 +602,9 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/bilibili.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/bilibili.json"
+            }
         },
         {
             "key": "Biliych",
@@ -627,13 +618,15 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/biliych.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/biliych.json"
+            }
         },
         {
             "key": "dr_\u5154\u5c0f\u8d1d",
             "name": "\ud83d\udcda\u513f\u7ae5\u2503\u542f\u8499",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
             "ext": "https://notabug.org/fantaiying/ext/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
             "style": {
                 "type": "rect",
@@ -655,7 +648,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/\u5c11\u513f\u6559\u80b2.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/\u5c11\u513f\u6559\u80b2.json"
+            }
         },
         {
             "key": "\u5c0f\u5b66\u8bfe\u5802",
@@ -669,7 +664,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/\u5c0f\u5b66\u8bfe\u5802.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/\u5c0f\u5b66\u8bfe\u5802.json"
+            }
         },
         {
             "key": "\u521d\u4e2d\u8bfe\u5802",
@@ -683,7 +680,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/\u521d\u4e2d\u8bfe\u5802.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/\u521d\u4e2d\u8bfe\u5802.json"
+            }
         },
         {
             "key": "\u9ad8\u4e2d\u6559\u80b2",
@@ -697,7 +696,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/\u9ad8\u4e2d\u8bfe\u5802.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/\u9ad8\u4e2d\u8bfe\u5802.json"
+            }
         },
         {
             "key": "fan",
@@ -767,6 +768,7 @@
             "name": "\u5e73\u53f0\u76f4\u64ad",
             "type": 0,
             "url": "https://tv.iill.top/m3u/Live",
+            "ua": "okhttp/3.15",
             "playerType": 2
         }
     ]
