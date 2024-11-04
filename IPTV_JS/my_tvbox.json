@@ -1,5 +1,5 @@
 {
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730404699092/fan.txt;md5;4e9f85464f8b911cc14f1359cd576f25",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730501203549/fan.txt;md5;a889982d5efe39d65ff9f81559fa2f87",
     "wallpaper": "https://\u6df1\u8272\u58c1\u7eb8.xxooo.cf/",
     "sites": [
         {
@@ -247,7 +247,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://czzy.top/"
+            "ext": "https://www.czzy77.com/"
         },
         {
             "key": "\u70ed\u64ad",
@@ -532,11 +532,14 @@
             "key": "Sso",
             "name": "\ud83d\udc0c\u76d8\u4ed6\u2503\u4e09\u76d8",
             "type": 3,
-            "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/\u76d8\u4ed6.js",
+            "api": "csp_PanSso",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 0
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
         },
         {
             "key": "\u5938\u641c",
