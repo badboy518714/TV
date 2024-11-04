@@ -1,3 +1,4 @@
+
 var rule = {
     title:'山东齐鲁',
     host:'https://v.iqilu.com',
@@ -62,16 +63,5 @@ var rule = {
     `,
     二级: '*',
     搜索:'',
-	 //是否启用辅助嗅探: 1,0
-    sniffer:1,
-    // 辅助嗅探规则js写法
-    isVideo: `js:
-        log(input);
-        if(/quehuam|hlspull/.test(input)){
-            input = true
-        }else{
-            input = false
-        }
-    `,
-
+    
 }
