@@ -1,5 +1,5 @@
 {
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730501203549/fan.txt;md5;a889982d5efe39d65ff9f81559fa2f87",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730839416167/fan.txt;md5;0f1d73221352f4e6b049b3291f96d75d",
     "wallpaper": "https://\u6df1\u8272\u58c1\u7eb8.xxooo.cf/",
     "sites": [
         {
@@ -68,11 +68,10 @@
             "quickSearch": 1
         },
         {
-            "key": "sdql",
+            "key": "dfzb",
             "name": "\u2728\ufe0f\u6211\u7231\u2503\u5c71\u4e1c\u2728\ufe0f",
             "type": 3,
-            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
-            "ext": "./js/山东齐鲁.js",
+            "api": "./js/\u5c71\u4e1c\u7535\u89c6\u53f0.js",
             "searchable": 1,
             "quickSearch": 1
         },
@@ -230,16 +229,6 @@
             "changeable": 1
         },
         {
-            "key": "\u539f\u521b",
-            "name": "\u2600\u539f\u521b\u2503\u4e0d\u5361",
-            "type": 3,
-            "api": "csp_YCyz",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "\u5382\u957f",
             "name": "\ud83d\udcd4\u5382\u957f\u2503\u4e0d\u5361",
             "type": 3,
@@ -249,6 +238,16 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.czzy77.com/"
+        },
+        {
+            "key": "\u6728\u661f",
+            "name": "\ud83c\udf1e\u6728\u661f\u2503\u591a\u7ebf",
+            "type": 3,
+            "api": "csp_AppSx",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjDcUxPqpfNr0QF4QvEpcoxZIYRQNwQCG8Otba0yUlXQMqbvyrYj1rF/ef6Syy5Zj/ZkmAqgHsuU3lxEs8zPFZMXNqLxA+MbSlPxmlA1/58U/OgZ2I7cEW5ZHV6hg=="
         },
         {
             "key": "\u70ed\u64ad",
@@ -752,7 +751,7 @@
         {
             "name": "IPV4",
             "type": 0,
-            "url": "https://notabug.org/fantaiying/ext/raw/main/id.m3u",
+            "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
             "playerType": 1
         },
         {
