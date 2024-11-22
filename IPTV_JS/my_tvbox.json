@@ -1,5 +1,5 @@
 {
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1731937895509/fan.txt;md5;fd16c6765d2cc453d40f8b3dfc02621d",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8",
     "wallpaper": "https://\u6df1\u8272\u58c1\u7eb8.xxooo.cf/",
     "sites": [
         {
@@ -135,7 +135,7 @@
         },
         {
             "key": "YGP",
-            "name": "\ud83d\ude80\u53e8\u89c2\u8350\u5f71\u2503\u65b0\u7247",
+            "name": "\ud83d\ude80\u53e8\u89c2\u8350\u5f71\u2503\u9884\u544a\u7247",
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0,
@@ -153,10 +153,10 @@
             "changeable": 0
         },
         {
-            "key": "\u7c73\u641c",
-            "name": "\ud83e\udd8b\u7c73\u76d8\u2503\u641c\u641c",
+            "key": "\u62a0\u641c",
+            "name": "\ud83c\udf44\u62a0\u62a0\u2503\u641c\u641c",
             "type": 3,
-            "api": "csp_MIPanSo",
+            "api": "csp_KkSs",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -166,10 +166,10 @@
             }
         },
         {
-            "key": "\u62a0\u641c",
-            "name": "\ud83c\udf44\u62a0\u62a0\u2503\u641c\u641c",
+            "key": "UC",
+            "name": "\ud83c\udf08\u4f18\u6c50\u2503\u641c\u641c",
             "type": 3,
-            "api": "csp_KkSs",
+            "api": "csp_UuSs",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -220,15 +220,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.zxzjhd.com/"
-        },
-        {
-            "key": "\u6bd4\u7279",
-            "name": "\ud83c\udf44\u6bd4\u7279\u2503\u79d2\u64ad",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "\u82f9\u679c",
@@ -356,15 +347,6 @@
             "ext": "https://www.xb6v.com/"
         },
         {
-            "key": "\u77ed\u5267",
-            "name": "\ud83c\udf08\u4e0a\u5934\u2503\u77ed\u5267",
-            "type": 3,
-            "api": "csp_Djtt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "Dm84",
             "name": "\ud83d\ude8c\u5df4\u58eb\u2503\u52a8\u6f2b",
             "type": 3,
@@ -403,17 +385,15 @@
             }
         },
         {
-            "key": "88js",
-            "name": "\u26bd 88\u2503\u770b\u7403",
+            "key": "88\u770b\u7403",
+            "name": "\u26bd88\u2503\u770b\u7403",
             "type": 3,
-            "api": "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
-            "ext": "https://notabug.org/fantaiying/ext/raw/main/88\u770b\u7403.js",
+            "api": "csp_Sir88",
+            "searchable": 0,
+            "changeable": 0,
             "style": {
                 "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
+            }
         },
         {
             "key": "310js",
@@ -529,7 +509,7 @@
             }
         },
         {
-            "key": "Sso",
+            "key": "PanSso",
             "name": "\ud83d\udc0c\u76d8\u4ed6\u2503\u4e09\u76d8",
             "type": 3,
             "api": "csp_PanSso",
@@ -542,15 +522,40 @@
             }
         },
         {
-            "key": "\u5938\u641c",
-            "name": "\ud83d\udc1f\u5938\u641c\u2503\u72f8\u5938",
+            "key": "YpanSo",
+            "name": "\ud83d\udc1f\u76d8\u5979\u2503\u4e09\u76d8",
             "type": 3,
-            "api": "csp_PanSearch",
+            "api": "csp_YpanSo",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "pan": "quark",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "\u7c73\u641c",
+            "name": "\ud83e\udd8b\u7c73\u641c\u2503\u5938\u7236",
+            "type": 3,
+            "api": "csp_MIPanSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "Aliso",
+            "name": "\ud83d\ude40\u76d8\u641c\u2503\u963f\u72f8",
+            "type": 3,
+            "api": "csp_Aliso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto"
             }
@@ -560,19 +565,6 @@
             "name": "\ud83d\ude39\u6613\u641c\u2503\u963f\u72f8",
             "type": 3,
             "api": "csp_YiSo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "PanSearch",
-            "name": "\ud83d\ude40\u76d8Se\u2503\u963f\u72f8",
-            "type": 3,
-            "api": "csp_PanSearch",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -749,10 +741,11 @@
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
-            "name": "IPV4",
+            "name": "IPV4\u82e5\u5361\u987f\u5207\u6362IPV6",
             "type": 0,
-            "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
-            "playerType": 1
+            "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
             "name": "IPV6\u2460",
