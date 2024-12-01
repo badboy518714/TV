@@ -1,5 +1,5 @@
 {
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732559427206/fan.txt;md5;4e2429f30551927d1831c19063158ee9",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732870410650/fan.txt;md5;ceb55a4a2d2ec91bd9d76f4234a70f99",
     "wallpaper": "https://\u6df1\u8272\u58c1\u7eb8.xxooo.cf/",
     "sites": [
         {
@@ -239,7 +239,18 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czzy77.com/"
+            "ext": "https://www.czzyvideo.com/"
+        },
+        {
+            "key": "\u539f\u521b",
+            "name": "\u2600\u539f\u521b\u2503\u4e0d\u5361",
+            "type": 3,
+            "api": "csp_YCyz",
+            "timeout": 15,
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "\u6728\u661f",
@@ -250,16 +261,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
-        },
-        {
-            "key": "\u901f\u64ad",
-            "name": "\u23ee\ufe0f\u901f\u64ad\u2503\u591a\u7ebf",
-            "type": 3,
-            "api": "csp_AppSx",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "FbjDcUxPqpfNr0QF4QvEpcoxb5sQXd8GDXUTvbqvx0peQcuZ7GvQ0UGD/a2mS238cHqYkiBgwCduCiYrTZJtbwdDUt/L2w/LOWADxikKl6I8Cqz6OD9lIxS2anA6ytO6"
         },
         {
             "key": "\u70ed\u64ad",
@@ -303,6 +304,16 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+        },
+        {
+            "key": "\u4f4e\u7aef",
+            "name": "\u23ee\ufe0f\u4f4e\u7aef\u2503\u5916\u5267",
+            "type": 3,
+            "api": "csp_Ddrk",
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "\u53ef\u53ef",
