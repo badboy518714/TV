@@ -24,8 +24,8 @@ var rule = {
     				"uifid": "c3109cf8eab4507640f022360c5ce002c7035d0857c7085fdeb180d1661fca19fd3d0021c5a06a557ca9bdda1438b744106d155ccdf12b0b1fbc9b8d03e65548fdb2310df64ff50056524e9ddcc2b4db2b7a401b2edcd76d6239ec996c1a1d31e6802c0d750650b182107aa6c184f9d4509818b88c621168dd40698a220123114029a990c971b7d1dd6a4693f6bede6bc849c59999413ad61fe60fe142eed083",
     				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
 					},//网站的请求头,完整支持所有的,常带ua和cookies
-            class_url:'lingsao&ygcp&tzrj',
-            class_name:'抖音玲嫂&雅歌唱谱&他在人间',
+            class_url:'lingsao&ygcp&tzrj&zjj1&zjj2&zjj3',
+            class_name:'抖音玲嫂&雅歌唱谱&他在人间&俊杰英语思维&张俊杰讲英语&俊杰老师说英语',
             //class_parse: '.wap-show0&&ul&&li0;a&&Text;a&&href;.*/(\\d+)-----------.html',//a&&href  a&&Text .wap-show0&&ul&&li0
             cate_exclude: '',
             play_parse: true,
@@ -61,6 +61,21 @@ var rule = {
         "vid": "7414345756969371186",
         "a_bogus": "dX0RgzUJDZW5ed/SYKcUSnxUN9dlrTWyqqiQWwQPyPOuY1zOZWNgiccPnour4YC7LbpzwCI7WV0AbddcMzXwZqHpqmkfSkwbxT55Ihfo01ifbtsBgH6zS08zqwBn05sqaQV7iIJ6gUt9gfnAwrQY/QAeS/ue5bWBM1xbkZTbN9B61zgAg3c-PQGZPXsqsD=="
     },
+	 "zjj1": {
+        "user_id": "MS4wLjABAAAAYYuyIrU_ZkM0qoRHcj2lYu_L6NH1SUT8j2fxmAU7TnY",
+        "vid": "7446398397466135834",
+        "a_bogus": "EX0fhFyLE2/jedFtuCn39R-UiCfArsWyk1idbHCTtOuwb7UO8YNikaSwnoKIsVWa7mpkhe1HpnUAbDVcPzXiZFnkwmpkSNXyHs5I98vL81NDYe4BgHWhe0WzKw0x0RGqeAVUiI7IhUeqgjVAhrd8/p5eH/uF5R8BP3OfkZTbT9s610LAg1c-PQGZTXGq6E=="
+    },
+	 "zjj2": {
+        "user_id": "MS4wLjABAAAApYU9i5tnkp_gcBdIl1-5j1HEee2mU8X4qTXWJQDgSOr9jy0uvl1R5Jy2Be5jDR7v",
+        "vid": "7446311231834688794",
+        "a_bogus": "mXsVg7ULOqQbPdKbmOn39IPU6UxANPWy51iKSTNPtOKOYXza1bPThaGYaooIRxE7vWpwhH37snlAbdncMzU0ZFrpwmpDSuz6r4V99g8og1wDbeGBEq6se0UFowMN0RGqaQ5ti17IhUeqgfnAwrdm/Qlt9/ueQcWBBpOfk2YbE9sXZM6AD1n1PBSkYhpC0fdG"
+    },
+	 "zjj3": {
+        "user_id": "MS4wLjABAAAAN10sHQ2dcd5iOv4uyPfVHjZzIC2ygEJJrOuV_haVcpw",
+        "vid": "7446366143671029001",
+        "a_bogus": "xy0VgwSExpQnedFSYOn7S7xldMxlNTSyONiKWn2THOuRYXtce8PshabOJoursD5778pwhC17UVMAbxncMGXsZq9pwmkDuTkyHs5I90moM1wvYtTBgq6we8Rzzw0N0bTqeQVtily68Ut96jVAhNdD/pleS/uCQ58BM3xjk2ucP9B6ZzgAgpc-PBbDOhPb0VnW"
+    }
 }
 						let param = "https://www.douyin.com/aweme/v1/web/aweme/post"
 						let author = 'lingsao'
@@ -92,10 +107,13 @@ var rule = {
 						let res = {
 							"lingsao": {"user_id": "MS4wLjABAAAAJnbi7Ub57bQ04WXH_vMrZ73eMEdNeSkeHplACTPLO-s","vid": "7441043690971303227", "name": "玲嫂"},
     						"ygcp": {"user_id": "MS4wLjABAAAAbqFXoTgxjePo_iKOq98QS8l9LxiS6lcF5Qgd75vtz_A","vid": "7434157039963671819", "name": "雅歌唱谱"},
-    						"tzrj": {"user_id": "MS4wLjABAAAAs2dPz-VKwB5O-s8P0nJSgHJy54KgX4xK0x88RKKE0GuQwxLJH9pGVdmcyDV1DE36","vid": "7414345756969371186", "name": "他在人间"}
+    						"tzrj": {"user_id": "MS4wLjABAAAAs2dPz-VKwB5O-s8P0nJSgHJy54KgX4xK0x88RKKE0GuQwxLJH9pGVdmcyDV1DE36","vid": "7414345756969371186", "name": "他在人间"},
+							 "zjj1": {"user_id": "MS4wLjABAAAAYYuyIrU_ZkM0qoRHcj2lYu_L6NH1SUT8j2fxmAU7TnY","vid": "7446398397466135834", "name": "俊杰英语思维"},
+							 "zjj2": {"user_id": "MS4wLjABAAAApYU9i5tnkp_gcBdIl1-5j1HEee2mU8X4qTXWJQDgSOr9jy0uvl1R5Jy2Be5jDR7v","vid": "7446311231834688794", "name": "张俊杰讲英语"},
+							 "zjj3": {"user_id": "MS4wLjABAAAAN10sHQ2dcd5iOv4uyPfVHjZzIC2ygEJJrOuV_haVcpw","vid": "7446366143671029001", "name": "俊杰老师说英语"}							
 						}
 						let sss = input.split('--')
-						print("11111111111111111111111111")
+						//print("11111111111111111111111111")
 						fetch_params.headers = { "user-agent": PC_UA, "Cookie": "sid_guard=c896aab6a18af06a47d0fa493eab1794%7C1732630319%7C5183998%7CSat%2C+25-Jan-2025+14%3A11%3A57+GMT;s_v_web_id=verify_m3yjc5l0_eb4c03b4_b8c7_01b3_3444_9cf6a9cac542;__ac_nonce=06745d72b00dc84053f53;__ac_signature=_02B4Z6wo00f01-lgdnQAAIDD3kSyKBWGj-PpQHLAAJ0n45"}
 						//let url = 'https://www.douyin.com/user/MS4wLjABAAAAJnbi7Ub57bQ04WXH_vMrZ73eMEdNeSkeHplACTPLO-s?from_tab_name=main&vid=7441411917773606201'
 						let url = 'https://www.douyin.com/user/' + res[sss[0]]["user_id"] + '?from_tab_name=main&vid=' + res[sss[0]]["vid"]
