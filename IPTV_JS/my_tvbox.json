@@ -1,5 +1,5 @@
 {
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1733932725378/fan.txt;md5;f98827d83bb8ca104b0b1ead61a98c5b",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734477866371/fan.txt;md5;c76ccccc921e555436828a86ed604fc1",
     "wallpaper": "https://\u6df1\u8272\u58c1\u7eb8.xxooo.cf/",
     "sites": [
         {
@@ -231,17 +231,6 @@
             "changeable": 1
         },
         {
-            "key": "\u5382\u957f",
-            "name": "\ud83d\udcd4\u5382\u957f\u2503\u4e0d\u5361",
-            "type": 3,
-            "api": "csp_NewCz",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czzyvideo.com/"
-        },
-        {
             "key": "\u539f\u521b",
             "name": "\u2600\u539f\u521b\u2503\u4e0d\u5361",
             "type": 3,
@@ -251,6 +240,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "\u5382\u957f",
+            "name": "\ud83d\udcd4\u5382\u957f\u2503\u4e0d\u5361",
+            "type": 3,
+            "api": "csp_NewCz",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czzyvideo.com/"
         },
         {
             "key": "\u6728\u661f",
@@ -333,8 +333,8 @@
             "quickSearch": 1,
             "changeable": 1,
             "playerType": "1",
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jp.js"
+            "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/jp.js"
         },
         {
             "key": "Auete",
@@ -410,8 +410,8 @@
             "key": "310js",
             "name": "\u26bd 310\u2503\u770b\u7403",
             "type": 3,
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/310\u76f4\u64ad.js",
+            "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/310\u76f4\u64ad.js",
             "style": {
                 "type": "list"
             },
@@ -423,8 +423,8 @@
             "key": "Jrsjs",
             "name": "\u26bd Jrs\u2503\u7403\u8ff7",
             "type": 3,
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js",
+            "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/jrk.js",
             "style": {
                 "type": "list"
             },
@@ -436,8 +436,8 @@
             "key": "\u9177\u5947",
             "name": "\ud83c\udfa4\u9177\u5947\u2503MV",
             "type": 3,
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u9177\u5947MV.js",
+            "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/\u9177\u5947MV.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -459,15 +459,15 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/MTV.json"
+                "json": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/MTV.json"
             }
         },
         {
             "key": "\u864e\u7259\u76f4\u64adjs",
             "name": "\ud83d\udc2f\u864e\u7259\u2503\u76f4\u64ad",
             "type": 3,
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
+            "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
+            "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/huya2.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -481,8 +481,8 @@
             "key": "\u6597\u9c7cjs",
             "name": "\ud83d\udc1f\u6597\u9c7c\u2503\u76f4\u64ad",
             "type": 3,
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u6597\u9c7c\u76f4\u64ad.js",
+            "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/\u6597\u9c7c\u76f4\u64ad.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -496,8 +496,8 @@
             "key": "\u6709\u58f0\u5c0f\u8bf4js",
             "name": "\ud83c\udfa7\u6709\u58f0\u2503\u5c0f\u8bf4",
             "type": 3,
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u6709\u58f0\u5c0f\u8bf4\u5427.js",
+            "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/\u6709\u58f0\u5c0f\u8bf4\u5427.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -636,7 +636,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
+                "json": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
             }
         },
         {
@@ -652,15 +652,15 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/biliych.json"
+                "json": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/biliych.json"
             }
         },
         {
             "key": "dr_\u5154\u5c0f\u8d1d",
             "name": "\ud83d\udcda\u513f\u7ae5\u2503\u542f\u8499",
             "type": 3,
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+            "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -682,7 +682,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u5c11\u513f\u6559\u80b2.json"
+                "json": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/\u5c11\u513f\u6559\u80b2.json"
             }
         },
         {
@@ -698,7 +698,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u5c0f\u5b66\u8bfe\u5802.json"
+                "json": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/\u5c0f\u5b66\u8bfe\u5802.json"
             }
         },
         {
@@ -714,7 +714,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u521d\u4e2d\u8bfe\u5802.json"
+                "json": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/\u521d\u4e2d\u8bfe\u5802.json"
             }
         },
         {
@@ -730,7 +730,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u9ad8\u4e2d\u8bfe\u5802.json"
+                "json": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/\u9ad8\u4e2d\u8bfe\u5802.json"
             }
         },
         {
@@ -779,32 +779,32 @@
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
-            "name": "\u725b\u64ad\u4e00(\u65b0\u7248\u5f71\u89c6\u4ed3/ok\u5f71\u89c6)",
+            "name": "\u725b\u64ad\u4e00\uff08\u65b0\u7248\u5f71\u89c6\u4ed3/ok\u5f71\u89c6\uff09",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=\u996d\u592a\u786c&type=liveList",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
+            "logo": "https://raw.gitmirror.com/fanmingming/live/refs/heads/main/tv/{name}.png"
         },
         {
             "name": "IPV4",
             "type": 0,
-            "url": "https://ghp.ci/https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
+            "url": "https://raw.gitmirror.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
             "playerType": 1,
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
+            "logo": "https://raw.gitmirror.com/fanmingming/live/refs/heads/main/tv/{name}.png"
         },
         {
             "name": "IPV6\u2460",
             "type": 0,
-            "url": "https://ghp.ci/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+            "url": "https://ghproxy.cn/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
             "playerType": 1
         },
         {
-            "name": "IPV6\u2461",
+            "name": "\u5e73\u53f0\u76f4\u64ad",
             "type": 0,
-            "url": "https://ghp.ci/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
-            "playerType": 1,
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
+            "url": "http://tv.iill.top/m3u/Live",
+            "ua": "okhttp/3.15",
+            "playerType": 2
         }
     ]
 }
