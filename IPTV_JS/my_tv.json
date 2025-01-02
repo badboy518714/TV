@@ -3,6 +3,17 @@
     "wallpaper": "https://\u6df1\u8272\u58c1\u7eb8.xxooo.cf/",
     "sites": [
         {
+            "key": "\u5382\u957f",
+            "name": "\ud83d\udcd4\u5382\u957f\u2503\u4e0d\u5361",
+            "type": 3,
+            "api": "csp_NewCz",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czzyvideo.com/"
+        },
+        {
             "key": "fyys",
             "name": "\u2728\ufe0f\u798f\u97f3\u2503\u5f71\u89c6\u2728\ufe0f",
             "type": 3,
@@ -230,17 +241,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "\u5382\u957f",
-            "name": "\ud83d\udcd4\u5382\u957f\u2503\u4e0d\u5361",
-            "type": 3,
-            "api": "csp_NewCz",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czzyvideo.com/"
         },
         {
             "key": "\u539f\u521b",
