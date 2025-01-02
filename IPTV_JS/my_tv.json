@@ -72,7 +72,7 @@
             "name": "\u2728\ufe0f\u6211\u7231\u2503\u5c71\u4e1c\u2728\ufe0f",
             "type": 3,
             "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
-            "api": "./js/山东齐鲁.js",
+            "ext": "./js/山东齐鲁.js",
             "searchable": 1,
             "quickSearch": 1
         },
