@@ -10,7 +10,7 @@ var rule = {
     //multi:1,
     // 分类链接fypage参数支持1个()表达式
     url:'/fyclass/',
-    headers:{'User-Agent': 'PC_UA','referer': 'https://v.iqilu.com'},
+    headers:{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0','referer': 'https://v.iqilu.com'},
     timeout:5000,
     class_name:'山东频道',
     class_url:'shandong',
