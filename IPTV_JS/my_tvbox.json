@@ -336,17 +336,6 @@
             "changeable": 1
         },
         {
-            "key": "\u8d31\u8d31",
-            "name": "\ud83d\udc2d\u8d31\u8d31\u2503P2P",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jp.js"
-        },
-        {
             "key": "Auete",
             "name": "\ud83c\udfdd\u5965\u7279\u2503\u65e0\u5e7f",
             "type": 3,
@@ -633,7 +622,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce40194194e5a5f7474"
             }
         },
         {
@@ -649,7 +638,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/biliych.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce40194194f4eb2747e"
             }
         },
         {
