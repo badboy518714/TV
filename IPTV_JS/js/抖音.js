@@ -24,8 +24,8 @@ var rule = {
     				"uifid": "c3109cf8eab4507640f022360c5ce002c7035d0857c7085fdeb180d1661fca19fd3d0021c5a06a557ca9bdda1438b744106d155ccdf12b0b1fbc9b8d03e65548fdb2310df64ff50056524e9ddcc2b4db2b7a401b2edcd76d6239ec996c1a1d31e6802c0d750650b182107aa6c184f9d4509818b88c621168dd40698a220123114029a990c971b7d1dd6a4693f6bede6bc849c59999413ad61fe60fe142eed083",
     				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
 					},//网站的请求头,完整支持所有的,常带ua和cookies
-            class_url:'lingsao&ygcp&tzrj&zjj1&zjj2&zjj3',
-            class_name:'抖音玲嫂&雅歌唱谱&他在人间&俊杰英语思维&张俊杰讲英语&俊杰老师说英语',
+            class_url:'yuyang&baba&mama&lingsao&ygcp&tzrj&yinyue&zjj1&zjj2&zjj3',
+            class_name:'宇洋妈咪&顺顺利利&平安喜乐&玲嫂&雅歌唱谱&他在人间&音乐FM&俊杰英语思维&张俊杰讲英语&俊杰老师说英语',
             //class_parse: '.wap-show0&&ul&&li0;a&&Text;a&&href;.*/(\\d+)-----------.html',//a&&href  a&&Text .wap-show0&&ul&&li0
             cate_exclude: '',
             play_parse: true,
@@ -44,8 +44,32 @@ var rule = {
             推荐:'',
             double: true, // 推荐内容是否双层定位
             一级: `js:
+						function formatTimestamp(timestamp) {
+  							let date = new Date(timestamp * 1000);
+  							let year = date.getFullYear();
+  							let month = (date.getMonth() + 1).toString().length === 1? '0' + (date.getMonth() + 1) : (date.getMonth() + 1);
+  							let day = date.getDate().toString().length === 1? '0' + date.getDate() : date.getDate();
+							//print(year,month,day);
+  							return year + '-' + month + '-' + day;
+  						}
+
 						let d = [];
 						let res = {
+    "yuyang": {
+        "user_id": "MS4wLjABAAAAGSI4CpND-imME7kFze-1GgWSdN5MtKFDwDM4J5iL_do",
+        "vid": "7453459270995168571",
+        "a_bogus": "E64Vhq7jDo8jPdMbuKnUSSFlMZLMrBWyDliOWy/PtPO5TwMblYNPwxtcjxLN4wV73RBziKVHXV0AYEVcQUXzZe9kKmkDuOiy74V5VW0L0Z7dbBv21HW/eyTzzwsrU5Gq-/Vvi1j6/UeHgVxAhrQY/d5ee/ue5c8BM3xjkMTcP9sg10yAE3c-PBSdOXPnUn5j"
+    },
+	 "baba": {
+        "user_id": "MS4wLjABAAAATlEPyuajXMAS_b6u-Y9QpwQzrqWa1VzG4JluaPpTi44",
+        "vid": "7414345756969371186",
+        "a_bogus": "dJs5gqX7D2/ned/GmOntSG/UxunlrPuyeFidSxlPSPFBTqeTTbNPkrt-bxKn4q/XrWBkioI7XVMMbxxcQ0XwZCHkKmkvSk4fJ45nV6soMZ7dYTk2rq6xeyTFuwBNU5GqaQ5Xi1yI/Uto6jnAiqQY/B5et/KFQRuBF3xRkMzcY9Bh10yAL3nlPptpNhNc0y2y"
+    },
+	 "mama": {
+        "user_id": "MS4wLjABAAAAha4ztm2ZY-ASoAsopMh_4ILFEEMJXkx4aoceSIHHLdVzugpQlCozHM0nIjrFEw5k",
+        "vid": "7283510882154384679",
+        "a_bogus": "DfsRgHUjxp/5cd/GYOc4SrFlTqD/rPuycPT2bz/THNTzGZlGNbPFwraNGoKr4QCtr8B0iF17WVMlYExcO0XwZerpumpfSp4SJ4VIVUXoZZr3YPk2rH6Oe7uzwwsnUcTq-A54iIyIZUe9gnxAkHQE/pAtS/KK5c8BFZx6kMzbY9Bg106ALpcaPBtQOhiqCD=="
+    },
     "lingsao": {
         "user_id": "MS4wLjABAAAAJnbi7Ub57bQ04WXH_vMrZ73eMEdNeSkeHplACTPLO-s",
         "vid": "7441043690971303227",
@@ -60,6 +84,11 @@ var rule = {
         "user_id": "MS4wLjABAAAAs2dPz-VKwB5O-s8P0nJSgHJy54KgX4xK0x88RKKE0GuQwxLJH9pGVdmcyDV1DE36",
         "vid": "7414345756969371186",
         "a_bogus": "dX0RgzUJDZW5ed/SYKcUSnxUN9dlrTWyqqiQWwQPyPOuY1zOZWNgiccPnour4YC7LbpzwCI7WV0AbddcMzXwZqHpqmkfSkwbxT55Ihfo01ifbtsBgH6zS08zqwBn05sqaQV7iIJ6gUt9gfnAwrQY/QAeS/ue5bWBM1xbkZTbN9B61zgAg3c-PQGZPXsqsD=="
+    },
+	 "yinyue": {
+        "user_id": "MS4wLjABAAAAK6BbxtLRn_wzhBjHsvaFKZi18QIxnOqbOwes0ZcFnnQmrOiUzghHTpGP2a53Ejwz",
+        "vid": "7441554923608739112",
+        "a_bogus": "mvsRgw7yYdWjadMt8KcXSCpUJgflrBuymBioSbMPyxFWThlbJmPMinSJnoox4potfupsi937lV0lYDncKUUsZerkLmpkuwkRntV5V8fLZqpkT4kgrHW/e7TFwwsN0Rsq-/Vti1j62UtqgVxAirQm/p-t7/uF5RSBFpxbkZzcE9s61F6ADZnHPdGgYwJqQj=="
     },
 	 "zjj1": {
         "user_id": "MS4wLjABAAAAYYuyIrU_ZkM0qoRHcj2lYu_L6NH1SUT8j2fxmAU7TnY",
@@ -93,11 +122,23 @@ var rule = {
 							}
 						}
 						let items = json_data["aweme_list"];
+						//print(items)
 						items.forEach(function(it){
+								var pic_url = "";
+								try{
+									pic_url = it["video"]["animated_cover"]["url_list"][0];
+								}catch(error){
+									pic_url = it["video"]["cover"]["url_list"][0];
+								}
+								var count = it["statistics"]["digg_count"].toString();
+								var desc = '❤ ' + count;
+								for(var i = 0; i < 10 - count.length; i++){
+									desc += " ";
+								}
 								d.push({
 									title: it["desc"],
-									desc: '❤ ' + it["statistics"]["digg_count"],
-									pic_url: it["video"]["animated_cover"]["url_list"][0],
+									desc: desc + formatTimestamp(it["create_time"]),   
+									pic_url:  pic_url,
 									url: MY_CATE + '--' + it["video"]["play_addr"]["url_list"][0]
 								})							
 						})
@@ -105,9 +146,13 @@ var rule = {
 						`,
             二级: `js:
 						let res = {
+							"yuyang": {"user_id": "MS4wLjABAAAAGSI4CpND-imME7kFze-1GgWSdN5MtKFDwDM4J5iL_do","vid": "7453459270995168571", "name": "宇洋妈咪"},
+							"baba": {"user_id": "MS4wLjABAAAATlEPyuajXMAS_b6u-Y9QpwQzrqWa1VzG4JluaPpTi44","vid": "7414345756969371186", "name": "顺顺利利"},
+							"mama": {"user_id": "MS4wLjABAAAAha4ztm2ZY-ASoAsopMh_4ILFEEMJXkx4aoceSIHHLdVzugpQlCozHM0nIjrFEw5k","vid": "7283510882154384679", "name": "平安喜乐"},
 							"lingsao": {"user_id": "MS4wLjABAAAAJnbi7Ub57bQ04WXH_vMrZ73eMEdNeSkeHplACTPLO-s","vid": "7441043690971303227", "name": "玲嫂"},
     						"ygcp": {"user_id": "MS4wLjABAAAAbqFXoTgxjePo_iKOq98QS8l9LxiS6lcF5Qgd75vtz_A","vid": "7434157039963671819", "name": "雅歌唱谱"},
     						"tzrj": {"user_id": "MS4wLjABAAAAs2dPz-VKwB5O-s8P0nJSgHJy54KgX4xK0x88RKKE0GuQwxLJH9pGVdmcyDV1DE36","vid": "7414345756969371186", "name": "他在人间"},
+							"yinyue": {"user_id": "MS4wLjABAAAAK6BbxtLRn_wzhBjHsvaFKZi18QIxnOqbOwes0ZcFnnQmrOiUzghHTpGP2a53Ejwz","vid": "7441554923608739112", "name": "音乐FM"},
 							 "zjj1": {"user_id": "MS4wLjABAAAAYYuyIrU_ZkM0qoRHcj2lYu_L6NH1SUT8j2fxmAU7TnY","vid": "7446398397466135834", "name": "俊杰英语思维"},
 							 "zjj2": {"user_id": "MS4wLjABAAAApYU9i5tnkp_gcBdIl1-5j1HEee2mU8X4qTXWJQDgSOr9jy0uvl1R5Jy2Be5jDR7v","vid": "7446311231834688794", "name": "张俊杰讲英语"},
 							 "zjj3": {"user_id": "MS4wLjABAAAAN10sHQ2dcd5iOv4uyPfVHjZzIC2ygEJJrOuV_haVcpw","vid": "7446366143671029001", "name": "俊杰老师说英语"}							
@@ -123,8 +168,7 @@ var rule = {
 							let html = request(url);
 							let info = '{' + html.match(/\\\\"shortId\\\\(.*)customVerify/g)[1].replace(/\\\\"/g, '"').replace(',"customVerify', '').replace(/\\\\\\\\n/g, '💢') + '}';
 							info = JSON.parse(info);
-							print(info)
-							director = info["realName"] + '抖音号: ' + info["uniqueId"];
+							director = info["realName"] + '❤抖音号: ' + info["uniqueId"];
 							content = info["desc"];
 						}catch(error){
 							director =res[sss[0]]["name"];
@@ -142,7 +186,7 @@ var rule = {
 							vod_director: director,
 							vod_content: content
 						};
-						print(VOD)
+						//print(VOD)
 						VOD.vod_play_from = '抖音专线$$$';
 						VOD.vod_play_url = res[sss[0]]["name"] + '$' + sss[1];
 						`,
