@@ -58,7 +58,7 @@ var rule = {
 						}else if(/basic/.test(MY_CATE)){
 								let img_host = "https://1304370199.vod2.myqcloud.com/";
 								let img_infos = [["第1单元", "e8895a7fvodbj1304370199/80b5aac18602268011537804843/DKBOKCcSs4UA.jpg"],["第2单元", "e8895a7fvodbj1304370199/ac836efe8602268011548284152/aafneui7XAEA.jpg"],
-												 ["第3单元", "e8895a7fvodbj1304370199/07df5ab08602268011556648896/gDjGxBNdqKwA.jpg"],["第4单元", "e8895a7fvodbj1304370199/07df5ab08602268011556648896/gDjGxBNdqKwA.jpg"],
+												 ["第3单元", "e8895a7fvodbj1304370199/07df5ab08602268011556648896/gDjGxBNdqKwA.jpg"],["第4单元", "e8895a7fvodbj1304370199/5949b7848602268011557811495/l92DnlA8BeEA.jpg"],
 												 ["第5单元", "bf05aca7vodcq1304370199/70b083f5387702291934942172/ARUhWN178NcA.jpg"],["第6单元", "e8895a7fvodbj1304370199/c0df1139387702291942872571/WrpubpVT6GYA.jpg"],
 												 ["第7单元", "bf05aca7vodcq1304370199/10c1edb7387702291991813372/gCtwJgiayC8A.jpg"],["第8单元", "bf05aca7vodcq1304370199/a1e1a1c0387702291993485914/tdxUEA61AQsA.jpg"]];
 								for(let i = 0; i < img_infos.length; i++) {
