@@ -75,7 +75,7 @@ def update_json():
         with open('LEARN_JSON/Course_teaching.json', 'w', encoding='utf-8') as f:
             f.write(json_data)
             f.close()
-        print(json_data)
+        # print(json_data)
 
 
 if __name__ == '__main__':
