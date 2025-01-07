@@ -31,7 +31,7 @@ jobs:
         pip install -r requirements.txt
     - name: 执行任务
       run: |
-        python  Course_teaching.py
+        python  IPTV_PY/Course_teaching.py
           
     - name: 检测文件是否更新
       id: check_updates
