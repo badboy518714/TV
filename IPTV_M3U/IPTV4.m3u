@@ -519,8 +519,6 @@ http://live.yantaitv.cn/live/27f84144e95a4652ae9e5c211b2a6b55/405f3e33ba384aa0a1
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="山东频道",烟台影视
 http://live.yantaitv.cn/live/e9f1d9045d474c31884d13fa4ffbbd16/a4a9b3704d854756907845107cc56129-1.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV14.png" group-title="少儿频道",CCTV-14少儿
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225732/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226132/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225674/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225674/1.m3u8
@@ -577,11 +575,12 @@ https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="少儿频道",黑龙江少儿
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226304/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226304/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226371/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226371/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226304/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226304/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/内蒙古少儿.png" group-title="少儿频道",内蒙古少儿
 https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
@@ -599,16 +598,16 @@ http://183.207.248.71/cntv/live1/donghuawg/donghuawg
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226508/index.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV5赛事.png" group-title="体育频道",CCTV-5+赛事
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225507/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225507/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/1.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV5.png" group-title="体育频道",CCTV-5体育
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226019/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",晴彩竞技
 http://39.134.65.164/PLTV/88888888/224/3221226046/1.m3u8
