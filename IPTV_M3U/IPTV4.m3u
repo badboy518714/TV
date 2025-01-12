@@ -27,9 +27,9 @@ http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/1.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV5.png" group-title="央视频道",CCTV-5体育
-http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV6.png" group-title="央视频道",CCTV-6电影
 
