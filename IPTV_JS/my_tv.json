@@ -101,6 +101,19 @@
             "quickSearch": 1
         },
         {
+            "key": "kcjx",
+            "name": "✨️课程┃教学✨️",
+            "type": 3,
+            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "ext": "./js/课程教学.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
             "key": "ldkb",
             "name": "\u2728\ufe0f\u6765\u70b9\u2503\u770b\u64ad\u2728\ufe0f",
             "type": 3,
@@ -115,7 +128,7 @@
         },
         {
             "key": "dy",
-            "name": "抖音",
+            "name": "✨️抖音┃娱乐✨️",
             "type": 3,
             "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
             "ext": "./js/抖音.js",
