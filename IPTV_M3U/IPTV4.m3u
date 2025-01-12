@@ -1,11 +1,14 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV1.png" group-title="央视频道",CCTV-1综合
+http://39.134.65.164/PLTV/88888888/224/3221225816/1.m3u8
+
+
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226016/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225816/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV2.png" group-title="央视频道",CCTV-2财经
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8
@@ -24,14 +27,17 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226007/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226007/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV5赛事.png" group-title="央视频道",CCTV-5+赛事
+http://39.134.65.164/PLTV/88888888/224/3221225507/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225507/1.m3u8
+
+
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV5.png" group-title="央视频道",CCTV-5体育
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226019/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 
@@ -42,10 +48,12 @@ http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2013693901/timeshift.m3u8?
 http://mobilelive-ds.ysp.cctv.cn/ysp/2013693901.m3u8
  
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV7.png" group-title="央视频道",CCTV-7军事
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225733/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225671/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225671/1.m3u8
+
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225733/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV8.png" group-title="央视频道",CCTV-8电视
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226008/index.m3u8
@@ -56,58 +64,71 @@ http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225734/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8?
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV10.png" group-title="央视频道",CCTV-10科教
+http://39.134.65.164/PLTV/88888888/224/3221225677/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225677/1.m3u8
+
+
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225730/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226473/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226473/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225677/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221225677/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV11.png" group-title="央视频道",CCTV-11戏曲
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226565/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225597/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225597/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226123/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221226123/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225517/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225517/1.m3u8
 
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226565/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225597/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225597/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV12.png" group-title="央视频道",CCTV-12社法
+http://39.134.65.164/PLTV/88888888/224/3221225669/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225669/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226130/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226568/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226568/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225731/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221226130/1.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225669/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221225669/1.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV13.png" group-title="央视频道",CCTV-13新闻
+http://39.134.65.164/PLTV/88888888/224/3221226125/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226571/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226571/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226011/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226537/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221226125/1.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV14.png" group-title="央视频道",CCTV-14少儿
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225732/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226132/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225674/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225674/1.m3u8
 
+
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225732/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV15.png" group-title="央视频道",CCTV-15音乐
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226476/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221226127/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221226127/1.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225601/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225513/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225513/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226127/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221226127/1.m3u8
+
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226476/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225601/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV16.png" group-title="央视频道",CCTV-16奥匹
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
@@ -153,6 +174,7 @@ http://117.161.133.51:81/gitv_live/G_FENGYUNYY-CQ/G_FENGYUNYY-CQ.m3u8?p=GITV
 http://117.161.133.51:81/gitv_live/G_CCTV-GOLF-CQ/G_CCTV-GOLF-CQ.m3u8?p=GITV
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN.png" group-title="央视频道",CGTN英语
+http://39.134.65.164/PLTV/88888888/224/3221225509/1.m3u8
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 https://0472.org/hls/cgtn.m3u8
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
@@ -177,49 +199,68 @@ https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 https://0472.org/hls/cgtnx.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/山东卫视.png" group-title="卫视频道-1",山东卫视
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225952/1.m3u8
+
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226456/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/湖南卫视.png" group-title="卫视频道-1",湖南卫视
+http://39.134.65.164/PLTV/88888888/224/3221225506/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225506/1.m3u8
+
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225610/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226307/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225506/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221225506/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/湖北卫视.png" group-title="卫视频道-1",湖北卫视
+http://39.134.65.164/PLTV/88888888/224/3221225569/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226015/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225627/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225627/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226477/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225569/1.m3u8
+
 
 #1XTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/东方卫视.png" group-title="卫视频道-1",上海卫视
+http://39.134.65.164/PLTV/88888888/224/3221225672/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225942/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226345/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225735/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225672/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/江苏卫视.png" group-title="卫视频道-1",江苏卫视
+http://39.134.65.164/PLTV/88888888/224/3221225503/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225938/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225613/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225613/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226310/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225503/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/北京卫视.png" group-title="卫视频道-1",北京卫视
+http://39.134.65.164/PLTV/88888888/224/3221225678/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225931/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225728/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225728/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226450/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225678/1.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/北京卫视.png" group-title="卫视频道-1",北京纪实
+http://39.134.65.164/PLTV/88888888/224/3221225670/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/安徽卫视.png" group-title="卫视频道-1",安徽卫视
+http://39.134.65.164/PLTV/88888888/224/3221225925/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226391/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/黑龙江卫视.png" group-title="卫视频道-1",黑龙江卫视
+http://39.134.65.164/PLTV/88888888/224/3221226099/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221226099/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226419/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226467/index.m3u8
@@ -234,51 +275,61 @@ http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226532/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226582/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226585/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226585/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221226099/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221226099/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/河北卫视.png" group-title="卫视频道-1",河北卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226406/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/河南卫视.png" group-title="卫视频道-1",河南卫视
+http://39.134.65.164/PLTV/88888888/224/3221226023/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221226023/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226480/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/浙江卫视.png" group-title="卫视频道-1",浙江卫视
+http://39.134.65.164/PLTV/88888888/224/3221225514/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225514/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225959/1.m3u8
+
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225612/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225612/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226339/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225959/1.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225514/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221225514/1.m3u8
+
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/重庆卫视.png" group-title="卫视频道-1",重庆卫视
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226409/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225502/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225502/1.m3u8
 
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226409/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/吉林卫视.png" group-title="卫视频道-1",吉林卫视
+http://39.134.65.164/PLTV/88888888/224/3221225981/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226397/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/江西卫视.png" group-title="卫视频道-1",江西卫视
+http://39.134.65.164/PLTV/88888888/224/3221225935/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226344/index.m3u8
 http://mh36812998.ccmjzhao.xyz/cqyx/cqyx0610.php?id=jiangxiHD
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/辽宁卫视.png" group-title="卫视频道-1",辽宁卫视
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225619/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226546/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225499/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225499/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226089/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225944/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225619/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226546/index.m3u8
+
+
 http://mh36812998.ccmjzhao.xyz/cqyx/cqyx0610.php?id=liaoningHD
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/天津卫视.png" group-title="卫视频道-1",天津卫视
@@ -288,6 +339,7 @@ http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225740/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/东南卫视.png" group-title="卫视频道-1",福建卫视
+http://39.134.65.164/PLTV/88888888/224/3221225950/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226341/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225620/index.m3u8 
@@ -298,10 +350,11 @@ http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
 http://80ec27bff7f9ae80b961481da488e302.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d04ce01474da4193c8863ea281ec4759
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/陕西卫视.png" group-title="卫视频道-1",陕西卫视
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226457/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225625/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225567/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225567/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226457/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225625/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/四川卫视.png" group-title="卫视频道-1",四川卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8
@@ -312,12 +365,13 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226474/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/深圳卫视.png" group-title="卫视频道-1",深圳卫视
+http://39.134.65.164/PLTV/88888888/224/3221225668/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225668/1.m3u8
+
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225739/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225739/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226313/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225668/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221225668/1.m3u8
 http://mh36812998.ccmjzhao.xyz/cqyx/cqyx0610.php?id=shenzhenHD
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/广东卫视.png" group-title="卫视频道-1",广东卫视
@@ -332,15 +386,16 @@ http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226549/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226522/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/青海卫视.png" group-title="卫视频道-2",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8
-http://stream.qhbtv.com/qhws/playlist.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225573/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225573/1.m3u8
 
+
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/内蒙古卫视.png" group-title="卫视频道-2",内蒙古卫视
-https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 http://39.134.65.164/PLTV/88888888/224/3221225577/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225577/1.m3u8
+https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/海南卫视.png" group-title="卫视频道-2",海南卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
@@ -366,23 +421,28 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/云南卫视.png" group-title="卫视频道-2",云南卫视
+http://39.134.65.164/PLTV/88888888/224/3221225957/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/宁夏卫视.png" group-title="卫视频道-2",宁夏卫视
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225632/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226454/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225579/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225579/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225632/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226454/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/西藏卫视.png" group-title="卫视频道-2",西藏卫视
 http://39.134.65.164/PLTV/88888888/224/3221225570/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225570/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221225951/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/康巴卫视.png" group-title="卫视频道-2",康巴卫视
+http://39.134.65.164/PLTV/88888888/224/3221225527/1.m3u8
+
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225660/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225527/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/内蒙古蒙语卫视.png" group-title="卫视频道-2",内蒙古蒙语卫视
 https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=e2b255285dd119a92c8aa5cdf00f8b84&txTime=771EF880
@@ -467,16 +527,18 @@ http://39.134.65.164/PLTV/88888888/224/3221225674/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225674/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/卡酷少儿.png" group-title="少儿频道",卡酷少儿
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225654/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225562/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225562/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225654/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/黑莓动画.png" group-title="少儿频道",黑莓动画
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225529/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225529/1.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/金鹰卡通.png" group-title="少儿频道",金鹰卡通
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
@@ -486,15 +548,18 @@ http://58.48.37.158:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.189.36.103:9901/tsfile/live/1088_1.m3u8?key=txiptv&playlive=1&authid=0
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/哈哈炫动.png" group-title="少儿频道",哈哈炫动
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225657/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225534/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225534/1.m3u8
 
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225657/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/优漫卡通.png" group-title="少儿频道",优漫卡通
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225556/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225556/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="少儿频道",山东少儿
 https://stream1.freetv.fun/shan-dong-ti-yu-8.m3u8
@@ -539,20 +604,23 @@ http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",晴彩竞技
+http://39.134.65.164/PLTV/88888888/224/3221226046/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226124/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221226046/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",晴彩篮球
+http://39.134.65.164/PLTV/88888888/224/3221225895/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225895/1.m3u8
+http://39.134.65.164/PLTV/88888888/224/3221226027/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226147/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226469/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226469/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221226027/1.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225895/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221225895/1.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/NEWTV精品体育.png" group-title="体育频道",NEWTV精品体育
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
@@ -567,58 +635,72 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225680/index.m3u8    
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",啵啵赛事
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225675/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225559/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225559/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225675/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="体育频道",炫舞未来
+http://39.134.65.164/PLTV/88888888/224/3221225646/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225719/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225646/1.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",影视💓
+http://39.134.65.164/PLTV/88888888/224/3221225550/1.m3u8
+http://39.134.65.164/TVOD/88888888/224/3221225550/1.m3u8
+
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225664/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225556/1.m3u8
-http://39.134.65.164/TVOD/88888888/224/3221225556/1.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",影视💓💓
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225671/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",怡伴健康
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225673/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225571/1.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225673/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",超级电视剧
+http://39.134.65.164/PLTV/88888888/224/3221225637/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225637/1.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",金牌综艺
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225666/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225525/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225525/1.m3u8
+
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225666/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",军事评论
+http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225668/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",精品记录
+http://39.134.65.164/PLTV/88888888/224/3221225545/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225672/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225545/1.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="其他频道",超级综艺
+http://39.134.65.164/PLTV/88888888/224/3221225642/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225714/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225642/1.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",军旅剧场
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225560/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225560/1.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",古装剧场
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225524/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225524/1.m3u8
+
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",精品大剧
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
@@ -626,38 +708,46 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225742/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",中国功夫
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225604/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225604/1.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",家庭剧场
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225538/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225538/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",潮妈辣婆
+http://39.134.65.164/PLTV/88888888/224/3221225542/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225685/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225542/1.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",东北热剧
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225741/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225679/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225679/1.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225741/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/黑莓电影.png" group-title="影视频道",黑莓电影
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225681/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225681/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",爱情喜剧
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225669/index.m3u8
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225533/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225533/1.m3u8
+
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225669/index.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC高清电影.png" group-title="影视频道",CHC超级电影
+http://39.134.65.164/PLTV/88888888/224/3221225644/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225717/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225644/1.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
@@ -672,14 +762,16 @@ https://stream1.freetv.fun/chc-jia-ting-ying-yuan-1.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CHC高清电影.png" group-title="影视频道",CHC影迷电影
 http://58.19.38.162:9901/tsfile/live/1038_1.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/NewTV动作电影.png" group-title="影视频道",NewTV动作电影
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8$LR•IPV4『线路2』
 http://39.134.65.164/PLTV/88888888/224/3221225555/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225555/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8$LR•IPV4『线路2』
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/NewTV惊悚悬疑.png" group-title="影视频道",NewTV惊悚悬疑
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225553/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221225553/1.m3u8
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="影视频道",哈尔滨影视
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226552/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226552/index.m3u8
@@ -955,9 +1047,10 @@ http://39.134.65.164/TVOD/88888888/224/3221225910/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226505/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="其他频道",农业致富
+http://39.134.65.164/PLTV/88888888/224/3221225552/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225683/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
-http://39.134.65.164/PLTV/88888888/224/3221225552/1.m3u8
+
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="其他频道",咪咕视频-1
 http://39.134.65.164/PLTV/88888888/224/3221226031/1.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/index.png" group-title="其他频道",咪咕视频-2
