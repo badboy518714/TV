@@ -50,6 +50,15 @@
             "quickSearch": 1
         },
         {
+            "key": "hzjh",
+            "name": "✨️杭州┃教会✨️",
+            "type": 3,
+            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
+            "ext": "./js/杭州基督教会.js",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
             "key": "fyyy",
             "name": "\u2728\ufe0f\u798f\u97f3\u2503\u5f71\u9662\u2728\ufe0f",
             "type": 3,
