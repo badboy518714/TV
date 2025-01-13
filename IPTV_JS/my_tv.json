@@ -41,6 +41,15 @@
             "quickSearch": 1
         },
         {
+            "key": "yssz",
+            "name": "✨️耶稣┃是主✨️",
+            "type": 3,
+            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
+            "ext": "./js/耶稣是主.js",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
             "key": "fyyy",
             "name": "\u2728\ufe0f\u798f\u97f3\u2503\u5f71\u9662\u2728\ufe0f",
             "type": 3,
