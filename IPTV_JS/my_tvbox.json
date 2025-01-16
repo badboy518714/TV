@@ -1,5 +1,5 @@
 {
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736586938795/fan.txt;md5;0e3d57414d7927d36066d0e69914f477",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736978101484/f0116.txt;md5;41128e11e9993ee81f3b16c25528cb71",
     "wallpaper": "https://\u6df1\u8272\u58c1\u7eb8.xxooo.cf/",
     "sites": [
         {
@@ -110,7 +110,7 @@
             "quickSearch": 1
         },
         {
-            "key": "\u8c46\u8c46\u8c46",
+            "key": "\u8c46",
             "name": "\u5907\u7528\u516c\u4f17\u53f7\u3010\u53e8\u89c2\u8350\u5f71\u3011",
             "type": 3,
             "api": "csp_DouDou",
@@ -294,16 +294,6 @@
             "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
         },
         {
-            "key": "\u5357\u74dc",
-            "name": "\ud83c\udf83\u5357\u74dc\u2503\u591a\u7ebf",
-            "type": 3,
-            "api": "csp_NanGua",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "\u840c\u7c73",
             "name": "\ud83d\udc40\u840c\u7c73\u2503\u591a\u7ebf",
             "type": 3,
@@ -419,8 +409,8 @@
             "key": "Jrsjs",
             "name": "\u26bd Jrs\u2503\u7403\u8ff7",
             "type": 3,
-            "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js",
+            "api": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js",
             "style": {
                 "type": "list"
             },
@@ -432,8 +422,8 @@
             "key": "\u9177\u5947",
             "name": "\ud83c\udfa4\u9177\u5947\u2503MV",
             "type": 3,
-            "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u9177\u5947MV.js",
+            "api": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u9177\u5947MV.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -455,15 +445,15 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/MTV.json"
+                "json": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/MTV.json"
             }
         },
         {
             "key": "\u864e\u7259\u76f4\u64adjs",
             "name": "\ud83d\udc2f\u864e\u7259\u2503\u76f4\u64ad",
             "type": 3,
-            "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
-            "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
+            "api": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
+            "ext": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -477,8 +467,8 @@
             "key": "\u6597\u9c7cjs",
             "name": "\ud83d\udc1f\u6597\u9c7c\u2503\u76f4\u64ad",
             "type": 3,
-            "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u6597\u9c7c\u76f4\u64ad.js",
+            "api": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u6597\u9c7c\u76f4\u64ad.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -492,8 +482,8 @@
             "key": "\u6709\u58f0\u5c0f\u8bf4js",
             "name": "\ud83c\udfa7\u6709\u58f0\u2503\u5c0f\u8bf4",
             "type": 3,
-            "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u6709\u58f0\u5c0f\u8bf4\u5427.js",
+            "api": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u6709\u58f0\u5c0f\u8bf4\u5427.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -655,8 +645,8 @@
             "key": "dr_\u5154\u5c0f\u8d1d",
             "name": "\ud83d\udcda\u513f\u7ae5\u2503\u542f\u8499",
             "type": 3,
-            "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+            "api": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://ghfast.top/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -678,7 +668,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u5c11\u513f\u6559\u80b2.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce4019465168f841292"
             }
         },
         {
@@ -694,7 +684,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u5c0f\u5b66\u8bfe\u5802.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce401946513bb42128a"
             }
         },
         {
@@ -710,7 +700,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u521d\u4e2d\u8bfe\u5802.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce401946513bb2d1289"
             }
         },
         {
@@ -726,7 +716,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/\u9ad8\u4e2d\u8bfe\u5802.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce401946513bd90128b"
             }
         },
         {
@@ -785,14 +775,14 @@
         {
             "name": "IPV4",
             "type": 0,
-            "url": "https://ghgo.xyz/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/multicast.txt",
+            "url": "https://ghfast.top/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/multicast.txt",
             "playerType": 1,
-            "logo": "https://ghgo.xyz/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/{name}.png"
+            "logo": "https://ghfast.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/{name}.png"
         },
         {
             "name": "IPV6\u2460",
             "type": 0,
-            "url": "https://ghgo.xyz/raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
+            "url": "https://ghfast.top/raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
             "playerType": 1
         },
         {
