@@ -131,6 +131,15 @@
             "quickSearch": 1
         },
         {
+            "key": "qjys_",
+            "name": "✨️全集┃影视✨️",
+            "type": 3,
+            "api": "https://badboy518714.github.io/TVBOX/libs/drpy2.min.js",
+            "ext": "./js/全集影视.js",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
             "key": "tuxiaobei",
             "name": "\u2728\ufe0f\u732b|\u5c0f\u8d1d\u2728\ufe0f",
             "type": 3,
