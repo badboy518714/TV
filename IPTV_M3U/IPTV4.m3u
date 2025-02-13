@@ -1,27 +1,26 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV1.png" group-title="央视频道",CCTV-1综合
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226514/1.m3u8
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226514/1.m3u8
+http://39.134.65.106/PLTV/88888888/224/3221225816/1.m3u8
+http://39.134.65.106/TVOD/88888888/224/3221226514/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225816/1.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226514/index.m3u8
+http://39.134.65.106/TVOD/88888888/224/3221225816/1.m3u8
+http://39.134.65.106/TVOD/88888888/224/3221225816/1.m3u8
+http://39.134.65.106/TVOD/88888888/224/3221225816/1.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV2.png" group-title="央视频道",CCTV-2财经
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/1.m3u8
+http://39.134.67.5/PLTV/88888888/224/3221225599/1.m3u8
+http://39.134.67.5/TVOD/88888888/224/3221225599/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV3.png" group-title="央视频道",CCTV-3综艺
-https://stream1.freetv.fun/142e6634454ab6d65137c4e95df39452977277bdc4fa740aa193bbf9c2e095c2.m3u8
-https://stream1.freetv.fun/cctv3-6-8m-1.m3u8
-https://stream1.freetv.fun/48f52538c8502cbe559459cf8bc9305612c8a9f41c95f0ab1cbcd172a6d34c02.m3u8
-https://stream1.freetv.fun/cctv3-4m-1.m3u8
-https://stream1.freetv.fun/66c87eca046a82d70183230c68567d93816435d57f1ffad66379618e2ec753e4.m3u8
-https://stream1.freetv.fun/cctv38-2.m3u8
-https://stream1.freetv.fun/db23dbf29e4a24170169a125a0bf2a75f7ba2007969bbe62c8a37b9c8f8e5901.m3u8
-https://stream1.freetv.fun/cctv34-2.m3u8
+http://39.134.67.5/PLTV/88888888/224/3221225799/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV4.png" group-title="央视频道",CCTV-4国际
+http://39.134.67.5/PLTV/88888888/224/3221225797/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226428/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226428/index.m3u8
 
@@ -39,12 +38,8 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225535/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV6.png" group-title="央视频道",CCTV-6电影
-https://stream1.freetv.fun/cce4a1b81bcc87c391232fc7d7e204f25ddb4dab72545f681baca60319035f4b.m3u8
-https://stream1.freetv.fun/cctv6-6-8m-1.m3u8
-https://stream1.freetv.fun/c451a13db8bb183690cf2c18e5f3c6806ce36115224838edac06224fd2d4b137.m3u8
-https://stream1.freetv.fun/cctv64-2.m3u8
-https://stream1.freetv.fun/f4deb44fd6b14d2cd1c1ba41dea943c50f121444ca8caf7322b21099ed4508f1.m3u8
-https://stream1.freetv.fun/f4deb44fd6b14d2cd1c1ba41dea943c50f121444ca8caf7322b21099ed4508f1.m3u8
+http://39.134.67.5/PLTV/88888888/224/3221225814/1.m3u8
+http://39.134.67.5/TVOD/88888888/224/3221225814/1.m3u8
  
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV7.png" group-title="央视频道",CCTV-7军事
 http://39.134.65.164/PLTV/88888888/224/3221225671/1.m3u8
@@ -52,20 +47,11 @@ http://39.134.65.164/TVOD/88888888/224/3221225671/1.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV8.png" group-title="央视频道",CCTV-8电视
-https://stream1.freetv.fun/da33a72c951d50a1ccad225d38b276babc0168dce9d63abf183e34f5cb971224.m3u8
-https://stream1.freetv.fun/cctv8-53.ctv
-https://stream1.freetv.fun/aa817be34f58bc70f289949bb3bc7a6f83f13cf52d62e948c91e051cea672669.m3u8
-https://stream1.freetv.fun/cctv8-41.m3u8
-https://stream1.freetv.fun/ba718f8ed55150902012eacf098fe2dddd6b1cffb72948b585b287164d31e947.m3u8
-https://stream1.freetv.fun/cctv8-56.m3u8
-https://stream1.freetv.fun/ba718f8ed55150902012eacf098fe2dddd6b1cffb72948b585b287164d31e947.m3u8
-https://stream1.freetv.fun/cctv8-56.m3u8
+http://39.134.67.5/PLTV/88888888/224/3221225795/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV9.png" group-title="央视频道",CCTV-9纪录
-https://stream1.freetv.fun/4917d5b74a108c834b14694d9657d7a700703dc7403a5f0c90cfbb6ba8c1a037.m3u8
-https://stream1.freetv.fun/cctv9-4m-1.m3u8
-https://stream1.freetv.fun/cfc8ef0f7f2d8171afd8ccb5186205fae02c25e822a60f4f9c750c818ffcba95.m3u8
-https://stream1.freetv.fun/cctv94-2.m3u8
+http://39.134.67.5/PLTV/88888888/224/3221225676/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV10.png" group-title="央视频道",CCTV-10科教
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226473/1.m3u8
@@ -94,6 +80,7 @@ http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226568/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV13.png" group-title="央视频道",CCTV-13新闻
+http://39.134.67.5/PLTV/88888888/224/3221225812/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226571/1.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226537/1.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226125/1.m3u8
@@ -118,17 +105,12 @@ http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226476/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV16.png" group-title="央视频道",CCTV-16奥匹
-https://stream1.freetv.fun/690c811de5d5059363d35f58cc881535d77207818feb11950090b3b475e30c6a.m3u8
-https://stream1.freetv.fun/cctv16-30.m3u8
-https://stream1.freetv.fun/3673385c9a288bda412c1fc0a3339ae9975085f2103ecbcdef04187503af3d86.m3u8
-https://stream1.freetv.fun/cctv16-4m-1.m3u8
-https://stream1.freetv.fun/03f1b41902c9ee23c164152abf71ef47a31fef12f3692cabdae78e9e3366be68.m3u8
-https://stream1.freetv.fun/cctv16-26.m3u8
+http://39.134.67.5/PLTV/88888888/224/3221225893/1.m3u8
+http://39.134.67.5/TVOD/88888888/224/3221225893/1.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CCTV17.png" group-title="央视频道",CCTV-17农村
-https://stream1.freetv.fun/7eafefabd1afa8116986379ff514098e08e0f8a0cbb085ba617fd3dad76f5d96.m3u8
-https://stream1.freetv.fun/cctv17-54.m3u8
-https://stream1.freetv.fun/19ee061b47a7423795458759263a6c1d8c5069ac7845c57a4aecd14afe022b5a.m3u8
+http://39.134.67.5/PLTV/88888888/224/3221225708/1.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CETV1.png" group-title="央视频道",CETV1
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
@@ -167,25 +149,33 @@ http://117.161.133.51:81/gitv_live/G_FENGYUNYY-CQ/G_FENGYUNYY-CQ.m3u8?p=GITV
 http://117.161.133.51:81/gitv_live/G_CCTV-GOLF-CQ/G_CCTV-GOLF-CQ.m3u8?p=GITV
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN.png" group-title="央视频道",CGTN英语
+https://0472.org/hls/cgtn.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221225509/1.m3u8
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 https://0472.org/hls/cgtn.m3u8
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN俄语.png" group-title="央视频道",CGTN俄语
+https://0472.org/hls/cgtne.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226543/index.m3u8
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226543/index.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN阿语.png" group-title="央视频道",CGTN阿语
+https://0472.org/hls/cgtna.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226081/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221226081/1.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN法语.png" group-title="央视频道",CGTN法语
+https://0472.org/hls/cgtnf.m3u8
 http://39.134.65.164/PLTV/88888888/224/3221226083/1.m3u8
 http://39.134.65.164/TVOD/88888888/224/3221226083/1.m3u8
-https://francais-liveali-h5.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8?wsSecret=f4c7e6fa9787d4d962462047a1f84c8c&wsTime=1725361606
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN纪录.png" group-title="央视频道",CGTN纪录
+https://0472.org/hls/cgtnd.m3u8
 https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/CGTN西语.png" group-title="央视频道",CGTN西语
+https://0472.org/hls/cgtnx.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/香港卫视.png" group-title="卫视频道-1",香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://badboy518714.github.io/TV/IPTV_LOGO/山东卫视.png" group-title="卫视频道-1",山东卫视
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226456/1.m3u8
